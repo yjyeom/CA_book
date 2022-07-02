@@ -2,4 +2,4 @@
 \contentsline {chapter}{\numberline {1}복소수와 기하학적 의미}{13}{chapter.1}%
 \hypertarget {chap-1}{}
 \contentsline {section}{\numberline {1.1}복소수체}{13}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}복소수의 기하학적 표현}{16}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}복소수의 기하학적 표현}{16}{section.1.2}%

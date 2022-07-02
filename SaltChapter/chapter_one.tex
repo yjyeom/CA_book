@@ -197,7 +197,7 @@ $y>_P x$는 $y-x \in P$로 정의하여 대소관계를 정할 수 있다.)
 힌트: $x:=i$에 대하여 $x\cdot x$를 살펴보라.
 \end{salt_exercise}
 
-\subsection{복소수의 기하학적 표현}
+\section{복소수의 기하학적 표현}
 
 $\mathbb C = \mathbb R^2$이므로, 
 그림 \ref{fig-1-2}와 같이 복소수를 평면위의 점에 대응시킬 수 있다.
@@ -227,9 +227,120 @@ $$
 $\mathbb C$에 정의된 체의 연산이 평면에서 기하학적 의미를 가질까?
 우리는 앞으로 실제로 의미가 있음을 살펴볼 것이다.
 $\mathbb C$의 덧셈은 평면벡터의 덧셈이고
-곱셈은 좀 더 특별한 의미를 갖는다.
+곱셈은 조금 더 특별한 의미를 갖는다.
 
 {\bf 복소수 덧셈의 기하학적 의미: }
+복소수를 평면 위의 점으로 간주하고 복소수의 덧셈을 $\mathbb R^2$의 벡터 합으로 
+정의하는 것이 자연스럽다. 
+벡터 합은 두 벡터를 결합하는 일반적인 방식으로 정의한다.
+즉, $(0,0)$과 두 복소수를 잇는 선분으로 이루어진 평생사변형을 완성시킬 때
+$(0,0)$과 대각선의 반대에 있는 점을 두 복소수의 합이 된다.
+그림 \ref{fig-1-3}\을 참고하라.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{./SaltChapter/fig-1-3}
+\end{center}
+\caption{복소수 덧셈은 $\mathbb R^2$의 벡터 합이다.}
+\label{fig-1-3}
+\end{figure}
+
+{\bf  복소수 곱셈의 기하학적 의미: }
+이제 복소수 곱셈이 가진 특별한 기하학적 의미를 살펴보자.
+이를 위해 편의상 극좌표를 사용한다.
+$(x,y)\in\mathbb R^2$이 극좌표 $r\ge 0$와 $\theta\in(-\pi,\pi]$로 표현된다고 하자.
+이는 원점에서 $(x,y)$까지의 거리를 $r(\ge0)$이고,
+$(0,0)$에서 $(x,y)$를 잇는 반직선이 $x$-축의 양의 방향과 이루는 각이 $\theta$가 된다는 뜻이다.
+($(x,y)$가 원점 $(0,0)$인 경우, $\theta=0$으로 정한다.)
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{./SaltChapter/fig-1-4}
+\end{center}
+\caption{복소수 $(x,y)\in\mathbb R^2$의 극좌표 표현 $(r, \theta)$}
+\label{fig-1-4}
+\end{figure}
+
+그림 \ref{fig-1-4}의 직각삼각형으로부터 다음 관계를 얻는다.
+\begin{gather*}
+x = r \cos\theta, \\
+y = r \sin \theta.
+\end{gather*}
+이로부터 복소수를 극좌표 $(r,\theta)$로 표현할 수 있다.
+$$
+x + yi = r\cos\theta +(r\sin \theta)i
+= r(\cos\theta + i\sin \theta).
+$$
+이제 복소수 곱셈의 기하학적으로 해석하자.
+두 복소수를 모두 극좌표로 쓰면
+\begin{gather*}
+z_1 = r_1 (\cos\theta_1 + i\sin\theta_1), \\
+z_2 = r_2 (\cos\theta_2 + i\sin\theta_2),
+\end{gather*}
+삼각함수의 덧셈정리로부터 다음을 얻는다.
+\begin{align*}
+z_1\cdot z_2 &= r_1(\cos\theta_1+i\sin\theta_1) \cdot r_2(\cos\theta_2+i\sin\theta_2) \\
+&= r_1r_2 (\cos\theta_1\cos\theta_2 - \sin\theta_1\sin\theta_2 +
+i(\cos\theta_1\sin\theta_2 + \cos\theta_2\sin\theta_1)) \\
+&= r_1r_2(\cos(\theta_1 +\theta_2) + i \sin(\theta_1 +\theta_2)).
+\end{align*}
+따라서 $z_1\cdot z_2$는 극좌표로 $(r_1r_2, \theta_1+\theta_2)$이다.
+다시 말하면, 
+$z_1\cdot z_2$의 편각은
+$z_1$과 $z_2$가 각각 실수축의 양의 방향과 이루는 각을 더하여 얻을 수 있고,
+원점에서의 거리는 각각의 거리를 곱하여 얻는다.
+그림 \ref{fig-1-5}\를 참고하라.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{./SaltChapter/fig-1-5}
+\end{center}
+\caption{복소수 곱셈의 기하학적 의미: 각은 더하고, 원점에서의 거리는 곱한다.}
+\label{fig-1-5}
+\end{figure}
+
+특별한 경우로 원점에서의 거리가 $1$인 복소수
+$\cos\alpha + i \sin\alpha$를 곱하는 경우를 생각해보자.
+그러면 위의 식으로부터 $z\in\mathbb C$와의 곱
+$z\cdot(\cos\alpha + i\sin\alpha)$는 
+원점과 $z$를 연결하는 직선을 반시계방향으로 $\alpha$만큼 회전시켜 얻을 수 있다.
+특히, $z$에 
+$$
+i = 0 + i\cdot 1 = \cos\frac\pi2 + i \sin\frac\pi2
+$$
+를 곱하면 반시계방향으로 $90^{\circ}$ 회전한 결과를 얻는다.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{./SaltChapter/fig-1-6}
+\end{center}
+\caption{$\cos\alpha + i \sin\alpha$를 곱하면 반시계방향으로 $\alpha$만큼 회전한 결과를 얻는다.}
+\label{fig-1-6}
+\end{figure}
+
+{\bf 드 므와브르(De Moivre) 정리와 $n$차 제곱근 :}
+모든 자연수 $n\in\mathbb N$에 대하여
+$$
+(\cos\theta + i\sin\theta)^n = \cos(n\theta) + i\sin(n\theta)
+$$
+가 성립하며 이를 드 므와브르 정리라 한다.
+
+\begin{salt_exercise} \label{ex-1-5}
+드 므와브르의 정리를 이용하여
+삼각함수의 3배각 공식 $\cos (3\theta) = 4(\cos\theta)^3 - 3\cos\theta$을 증명하라.
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-1-6}
+$(1+i)^{10}$을 직접 전개하지 않고 $x+iy$ ($x,y$는 실수)의 꼴로 써라?
+삼각함수의 3배각 공식 $\cos (3\theta) = 4(\cos\theta)^3 - 3\cos\theta$을 증명하라.
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-1-7}
+$(2+i)(3+i)$를 이용하여
+$\dfrac\pi4 = \tan^{-1}\dfrac12 + \tan^{-1}\dfrac13$을 증명하다.
+\end{salt_exercise}
+
+
 
 
 
