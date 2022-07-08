@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  7 JUL 2022 00:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  9 JUL 2022 04:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1575,7 +1575,7 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
  [5]
 Package hyperref Info: bookmark level for unknown salt_example defaults to 0 on
  input line 73.
-<./SaltChapter/preface-fig-0-1.png, id=114, 585.68813pt x 303.38344pt>
+<./SaltChapter/preface-fig-0-1.png, id=135, 585.68813pt x 303.38344pt>
 File: ./SaltChapter/preface-fig-0-1.png Graphic file (type png)
 <use ./SaltChapter/preface-fig-0-1.png>
 Package pdftex.def Info: ./SaltChapter/preface-fig-0-1.png  used on input line 
@@ -1597,7 +1597,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 6 undefined on input line
 [6 <./SaltChapter/preface-fig-0-1.PNG>]
 Package hyperref Info: bookmark level for unknown salt_exercise defaults to 0 o
 n input line 117.
-<./SaltChapter/preface-fig-0-2.png, id=130, 486.31688pt x 235.63031pt>
+<./SaltChapter/preface-fig-0-2.png, id=151, 486.31688pt x 235.63031pt>
 File: ./SaltChapter/preface-fig-0-2.png Graphic file (type png)
 <use ./SaltChapter/preface-fig-0-2.png>
 Package pdftex.def Info: ./SaltChapter/preface-fig-0-2.png  used on input line 
@@ -1617,7 +1617,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 7 undefined on input line
  146.
 
 [7 <./SaltChapter/preface-fig-0-2.PNG>]
-<./SaltChapter/preface-fig-0-3.png, id=143, 505.89pt x 265.74281pt>
+<./SaltChapter/preface-fig-0-3.png, id=164, 505.89pt x 265.74281pt>
 File: ./SaltChapter/preface-fig-0-3.png Graphic file (type png)
 <use ./SaltChapter/preface-fig-0-3.png>
 Package pdftex.def Info: ./SaltChapter/preface-fig-0-3.png  used on input line 
@@ -1659,7 +1659,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 9 undefined on input line
  245.
 
 [9 <./SaltChapter/preface-fig-0-3.PNG>]
-<./SaltChapter/preface-fig-0-4.png, id=156, 325.96782pt x 271.0125pt>
+<./SaltChapter/preface-fig-0-4.png, id=177, 325.96782pt x 271.0125pt>
 File: ./SaltChapter/preface-fig-0-4.png Graphic file (type png)
 <use ./SaltChapter/preface-fig-0-4.png>
 Package pdftex.def Info: ./SaltChapter/preface-fig-0-4.png  used on input line 
@@ -1725,7 +1725,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 14 undefined on input lin
 e 110.
 
 [14]
-<./SaltChapter/fig-1-1.png, id=195, 768.62157pt x 325.215pt>
+<./SaltChapter/fig-1-1.png, id=215, 768.62157pt x 325.215pt>
 File: ./SaltChapter/fig-1-1.png Graphic file (type png)
 <use ./SaltChapter/fig-1-1.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-1.png  used on input line 151.
@@ -1744,7 +1744,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 15 undefined on input lin
 e 167.
 
 [15 <./SaltChapter/fig-1-1.PNG>]
-<./SaltChapter/fig-1-2.png, id=210, 413.29407pt x 253.69781pt>
+<./SaltChapter/fig-1-2.png, id=231, 413.29407pt x 253.69781pt>
 File: ./SaltChapter/fig-1-2.png Graphic file (type png)
 <use ./SaltChapter/fig-1-2.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-2.png  used on input line 207.
@@ -1770,7 +1770,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 16 undefined on input lin
 e 223.
 
 [16]
-<./SaltChapter/fig-1-3.png, id=228, 633.86812pt x 261.22594pt>
+<./SaltChapter/fig-1-3.png, id=248, 633.86812pt x 261.22594pt>
 File: ./SaltChapter/fig-1-3.png Graphic file (type png)
 <use ./SaltChapter/fig-1-3.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-3.png  used on input line 242.
@@ -1789,12 +1789,12 @@ LaTeX Warning: Hyper reference `toc-contents' on page 17 undefined on input lin
 e 255.
 
 [17 <./SaltChapter/fig-1-2.PNG> <./SaltChapter/fig-1-3.PNG>]
-<./SaltChapter/fig-1-4.png, id=239, 419.31656pt x 276.28218pt>
+<./SaltChapter/fig-1-4.png, id=259, 419.31656pt x 276.28218pt>
 File: ./SaltChapter/fig-1-4.png Graphic file (type png)
 <use ./SaltChapter/fig-1-4.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-4.png  used on input line 258.
 (pdftex.def)             Requested size: 241.70607pt x 159.2573pt.
-<./SaltChapter/fig-1-5.png, id=242, 646.66594pt x 253.69781pt>
+<./SaltChapter/fig-1-5.png, id=262, 646.66594pt x 253.69781pt>
 File: ./SaltChapter/fig-1-5.png Graphic file (type png)
 <use ./SaltChapter/fig-1-5.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-5.png  used on input line 296.
@@ -1803,7 +1803,7 @@ Package pdftex.def Info: ./SaltChapter/fig-1-5.png  used on input line 296.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./SaltChapter/fig-1-6.png, id=243, 642.90187pt x 285.31593pt>
+<./SaltChapter/fig-1-6.png, id=263, 642.90187pt x 285.31593pt>
 File: ./SaltChapter/fig-1-6.png Graphic file (type png)
 <use ./SaltChapter/fig-1-6.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-6.png  used on input line 315.
@@ -1837,12 +1837,12 @@ LaTeX Warning: Hyper reference `toc-contents' on page 19 undefined on input lin
 e 356.
 
 [19 <./SaltChapter/fig-1-5.PNG> <./SaltChapter/fig-1-6.PNG>]
-<./SaltChapter/fig-1-7.png, id=274, 478.03593pt x 258.9675pt>
+<./SaltChapter/fig-1-7.png, id=294, 478.03593pt x 258.9675pt>
 File: ./SaltChapter/fig-1-7.png Graphic file (type png)
 <use ./SaltChapter/fig-1-7.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-7.png  used on input line 368.
 (pdftex.def)             Requested size: 338.38702pt x 183.31497pt.
-<./SaltChapter/fig-1-8.png, id=276, 405.76593pt x 239.39438pt>
+<./SaltChapter/fig-1-8.png, id=296, 405.76593pt x 239.39438pt>
 File: ./SaltChapter/fig-1-8.png Graphic file (type png)
 <use ./SaltChapter/fig-1-8.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-8.png  used on input line 386.
@@ -1869,7 +1869,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 20 undefined on input lin
 e 422.
 
 [20 <./SaltChapter/fig-1-7.PNG>]
-<./SaltChapter/fig-1-9.png, id=296, 673.76718pt x 316.93407pt>
+<./SaltChapter/fig-1-9.png, id=316, 673.76718pt x 316.93407pt>
 File: ./SaltChapter/fig-1-9.png Graphic file (type png)
 <use ./SaltChapter/fig-1-9.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-9.png  used on input line 453.
@@ -1899,7 +1899,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 525.
 
-)
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1910,9 +1909,52 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 22 undefined on input lin
-e 288.
+e 534.
 
 [22 <./SaltChapter/fig-1-9.PNG>]
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 14.4pt on input line 539.
+LaTeX Font Info:    Font shape `LUC/nanummj/b/n' in size <14.4> not available
+(Font)              Font shape `LUC/nanummj/bx/n' tried instead on input line 5
+39.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 539.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 539.
+
+<./SaltChapter/fig-1-10.png, id=354, 628.59843pt x 184.43906pt>
+File: ./SaltChapter/fig-1-10.png Graphic file (type png)
+<use ./SaltChapter/fig-1-10.png>
+Package pdftex.def Info: ./SaltChapter/fig-1-10.png  used on input line 553.
+(pdftex.def)             Requested size: 435.06798pt x 127.65427pt.
+
+Overfull \hbox (4.05676pt too wide) in paragraph at lines 567--571
+[]\LUC/nanummj/m/n/12/ad ¯\LUC/nanummj/m/n/12/b9 º [][]\OT1/LinuxLibertineT-TLF
+/m/n/12 1.11[][]\LUC/nanummj/m/n/12/c7 D \LUC/nanummj/m/n/12/bc Ù\LUC/nanummj/m
+/n/12/c7 ê\OT1/LinuxLibertineT-TLF/m/n/12 . \LUC/nanummj/m/n/12/c7 t \LUC/nanum
+mj/m/n/12/c0 º\LUC/nanummj/m/n/12/ac ^^A \LUC/nanummj/m/n/12/bd Ä\LUC/nanummj/m
+/n/12/b4 Ò\LUC/nanummj/m/n/12/c2 ›\LUC/nanummj/m/n/12/c7 @ \LUC/nanummj/m/n/12/
+c2 ‰^^X $\OML/cmm/m/it/12 x[]; x[]; y[]; y[]$\LUC/nanummj/m/n/12/c5 – \LUC/nanu
+mmj/m/n/12/b3 ^^@\LUC/nanummj/m/n/12/d5 \ \LUC/nanummj/m/n/12/cf T\LUC/nanummj/
+m/n/12/c2 ‹\OT1/LinuxLibertineT-TLF/m/n/12 -\LUC/nanummj/m/n/12/c2 à\LUC/nanumm
+j/m/n/12/bc ^^T\LUC/nanummj/m/n/12/b9 t\LUC/nanummj/m/n/12/ce   \LUC/nanummj/m/
+n/12/bd Ä\LUC/nanummj/m/n/12/b4 Ò\LUC/nanummj/m/n/12/c2 › $\OT1/cmr/m/n/12 (\OM
+L/cmm/m/it/12 x[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 y[]\OT1/cmr/m/n/12 )(\OML/
+cmm/m/it/12 x[] \OT1/cmr/m/n/12 +
+ []
+
+<./SaltChapter/fig-1-11.png, id=356, 277.035pt x 206.27063pt>
+File: ./SaltChapter/fig-1-11.png Graphic file (type png)
+<use ./SaltChapter/fig-1-11.png>
+Package pdftex.def Info: ./SaltChapter/fig-1-11.png  used on input line 575.
+(pdftex.def)             Requested size: 241.70607pt x 179.96701pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1923,9 +1965,18 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 23 undefined on input lin
-e 288.
+e 589.
 
-[23]
+[23 <./SaltChapter/fig-1-10.PNG>]
+<./SaltChapter/fig-1-0-1.png, id=369, 201.75375pt x 157.33781pt>
+File: ./SaltChapter/fig-1-0-1.png Graphic file (type png)
+<use ./SaltChapter/fig-1-0-1.png>
+Package pdftex.def Info: ./SaltChapter/fig-1-0-1.png  used on input line 608.
+(pdftex.def)             Requested size: 145.02512pt x 113.09827pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1936,9 +1987,35 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 24 undefined on input lin
+e 622.
+
+[24 <./SaltChapter/fig-1-11.PNG>])
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 25 undefined on input lin
 e 288.
 
-[24
+[25 <./SaltChapter/fig-1-0-1.PNG>]
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 26 undefined on input lin
+e 288.
+
+[26
 
 ]
 
@@ -1973,29 +2050,20 @@ This document will not have a glossary.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `notes_template.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `notes_template.out':
-(rerunfilecheck)             Before: 658C6E6C919C531287DDDCB393486D08;443
-(rerunfilecheck)             After:  23B0367E547F07DC04500E5C039FB692;534.
+Package rerunfilecheck Info: File `notes_template.out' has not changed.
+(rerunfilecheck)             Checksum: 36A2C72C9CEEB1D2FAB52E4C455D5CE7;1065.
 Package logreq Info: Writing requests to 'notes_template.run.xml'.
 \openout1 = `notes_template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35685 strings out of 478268
- 630229 string characters out of 5850346
- 1471767 words of memory out of 5000000
- 52908 multiletter control sequences out of 15000+600000
- 565495 words of font info for 300 fonts, out of 8000000 for 9000
+ 35770 strings out of 478268
+ 632169 string characters out of 5850346
+ 1473260 words of memory out of 5000000
+ 52974 multiletter control sequences out of 15000+600000
+ 572177 words of font info for 319 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,14n,117p,1186b,849s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 96i,13n,117p,1186b,849s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{c:/tex
 live/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_lyu3x3.enc}<c:/texlive/2022
 /texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb><c:/texlive/2022/tex
@@ -2012,74 +2080,77 @@ dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts
 e1/public/nanumtype1/nanummjbac.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pub
 lic/nanumtype1/nanummjbad.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/na
 numtype1/nanummjbae.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtyp
-e1/nanummjbb2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nan
-ummjbb3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb
-4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb5.pfb>
-<c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb7.pfb><c:/te
-xlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb8.pfb><c:/texlive/
-2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb9.pfb><c:/texlive/2022/t
-exmf-dist/fonts/type1/public/nanumtype1/nanummjbba.pfb><c:/texlive/2022/texmf-d
-ist/fonts/type1/public/nanumtype1/nanummjbbb.pfb><c:/texlive/2022/texmf-dist/fo
-nts/type1/public/nanumtype1/nanummjbbc.pfb><c:/texlive/2022/texmf-dist/fonts/ty
-pe1/public/nanumtype1/nanummjbbd.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pu
-blic/nanumtype1/nanummjbbe.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/n
-anumtype1/nanummjbc0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumty
-pe1/nanummjbc1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/na
-nummjbc2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjb
-c5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc6.pfb
-><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc7.pfb><c:/t
-exlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc8.pfb><c:/texlive
-/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc9.pfb><c:/texlive/2022/
-texmf-dist/fonts/type1/public/nanumtype1/nanummjbcc.pfb><c:/texlive/2022/texmf-
-dist/fonts/type1/public/nanumtype1/nanummjbcf.pfb><c:/texlive/2022/texmf-dist/f
-onts/type1/public/nanumtype1/nanummjbd3.pfb><c:/texlive/2022/texmf-dist/fonts/t
-ype1/public/nanumtype1/nanummjbd4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/p
-ublic/nanumtype1/nanummjbd5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
-nanumtype1/nanummjbd6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumt
-ype1/nanummjmac.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/n
-anummjmad.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummj
-mae.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmaf.pf
-b><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb><c:/
-texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb><c:/texliv
-e/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb><c:/texlive/2022
-/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb><c:/texlive/2022/texmf
--dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb><c:/texlive/2022/texmf-dist/
-fonts/type1/public/nanumtype1/nanummjmb5.pfb><c:/texlive/2022/texmf-dist/fonts/
-type1/public/nanumtype1/nanummjmb6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/
-public/nanumtype1/nanummjmb7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
-/nanumtype1/nanummjmb8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanum
-type1/nanummjmb9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/
-nanummjmba.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumm
-jmbb.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.p
-fb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb><c:
-/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb><c:/texli
-ve/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbf.pfb><c:/texlive/202
-2/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb><c:/texlive/2022/texm
-f-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb><c:/texlive/2022/texmf-dist
-/fonts/type1/public/nanumtype1/nanummjmc2.pfb><c:/texlive/2022/texmf-dist/fonts
-/type1/public/nanumtype1/nanummjmc3.pfb><c:/texlive/2022/texmf-dist/fonts/type1
-/public/nanumtype1/nanummjmc4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publi
-c/nanumtype1/nanummjmc5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanu
-mtype1/nanummjmc6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1
-/nanummjmc7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanum
-mjmc8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.
-pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmca.pfb><c
-:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb><c:/texl
-ive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcd.pfb><c:/texlive/20
-22/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb><c:/texlive/2022/tex
-mf-dist/fonts/type1/public/nanumtype1/nanummjmcf.pfb><c:/texlive/2022/texmf-dis
-t/fonts/type1/public/nanumtype1/nanummjmd0.pfb><c:/texlive/2022/texmf-dist/font
-s/type1/public/nanumtype1/nanummjmd1.pfb><c:/texlive/2022/texmf-dist/fonts/type
-1/public/nanumtype1/nanummjmd2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publ
-ic/nanumtype1/nanummjmd3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nan
-umtype1/nanummjmd4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype
-1/nanummjmd5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanu
-mmjmd6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7
-.pfb><c:/texlive/2022/texmf-dist/fonts/type1/uhc/umj/umj34.pfb>
-Output written on notes_template.pdf (24 pages, 4259214 bytes).
+e1/nanummjbb1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nan
+ummjbb2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb
+3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb4.pfb>
+<c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb5.pfb><c:/te
+xlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb7.pfb><c:/texlive/
+2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb8.pfb><c:/texlive/2022/t
+exmf-dist/fonts/type1/public/nanumtype1/nanummjbb9.pfb><c:/texlive/2022/texmf-d
+ist/fonts/type1/public/nanumtype1/nanummjbba.pfb><c:/texlive/2022/texmf-dist/fo
+nts/type1/public/nanumtype1/nanummjbbb.pfb><c:/texlive/2022/texmf-dist/fonts/ty
+pe1/public/nanumtype1/nanummjbbc.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pu
+blic/nanumtype1/nanummjbbd.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/n
+anumtype1/nanummjbbe.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumty
+pe1/nanummjbc0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/na
+nummjbc1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjb
+c2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc5.pfb
+><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc6.pfb><c:/t
+exlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc7.pfb><c:/texlive
+/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc8.pfb><c:/texlive/2022/
+texmf-dist/fonts/type1/public/nanumtype1/nanummjbc9.pfb><c:/texlive/2022/texmf-
+dist/fonts/type1/public/nanumtype1/nanummjbcc.pfb><c:/texlive/2022/texmf-dist/f
+onts/type1/public/nanumtype1/nanummjbcf.pfb><c:/texlive/2022/texmf-dist/fonts/t
+ype1/public/nanumtype1/nanummjbd2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/p
+ublic/nanumtype1/nanummjbd3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
+nanumtype1/nanummjbd4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumt
+ype1/nanummjbd5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/n
+anummjbd6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummj
+bd7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pf
+b><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/
+texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb><c:/texliv
+e/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmaf.pfb><c:/texlive/2022
+/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb><c:/texlive/2022/texmf
+-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb><c:/texlive/2022/texmf-dist/
+fonts/type1/public/nanumtype1/nanummjmb2.pfb><c:/texlive/2022/texmf-dist/fonts/
+type1/public/nanumtype1/nanummjmb3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/
+public/nanumtype1/nanummjmb4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
+/nanumtype1/nanummjmb5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanum
+type1/nanummjmb6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/
+nanummjmb7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumm
+jmb8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.p
+fb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb><c:
+/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb><c:/texli
+ve/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/202
+2/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb><c:/texlive/2022/texm
+f-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb><c:/texlive/2022/texmf-dist
+/fonts/type1/public/nanumtype1/nanummjmbf.pfb><c:/texlive/2022/texmf-dist/fonts
+/type1/public/nanumtype1/nanummjmc0.pfb><c:/texlive/2022/texmf-dist/fonts/type1
+/public/nanumtype1/nanummjmc1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publi
+c/nanumtype1/nanummjmc2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanu
+mtype1/nanummjmc3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1
+/nanummjmc4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanum
+mjmc5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.
+pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c
+:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb><c:/texl
+ive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/20
+22/texmf-dist/fonts/type1/public/nanumtype1/nanummjmca.pfb><c:/texlive/2022/tex
+mf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb><c:/texlive/2022/texmf-dis
+t/fonts/type1/public/nanumtype1/nanummjmcd.pfb><c:/texlive/2022/texmf-dist/font
+s/type1/public/nanumtype1/nanummjmce.pfb><c:/texlive/2022/texmf-dist/fonts/type
+1/public/nanumtype1/nanummjmcf.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publ
+ic/nanumtype1/nanummjmd0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nan
+umtype1/nanummjmd1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype
+1/nanummjmd2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanu
+mmjmd3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4
+.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb><
+c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/tex
+live/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/2
+022/texmf-dist/fonts/type1/uhc/umj/umj34.pfb>
+Output written on notes_template.pdf (26 pages, 4460065 bytes).
 PDF statistics:
- 716 PDF objects out of 1000 (max. 8388607)
- 489 compressed objects within 5 object streams
- 100 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 782 PDF objects out of 1000 (max. 8388607)
+ 540 compressed objects within 6 object streams
+ 112 named destinations out of 1000 (max. 500000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 

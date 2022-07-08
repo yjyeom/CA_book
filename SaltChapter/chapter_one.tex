@@ -524,6 +524,120 @@ $|z_1+z_2|^2 + |z_1-z_2|^2 =2(|z_1|^2+|z_2|^2)$을 만족함을 보여라.
 
 \section{$\mathbb C$의 위상}
 
+실수 $\mathbb R$에서 수열의 수렴성, 함수의 연속성과 미분가능성과 같은
+일반적인 미적분 개념들은 모두 실수에서 점의 가까움에 대한 개념에 의존한다.
+예를 들면, 실수열 $(a_n)_{n\in\mathbb N}$의 극한이 $L\in\mathbb R$이라는 것은,
+주어진 양수 $\epsilon$에 대하여 충분히 큰 인덱스 $N$이 있어 이를 넘는 인덱스를 갖는
+ $a_n$은 모두 $L$과의 {\bf 거리}가 기껏해야 $\epsilon$이하임을 의미한다.
+``$a_n$과  $L$의 거리''는 $|a_n-L|$로 정의하며
+실수 라인에서 $a_n$과 $L$을 잇는 선분의 길이를 뜻한다.
+
+이제 {\bf 복소수}에서 미적분을 만들어 보려면
+복소수 쌍 $(z_1, z_2)$에 대한 거리 $d(z_1, z_2)$의 개념이 필요하다.
+첫 단계로 거리의 개념이 무엇인지 살펴보자.
+
+\subsection{$\mathbb C$에서의 거리 개념}
+
+복소수 $\mathbb C$를 $\mathbb R^2$으로 보면 $\mathbb R^2$의 유클리드 거리로
+$\mathbb C$의 거리를 정의할 수 있다.
+따라서, 복소수 $z_1=x_1+iy_1$과 $z_2=x_2+iy_2$에 대하여 
+다음 식으로 거리를 정의한다.
+$$
+d(z_1,z_2) = \sqrt{(x_1-x_2)^2 + (y_1+y_2)^2} = |z_1-z_2|.
+$$
+피타고라스 정리에 의하여 이 값은 $\mathbb R^2$ 평면의 두 점 $(x_1, y_1)$과 $(x_2, y_2)$의 거리와 같다.
+그림 \ref{fig-1-10}을 참고하라.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.9\textwidth]{./SaltChapter/fig-1-10}
+\end{center}
+\caption{복소수 $z_1$과 $z_2$사이의 거리는 $z_1$과 $z_2$를 잇는 선분의 길이다.}
+\label{fig-1-10}
+\end{figure}
+
+복소수 덧셈의 기하학적 의미와 
+삼각형의 두변의 길이의 합은 가장 큰 변의 길이보다 크다는 
+유클리드 기하학의 유명한 결과를 이용하면
+다음과 같이 복소수 절대값의 삼각 부등식을 얻는다.
+$$
+|z_1+z_2| \le |z_1|  + |z_2|, \quad z_1, z_2\in\mathbb C.
+$$
+
+그림 \ref{fig-1-11}을 보자.
+이 삼각 부등식은 실수 $x_1, x_2, y_1, y_2$에 대한 코시-슈바르츠 부등식
+$(x_1^2+y_1^2) (x_2^2+y_2^2) \ge (x_1x_2 + y_1y_2)^2$을 사용하여
+확인할 수도 있다.
+
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{./SaltChapter/fig-1-11}
+\end{center}
+\caption{삼각 부등식}
+\label{fig-1-11}
+\end{figure}
+
+\begin{salt_exercise} \label{ex-1-22}
+모든 복소수 $z_1, z_2\in \mathbb C$에 대하여
+$|z_1-z_2| \ge \left| |z_1| - |z_2| \right|$을 증명하라.
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-1-23}
+다음 집합을 복소평면에 나타내라.
+\begin{itemize}
+\item[(1)] $\left\{z\in\mathbb C\,:\, |z-(1-i)| = 2 \right\}$.
+\item[(2)] $\left\{z\in\mathbb C\,:\, |z-(1-i)| < 2 \right\}$.
+\item[(3)] $\left\{z\in\mathbb C\,:\, 1< |z-(1-i)| < 2 \right\}$.
+\item[(4)] $\left\{z\in\mathbb C\,:\, \Re(z-(1-i)) = 3 \right\}$.
+\item[(5)] $\left\{z\in\mathbb C\,:\, |\Im(z-(1-i))| < 2 \right\}$.
+\item[(6)] $\left\{z\in\mathbb C\,:\, |z-(1-i)| = |z-(1+i)| \right\}$.
+\item[(7)] $\left\{z\in\mathbb C\,:\, |z-(1-i)| + |z-(1+i)| = 2 \right\}$.
+\item[(8)] $\left\{z\in\mathbb C\,:\, |z-(1-i)| + |z-(1+i)| < 3 \right\}$.
+\end{itemize}
+\end{salt_exercise}
+
+\subsection{열린 원판, 열린 집합, 닫힌 집합, 콤팩트 집합}
+
+주어진 점의 근방에 대한 집합을 다루기 위해 다음 정의들을 도입하는 것이 편리하다.
+중심이 $z_0$이고 반지름이 $r>0$인 {\bf 열린 공/원판} $D(z_0,r)$은 
+$D(z_0,r) :=\{ z\in\mathbb C \,:\, |z-z_0| <r \}$로 정의한다.
+
+\begin{figure*}[!h]
+\begin{center}
+\includegraphics[width=0.3\textwidth]{./SaltChapter/fig-1-0-1}
+\end{center}
+\end{figure*}
+
+$\mathbb C$의 부분집합 $U$에 속하는
+모든 $z$에 대하여 $r_z>0$가 존재하여 $D(z,r_z)\subset U$를 만족하면
+$U$를 {\bf 열린 집합}이라 한다.
+다시 말하면, $U$의 어떤 점을 잡더라도 
+주변의 모든 점이 $U$에 속할 수 있는 ``공간''이 존재한다.
+예를 들면, 열린 원판 $D(z_0,r)$은 열린 집합이다.
+따라서  $D(z_0,r)$를 열린 원판이라 부를 때 사용한 형용사 ``열린''은 적절해 보인다.
+열린 집합의 예를 조금 더 만들어보자.
+원환(annulus) $\mathbb A_r := \{ z\in\mathbb C\,:\, r<|z|<1\}$,
+우측 반평면 $\mathbb H:= \{z\in\mathbb C\,:\, \Re(z)>0\}$는 모두 열린 집합이다.
+
+열린 집합의 여집합에 특별한 이름을 붙여 ``닫힌 집합''이라 부르면 편리하다.
+닫힌 집합은 수열의 수렴성의 관점에서 규정할 수도 있다.
+집합 $F\subset \mathbb C$가 닫힌 집합이라는 것은
+$F$에 속하는 복소수열 $(z_n)_{n\in\mathbb N}$이  $\mathbb C$에서 $L$로 수렴한다면
+극한 $L$이 $F$에 속한다는 것과 동치이다.
+
+$\mathbb C$의 부분집합 $S$의 모든 원소 $z$에 대하여
+$|z|\le M$을 만족하는 $M>0$이 존재하면 $S$를 {\bf 유계}(bounded)라 한다.
+그러면 $S$는 복소평면에서 충분히 큰 원판 내부에 속한다.
+
+$\mathbb C$의 부분집합 $K$가 유계인 닫힌 집합이면 {\bf 콤팩트 집합}이라 한다.
+콤팩트 집합에서 정의된 실변수 연속함수는 최대값과 최소값을 갖는다는
+실해석학의 잘 알려진 결과를
+앞으로 종종 사용할 것이다.
+
+\subsection{수렴성과 연속성}
+
+
 
 
 
