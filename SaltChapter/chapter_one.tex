@@ -637,11 +637,324 @@ $\mathbb C$의 부분집합 $K$가 유계인 닫힌 집합이면 {\bf 콤팩트 
 
 \subsection{수렴성과 연속성}
 
+$\mathbb C$에서 수열의 수렴성에 대하여 알아보자.
+ 
+복소수열 $(z_n)_{n\in\mathbb N}$이 수렴하고 극한이 $L$이라는 것은
+임의의 $\epsilon>0$에 대하여 인덱스 $N\in\mathbb N$이 존재하여
+모든 $n>N$에 대하여 $|z_n -L| < \epsilon$이 성립함을 의미한다.
+삼각 부등식에 의하여 수렴하는 수열의 극한은 유일하게 결정되며
+다음과 같이 쓴다.
+$$
+\lim_{n\to\infty} z_n = L.
+$$
 
+\begin{salt_example} \label{example-1-1}
+복소수 $z$가 $|z|<1$를 만족한다고 하자.
+그러면 수열 $(z_n)_{n\in\mathbb N}$은 $0$으로 수렴한다.
+왜냐하면, $|z^n-0| = |z^n| = |z|^n = ||z|^n-0|$인데
+$|z|<1$이므로, $n\to\infty$일 때 $|z|^n\to0$이기 때문이다.
+\end{salt_example}
 
+\begin{salt_exercise} \label{ex-1-24}
+복소수 계수 $c_0, c_1, \ldots, c_d\in \mathbb C$의
+다항식 $p(z)=c_0 + c_1z + \cdots + c_dz^d$ ($c_d\ne0$)를 생각하자.
+$|z|>R$인 모든 $z$에 대하여 $|p(z)| \ge M|z|^d$을 만족하는
+$M, R>0$이 존재함을 증명하라.
+\end{salt_exercise}
 
+\begin{salt_exercise} \label{ex-1-25}
+복소수열 $(z_n)_{n\in\mathbb N}$이 $L$로 수렴함과
+실수열 $(\Re(z_n))_{n\in\mathbb N}$과  $(\Im(z_n))_{n\in\mathbb N}$이
+각각 $\Re(L)$과 $\Im(L)$로 수렴함이 동치임을 보여라.
+\end{salt_exercise}
 
+\begin{salt_exercise} \label{ex-1-26}
+복소수열 $(z_n)_{n\in\mathbb N}$이 $L$로 수렴함과
+$(\overline{z_n})_{n\in\mathbb N}$이 $\bar L$로 수렴함은 동치임을 보여라.
+\end{salt_exercise}
 
+\begin{salt_exercise} \label{ex-1-27}
+$\mathbb C$가 완비성(completeness)을 가짐을 증명하라.
+즉, $\mathbb C$의 모든 코시 수열이 $\mathbb C$의 원소로 수렴한다.
+(임의의 $\epsilon>0$에 대하여 인덱스 $N\in\mathbb N$이 존재하여
+$m,n>N$ 이면, $|z_n - z_m| < \epsilon$을 만족할 때
+수열 $(z_n)_{n\in\mathbb N}$을 {\bf 코시 수열}이라 한다.
+)
+\end{salt_exercise}
 
+$S$가 $\mathbb C$의 부분집합, $z_0\in S$,  $f:S\to \mathbb C$라 하자.
+임의의 $\epsilon>0$에 대하여 $\delta>0$가 존재하여
+$z\in S$가 $|z-z_0|<\delta$를 만족하면 $|f(z)-f(z_0)|<\epsilon$일 때
+$f$는 $z_0$에서 {\bf 연속}이라고 한다.
 
+수열의 극한으로도 연속성을 규정할 수 있다.
+$f:S\to\mathbb C$가 $z_0$에서 연속임은
+$z_0$로 수렴하는 $S$의 모든 복수열 $(z_n)_{n\in\mathbb N}$에 대하여
+$(f(z_n))_{n\in\mathbb N}$이 $f(z_0)$로 수렴함과 동치이다.
+
+\begin{salt_example} \label{example-1-2}
+켤레복소수를 만드는 것은 연속함수이다.
+즉, $z\to\bar z: \mathbb C \to \mathbb C$는 연속이다.
+모든 $z, z_0 \in \mathbb C$에 대하여
+$|\bar z - \overline{z_0}| = |\overline{z-z_0}| = |z-z_0|$이다.
+이로부터 모든 $z_0\in\mathbb C$에 대하여 켤레복소수를 대응시키는 함수는
+연속이다. 기하학적으로 보면 자명하다. 왜냐 하면, 켤레복소수는 단지 실수축에 대하여 
+대칭시키는 것이므로 가까운 두 점은 함수값도 가까이 머물기 때문이다!
+
+모든 $z\in\mathbb C$에 대하여 $\overline{(\bar z)} = z$ 켤레복소수의
+역함수는 자기자신이다. 따라서 켤레복소수는 가역이며 역함수도 연속이다.
+따라서 켤레복소수 함수는 $\mathbb C$에서 $\mathbb C$로의 
+위상동형사상(homeomorphism)이다 (연속인 전단사함수이며 역함수도 연속이다).
+\end{salt_example}
+
+\begin{salt_exercise} \label{ex-1-28}
+함수 $z\mapsto \Re(z): \mathbb C \to \mathbb R$은 연속함수임을 증명하라. 
+\end{salt_exercise}
+
+\subsection{영역}
+
+이후에는  경로연결된 열린 집합의 개념이 중요한 역할을 한다.
+우리 학습의 주요 대상, 즉, 집합 $D(\subset \mathbb C)$의 모든 점에서
+복소미분 가능함수 $f:D\to\mathbb C$에 대한 결과를 증명할 때 사용된다.
+많은 정리들이 유효하게 성립하려면 $D$가 $\mathbb C$의 ``좋은'' 부분집합이 되어야 하며
+단순히 $\mathbb C$의 부분집합이라는 조건만으로는 부족함을 보게 될 것이다.
+``좋음''이라는 가정을 만족하는 집합을 영역이라 부르며 정확히는 다음과 같이 규정된다.
+
+우리는 $\mathbb C$의 경로연결된 열린 부분집합을 영역(domain)이라 부른다.
+``열린''의 의미는 이미 알고 있으니 ``경로연결된''이 어떤 의미인지 설명해보자.
+
+\begin{salt_definition} \label{def-1-1}
+\
+\begin{itemize}
+\item[(1)] 연속함수 $\gamma:[a,b] \to \mathbb C$를 $\mathbb C$의 경로(또는 곡선)이라 한다.
+\begin{figure*}[!h]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{./SaltChapter/fig-1-0-2}
+\end{center}
+\end{figure*}
+\item[(2)] 경로 $\gamma:[a,b] \to \mathbb C$가 다음 조건을 만족하면 계단식 경로(stepwise path)라 한다.
+점 $t_0 = a < t_1 < \cdots < t_n < t_{n+1} = b$가 존재하여
+부분경로 $\gamma: [t_k, t_{k+1}] \to \mathbb C$ ($k=0,1,\ldots, n$)가
+실수부가 상수 또는 허수부가 상수인 경로가 된다.
+\begin{figure*}[!h]
+\begin{center}
+\includegraphics[width=0.3\textwidth]{./SaltChapter/fig-1-0-3}
+\end{center}
+\end{figure*}
+\item[(3)] $U$가 열린 집합일 때,  모든 $z_1, z_2\in U$에 대하여
+$\gamma(a)=z_1$, $\gamma(b)=z_2$이고 모든 $t\in[a,b]$에서 $\gamma(t)\in U$인
+계단식 경로 $\gamma: [a,b] \to \mathbb C$가 존재하면
+$U$를 경로연결된 열린 집합이라 한다.
+\end{itemize}
+\end{salt_definition}
+
+실제로 위에서 경로연결된 열린 집합을 정의할 때 경로를 {\bf 계단식} 경로에 한정한 것을 
+완화할 수 있다. 즉, 열린 집합에 포함된 임의의 두 점이 집합내의 경로로 연결되기만 하면
+경로연결된 것으로 정의해도
+우리가 정의한 경로연결된 집합과 일치한다.
+하지만 우리에게는 불필요한 일반화이며, 앞에서 정의한 것으로 충분하다.
+
+\begin{salt_example} \label{example-1-3}
+\
+\begin{itemize}
+\item[(1)] 열린 단위원판 $\mathbb D := \{ z\in\mathbb C\,:\, |z|<1 \}$은 영역이다.
+\item[(2)] $r\in (0,1)$에 대하여 원환 $\mathbb A_r := \{ z\in\mathbb C\,:\, r<|z|<1\}$은 영역이다.
+\item[(3)] 우측 반평면 $\mathbb H := \{ z\in \mathbb C \,:\, \Re(z)>0\}$은 영역이다.
+\end{itemize}
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.7\textwidth]{./SaltChapter/fig-1-12}
+\end{center}
+\caption{영역 $\mathbb D$, $\mathbb A_r$, $\mathbb H$}
+\label{fig-1-12}
+\end{figure}
+\end{salt_example}
+
+한편, 집합 $S:=\{z\in\mathbb C \,:\, |z|\ne 1\} := \mathbb C\setminus \mathbb T$는 
+영역이 아니다. 열린 집합이지만 경로연결된 집합이 아니다.
+실제로 $0$과 $2$를 잇는 경로는 존재하지 않는다.
+경로 $\gamma$가 존재한다고 가정하면
+함수 $t\mapsto |\gamma(t)| : [a,b] \to \mathbb R$에
+중간값 정리를 적용하면,
+$|\gamma(a)| = 0 < 1<2 = |\gamma(b)|$이므로,
+$|\gamma(t_*)|=1$이 되는 $t_*\in [a,b]$가 존재한다.
+그러면 $\gamma(t_*)\ne S$가 되어 모순이다.
+
+\begin{salt_exercise} \label{ex-1-29}
+$\{z\in \mathbb C \,:\, \Re(z) \cdot Im(z) >1\}$은 열린 집합이지만
+영역은 아님을 보여라.
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-1-30}
+영역 $D$에 대하여
+$D^*:= \{z\in\mathbb C\,:\, \bar z \in D\}$라 정의하자.
+$D^*$도 영역이 됨을 보여라.
+\end{salt_exercise}
+
+\section{지수함수와 관련 함수들}
+
+이 장의 마지막 절에서는 기본적인 복소함수들을 다룬다.
+\begin{quote}
+지수함수 $z\mapsto \exp z$, \\[1ex]
+삼각함수 $z\mapsto \sin z, \cos z$, \\[1ex]
+로그함수  $z\mapsto \Log z$.
+\end{quote}
+
+이 함수들은 실수축에 제한했을 때
+미적분학에서 친숙하게 봤던 함수들에 대응된다.
+다시 말하면, 
+함수의 입력을 $z=x\in\mathbb R$로 제한할 때
+잘 알려진 실함수를 얻는다.
+\begin{quote}
+$x\mapsto e^x$, \\[1ex]
+$x\mapsto \sin x, \cos x$, \\[1ex]
+$x\mapsto \log x$.
+\end{quote}
+
+따라서 우리의 정의는 실함수에 대응되는 확장이다.
+그림 \ref{fig-1-13}\을 참고하라.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.7\textwidth]{./SaltChapter/fig-1-13}
+\end{center}
+\caption{실함수는 실수축 위의 점을 실수축 위로 대응시키는 반면
+우리의 정의는 이를 그림자 영역인 복소평면으로 확장한 것이다.}
+\label{fig-1-13}
+\end{figure}
+
+이러한 확장은  
+이는 실수에 한정했을 때 가질 수 없었던 
+새롭고 흥미로운 특성을 복소평면에서 보여준다는 것을 앞으로 살펴볼 것이다.
+또한 이 함수들은 복소미분 가능함수의 중요한 예로서의 역할도 한다.
+지수함수와 삼각함수는 복소평면 위의 모든 점에서 복소미분 가능하며
+로그함수는 연속인 점에서 복소미분 가능하다.
+
+우선  지수함수부터 살펴보자.
+
+\subsection{지수함수 $\exp z$}
+
+\begin{salt_definition}[복소 지수함수] \label{def-1-2}
+$z=x+iy\in \mathbb C$($x,y\in\mathbb R$)에 대하여
+복소 지수함수 $\exp z$를 다음과 같이 정의한다.
+$$
+\exp z = e^x(\cos y +i\sin y).
+$$
+\end{salt_definition}
+
+우선 $y=0$일 때, 우변은 $e^x$와 같다. 따라서 이 정의는
+일반적인 지수함수 $(\mathbb R \ni) x \mapsto e^x (\in \mathbb R)$의 확장이다.
+하지만, 정의는 자연스럽게 보이지 않는다. 
+$z\mapsto e^{\Re(z)}$로 정의해도 실수 지수함수의 확장을 얻을 수 있기 때문이다.
+이렇게 간단히 정의하면 되는 것을 왜 사용하지 않을까?
+우리가 정의한 방식을 쓰는 이유는
+실수 지수함수를 복소평면 전체에서 복소미분 가능한 성질을 가지도록
+확장하는 유일한 방법이기 때문이다. 
+이와 관련하여 
+128페이지 %[salt]===> 페이지 번호
+예제 4.8 %[salt]===> \ref{example-4-8}
+를 참고하라.
+실제로 실수 지수함수의 미분공식
+$$
+\dfrac{d}{dx}e^x  = e^x \quad x\in\mathbb R
+$$
+과 유사하게 다음이 성립함을 보일 예정이다.
+$$
+\dfrac{d}{dz} \exp z  = \exp z \quad z\in\mathbb C.
+$$
+결론적으로 우리는 이상하게 보이는 정의가 실제로 자연스럽다는 것을 공부하게 될 것이다.
+지금은 다음과 같은 기본적인 성질부터 확인해보자.
+
+\begin{salt_prop} \label{prop-1-2}
+\
+\begin{itemize}
+\item[(1)] $\exp 0 = e^0(\cos 0 + i\sin 0) = 1\cdot(1+i0) = 1$.
+\item[(2)] $z_1, z_2\in \mathbb C$에 대하여, $\exp(z_1+z_2) = (\exp z_1)(\exp z_2)$.
+\item[(3)] $z \in \mathbb C$에 대하여, $\exp z \ne 0$ 이고 $(\exp z)^{-1} = \exp (-z)$.
+\item[(4)] $z \in \mathbb C$에 대하여, $\exp(z+2\pi i) = \exp z$.
+\item[(5)] $z \in \mathbb C$에 대하여, $|\exp z| = e^{\Re(z)}$.
+\end{itemize}
+\end{salt_prop}
+
+{\bf 증명}
+
+\noindent
+(2)  $z_1 = x_1 + iy_1$과 $z_2 = x_2 + iy_2$이면,
+\begin{align*}
+\exp(z_1+z_2)
+&= e^{(x_1+x_2) + i(y_1+y_2)} = e^{x_1+x_2}
+\left( \cos(y_1+y_2) + i\sin(y_1+y_2) \right) \\
+&= e^{x_1}e^{x_2} \left( \cos y_1 \cos y_2 - \sin y_1\sin y_2
++ i(\sin y_1\cos y_2 + \cos y_1\sin y_2) \right) \\
+&= e^{x_1} (\cos y_1 + i\sin y_1)  e^{x_2} (\cos y_2 + i\sin y_2)  
+= (\exp z_1)(\exp z_2).
+\end{align*}
+(3) 앞의 식을 쓰면,
+$$
+1  = \exp 0 = \exp (z-z) = (\exp z)(\exp (-z))
+$$
+에서 $\exp z \ne 0$이고 $(\exp z)^{-1} = \exp(-z)$을 얻는다.
+따라서 $\exp$ 함수는 $\mathbb C$의 원소를 
+``뚫린(punctured)'' 평면 $\mathbb C\setminus \{0\}$으로 보낸다.
+
+\noindent
+(4) 다음 식으로부터
+\begin{align*}
+\exp(z+2\pi i)
+&= (\exp z)(\exp (2\pi i)) = (\exp z)\cdot e^0(\cos(2\pi) + i\sin(2\pi)) \\
+&= (\exp z)\cdot 1\cdot(1+i\cdot 0) = \exp z
+\end{align*}
+$\exp$ 함수는 ``$y$축 방향으로 주기성''이 있으며, 주기는 $2\pi$임을 알 수 있다.
+그림 \ref{fig-1-14}를 보자.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{./SaltChapter/fig-1-14}
+\end{center}
+\caption{$y$축 방향으로 $2\pi$ 주기를 갖는 복소 지수함수 $\exp$}
+\label{fig-1-14}
+\end{figure}
+
+이러한 현상은 실수의 성질 갖는 $x$축 방향으로는 나타나지 않는다.
+함수 $x\mapsto \exp(x+iy_0)$ ($y_0\in \mathbb R$은 고정하자)는 일대일 함수이다.
+그림 \ref{fig-1-15}를 보라.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.3\textwidth]{./SaltChapter/fig-1-15}
+\end{center}
+\caption{$x\mapsto e^x$는 일대일이다}
+\label{fig-1-15}
+\end{figure}
+
+\noindent
+(5) $x,y \in \mathbb R$에 대하여
+$|e^x \cos y + ie^x\sin y| = \sqrt{e^{2x}((\cos y)^2 + (\sin y)^2)} = e^x$.
+따라서 $|\exp(x+iy)| = e^x$.
+이로부터 $\exp$ 함수는 복소평면의 수직선(실수부가 같은 점들)을
+원(절대값이 같은 점, 즉, 원점에서의 거리가 일정한 점)으로 보낸다.
+\hfill $\square$
+
+명제 \ref{prop-1-2} (3)은 $\exp$ 함수가 일대일이 아니며
+$2\pi i$의 주기를 가짐을 보여준다.
+그림 \ref{fig-1-16}은 함수 $z\mapsto \exp z$가
+수평선(허수부 $y$가 고정된)과 수직선(실수부 $x$가 고정된)에 작용한 결과를 보여준다.
+이는 그림 \ref{fig-1-17}에 표현된 특징을 종합하여 얻을 것이다.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{./SaltChapter/fig-1-16}
+\end{center}
+\caption{복소 지수함수에 의한 수직선과 수평선의 상(image)}
+\label{fig-1-16}
+\end{figure}
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{./SaltChapter/fig-1-17}
+\end{center}
+\caption{복소 지수함수에 의한 수직선과 수평선의 상(image)}
+\label{fig-1-17}
+\end{figure}
 

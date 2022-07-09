@@ -7,3 +7,6 @@
 \contentsline {subsection}{\numberline {1.3.1}$\mathbb C$에서의 거리 개념}{23}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}열린 원판, 열린 집합, 닫힌 집합, 콤팩트 집합}{24}{subsection.1.3.2}%
 \contentsline {subsection}{\numberline {1.3.3}수렴성과 연속성}{25}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}영역}{26}{subsection.1.3.4}%
+\contentsline {section}{\numberline {1.4}지수함수와 관련 함수들}{28}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}지수함수 $\exp z$}{29}{subsection.1.4.1}%
