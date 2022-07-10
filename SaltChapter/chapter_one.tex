@@ -958,3 +958,189 @@ $2\pi i$의 주기를 가짐을 보여준다.
 \label{fig-1-17}
 \end{figure}
 
+그림 \ref{fig-1-16}을 보면
+$\exp$ 함수는 영역 내 곡선이 이루는 각을 보존함을 알 수 있다.
+다시 말하면, 서로 수직인 수평선과 수직선은 서로 수직인 원과 방사형 반직선으로 매핑된다.
+뒤에서 우리는 이것은 우연한 것이 아니며, ``등각 특성(conformality)'', 즉, 
+두 곡선이 이루는 각도와 함께 ``방향(orientation)''까지 보존하는 것은
+영역에 정의된 모든 복소미분 가능함수가 갖는 성질임을 보일 것이다.
+
+{\bf 오일러 공식: }
+$z=iy$ ($y\in \mathbb R$)에 대하여
+$$
+\exp(iy) = \cos y + i \sin y
+$$
+를 오일러 공식이라 부른다.
+따라서 복소수의 극형식은 $z=r(\cos\theta + i\sin\theta) = r\exp(i\theta)$로
+다시 쓸 수 있다.
+
+\begin{salt_exercise} \label{ex-1-31}
+$z: i\dfrac{9\i}2, 3+\pi i$에 대하여
+$\exp z$를 계산하라.
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-1-32}
+$\exp z = \pi i$를 만족하는 모든 $z\in\mathbb C$를 찾아라.
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-1-33}
+곡선 $t\mapsto \exp(it):[0,2\pi] \to \mathbb C$를 그려라.
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-1-34}
+지수함수 $z=x+iy \mapsto \exp z$가 직선 $y=x$를 어떤 도형으로 보내는지 설명하라.
+다음 단계로 진행하면 된다:
+우선 매개변수를 $x=t$, $y=t$라 놓고
+보낸 이미지의 매개변수방정식을 구하라.
+이 곡선을 그리고 $t$가 증가함에 따라, $t\to\pm\infty$에 따라 어떻게 되는지 설명하라.
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-1-35}
+$z=x+iy$의 실수부와 허수부 $x,y$를 이용하여
+$\exp(z^2)$과 $\exp(1/z)$의 절대값, 실수부와 허수부를 구하라.
+\end{salt_exercise}
+
+
+\subsection{삼각함수}
+
+지수함수를 확장한 것과 같이
+실수에 정의된 삼각함수를 복소수 삼각함수로 확장해보자.
+앞에서 언급한 오일러 공식으로부터 실수 $x$에 대하여 다음 식을 얻는다.
+$$
+\exp(ix) = \cos x + i \sin x, \quad
+\exp(-ix) = \cos x - i \sin x.
+$$
+이로부터 
+$$
+\cos x = \dfrac{\exp(ix) + \exp(-ix)}2, \quad
+\sin x = \dfrac{\exp(ix) - \exp(-ix)}{2i}
+$$
+를 얻어 복소수 $z\in\mathbb C$에 까지 확장한 다음 정의를 만들 수 있다.
+$$
+\cos z = \dfrac{\exp(iz) + \exp(-iz)}2, \quad
+\sin z = \dfrac{\exp(iz) - \exp(-iz)}{2i}.
+$$
+당연히 이 정의는 실수에 정의된 삼각함수의 확장이다.
+왜냐 하면, 오일러 공식으로부터 
+$z=x$일 때, $\cos z = \cos x$, $\sin z = \sin x$가 됨을 확인할 수 있기 때문이다.
+
+몇가지 삼각함수 공식은 복소수에서도 여전히 유효하다.
+예를 들면, $\cos(z_1+z_2) = (\cos z_1)(\cos z_2) - (\sin z_1)(\sin z_2)$는 
+다음과 같이 보일 수 있다.
+\begin{align*}
+(\cos z_1)(\cos z_2) &- (\sin z_1)(\sin z_2)  \\
+&= \left( \dfrac{\exp(iz_1)+\exp(-iz_1)}2\right)
+\left( \dfrac{\exp(iz_2)+\exp(-iz_2)}2\right) \\
+& \quad - \left( \dfrac{\exp(iz_1)-\exp(-iz_1)}{2i}\right)
+\left( \dfrac{\exp(iz_2)-\exp(-iz_2)}{2i}\right) \\
+&= \dfrac{2\exp(i(z_1+z_2)) + 2\exp(-i(z_1+z_2))}{4} 
+= \cos(z_1+z_2).
+\end{align*}
+
+\begin{salt_exercise} \label{ex-1-36}
+모든 $z_1, z_2 \in \mathbb C$에 대하여
+$\sin(z_1+z_2) = (\sin z_1)(\cos z_2) + (\cos z_1)(\sin z_2)$이 성립함을 보여라.
+\end{salt_exercise}
+
+$(\sin z)^2 + (\cos z)^2 = 1$도 성립한다.
+\begin{align*}
+(\sin z)^2 + (\cos z)^2 
+&=  \left(\dfrac{\exp(iz)-\exp(-iz)}{2i}\right)^2
++ \left(\dfrac{\exp(iz)+\exp(-iz)}{2}\right)^2 \\
+&= \frac{\exp(2iz) - 2 + \exp(-2iz)}{-4}
++ \frac{\exp(2iz) + 2 + \exp(-2iz)}4 \\
+&=1.
+\end{align*}
+
+하지만, 모든 실수 $x$에 대하여 삼각함수가 
+$|\sin x| \le 1$와 $|\cos x|\le 1$를 만족하는 것과 달리
+복소수에서 
+$z\mapsto \sin z$와 $z\mapsto \cos z$는 유계가 아니다.
+$z=iy$($y\in\mathbb R$)에 대하여
+$$
+\cos (iy) = \frac{\exp(i(iy))+\exp(-i(iy))}2
+= \frac{\exp(-y) + \exp(y)}2 = \frac{e^{-y}+e^y}2
+$$
+이므로
+$y\to \pm \infty$일 때, $\cos(iy) \to +\infty$이다.
+$$
+\sin(iy) = \frac{e^{-y}-e^y}{2i}
+$$
+이므로 
+$y\to \pm \infty$일 때, $|\sin(iy)| \to +\infty$이다.
+
+뒤에서 $z\mapsto \cos z$와 $z\mapsto \sin z$는 
+복소평면 위의 모든 점에서 복소미분 가능함을 보일 것이다.
+
+
+\begin{salt_exercise} \label{ex-1-37}
+복소수 $z=x+iy$($x,y\in\mathbb R$)에 대하여
+$$
+\cos z = (\cos x)(\cosh y) - i(\sin x)(\sinh y), \quad
+|\cos z|^2 = (\cosh y)^2 - (\sin x)^2
+$$
+을 증명하라. 단, $\cosh y := \dfrac{e^y+e^{-y}}2$, 
+$\sinh y := \dfrac{e^y-e^{-y}}2$이다.
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-1-38}
+방정식 $\cos x = 3$은 실근 $x$를 갖지 않음은 잘 알려져 있다.
+하지만, $\cos z=3$을 만족하는 복소수 $z$는 존재함을 보이고
+해를 모두 찾아라.
+\end{salt_exercise}
+
+\subsection{로그함수}
+
+실수의 경우,
+양수 $y$에 대하여 $\log y\in \mathbb R$은
+$e^{\log y} = y$를 만족하는 유일한 실수이다.
+따라서 $\log : (0,\infty) \to \mathbb R$은 
+함수 $x\mapsto e^x: \mathbb R \to (0,\infty)$의 역함수이다.
+그림 \ref{fig-1-18}을 보라.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{./SaltChapter/fig-1-18}
+\end{center}
+\caption{함수 $x\mapsto e^x : \mathbb R \to (0,\infty)$와
+$y\mapsto \log y : (0,\infty) \to \mathbb R$}
+\label{fig-1-18}
+\end{figure}
+
+복소수의 경우,
+복소 지수함수는 $\exp: \mathbb C \to \mathbb C\setminus \{0\}$이다.
+이제 복소 지수함수의 역함수로서 $\mathbb C\setminus \{0\}$에서 $\mathbb C$로의
+``복소 로그함수''가 존재하는지 궁금해진다.
+우리는 $z\ne0$에 대하여 $\exp w = z$를 만족하는 복소수 $w$를 찾아
+``$z$의 복소 로그값''이라 정의하고자 한다.
+그런데  지수함수 $\exp$는 $y$축 방향으로 $2\pi$ 주기임을 알고 있기에
+$e^w =z$를 만족하는 하나의 $w$를 찾는다면,
+모든 $n\in\mathbb Z$에 대하여 $\exp(w+2\pi i n) = \exp w = z$로부터
+무한히 많은 해를 추가로 얻는다.
+무한한 값 중에서 어떤 $w$를 $z$의 복소 로그값으로 정해야 할까?
+$2\pi$ 폭을 값는 특정 수평띠에 속하는
+$w$를 고르는 것으로 비유일성 문제를  해결하고자 한다.
+실제로 $0$이 아닌 모든 복소수는 
+가능한 수평띠 중 어떤 것을 고르더라도 
+수평띠에 속하는 점을 함수 $\exp$로 보낸 값으로 얻을 수 있다.
+복소 로그함수를 정의하기 위하야
+우리는 (다분히 임의로) 수평띠 $\mathbb S := \{ z\in\mathbb C\,:\, -\pi < Im(z) \le \pi\}$를
+선택한다. 그림  \ref{fig-1-10}를 보라.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{./SaltChapter/fig-1-19}
+\end{center}
+\caption{수평띠 $\mathbb S := \mathbb R \times (-\pi, \pi]$에서
+$\mathbb C\setminus \{0\}$ 위로의 함수 $\exp$}
+\label{fig-1-19}
+\end{figure}
+
+
+
+
+
+
+
+
+
