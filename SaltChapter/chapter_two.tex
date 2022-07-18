@@ -169,23 +169,123 @@ $f'(0)=0$임을 보여라.
 나중에 (연습문제 \ref{ex-2-9}에서) $f$는 $0$이 아닌 모든 점에서 복소미분 불가능함을 보일 것이다.
 \end{salt_exercise}
 
-
 \begin{salt_exercise} \label{ex-2-2}
-
+영역 $D$에 정의된 함수 $f:D\to \mathbb C$가 복소해석적이라 하자.
+$D^* := \{ z\in \mathbb C \,:\, \bar z \in D\}$에 
+함수 $f^*:D^* \to \mathbb C$를 $f^*(z) = \overline{f(\bar  z)}$ ($z\in D^*$)로
+정의하면 $f^*$가  $D^*$에서 복소해석적임을 증명하라.
 \end{salt_exercise}
+
+복소미분 가능성에 대한 다음 변형은 복소미분에 대한 기본 공식을 증명하는 데 유용하게 사용된다.
+대략적으로 말하면, 복소미분가능함수 $f$가 $z_0$에서 미분값 $L$을 갖는다면
+$f(z)-f(z_0) - L\cdot (z-z_0)$가 $z-z_0$보다 $0$으로 빠르게 수렴함을 뜻한다.
+
+\begin{salt_lemma} \label{lemma-2-1}
+$U$가 $\mathbb C$의 열린 집합이고, $z_0\in U$, $f:U\to\mathbb C$라 하면,
+다음은 동치이다.
+\begin{itemize}
+\item[(1)] $f$가 $z_0$에서 복소미분가능하며, $f'(z_0)=L$이다.
+\item[(2)] 양수 $r>0$과  $D(z_0,r):=\{z\in\mathbb C\,:\, |z-z_0|<r\}$에 정의된
+함수  $h:D(z_0,r)\to \mathbb C$가 존재하여 다음을 만족한다.
+\begin{itemize}
+\item[(a)] $|z-z_0|<r$에 대하여 $f(z)=f(z_0) + (L+h(z))(z-z_0)$이고,
+\item[(b)] $\lim\limits_{z\to z_0} h(z)=0$.
+\end{itemize}
+\end{itemize}
+\end{salt_lemma}
+
+{\bf 증명}
+
+(2)$\Rightarrow$(1):
+$z\in D(z_0,r)\setminus \{z_0\}$에 대하여 (a)의 식을 재정리하면,
+\[
+\dfrac{f(z) - f(z_0)}{z - z_0} - L = h(z) \stackrel{z\to z_0}{\longrightarrow} 0
+\]
+이므로 $f$는 $z_0$에서 복소미분가능하며 $f'(z_0)=L$이다.
+
+(1)$\Rightarrow$(2):
+이제 $f$가 $z_0$에서 복소미분가능하다고 가정하자. 
+그러면 $\delta_1>0$이 존재하여 \\
+$0<|z-z_0|<\delta_1$, $z\in U$이면 
+\[
+\left|  \dfrac{f(z) - f(z_0)}{z - z_0}  - f'(z_0) \right| < 1
+\]
+이다.
+$r:=\delta_1$으로 설정하고 함수 $h:D(z_0,r) \to \mathbb C$를 
+\[
+h(z) = \begin{cases}
+\dfrac{f(z) - f(z_0)}{z - z_0} - f'(z_0), & z\ne z_0, \\
+0, & z= z_0
+\end{cases}
+\]
+로 정의하자.
+그러면 $|z-z_0|<r$일 때
+$f(z) = f(z_0) + \left( f'(z_0) + h(z)\right) (z - z_0)$가 성립한다.
+이제 (b)를 보이기 위해 $\epsilon>0$이 주어졌다고 하자.
+$0<|z-z_0|<\delta$이면
+\[
+\left|  \dfrac{f(z) - f(z_0)}{z - z_0}  - f'(z_0) \right| \ \left( = |h(z) - 0| \right) < \epsilon
+\]
+이 되는 $\delta>0$를 잡을 수 있다 ($r$보다 작다는 조건도 만족하도록).
+이로써 (a), (b)를 모두 성립함을 알 수 있다. \hfill $\square$
 
 \begin{salt_exercise} \label{ex-2-3}
-
+영역 $D\subset \mathbb C$에 정의된 함수 $f:D\to \mathbb C$가 
+$z_0\in D$에서 복소미분가능하다면 $f$는 $z_0$에서 연속임을 보여라.
+나중에 우리는 $f$가 $D$에서 복소해석적이면, 
+실제로 $D$의 모든 점에서 무한번 미분가능함을 보일 것이다.
 \end{salt_exercise}
 
+보조정리 \ref{lemma-2-1}을 이용하여 다음을 쉽게 얻을 수 있다.
+
+\begin{salt_prop}\label{prop-2-1}
+$U$가 $\mathbb C$의 열린 부분집합이고,
+$f,g: U\to \mathbb C$가 $z_0\in U$에서 복소미분가능함수이면
+다음이 성립한다.
+\begin{itemize}
+\item[(1)] $f+g$는 $z_0$에서 복소미분가능하고
+$(f+g)'(z_0) = f'(z_0) = g'(z_0)$이다. \\
+(함수 $f+g:U\to\mathbb C$는 $z\in U$에 대하여 $(f+g)(z) = f(z)+g(z)$로 정의한다)
+\item[(2)] $\alpha\in\mathbb C$에 대하여 $\alpha\cdot f$는 $z_0$에서 복소미분가능하고
+$(\alpha\cdot f)'(z_0) = \alpha f'(z_0)$이다. \\
+(함수 $\alpha \cdot f:U\to\mathbb C$는 $z\in U$에 대하여 
+$(\alpha \cdot f)(z) = \alpha f(z)$로 정의한다)
+\item[(3)] $fg$는 $z_0$에서 복소미분가능하고
+$(fg)'(z_0) = f'(z_0)g(z_0) + f(z_0)g'(z_0)$이다.\\
+(함수 $fg:U\to\mathbb C$는 $z\in U$에 대하여 
+$(fg)(z)= f(z)g(z)$로 정의한다)
+\end{itemize}
+\end{salt_prop}
+
+\begin{salt_remark}\label{remark-2-1}
+$U$가 $\mathbb C$의 열린 부분집합이고,
+$\Hol(U)$가 $U$에 정의된 복소해석 함수의 집합이라고 하자.
+그러면 위 명제로부터 $\Hol(U)$가 점별 연산에 대하여 복소 벡터공간을 이룸을 알 수 있다.
+한편 위 명제의 세번째 내용은 두 복소해석 함수의 점별 곱셈은 다시 복소해석적임을 뜻한다.
+따라서 $\Hol(U)$는 점별 덧셈과 곱셈에 대하여
+환(ring) 구조를 갖는다.
+\end{salt_remark}
+
+\begin{salt_example}\label{example-2-3}
+$f(z):=z$ ($z\in \mathbb C$)에 대하여 $f'(z)=1$임을 쉽게 보일 수 있다.
+두 복소해석함수의 점별 곱셈에 대한 복소미분 규칙을 이용하면,
+수학적 귀납법으로 모든 $n\in \mathbb N$에 $z\mapsto z^n$이 전해석함수이고
+\[
+\dfrac{d}{dz} z^n = nz^{n-1}
+\]
+임을 알 수 있다.
+특히, 모든 다항식은 전해석함수이다.
+\end{salt_example}
 
 \begin{salt_exercise} \label{ex-2-4}
-
+명제 \ref{prop-2-1}을 증명하라.
 \end{salt_exercise}
 
 
 \begin{salt_exercise} \label{ex-2-5}
-
+$\mathbb D = \{ z\in\mathbb C \,:\, |z|<1 \}$이고
+$\Hol(\mathbb D)$가 $\mathbb D$에 정의된 복소해석함수의 점별 연산으로 이루어진
+복소 벡터공간이라 하자.  $\Hol(\mathbb D)$는 유한차원인가?
 \end{salt_exercise}
 
 
