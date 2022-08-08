@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  19 JUL 2022 00:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  9 AUG 2022 00:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1578,7 +1578,7 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
  [5]
 Package hyperref Info: bookmark level for unknown salt_example defaults to 0 on
  input line 73.
-<./SaltChapter/preface-fig-0-1.png, id=176, 585.68813pt x 303.38344pt>
+<./SaltChapter/preface-fig-0-1.png, id=181, 585.68813pt x 303.38344pt>
 File: ./SaltChapter/preface-fig-0-1.png Graphic file (type png)
 <use ./SaltChapter/preface-fig-0-1.png>
 Package pdftex.def Info: ./SaltChapter/preface-fig-0-1.png  used on input line 
@@ -1600,7 +1600,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 6 undefined on input line
 [6 <./SaltChapter/preface-fig-0-1.PNG>]
 Package hyperref Info: bookmark level for unknown salt_exercise defaults to 0 o
 n input line 117.
-<./SaltChapter/preface-fig-0-2.png, id=192, 486.31688pt x 235.63031pt>
+<./SaltChapter/preface-fig-0-2.png, id=197, 486.31688pt x 235.63031pt>
 File: ./SaltChapter/preface-fig-0-2.png Graphic file (type png)
 <use ./SaltChapter/preface-fig-0-2.png>
 Package pdftex.def Info: ./SaltChapter/preface-fig-0-2.png  used on input line 
@@ -1620,7 +1620,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 7 undefined on input line
  146.
 
 [7 <./SaltChapter/preface-fig-0-2.PNG>]
-<./SaltChapter/preface-fig-0-3.png, id=205, 505.89pt x 265.74281pt>
+<./SaltChapter/preface-fig-0-3.png, id=210, 505.89pt x 265.74281pt>
 File: ./SaltChapter/preface-fig-0-3.png Graphic file (type png)
 <use ./SaltChapter/preface-fig-0-3.png>
 Package pdftex.def Info: ./SaltChapter/preface-fig-0-3.png  used on input line 
@@ -1662,7 +1662,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 9 undefined on input line
  245.
 
 [9 <./SaltChapter/preface-fig-0-3.PNG>]
-<./SaltChapter/preface-fig-0-4.png, id=218, 325.96782pt x 271.0125pt>
+<./SaltChapter/preface-fig-0-4.png, id=223, 325.96782pt x 271.0125pt>
 File: ./SaltChapter/preface-fig-0-4.png Graphic file (type png)
 <use ./SaltChapter/preface-fig-0-4.png>
 Package pdftex.def Info: ./SaltChapter/preface-fig-0-4.png  used on input line 
@@ -1730,7 +1730,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 14 undefined on input lin
 e 110.
 
 [14]
-<./SaltChapter/fig-1-1.png, id=257, 768.62157pt x 325.215pt>
+<./SaltChapter/fig-1-1.png, id=262, 768.62157pt x 325.215pt>
 File: ./SaltChapter/fig-1-1.png Graphic file (type png)
 <use ./SaltChapter/fig-1-1.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-1.png  used on input line 151.
@@ -1749,7 +1749,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 15 undefined on input lin
 e 167.
 
 [15 <./SaltChapter/fig-1-1.PNG>]
-<./SaltChapter/fig-1-2.png, id=272, 413.29407pt x 253.69781pt>
+<./SaltChapter/fig-1-2.png, id=277, 413.29407pt x 253.69781pt>
 File: ./SaltChapter/fig-1-2.png Graphic file (type png)
 <use ./SaltChapter/fig-1-2.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-2.png  used on input line 207.
@@ -1775,7 +1775,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 16 undefined on input lin
 e 223.
 
 [16]
-<./SaltChapter/fig-1-3.png, id=289, 633.86812pt x 261.22594pt>
+<./SaltChapter/fig-1-3.png, id=294, 633.86812pt x 261.22594pt>
 File: ./SaltChapter/fig-1-3.png Graphic file (type png)
 <use ./SaltChapter/fig-1-3.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-3.png  used on input line 242.
@@ -1794,12 +1794,12 @@ LaTeX Warning: Hyper reference `toc-contents' on page 17 undefined on input lin
 e 255.
 
 [17 <./SaltChapter/fig-1-2.PNG> <./SaltChapter/fig-1-3.PNG>]
-<./SaltChapter/fig-1-4.png, id=300, 419.31656pt x 276.28218pt>
+<./SaltChapter/fig-1-4.png, id=305, 419.31656pt x 276.28218pt>
 File: ./SaltChapter/fig-1-4.png Graphic file (type png)
 <use ./SaltChapter/fig-1-4.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-4.png  used on input line 258.
 (pdftex.def)             Requested size: 241.70607pt x 159.2573pt.
-<./SaltChapter/fig-1-5.png, id=303, 646.66594pt x 253.69781pt>
+<./SaltChapter/fig-1-5.png, id=308, 646.66594pt x 253.69781pt>
 File: ./SaltChapter/fig-1-5.png Graphic file (type png)
 <use ./SaltChapter/fig-1-5.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-5.png  used on input line 296.
@@ -1808,7 +1808,7 @@ Package pdftex.def Info: ./SaltChapter/fig-1-5.png  used on input line 296.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./SaltChapter/fig-1-6.png, id=304, 642.90187pt x 285.31593pt>
+<./SaltChapter/fig-1-6.png, id=309, 642.90187pt x 285.31593pt>
 File: ./SaltChapter/fig-1-6.png Graphic file (type png)
 <use ./SaltChapter/fig-1-6.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-6.png  used on input line 315.
@@ -1842,12 +1842,12 @@ LaTeX Warning: Hyper reference `toc-contents' on page 19 undefined on input lin
 e 356.
 
 [19 <./SaltChapter/fig-1-5.PNG> <./SaltChapter/fig-1-6.PNG>]
-<./SaltChapter/fig-1-7.png, id=335, 478.03593pt x 258.9675pt>
+<./SaltChapter/fig-1-7.png, id=340, 478.03593pt x 258.9675pt>
 File: ./SaltChapter/fig-1-7.png Graphic file (type png)
 <use ./SaltChapter/fig-1-7.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-7.png  used on input line 368.
 (pdftex.def)             Requested size: 338.38702pt x 183.31497pt.
-<./SaltChapter/fig-1-8.png, id=337, 405.76593pt x 239.39438pt>
+<./SaltChapter/fig-1-8.png, id=342, 405.76593pt x 239.39438pt>
 File: ./SaltChapter/fig-1-8.png Graphic file (type png)
 <use ./SaltChapter/fig-1-8.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-8.png  used on input line 386.
@@ -1874,7 +1874,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 20 undefined on input lin
 e 422.
 
 [20 <./SaltChapter/fig-1-7.PNG>]
-<./SaltChapter/fig-1-9.png, id=357, 673.76718pt x 316.93407pt>
+<./SaltChapter/fig-1-9.png, id=362, 673.76718pt x 316.93407pt>
 File: ./SaltChapter/fig-1-9.png Graphic file (type png)
 <use ./SaltChapter/fig-1-9.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-9.png  used on input line 453.
@@ -1931,7 +1931,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 539.
 
-<./SaltChapter/fig-1-10.png, id=395, 628.59843pt x 184.43906pt>
+<./SaltChapter/fig-1-10.png, id=400, 628.59843pt x 184.43906pt>
 File: ./SaltChapter/fig-1-10.png Graphic file (type png)
 <use ./SaltChapter/fig-1-10.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-10.png  used on input line 553.
@@ -1952,7 +1952,7 @@ L/cmm/m/it/12 x[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 y[]\OT1/cmr/m/n/12 )(\OML/
 cmm/m/it/12 x[] \OT1/cmr/m/n/12 +
  []
 
-<./SaltChapter/fig-1-11.png, id=397, 277.035pt x 206.27063pt>
+<./SaltChapter/fig-1-11.png, id=402, 277.035pt x 206.27063pt>
 File: ./SaltChapter/fig-1-11.png Graphic file (type png)
 <use ./SaltChapter/fig-1-11.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-11.png  used on input line 575.
@@ -1973,7 +1973,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 23 undefined on input lin
 e 589.
 
 [23 <./SaltChapter/fig-1-10.PNG>]
-<./SaltChapter/fig-1-0-1.png, id=410, 201.75375pt x 157.33781pt>
+<./SaltChapter/fig-1-0-1.png, id=415, 201.75375pt x 157.33781pt>
 File: ./SaltChapter/fig-1-0-1.png Graphic file (type png)
 <use ./SaltChapter/fig-1-0-1.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-0-1.png  used on input line 608.
@@ -2010,7 +2010,7 @@ e 672.
 [25 <./SaltChapter/fig-1-0-1.PNG>]
 Package hyperref Info: bookmark level for unknown salt_definition defaults to 0
  on input line 726.
-<./SaltChapter/fig-1-0-2.png, id=437, 475.7775pt x 182.93344pt>
+<./SaltChapter/fig-1-0-2.png, id=442, 475.7775pt x 182.93344pt>
 File: ./SaltChapter/fig-1-0-2.png Graphic file (type png)
 <use ./SaltChapter/fig-1-0-2.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-0-2.png  used on input line 732.
@@ -2019,7 +2019,7 @@ Package pdftex.def Info: ./SaltChapter/fig-1-0-2.png  used on input line 732.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./SaltChapter/fig-1-0-3.png, id=438, 202.50656pt x 142.28156pt>
+<./SaltChapter/fig-1-0-3.png, id=443, 202.50656pt x 142.28156pt>
 File: ./SaltChapter/fig-1-0-3.png Graphic file (type png)
 <use ./SaltChapter/fig-1-0-3.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-0-3.png  used on input line 741.
@@ -2037,7 +2037,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 26 undefined on input lin
 e 744.
 
 [26]
-<./SaltChapter/fig-1-12.png, id=455, 528.47438pt x 258.21469pt>
+<./SaltChapter/fig-1-12.png, id=460, 528.47438pt x 258.21469pt>
 File: ./SaltChapter/fig-1-12.png Graphic file (type png)
 <use ./SaltChapter/fig-1-12.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-12.png  used on input line 767.
@@ -2059,7 +2059,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 27 undefined on input lin
 e 793.
 
 [27 <./SaltChapter/fig-1-0-2.PNG> <./SaltChapter/fig-1-0-3.PNG>]
-<./SaltChapter/fig-1-13.png, id=471, 663.22781pt x 278.54062pt>
+<./SaltChapter/fig-1-13.png, id=476, 663.22781pt x 278.54062pt>
 File: ./SaltChapter/fig-1-13.png Graphic file (type png)
 <use ./SaltChapter/fig-1-13.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-13.png  used on input line 820.
@@ -2106,12 +2106,12 @@ LaTeX Warning: Hyper reference `toc-contents' on page 29 undefined on input lin
 e 873.
 
 [29 <./SaltChapter/fig-1-13.PNG>]
-<./SaltChapter/fig-1-14.png, id=496, 631.60968pt x 359.84438pt>
+<./SaltChapter/fig-1-14.png, id=501, 631.60968pt x 359.84438pt>
 File: ./SaltChapter/fig-1-14.png Graphic file (type png)
 <use ./SaltChapter/fig-1-14.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-14.png  used on input line 913.
 (pdftex.def)             Requested size: 290.05023pt x 165.25038pt.
-<./SaltChapter/fig-1-15.png, id=498, 266.49562pt x 232.61906pt>
+<./SaltChapter/fig-1-15.png, id=503, 266.49562pt x 232.61906pt>
 File: ./SaltChapter/fig-1-15.png Graphic file (type png)
 <use ./SaltChapter/fig-1-15.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-15.png  used on input line 925.
@@ -2144,12 +2144,12 @@ LaTeX Warning: Hyper reference `toc-contents' on page 30 undefined on input lin
 e 938.
 
 [30 <./SaltChapter/fig-1-14.PNG>]
-<./SaltChapter/fig-1-16.png, id=510, 615.0478pt x 359.84438pt>
+<./SaltChapter/fig-1-16.png, id=515, 615.0478pt x 359.84438pt>
 File: ./SaltChapter/fig-1-16.png Graphic file (type png)
 <use ./SaltChapter/fig-1-16.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-16.png  used on input line 947.
 (pdftex.def)             Requested size: 290.05023pt x 169.6979pt.
-<./SaltChapter/fig-1-17.png, id=511, 615.0478pt x 606.76688pt>
+<./SaltChapter/fig-1-17.png, id=516, 615.0478pt x 606.76688pt>
 File: ./SaltChapter/fig-1-17.png Graphic file (type png)
 <use ./SaltChapter/fig-1-17.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-17.png  used on input line 955.
@@ -2214,12 +2214,12 @@ LaTeX Warning: Hyper reference `toc-contents' on page 33 undefined on input lin
 e 1072.
 
 [33]
-<./SaltChapter/fig-1-18.png, id=552, 534.49687pt x 146.79843pt>
+<./SaltChapter/fig-1-18.png, id=557, 534.49687pt x 146.79843pt>
 File: ./SaltChapter/fig-1-18.png Graphic file (type png)
 <use ./SaltChapter/fig-1-18.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-18.png  used on input line 1103.
 (pdftex.def)             Requested size: 386.73119pt x 106.21893pt.
-<./SaltChapter/fig-1-19.png, id=554, 572.1375pt x 220.57407pt>
+<./SaltChapter/fig-1-19.png, id=559, 572.1375pt x 220.57407pt>
 File: ./SaltChapter/fig-1-19.png Graphic file (type png)
 <use ./SaltChapter/fig-1-19.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-19.png  used on input line 1132.
@@ -2254,7 +2254,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 35 undefined on input lin
 e 1193.
 
 [35 <./SaltChapter/fig-1-19.PNG>]
-<./SaltChapter/fig-1-20.png, id=580, 585.68813pt x 266.49562pt>
+<./SaltChapter/fig-1-20.png, id=585, 585.68813pt x 266.49562pt>
 File: ./SaltChapter/fig-1-20.png Graphic file (type png)
 <use ./SaltChapter/fig-1-20.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-20.png  used on input line 1240.
@@ -2305,7 +2305,7 @@ e 3.
 
 ]
 Chapter 2.
-<./SaltChapter/fig-2-1.png, id=618, 618.05907pt x 248.42813pt>
+<./SaltChapter/fig-2-1.png, id=623, 618.05907pt x 248.42813pt>
 File: ./SaltChapter/fig-2-1.png Graphic file (type png)
 <use ./SaltChapter/fig-2-1.png>
 Package pdftex.def Info: ./SaltChapter/fig-2-1.png  used on input line 22.
@@ -2324,7 +2324,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 40 undefined on input lin
 e 100.
 
 [40]
-<./SaltChapter/fig-2-2.png, id=639, 585.68813pt x 158.09062pt>
+<./SaltChapter/fig-2-2.png, id=644, 585.68813pt x 158.09062pt>
 File: ./SaltChapter/fig-2-2.png Graphic file (type png)
 <use ./SaltChapter/fig-2-2.png>
 Package pdftex.def Info: ./SaltChapter/fig-2-2.png  used on input line 137.
@@ -2343,9 +2343,11 @@ LaTeX Warning: Hyper reference `toc-contents' on page 41 undefined on input lin
 e 160.
 
 [41 <./SaltChapter/fig-2-2.PNG>]
+
+LaTeX Warning: Reference `ex-2-9' on page 42 undefined on input line 169.
+
 Package hyperref Info: bookmark level for unknown salt_lemma defaults to 0 on i
 nput line 183.
-
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2374,7 +2376,16 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 LaTeX Warning: Hyper reference `toc-contents' on page 43 undefined on input lin
 e 289.
 
-[43])
+[43]
+<./SaltChapter/fig-2-3.png, id=690, 551.81157pt x 187.45032pt>
+File: ./SaltChapter/fig-2-3.png Graphic file (type png)
+<use ./SaltChapter/fig-2-3.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-3.png  used on input line 330.
+(pdftex.def)             Requested size: 338.38702pt x 114.95375pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2385,9 +2396,125 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 44 undefined on input lin
-e 298.
+e 358.
 
 [44]
+<./SaltChapter/fig-2-4.png, id=706, 570.63188pt x 213.79875pt>
+File: ./SaltChapter/fig-2-4.png Graphic file (type png)
+<use ./SaltChapter/fig-2-4.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-4.png  used on input line 375.
+(pdftex.def)             Requested size: 338.38702pt x 126.78284pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 45 undefined on input lin
+e 405.
+
+[45 <./SaltChapter/fig-2-3.PNG>]
+<./SaltChapter/fig-2-0-1.png, id=719, 399.74344pt x 284.56313pt>
+File: ./SaltChapter/fig-2-0-1.png Graphic file (type png)
+<use ./SaltChapter/fig-2-0-1.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-0-1.png  used on input line 408.
+(pdftex.def)             Requested size: 193.36191pt x 137.64821pt.
+<./SaltChapter/fig-2-5.png, id=721, 584.93532pt x 301.8778pt>
+File: ./SaltChapter/fig-2-5.png Graphic file (type png)
+<use ./SaltChapter/fig-2-5.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-5.png  used on input line 423.
+(pdftex.def)             Requested size: 290.05023pt x 149.69482pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `thm-2-1' on page 46 undefined on input line 437.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 46 undefined on input lin
+e 440.
+
+[46 <./SaltChapter/fig-2-4.PNG> <./SaltChapter/fig-2-0-1.PNG>]
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 47 undefined on input lin
+e 486.
+
+[47 <./SaltChapter/fig-2-5.PNG>]
+<./SaltChapter/fig-2-6.png, id=745, 1137.4997pt x 488.57532pt>
+File: ./SaltChapter/fig-2-6.png Graphic file (type png)
+<use ./SaltChapter/fig-2-6.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-6.png  used on input line 544.
+(pdftex.def)             Requested size: 435.06798pt x 186.86827pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 48 undefined on input lin
+e 298.
+
+[48]
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 49 undefined on input lin
+e 298.
+
+[49 <./SaltChapter/fig-2-6.PNG>]
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 50 undefined on input lin
+e 298.
+
+[50
+
+]
 
 LaTeX Warning: Empty bibliography on input line 302.
 
@@ -2421,17 +2548,17 @@ This document will not have a glossary.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `notes_template.out' has not changed.
-(rerunfilecheck)             Checksum: 5136B38F83CF35C46D7CDEEE114A3B98;1854.
+(rerunfilecheck)             Checksum: 9265140293847ACCCA895DB6B886FEFA;1978.
 Package logreq Info: Writing requests to 'notes_template.run.xml'.
 \openout1 = `notes_template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36287 strings out of 478268
- 642761 string characters out of 5850346
- 1484820 words of memory out of 5000000
- 53343 multiletter control sequences out of 15000+600000
- 577794 words of font info for 338 fonts, out of 8000000 for 9000
+ 36392 strings out of 478268
+ 645051 string characters out of 5850346
+ 1485684 words of memory out of 5000000
+ 53421 multiletter control sequences out of 15000+600000
+ 579549 words of font info for 344 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,14n,117p,1186b,849s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{c:/tex
@@ -2518,10 +2645,10 @@ d3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb
 exlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texlive
 /2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/2022/
 texmf-dist/fonts/type1/uhc/umj/umj34.pfb>
-Output written on notes_template.pdf (44 pages, 5324917 bytes).
+Output written on notes_template.pdf (50 pages, 5895672 bytes).
 PDF statistics:
- 1122 PDF objects out of 1200 (max. 8388607)
- 831 compressed objects within 9 object streams
- 241 named destinations out of 1000 (max. 500000)
- 274 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1196 PDF objects out of 1200 (max. 8388607)
+ 889 compressed objects within 9 object streams
+ 263 named destinations out of 1000 (max. 500000)
+ 307 words of extra memory for PDF output out of 10000 (max. 10000000)
 
