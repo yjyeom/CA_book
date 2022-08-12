@@ -517,7 +517,7 @@ f=u+iv= \dfrac x{x^2+y^2}+i\left(\dfrac{-y}{x^2+y^2}\right)
 \]
 \end{salt_example}
 
-\begin{salt_theorem}
+\begin{salt_theorem}\label{thm-2-1}
 $U$가 $\mathbb C$의 열린 부분집합이고
 $f:U\to \mathbb C$가 $z_0=x_0+iy_0\in U$에서 복소미분가능하다고 하자.
 그러면 함수
@@ -556,13 +556,183 @@ $0<|z-z_0|<\delta$일 때 $z\in U$에 대하여
 을 만족하는 $\delta >0$가 존재한다.
 
 {\bf 단계 1:}
-$\dfrac{\partial u}{\partial x}(x_0,y_0)$가 존재하고 $\Re(f'(z_0))$와 같음을 보인다.
+$\dfrac{\partial u}{\partial x}(x_0,y_0)$가 존재하고 $\Re(f'(z_0))$와 같음을 증명하자.
 
+$0<|x-x_0|<\delta$를 만족하는 $x\in\mathbb R$에 대하여 $z:=x+iy_0$라고 하자.
+그러면 $z-z_0 = x-x_0$를 만족하므로
+$0<|z-z_0| = |x-x_0| < \delta$가 된다.
+이제 다음을 식 \eqref{eq-2-4}로부터 얻을 수 있다. 
+\begin{align*}
+\left| \dfrac{u(x,y_0) - u(x_0, y_0)}{x-x_0} - \Re(f'(z_0)) \right| 
+&= \left| \Re\left(\dfrac{f(x+iy_0)-f(x_0+iy_0)}{x-x_0}\right) - \Re(f'(z_0)) \right| \\
+&= \left| \Re\left(\dfrac{f(z)-f(z_0)}{z-z_0}\right) - \Re(f'(z_0)) \right| \\
+&\le \left| \dfrac{f(z)-f(z_0)}{z-z_0} - f'(z_0) \right| < \epsilon 
+\end{align*}
+따라서 편미분 결과는 다음과 같다.
+\begin{align*}
+\dfrac{\partial u}{\partial x}(x_0, y_0) 
+&= \lim_{x\to x_0} \dfrac{u(x,y_0) - u(x_0, y_0)}{x-x_0} \\
+&= \Re(f'(z_0)).
+\end{align*}
 
+{\bf 단계 2:}
+$\dfrac{\partial v}{\partial x}(x_0, y_0)  = \Im(f'(z_0))$를 증명하자.
 
+단계 1에서 사용한 표기법을 적용하여 다음을 보일 수 있다.
+\begin{align*}
+\left| \dfrac{v(x,y_0) - v(x_0, y_0)}{x-x_0} - \Im(f'(z_0)) \right| 
+&= \left| \Im\left(\dfrac{f(x+iy_0)-f(x_0+iy_0)}{x-x_0}\right) - \Im(f'(z_0)) \right| \\
+&= \left| \Im\left(\dfrac{f(z)-f(z_0)}{z-z_0}\right) - \Im(f'(z_0)) \right| \\
+&\le \left| \dfrac{f(z)-f(z_0)}{z-z_0} - f'(z_0) \right| < \epsilon 
+\end{align*}
+따라서
+$\dfrac{\partial v}{\partial x}(x_0, y_0) 
+= \lim\limits_{x\to x_0} \dfrac{v(x,y_0) - v(x_0, y_0)}{x-x_0} 
+= \Im(f'(z_0))$. 종합하면,
+\begin{equation}\label{eq-2-5}
+f'(z_0) = \dfrac{\partial u}{\partial x}(x_0, y_0)
++ i \dfrac{\partial v}{\partial x}(x_0, y_0).
+\end{equation}
 
+{\bf  단계 3:}
+$\dfrac{\partial u}{\partial y}(x_0, y_0)  = - \Im(f'(z_0))$를 증명하자.
 
+$0<|y-y_0|<\delta$를 만족하는 $y\in\mathbb R$에 대하여 $z:=x_0+iy$라고 하자.
+그러면 $z-z_0 = i(y-y_0)$를 만족하므로
+$0< |z-z_0| = |y-y_0| <\delta$가 된다.
+이제 실수 $a$, $b$에 대하여
+$\Re(a+ib) = \Im(i(a+ib))$가 성립함을 이용하면 다음을 얻는다.
+\begin{align*}
+\left| \dfrac{u(x_0,y) - u(x_0, y_0)}{y-y_0} + \Im(f'(z_0)) \right| 
+&= \left| \dfrac{\Im(i(f(z)-f(z_0)))}{y-y_0} + \Im(f'(z_0)) \right| \\
+&= \left| \Im\left(-\dfrac{f(z)-f(z_0)}{z-z_0} +f'(z_0) \right) \right| \\
+&\le \left| \dfrac{f(z)-f(z_0)}{z-z_0} - f'(z_0) \right| < \epsilon .
+\end{align*}
+따라서 편미분은
+$$
+\dfrac{\partial u}{\partial y}(x_0, y_0) 
+= \lim\limits_{y\to y_0} \dfrac{u(x_0,y) - u(x_0, y_0)}{y-y_0} 
+= -\Im(f'(z_0)).
+$$
+단계 2에서 다음 식을 얻은 것을 기억하면
+$$
+\dfrac{\partial v}{\partial x}(x_0, y_0) 
+= \Im(f'(z_0)),
+$$
+이로부터 코시-리만 방정식의 두개 중 하나를 얻는다. 즉,
+$$
+\dfrac{\partial u}{\partial y}(x_0, y_0) = - \dfrac{\partial v}{\partial x}(x_0, y_0).
+$$
 
+{\bf 단계 4:}
+$\dfrac{\partial v}{\partial y}(x_0, y_0)  = \Re(f'(z_0))$를 증명하자.
+
+단계 3에서 사용한 표기법을 적용하고,
+실수 $a$, $b$에 대하여
+$\Im(a+ib) = -\Re(i(a+ib))$가 성립함을 이용하면 다음을 얻는다.
+\begin{align*}
+\left| \dfrac{v(x_0,y) - v(x_0, y_0)}{y-y_0} - \Re(f'(z_0)) \right| 
+&= \left| -\Re\left( i\dfrac{f(z)-f(z_0)}{y-y_0}\right) - \Re(f'(z_0)) \right| \\
+&\le \left| -i\dfrac{f(z)-f(z_0)}{y-y_0} - f'(z_0) \right| \\
+&= \left| \dfrac{f(z)-f(z_0)}{z-z_0} - f'(z_0) \right| < \epsilon .
+\end{align*}
+따라서 편미분은
+$$
+\dfrac{\partial v}{\partial y}(x_0, y_0) 
+= \lim\limits_{y\to y_0} \dfrac{v(x_0,y) - v(x_0, y_0)}{y-y_0} 
+= \Re(f'(z_0)).
+$$
+결론적으로
+\begin{equation}\label{eq-2-6}
+f'(z_0) = \dfrac{\partial v}{\partial y}(x_0, y_0) 
+- i \dfrac{\partial u}{\partial y}(x_0, y_0).
+\end{equation}
+식 \eqref{eq-2-5}와 \eqref{eq-2-6}으로부터 다음을 얻는다.
+$$
+\dfrac{\partial u}{\partial x}(x_0, y_0) = \dfrac{\partial v}{\partial y}(x_0, y_0),
+\quad
+\dfrac{\partial v}{\partial x}(x_0, y_0) = - \dfrac{\partial u}{\partial y}(x_0, y_0).
+$$
+이로써 코시-리만 방정식 전체를 얻었다.
+
+끝으로 $u$, $v$가 $(x_0, y_0)$에서 미분가능함(이변수 실함수로서)을 보이자.
+$0<|z-z_0|<\delta$를 만족하는 $z=(x,y)$에 대하여,
+\begin{align*}
+& \dfrac{\left| u(x,y) - u(x_0,y_0) 
+- \left( \dfrac{\partial u}{\partial x}(x_0,y_0)\right)(x - x_0)
+- \left( \dfrac{\partial u}{\partial y}(x_0,y_0)\right)(y - y_0) \right|}
+{\| (x,y) - (x_0,y_0)\|_2} \\
+&= \dfrac{\left| u(x,y) - u(x_0,y_0) 
+- \left( \dfrac{\partial u}{\partial x}(x_0,y_0)\right)(x - x_0)
++ \left( \dfrac{\partial v}{\partial x}(x_0,y_0)\right)(y - y_0) \right|}
+{\| (x,y) - (x_0,y_0)\|_2} \\
+&= \dfrac{|\Re(f(z) - f(z_0) - f'(z_0)(z-z_0))|}{|z-z_0|} < \epsilon.
+\end{align*}
+따라서 $u$는 $(x_0, y_0)$에서 미분가능하다.
+유사한 방법으로 $v$도 $(x_0, y_0)$에서 미분가능하다.
+\hfill $\square$
+
+\begin{salt_remark}\label{remark-2-2}
+우리는 나중에 복소미분가능함수의 실수부와 허수부는 실제로
+무한번 미분가능함을 보일 예정이다.
+\end{salt_remark}
+
+\begin{salt_exercise}\label{ex-2-9}
+연습문제 \ref{ex-2-1}을 다시생각하자.
+$f$가 열린집합 $\mathbb C\setminus \{0\}$의 모든 점에서 미분가능하지 않음을 보여라.
+\end{salt_exercise}
+
+다음과 같이 정리 \ref{thm-2-1}의 역을 생각할 수도 있다.
+함수의 복소미분가능성을 확인하는데 매우 유용하게 사용된다.
+
+\begin{salt_theorem}\label{thm-2-2}
+\
+\begin{itemize}
+\item[(1)] $U$가 $\mathbb C$의 열린 부분집합이고,
+\item[(2)] $u,v: U\to \mathbb R$이 연속미분가능함수이며,
+\item[(3)] $u,v$가 $(x,y)\in U$에서 코시-리만 방정식을 만족한다고 하자.
+$$
+\dfrac{\partial u}{\partial x}(x, y) = \dfrac{\partial v}{\partial y}(x, y),
+\quad
+\dfrac{\partial u}{\partial y}(x, y) = - \dfrac{\partial v}{\partial x}(x, y).
+$$
+\end{itemize}
+그러면, $f:u+iv: U\to \mathbb C$는 $U$에 정의된 복소미분가능함수이고
+$x+iy\in U$에 대하여
+$$
+f'(x+iy) = \dfrac{\partial u}{\partial x}(x, y) + i \dfrac{\partial v}{\partial x}(x, y).
+$$
+\end{salt_theorem}
+
+{\bf 증명}
+
+$z_0 = x_0 + iy_0 \in U$라 하자.
+$\epsilon>0$에 대하여 
+$z=x+iy\in U$가 원판 $D(z_0,\delta) := \{ w \in\mathbb C \,:\, |w-z_0| < \delta \}$에
+속하면
+\begin{equation}\label{eq-2-7}
+\left| \dfrac{\partial u}{\partial x}(x,y) - \dfrac{\partial u}{\partial x}(x_0,y_0) \right| < \epsilon,
+\quad
+\left| \dfrac{\partial v}{\partial x}(x,y) - \dfrac{\partial v}{\partial x}(x_0,y_0) \right| < \epsilon.
+\end{equation}
+을 만족하도록 $\delta>0$를 선택하자.
+($u$, $v$가 연속미분가능하기 때문에 가능하다)
+
+$z=x+iy$를 뚫린원판 $D(z_0,\delta)\setminus\{ z_0\}$의 고정된 점이라 하고
+$z_0$와 $z$를 잇는 직선에서 $D(z_0,\delta)$에 속하는 부분을 생각하자.
+직선 위의 점은 다음 식으로 나타낼 수 있다.
+\[
+p(t) = (1-t)z_0 + tz = \left( (1-t)x_0+tx, (1-t)y_0+ty \right).
+\]
+특히 $p(0)=z_0$, $p(1)=z$이다. 그림 \ref{fig-2-7}을 참고하라.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{./SaltChapter/fig-2-7}
+\end{center}
+\caption{$z_0$와 $z$를 잇는 직선 위의 점 $p(t)$}
+\label{fig-2-7}
+\end{figure}
 
 
 
