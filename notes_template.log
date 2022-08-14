@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  14 AUG 2022 17:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  15 AUG 2022 00:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2661,7 +2661,15 @@ File: ./SaltChapter/fig-2-9.png Graphic file (type png)
 <use ./SaltChapter/fig-2-9.png>
 Package pdftex.def Info: ./SaltChapter/fig-2-9.png  used on input line 1192.
 (pdftex.def)             Requested size: 386.73119pt x 161.67314pt.
-)
+<./SaltChapter/fig-2-10.png, id=906, 533.74406pt x 545.78906pt>
+File: ./SaltChapter/fig-2-10.png Graphic file (type png)
+<use ./SaltChapter/fig-2-10.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-10.png  used on input line 1235.
+(pdftex.def)             Requested size: 386.73119pt x 395.47456pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2672,9 +2680,95 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 60 undefined on input lin
-e 298.
+e 1246.
 
 [60 <./SaltChapter/fig-2-9.PNG>]
+<./SaltChapter/fig-2-11.png, id=921, 613.54219pt x 341.02406pt>
+File: ./SaltChapter/fig-2-11.png Graphic file (type png)
+<use ./SaltChapter/fig-2-11.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-11.png  used on input line 1262.
+(pdftex.def)             Requested size: 338.38702pt x 188.08417pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 5288) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 61 undefined on input lin
+e 1277.
+
+[61 <./SaltChapter/fig-2-10.PNG>]
+<./SaltChapter/fig-2-12.png, id=934, 603.0028pt x 308.65312pt>
+File: ./SaltChapter/fig-2-12.png Graphic file (type png)
+<use ./SaltChapter/fig-2-12.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-12.png  used on input line 1281.
+(pdftex.def)             Requested size: 338.38702pt x 173.2072pt.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 62 undefined on input lin
+e 1298.
+
+[62 <./SaltChapter/fig-2-11.PNG> <./SaltChapter/fig-2-12.PNG>]
+<./SaltChapter/fig-2-13.png, id=945, 603.75563pt x 274.77657pt>
+File: ./SaltChapter/fig-2-13.png Graphic file (type png)
+<use ./SaltChapter/fig-2-13.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-13.png  used on input line 1306.
+(pdftex.def)             Requested size: 386.73119pt x 176.00313pt.
+<./SaltChapter/fig-2-14.png, id=947, 473.51906pt x 166.37157pt>
+File: ./SaltChapter/fig-2-14.png Graphic file (type png)
+<use ./SaltChapter/fig-2-14.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-14.png  used on input line 1356.
+(pdftex.def)             Requested size: 386.73119pt x 135.88228pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 63 undefined on input lin
+e 298.
+
+[63 <./SaltChapter/fig-2-13.PNG>]
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 64 undefined on input lin
+e 298.
+
+[64 <./SaltChapter/fig-2-14.PNG>]
 
 LaTeX Warning: Empty bibliography on input line 302.
 
@@ -2707,6 +2801,9 @@ This document will not have a glossary.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `notes_template.out' has not changed.
 (rerunfilecheck)             Checksum: 49A3ABB785DAD2833101E7E6A0A1C21E;2137.
 Package logreq Info: Writing requests to 'notes_template.run.xml'.
@@ -2714,10 +2811,10 @@ Package logreq Info: Writing requests to 'notes_template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36566 strings out of 478268
- 648706 string characters out of 5850346
- 1488833 words of memory out of 5000000
- 53539 multiletter control sequences out of 15000+600000
+ 36663 strings out of 478268
+ 650986 string characters out of 5850346
+ 1489923 words of memory out of 5000000
+ 53610 multiletter control sequences out of 15000+600000
  581893 words of font info for 352 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,14n,117p,1186b,849s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2805,10 +2902,10 @@ d3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb
 exlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texlive
 /2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/2022/
 texmf-dist/fonts/type1/uhc/umj/umj34.pfb>
-Output written on notes_template.pdf (60 pages, 6044213 bytes).
+Output written on notes_template.pdf (64 pages, 6368789 bytes).
 PDF statistics:
- 1345 PDF objects out of 1440 (max. 8388607)
- 1014 compressed objects within 11 object streams
- 313 named destinations out of 1000 (max. 500000)
- 345 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1410 PDF objects out of 1440 (max. 8388607)
+ 1065 compressed objects within 11 object streams
+ 334 named destinations out of 1000 (max. 500000)
+ 370 words of extra memory for PDF output out of 10000 (max. 10000000)
 
