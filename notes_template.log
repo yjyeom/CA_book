@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  18 AUG 2022 23:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  20 AUG 2022 01:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2840,7 +2840,21 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 LaTeX Warning: Hyper reference `toc-contents' on page 70 undefined on input lin
 e 76.
 
-[70 <./SaltChapter/fig-3-1.PNG>])
+[70 <./SaltChapter/fig-3-1.PNG>]
+<./SaltChapter/fig-3-2.png, id=1053, 256.70906pt x 204.765pt>
+File: ./SaltChapter/fig-3-2.png Graphic file (type png)
+<use ./SaltChapter/fig-3-2.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-2.png  used on input line 101.
+(pdftex.def)             Requested size: 193.36191pt x 154.23886pt.
+<./SaltChapter/fig-3-3.png, id=1055, 356.83313pt x 212.29312pt>
+File: ./SaltChapter/fig-3-3.png Graphic file (type png)
+<use ./SaltChapter/fig-3-3.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-3.png  used on input line 118.
+(pdftex.def)             Requested size: 290.05023pt x 172.56871pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2851,9 +2865,9 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 71 undefined on input lin
-e 301.
+e 140.
 
-[71]
+[71 <./SaltChapter/fig-3-2.PNG>]
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2864,11 +2878,100 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 72 undefined on input lin
+e 175.
+
+[72 <./SaltChapter/fig-3-3.PNG>]
+<./SaltChapter/fig-3-4.png, id=1081, 631.60968pt x 344.78813pt>
+File: ./SaltChapter/fig-3-4.png Graphic file (type png)
+<use ./SaltChapter/fig-3-4.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-4.png  used on input line 186.
+(pdftex.def)             Requested size: 386.73119pt x 211.11485pt.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 73 undefined on input lin
+e 214.
+
+[73 <./SaltChapter/fig-3-4.PNG>]
+<./SaltChapter/fig-3-5.png, id=1096, 575.90157pt x 274.02374pt>
+File: ./SaltChapter/fig-3-5.png Graphic file (type png)
+<use ./SaltChapter/fig-3-5.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-5.png  used on input line 246.
+(pdftex.def)             Requested size: 338.38702pt x 161.01614pt.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 74 undefined on input lin
+e 267.
+
+[74 <./SaltChapter/fig-3-5.PNG>]
+Overfull \hbox (10.65942pt too wide) in paragraph at lines 285--290
+\LUC/nanummj/m/n/12/b9 | Ã\LUC/nanummj/m/n/12/c8 q\LUC/nanummj/m/n/12/d5 X\LUC/
+nanummj/m/n/12/ac ‡ $\OML/cmm/m/it/12 ^^M$\LUC/nanummj/m/n/12/ac ^^@ \LUC/nanum
+mj/m/n/12/ad l\LUC/nanummj/m/n/12/ac ^^D $\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 a; 
+c[]\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 [\OML/cmm/m/it/12 c[]; c
+[]\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 ; [] ; \OT1/cmr/m/n/12 [\OML/cmm/m/it/12 c[
+]; c[]\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 [\OML/cmm/m/it/12 c[]
+; b\OT1/cmr/m/n/12 ]$ \LUC/nanummj/m/n/12/ac ^^A^^A\LUC/nanummj/m/n/12/c5 –\LUC
+/nanummj/m/n/12/c1 ^^\ \LUC/nanummj/m/n/12/c5 \LUC/nanummj/m/n/12/c1 ç\LUC/nan
+ummj/m/n/12/bb ¯\LUC/nanummj/m/n/12/bd Ñ\LUC/nanummj/m/n/12/ac ^^@\LUC/nanummj/
+m/n/12/b2 •\LUC/nanummj/m/n/12/d5 ` \LUC/nanummj/m/n/12/b5 L\OT1/LinuxLibertine
+T-TLF/m/n/12 , \LUC/nanummj/m/n/12/ac Ω\LUC/nanummj/m/n/12/b8 \ $\OML/cmm/m/it/
+12 ^^M \OT1/cmr/m/n/12 : [\OML/cmm/m/it/12 a; b\OT1/cmr/m/n/12 ] \OMS/cmsy/m/n/
+12 !
+ []
+
+<./SaltChapter/fig-3-6.png, id=1109, 319.94531pt x 207.77625pt>
+File: ./SaltChapter/fig-3-6.png Graphic file (type png)
+<use ./SaltChapter/fig-3-6.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-6.png  used on input line 309.
+(pdftex.def)             Requested size: 193.36191pt x 125.57343pt.
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 75 undefined on input lin
+e 322.
+
+[75 <./SaltChapter/fig-3-6.PNG>]
+<./SaltChapter/fig-3-7.png, id=1126, 278.54062pt x 237.88875pt>
+File: ./SaltChapter/fig-3-7.png Graphic file (type png)
+<use ./SaltChapter/fig-3-7.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-7.png  used on input line 331.
+(pdftex.def)             Requested size: 193.36191pt x 165.14525pt.
+)
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 76 undefined on input lin
 e 301.
 
-[72
-
-]
+[76 <./SaltChapter/fig-3-7.PNG>]
 
 LaTeX Warning: Empty bibliography on input line 305.
 
@@ -2908,11 +3011,11 @@ Package logreq Info: Writing requests to 'notes_template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36733 strings out of 478268
- 652168 string characters out of 5850346
- 1495432 words of memory out of 5000000
- 53646 multiletter control sequences out of 15000+600000
- 582199 words of font info for 353 fonts, out of 8000000 for 9000
+ 36858 strings out of 478268
+ 654876 string characters out of 5850346
+ 1496597 words of memory out of 5000000
+ 53737 multiletter control sequences out of 15000+600000
+ 583106 words of font info for 356 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,14n,117p,1186b,849s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{c:/tex
@@ -2926,83 +3029,87 @@ onts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 r12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:
 /texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/20
 22/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts
-/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2022/texmf-dist/fonts/typ
-e1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/p
-ublic/nanumtype1/nanummjbac.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
-nanumtype1/nanummjbad.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumt
-ype1/nanummjbae.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/n
-anummjbb1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummj
-bb2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb3.pf
-b><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb4.pfb><c:/
-texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb5.pfb><c:/texliv
-e/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb7.pfb><c:/texlive/2022
-/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb8.pfb><c:/texlive/2022/texmf
--dist/fonts/type1/public/nanumtype1/nanummjbb9.pfb><c:/texlive/2022/texmf-dist/
-fonts/type1/public/nanumtype1/nanummjbba.pfb><c:/texlive/2022/texmf-dist/fonts/
-type1/public/nanumtype1/nanummjbbb.pfb><c:/texlive/2022/texmf-dist/fonts/type1/
-public/nanumtype1/nanummjbbc.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
-/nanumtype1/nanummjbbd.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanum
-type1/nanummjbbe.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/
-nanummjbc0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumm
-jbc1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc2.p
-fb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc5.pfb><c:
-/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc6.pfb><c:/texli
-ve/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc7.pfb><c:/texlive/202
-2/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc8.pfb><c:/texlive/2022/texm
-f-dist/fonts/type1/public/nanumtype1/nanummjbc9.pfb><c:/texlive/2022/texmf-dist
-/fonts/type1/public/nanumtype1/nanummjbcc.pfb><c:/texlive/2022/texmf-dist/fonts
-/type1/public/nanumtype1/nanummjbcf.pfb><c:/texlive/2022/texmf-dist/fonts/type1
-/public/nanumtype1/nanummjbd2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publi
-c/nanumtype1/nanummjbd3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanu
-mtype1/nanummjbd4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1
-/nanummjbd5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanum
-mjbd6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd7.
-pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb><c
-:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/texl
-ive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb><c:/texlive/20
-22/texmf-dist/fonts/type1/public/nanumtype1/nanummjmaf.pfb><c:/texlive/2022/tex
-mf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb><c:/texlive/2022/texmf-dis
-t/fonts/type1/public/nanumtype1/nanummjmb1.pfb><c:/texlive/2022/texmf-dist/font
-s/type1/public/nanumtype1/nanummjmb2.pfb><c:/texlive/2022/texmf-dist/fonts/type
-1/public/nanumtype1/nanummjmb3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publ
-ic/nanumtype1/nanummjmb4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nan
-umtype1/nanummjmb5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype
-1/nanummjmb6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanu
-mmjmb7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8
-.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb><
-c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb><c:/tex
-live/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb><c:/texlive/2
-022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/2022/te
-xmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb><c:/texlive/2022/texmf-di
-st/fonts/type1/public/nanumtype1/nanummjmbe.pfb><c:/texlive/2022/texmf-dist/fon
-ts/type1/public/nanumtype1/nanummjmbf.pfb><c:/texlive/2022/texmf-dist/fonts/typ
-e1/public/nanumtype1/nanummjmc0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pub
-lic/nanumtype1/nanummjmc1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/na
-numtype1/nanummjmc2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtyp
-e1/nanummjmc3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nan
-ummjmc4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc
-5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb>
-<c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/te
-xlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/
-2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2022/t
-exmf-dist/fonts/type1/public/nanumtype1/nanummjmca.pfb><c:/texlive/2022/texmf-d
-ist/fonts/type1/public/nanumtype1/nanummjmcc.pfb><c:/texlive/2022/texmf-dist/fo
-nts/type1/public/nanumtype1/nanummjmcd.pfb><c:/texlive/2022/texmf-dist/fonts/ty
-pe1/public/nanumtype1/nanummjmce.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pu
-blic/nanumtype1/nanummjmcf.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/n
-anumtype1/nanummjmd0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumty
-pe1/nanummjmd1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/na
-nummjmd2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjm
-d3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb
-><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb><c:/t
-exlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texlive
-/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/2022/
-texmf-dist/fonts/type1/uhc/umj/umj34.pfb>
-Output written on notes_template.pdf (72 pages, 6406204 bytes).
+dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pub
+lic/amsfonts/symbols/msam10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
+amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanu
+mtype1/nanummjbac.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1
+/nanummjbad.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanum
+mjbae.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb0.
+pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb1.pfb><c
+:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb2.pfb><c:/texl
+ive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb3.pfb><c:/texlive/20
+22/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb4.pfb><c:/texlive/2022/tex
+mf-dist/fonts/type1/public/nanumtype1/nanummjbb5.pfb><c:/texlive/2022/texmf-dis
+t/fonts/type1/public/nanumtype1/nanummjbb6.pfb><c:/texlive/2022/texmf-dist/font
+s/type1/public/nanumtype1/nanummjbb7.pfb><c:/texlive/2022/texmf-dist/fonts/type
+1/public/nanumtype1/nanummjbb8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publ
+ic/nanumtype1/nanummjbb9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nan
+umtype1/nanummjbba.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype
+1/nanummjbbb.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanu
+mmjbbc.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbbd
+.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbbe.pfb><
+c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc0.pfb><c:/tex
+live/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc1.pfb><c:/texlive/2
+022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc2.pfb><c:/texlive/2022/te
+xmf-dist/fonts/type1/public/nanumtype1/nanummjbc5.pfb><c:/texlive/2022/texmf-di
+st/fonts/type1/public/nanumtype1/nanummjbc6.pfb><c:/texlive/2022/texmf-dist/fon
+ts/type1/public/nanumtype1/nanummjbc7.pfb><c:/texlive/2022/texmf-dist/fonts/typ
+e1/public/nanumtype1/nanummjbc8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pub
+lic/nanumtype1/nanummjbc9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/na
+numtype1/nanummjbcc.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtyp
+e1/nanummjbce.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nan
+ummjbcf.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd
+2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd3.pfb>
+<c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd4.pfb><c:/te
+xlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd5.pfb><c:/texlive/
+2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd6.pfb><c:/texlive/2022/t
+exmf-dist/fonts/type1/public/nanumtype1/nanummjbd7.pfb><c:/texlive/2022/texmf-d
+ist/fonts/type1/public/nanumtype1/nanummjmac.pfb><c:/texlive/2022/texmf-dist/fo
+nts/type1/public/nanumtype1/nanummjmad.pfb><c:/texlive/2022/texmf-dist/fonts/ty
+pe1/public/nanumtype1/nanummjmae.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pu
+blic/nanumtype1/nanummjmaf.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/n
+anumtype1/nanummjmb0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumty
+pe1/nanummjmb1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/na
+nummjmb2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjm
+b3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb
+><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb><c:/t
+exlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb6.pfb><c:/texlive
+/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb><c:/texlive/2022/
+texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb><c:/texlive/2022/texmf-
+dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb><c:/texlive/2022/texmf-dist/f
+onts/type1/public/nanumtype1/nanummjmba.pfb><c:/texlive/2022/texmf-dist/fonts/t
+ype1/public/nanumtype1/nanummjmbb.pfb><c:/texlive/2022/texmf-dist/fonts/type1/p
+ublic/nanumtype1/nanummjmbc.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
+nanumtype1/nanummjmbd.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumt
+ype1/nanummjmbe.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/n
+anummjmbf.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummj
+mc0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pf
+b><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb><c:/
+texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc3.pfb><c:/texliv
+e/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc4.pfb><c:/texlive/2022
+/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb><c:/texlive/2022/texmf
+-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb><c:/texlive/2022/texmf-dist/
+fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texlive/2022/texmf-dist/fonts/
+type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/
+public/nanumtype1/nanummjmc9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
+/nanumtype1/nanummjmca.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanum
+type1/nanummjmcc.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/
+nanummjmcd.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumm
+jmce.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcf.p
+fb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb><c:
+/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb><c:/texli
+ve/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb><c:/texlive/202
+2/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb><c:/texlive/2022/texm
+f-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb><c:/texlive/2022/texmf-dist
+/fonts/type1/public/nanumtype1/nanummjmd5.pfb><c:/texlive/2022/texmf-dist/fonts
+/type1/public/nanumtype1/nanummjmd6.pfb><c:/texlive/2022/texmf-dist/fonts/type1
+/public/nanumtype1/nanummjmd7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/uhc/u
+mj/umj34.pfb>
+Output written on notes_template.pdf (76 pages, 6551204 bytes).
 PDF statistics:
- 1508 PDF objects out of 1728 (max. 8388607)
- 1152 compressed objects within 12 object streams
- 361 named destinations out of 1000 (max. 500000)
- 407 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1600 PDF objects out of 1728 (max. 8388607)
+ 1219 compressed objects within 13 object streams
+ 386 named destinations out of 1000 (max. 500000)
+ 437 words of extra memory for PDF output out of 10000 (max. 10000000)
 
