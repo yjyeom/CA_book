@@ -340,10 +340,288 @@ t, & t\in[0,1], \\
 따라서 복소해석함수가 아닌 피적분함수 $z\to\bar z$는 경로에 따라 적분결과가 다르다.
 경로적분의 정의를 보면
 선택한 길에 따라 계산된 경로적분의 값이 다를 것으로 기대되기 때문에
-결과가 이상하지는 않다.
+뜻밖의 결과가 아니다.
 이 장에서 중요한 목표는 
-점 $z$에서 $w$까지 연결하는 두 경로 사이의 영역에서 복소해석적인 함수에 대하여
+점 $z$에서 $w$까지 연결하는 두 경로 사이의 영역에서 복소해석적인 함수에 대해서는
 두 경로를 따라 적분한 결과는 동일함을 보이는 것이다.
+이 결과는 코시 적분 정리라 불리는 복소해석학의 핵심 결과로 이어진다.
+
+\begin{salt_example} \label{example-3-4}
+앞의 예제 \ref{example-3-2}와   \ref{example-3-3}에서 정의한
+경로 $\gamma$, $\tilde\gamma$를 생각하자.
+이번에는 피적분함수로 복소해석함수가 아니었던 $z\mapsto\bar z$ 대신 
+전해석함수 $z$를 사용하자. 그러면,
+\begin{align*}
+\int_\gamma z dz 
+&= \int_0^1 (1+i)t(1+i)dt = \int_0^1 2it\,dt = i \text{ 이고,} \\
+\int_{\tilde\gamma} z dz
+&= \int_0^1 t\cdot1\, dt + \int_1^2 (1+(t-1)i)i\, dt \\
+&= \int_0^1 t\, dt + \int_1^2 (i-(t-1))dt
+= \dfrac 12 - \dfrac12 + i = i  \text{ 이므로}
+\end{align*}
+경로 $\gamma$와 경로 $\tilde\gamma$를 따른  경로적분값이 동일하다.
+\hfill $\diamondsuit$
+\end{salt_example}
+
+\begin{salt_exercise} \label{ex-3-3}
+원 $|z|=2$를 따라 반시계방향의 한바퀴 도는 경로로 다음 함수를 적분하라.
+\begin{itemize}
+\item[(1)] $z+\bar z$
+\item[(2)] $z^2-2z+3$
+\item[(3)] $xy$ ($z=x+iy$, $x,y\in\mathbb R$)
+\end{itemize}
+\end{salt_exercise}
+
+
+\begin{salt_exercise} \label{ex-3-4}
+다음 경로 $\gamma$를 따라 적분 $\dint_\gamma \Re(z)dz$를 계산하라.
+\begin{itemize}
+\item[(1)] $0$에서 $1+i$까지 직선으로 연결한 선분
+\item[(2)] 중심이 $i$이고 반지름이 $1$인 원을 따라 $0$부터 $1+i$까지 연결한 원호
+\item[(3)] 포물선 $y=x^2$위에서 $x=0$부터 $x=1$까지 $0$과 $1+i$를 연결한 곡선
+\end{itemize}
+\end{salt_exercise}
+
+\subsection{하나의 중요한 적분계산}
+
+여기서 간단하지만 매우 중요한 경로적분 하나를 계산할 것인데
+이 적분은 앞으로 계속 반복하여 다시 돌아볼 예정이다.
+하나의 규칙을 정하자: 이 책 전체를 통하여 특별히 언급하지 않으면
+$z_0$를 중심으로 반지름이 $r>0$인 원을 따라 반시계방향으로 도는 경로
+$C: [0, 2\pi] \to \mathbb C$는 $C(t) = z_0 + r\exp(it)$, $t\in[0,2\pi]$로 정의한다
+(따라서 한바퀴만 돈다). 그림 \ref{fig-3-8}을 참고하라.
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.9\textwidth]{./SaltChapter/fig-3-8}
+\end{center}
+\caption{$z_0$를 중심으로 반지름이 $r$인 원을 반시계방향으로 도는 경로 $C$}
+\label{fig-3-8}
+\end{figure}
+
+이제 적분 $\int_C (z-z_0)^n dz$ ($n\in\mathbb Z$)를 계산하자.
+나중에 이 계산이 매우 유용한 것으로 입증될 것이다.
+
+\begin{salt_theorem} \label{thm-3-1}
+$C$를 중심이 $z_0$이고 반지름 $r>0$인 원을 반시계방향으로 도는 경로라 하자.
+그러면,
+\[
+\int_C (z-z_0)^n dz = \begin{cases}
+2\pi i, & n=-1,\\
+0, & n\ne -1.
+\end{cases}
+\]
+여기서 적분값은 $r$에 무관함을 알 수 있다.
+\end{salt_theorem}
+
+{\bf 증명}
+
+경로는 $C(t) = z_0 + r\exp(it) = z_0 + r\cos t + it\sin t$ ($t\in[0,2\pi]$)이므로
+미분은 $C'(t) = -r\sin t + ir\cos t = ir(\cos t + i\sin t) = ir\exp(it)$ ($t\in[0,2\pi]$)이다.
+두 가지 경우의 적분을 각각 계산하면,
+
+\begin{itemize}
+\item[$1^\circ$] $n=-1$일 때,
+\begin{align*}
+\int_C (z-z_0)^n dz
+&= \int_C (z-z_0)^{-1} dz = \int_0^{2\pi} \dfrac1{r\exp(it)}\cdot ir \exp(it)dt \\
+&= \int_0^{2\pi} i dt  = 2\pi i.
+\end{align*}
+\item[$2^\circ$] $n\ne -1$일 때,
+\begin{align*}
+\int_C (z-z_0)^n dz
+&= \int_0^{2\pi} r^n \exp(nit) \cdot ir \exp(it)dt \\
+&= \int_0^{2\pi} ir^{n+1} \exp(i(n+1)t)dt \\
+&= -r^{n+1} \int_0^{2\pi} \sin((n+1)t)dt + 
+ir^{n+1} \int_0^{2\pi} \cos((n+1)t)dt \\
+&= 0+0 = 0.
+\end{align*}
+\end{itemize}
+이로써 증명이 완성된다.
+\hfill $\square$
+
+우리는 나중에 이 결과가 의미심장한 결과를 갖는다는 것을 보게 될 것이다.
+예를 들어, 
+중심이 $z_0$, 안쪽 반지름이 $r$, 바깥쪽 반지름이 $R$인 
+원환 $\mathbb A := \{ z\in\mathbb C \,:\, r<|z-z_0|<R \}$에 정의된
+$f$가 $z$에 대하여 ``정수 지수를 갖는 항으로 된 급수전개''를 가진다고 가정하자 
+(그 의미가 무엇이든).
+\[
+f(z) = \sum_{n\in\mathbb Z} a_n (z-z_0)^n, \quad z\in \mathbb A.
+\]
+이 (무한) 합의 정확한 의미는 나중에 알아보기로 하고
+지금은 단지 유한 합 (유한개의 $a_n$을 제외하고는 모두 $0$되는)이라 생각해도 된다.
+그러면  양변에 $(z-z_0)^{-(m+1)}$ ($m\in \mathbb Z$)을 곱하여 
+\[
+\dfrac{f(z)}{(z-z_0)^{m+1}} = \sum_{n\in\mathbb Z} a_n (z-z_0)^{n-m-1}
+\]
+을 얻게 되므로
+\[
+\dfrac1{2\pi i} \int_C \frac{f(z)}{(z-z_0)^{m+1}} dz
+= \sum_{n\in\mathbb Z} a_n \int_C (z-z_0)^{n-m-1}dz = a_m.
+\]
+여기서 우리는 $C$을 따르는 경로적분과 합의 순서를 바꿀 수 있다고 가정했는데,
+유한 합의 경우는 다음 절에서 적분의 정의로부터 가능함을 보일 것이다.
+무한 합의 경우는 나중에 정확한 의미를 만들어 가겠지만 근본적으로는
+제안한 계산 방식대로 작동한다.
+궁극적으로는 계수들이 경로적분으로 표현될 수 있다는 것을 의미하며,
+우리는 나중에 원환에 정의된 복소해석함수는 항상 이러한 급수 표현을 갖는다는 것을
+보일 예정이다.
+
+\begin{salt_exercise} \label{ex-3-5}
+$C$를 중심이 $0$이고 반지름이 $1$인 원을 반시계방향으로 도는 경로라고 하자.
+$0\le k \le n$에 대하여 다음이 성립함을 보여라.
+\[
+{n \choose k} = \dfrac1{2\pi i}\int_C \dfrac{(1+z)^n}{z^{k+1}} dz.
+\]
+\end{salt_exercise}
+
+\section{경로적분의 성질}
+
+이 절에서는 경로적분의 몇가지 유용한 성질을 살펴볼 것이다.
+다음 정리는 경로적분의 정의로부터 직접 얻을 수 있다.
+
+\begin{salt_prop} \label{prop-3-1}
+복소수 $\mathbb C$의 영역 $D$에 대하여
+$\gamma: [a,b] \to D$가 조각적으로 연속인 경로라고 하자.
+그러면 다음이 성립한다.
+\begin{itemize}
+\item[(1)] 연속함수 $f,g : D \to \mathbb C$에 대하여,
+\[
+\int_\gamma (f+g)(z) dz = \int_\gamma f(z)dz + \int_\gamma g(z)dz.
+\]
+\item[(2)] 연속함수 $f : D \to \mathbb C$와 상수 $\alpha\in\mathbb C$에 대하여,
+\[
+\int_\gamma  (\alpha f)(z)dz = \alpha \int_\gamma f(z)dz.
+\]
+\end{itemize}
+\end{salt_prop}
+$C(D;\mathbb C)$를
+$D$에 정의된 연속인 복소함수의 (점별 연산에 대한) $\mathbb C$상의 벡터공간이라 하자.
+\footnote{역주: 점별연산이란 $f$, $g$의 합 $h:=f+g$을 $h(z):=f(z)+g(z)$로 정의함을 뜻한다}
+그러면 위 결과는 $D$에 속하는 조각적으로 매끄러운 경로 $\gamma$는
+$C(D;\mathbb C)$에서 $\mathbb C$로의 선형변환을 유도함을 의미한다.
+\footnote{역주: $T: C(D;\mathbb C) \to \mathbb C$가 선형변환이면
+$T(f+g) = T(f)+T(g)$, $T(\alpha f) = T(f)$를 만족한다. }
+즉,
+\[
+f \mapsto \int_\gamma f(z)dz : C(D;\mathbb C) \to \mathbb C.
+\]
+
+\begin{salt_exercise} \label{ex-3-6}
+명제 \ref{prop-3-1}을 증명하라.
+\end{salt_exercise}
+
+{\bf 반대경로:}
+영역 $D$에 매끄러운 경로 $\gamma: [a,b] \to D$가 
+주어졌을 때, {\bf 반대경로} $-\gamma: [a,b] \to D$는
+$(-\gamma)(t) = \gamma(a+b-t)$, $t\in[a,b]$로 정의한다.
+그러면 $(-\gamma)(a) = \gamma(b)$, $(-\gamma)(b) = \gamma(a)$이다.
+따라서 $-\gamma$는 $\gamma$의 끝점에서 시작하고,
+$\gamma$의 시작점에서 끝나는 경로이며,
+$\gamma$와 동일한 길을 반대 방향으로 이동한다.
+그림 \ref{fig-3-9}를 보라.
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{./SaltChapter/fig-3-9}
+\end{center}
+\caption{경로 $\gamma$의 반대경로 $-\gamma$}
+\label{fig-3-9}
+\end{figure}
+
+그런데 왜 반대경로를 $-\gamma$라고 쓸까?
+그 이유는 다음과 같다.
+
+\begin{salt_prop} \label{prop-3-2}
+$\gamma: [a,b] \to D$가 영역 $D$의 매끄러운 경로이고
+$f:D\to\mathbb C$가 연속함수라고 하자. 그러면
+\[
+\int_{-\gamma} f(z)dz = - \int_\gamma f(z)dz.
+\]
+\end{salt_prop}
+
+{\bf 증명}
+
+\begin{align*}
+\int_{-\gamma} f(z)dz
+&= \int_a^b f((-\gamma)(t))\cdot (-\gamma)'(t)dt \\
+&= \int_a^b f(\gamma(a+b-t))\cdot (\gamma'(a+b-t))\cdot(-1)dt \\
+& \stackrel{(\tau=a+b-t)}=
+\int_b^a f(\gamma(\tau))\cdot \gamma'(\tau)d\tau 
+= - \int_a^b f(\gamma(\tau))\cdot \gamma'(\tau)d\tau \\
+&= - \int_\gamma f(z)dz.
+\end{align*}
+\hfill $\square$
+
+\begin{salt_exercise} \label{ex-3-7}
+$\gamma: [a,b] \to D$가 영역 $D$의 매끄러운 경로일 때,
+$-(-\gamma) = \gamma$임을 보여라.
+\end{salt_exercise}
+
+{\bf  경로의 결합:}
+영역 $D$에 대하여, 두 경로
+\begin{align*}
+\gamma_1 &: [a_1, b_1] \to D, \\
+\gamma_2 &: [a_2, b_2] \to D
+\end{align*}
+가 다음을 만족한다고 하자.
+\[
+\gamma_1(b_1) = \gamma_2(a_2)
+\]
+(그러면 $\gamma_2$는 $\gamma_1$의 끝점에서 시작한다.)
+경로의 결합 $\gamma_1+\gamma_2: [a_1, b_1+b_2-a_2] \to D$를
+다음과 같이 정의한다.
+\[
+(\gamma_1+\gamma_2)(t) = \begin{cases}
+\gamma_1(t), & a_1\le t\le b_1, \\
+\gamma_2(t-b_1+a_2), & b_1 \le t \le b_1+b_2-a_2.
+\end{cases}
+\]
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{./SaltChapter/fig-3-10}
+\end{center}
+\caption{두 경로 $\gamma_1$과  $\gamma_2$의 결합 $\gamma_1 + \gamma_2$}
+\label{fig-3-10}
+\end{figure}
+
+\begin{salt_prop} \label{prop-3-3}
+$D$가 복소평면 $\mathbb C$의 영역이고
+두 경로 $\gamma_1: [a_1,b_1] \to D$와 $\gamma_2: [a_2,b_2] \to D$가 
+$\gamma_1(b_1) = \gamma_2(a_2)$를 만족한다고 하자.
+그러면
+\[
+\int_{\gamma_1+\gamma_2} f(z)dz 
+=\int_{\gamma_1} f(z)dz + \int_{\gamma_2} f(z)dz.
+\]
+\end{salt_prop}
+
+{\bf 증명}
+\begin{align*}
+\int_{\gamma_1+\gamma_2} f(z)dz 
+&= \int_{a_1}^{b_1+b_2-a_2} f((\gamma_1+\gamma_2)(t)) (\gamma_1+\gamma_2)'(t)dt\\
+&= \int_{a_1}^{b_1} f((\gamma_1+\gamma_2)(t)) (\gamma_1+\gamma_2)'(t)dt\\
+& \quad\quad 
++\int_{b_1}^{b_1+b_2-a_2} f((\gamma_1+\gamma_2)(t)) (\gamma_1+\gamma_2)'(t)dt\\
+&= \int_{a_1}^{b_1} f(\gamma_1(t))\gamma_1'(t)dt \\
+&\quad\quad 
++ \int_{b_1}^{b_1+b_2-a_2} f(\gamma_2(\tau-b_1+a_2))\gamma_2'(\tau-b_1+a_2)d\tau\\
+&= \int_{\gamma_1} f(z)dz + \int_{a_2}^{b_2} f(\gamma_2(s)) \gamma_2'(s)ds 
+\ (s=\tau-b_1+a_2) \\
+&= \int_{\gamma_1} f(z)dz + \int_{\gamma_2} f(z)dz.
+\end{align*}
+
+\begin{salt_exercise} \label{ex-3-8}
+$\gamma: [a,b] \to D$가 영역 $D$의 매끄러운 경로이고
+$f:D\to\mathbb C$가 연속함수라고 하자. 다음을 증명하라.
+\[
+\dint_{\gamma+(-\gamma)} f(z)dz =0.
+\]
+\end{salt_exercise}
+
+{\bf 유용한 판정식:}
+이제 경로적분의 크기를 경로에서의 $|f|$의 크기, 경로의 길이의 관점에서
+나타낸 부등식을 증명한다. 이 부등식은 향후 필수적인 것으로 입증될 것이다.
 
 
 
