@@ -623,15 +623,214 @@ $f:D\to\mathbb C$가 연속함수라고 하자. 다음을 증명하라.
 이제 경로적분의 크기를 경로에서의 $|f|$의 크기, 경로의 길이의 관점에서
 나타낸 부등식을 증명한다. 이 부등식은 향후 필수적인 것으로 입증될 것이다.
 
+\begin{salt_prop} \label{prop-3-4}
+\
+\begin{itemize}
+\item[(1)] $D$가 복소평면 $\mathbb C$의 영역이고,
+\item[(2)]  $\gamma : [a,b] \to D$가 조각적으로 매끄러운 경로이고,
+\item[(3)] $f:D\to\mathbb C$가 연속함수이면,
+\end{itemize}
+다음 부등식이 성립한다.
+\begin{equation} \label{eq-3-3}
+\left| \int_\gamma f(z)dz \right| 
+\le \left( \max_{t\in[a,b]} |f(\gamma(t))| \right) 
+\cdot (\gamma \text{의 길이}).
+\end{equation}
+$\gamma$의 길이는 
+\[
+\int_a^b \sqrt{ (x'(t))^2 + (y'(t))^2} dt
+\]
+로 주어지며 $x,y: [a,b] \to \mathbb R$는
+경로 $\gamma$의 실수부와 허수부를 나타낸다.
+그림 \ref{fig-3-11}을 보라.
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.9\textwidth]{./SaltChapter/fig-3-11}
+\end{center}
+\caption{경로 $\gamma$의 길이는 국소적인 곡선 길이 $ds$의 합이고,
+$ds = \sqrt{(x'(t)dt)^2 + (y'(t)dt)^2} = \sqrt{(x'(t))^2 + (y'(t))^2}dt$이다.}
+\label{fig-3-11}
+\end{figure}
+\end{salt_prop}
 
+{\bf 증명}
 
+우선 곡선 $\varphi : [a,b] \to \mathbb C$에 대하여 다음 부등식을 증명하자.
+\[
+\left| \int_a^b \varphi(t)dt \right|
+\le \int_a^b |\varphi(t)|dt.
+\]
+이를 위해 $\dint_a^b \varphi(t) dt = r\cdot \exp(i\theta)$로 쓰자.
+여기서 $r\ge 0$이고 $\theta \in (-\pi, \pi]$이다.
+그러면,
+\begin{align*}
+\left| \int_a^b \varphi(t)dt \right|
+&= r = \exp(-i\theta)\cdot r \cdot \exp(i\theta) \\
+&= \exp(-i\theta) \cdot \int_a^b \varphi(t)dt
+= \int_a^b \exp(-i\theta) \cdot \varphi(t)dt \\
+&= \int_a^b \Re(\exp(-i\theta)\cdot\varphi(t))dt
++ i \int_a^b \Im(\exp(-i\theta)\cdot\varphi(t))dt.
+\end{align*}
+그런데 좌변은 실수이므로, 우변의 허수부 적분은 $0$이 되어야 한다.
+따라서 
+\begin{align*}
+\left| \int_a^b \varphi(t)dt \right|
+&= \int_a^b \Re(\exp(-i\theta)\cdot\varphi(t))dt \\
+&\le \int_a^b |\Re(\exp(-i\theta)\cdot\varphi(t))|dt \\
+&\le \int_a^b | \exp(-i\theta) \cdot \varphi(t)| dt
+= \int_a^b |\varphi(t)| dt. 
+\end{align*}
+$\varphi(t) := f(\gamma(t))\cdot \gamma'(t)$, $t\in[a,b]$라 두면
+\begin{align*}
+\left| \int_\gamma f(z)dz \right| 
+&= \left| \int_a^b f(\gamma(t)) \gamma'(t) dt \right| \\
+&\le \int_a^b |f(\gamma(t)) \gamma'(t)| dt
+= \int_a^b |f(\gamma(t))| | \gamma'(t)| dt \\
+&\le \left( \max_{t\in[a,b]} |f(\gamma(t))| \right) 
+\int_a^b |\gamma'(t)|dt.
+\end{align*}
+실함수 $x, y$를 써서  $\gamma(t) = x(t) + iy(t)$라 쓰면
+\[
+\int_a^b |\gamma'(t)|dt 
+= \int_a^b  \sqrt{ (x'(t))^2 + (y'(t))^2} dt
+= \gamma \text{의 길이}
+\]
+가 되어 증명이 끝난다.
+\hfill $\square$
 
+\begin{salt_exercise} \label{ex-3-9}
+$\gamma$가 $0$부터 $1+i$까지의 선분일 때,
+적분 
+\[
+\int_\gamma z^2dz
+\] 
+의 절대값의 상한을 식 \eqref{eq-3-3}에 주어진 방법으로 계산하라.
+또한, 직접 적분을 계산하고 절대값을 구하라.
+\end{salt_exercise}
 
+\begin{salt_exercise} \label{ex-3-10}
+연습문제 \ref{ex-3-5}의 결과를 이용하여
+$\displaystyle{2n \choose n} \le 4^n$을 보여라.
+\end{salt_exercise}
 
+\section{경로적분의 기본정리}
 
+실함수에 대한 미적분학의 기본정리를 다시 보자.
+\begin{salt_theorem}[미적분학의 기본정리] \label{thm-3-2}
+$F:[a,b] \to \mathbb R$가 연속미분가능하고, 
+$[a,b]$에서 $F'=:f$라 하면,
+\[
+\int_a^b f(x)dx = F(b) - F(a).
+\]
+\end{salt_theorem}
 
+이 정리는 리만 적분의 계산을 용이하게 해주는 중요한 정리이다. 
+실제로 함수가 어떤 함수의 도함수인 것을 안다면, 정적분을 쉽게 계산할 수 있다.
+예를 들면,
+\[
+x^2 = \dfrac d{dx}\left( \dfrac{x^3}3\right) \text{을 이용하면, }
+\int_a^b x^2 dx = \dfrac{b^3-a^3}3.
+\]
+유사하게,  함수 $f$가 복소해석함수의 미분이라면 
+실함수에 대한 미적분학의 기본정리와 비슷한 다음 정리로부터 
+경로적분
+\[
+\int_\gamma f(z)dz
+\]
+의 계산이 쉽게 얻어진다.
 
+\begin{salt_theorem}[경로적분에 대한 미적분학의 기본정리] 
+\footnote{실해석의 결과와 유사함을 강조하기 위해  정리의 이름에
+``기본''이란 용어를 사용하였다. 하지만, 복소해석학에서는
+그만큼 ``근본적( fundamental)''이진 않다. 
+더 확실하게 근본적인 코시 적분정리를 곧 배우게 될 것이다. }
+\label{thm-3-3}
+\
+\begin{itemize}
+\item[(1)] $D$가 복소평면 $\mathbb C$의 영역이고,
+\item[(2)] $\gamma : [a,b] \to D$가 조각적으로 매끄러운 경로이고,
+\item[(3)] $f:D\to\mathbb C$가 $D$에서 연속함수이고,
+\item[(4)] $F:D\to \mathbb C$가 $D$에서 $F'=f$를 만족하는 복소해석함수이면,
+\end{itemize}
+\[
+\int_\gamma f(z)dz = F(\gamma(b)) - F(\gamma(a)).
+\]
+\end{salt_theorem}
 
+이 정리가 어떤 도움을 줄까?
+이제 우리는 어떤 경로적분들은 매우 쉽게 계산할 수 있다
+(보통의 미적분에서와 마찬가지로).
+아래 예제를 보자.
+
+\begin{salt_example}\label{example-3-5}
+$z\in\mathbb C$에 대하여
+$\dfrac d{dz}\left( \dfrac{z^2}2\right)=z$이므로,
+$0$부터 $1+i$까지의 임의의 경로 $\gamma$에 대한 적분은
+\[
+\int_\gamma z\, dz = \dfrac{(1+i)^2}2 - \dfrac{0^2}2 
+= \dfrac{1+2i+i^2}2 = \dfrac{1+2i-1}2 = i
+\]
+가 되어 예제 \ref{example-3-4}와 같은 결과를 얻는다.
+\hfill $\diamondsuit$
+\end{salt_example}
+
+앞의 예제에서 살펴본 바와 같이 
+$D$에서 $f$가 ``부정적분'' 또는 ``원시함수''라 불리는 $F$를 가지면
+\[
+\int_\gamma f(z)dz = F(w) - F(z)
+\]
+은 $z$와 $w$를 잇는 경로 $\gamma$에 무관하다.
+
+\begin{salt_example}\label{example-3-6}
+모든 $\mathbb C$에 대하여 
+$F'(z) = \bar z$를 만족하는 함수 $F:\mathbb C \to \mathbb C$는 없다.
+실제로 예제 \ref{example-3-2}와 \ref{example-3-3}의 계산은
+$0$부터 $1+i$까지의 적분이 경로에 의존적임을 보여준다.
+\hfill $\diamondsuit$
+\end{salt_example}
+
+{\bf 증명} (정리 \ref{thm-3-3})
+
+$z = x+iy\in D$ ($x,y\in \mathbb R$)에 대하여
+실함수 $U$, $V$, $u$, $v$를 다음과 같이 정의하자.
+\begin{align*}
+F(x+iy) &= U(x,y) + iV(x,y), \\
+f(x+iy) &= u(x,y) + iv(x,y).
+\end{align*}
+또한, $\gamma(t) = x(t) + iy(t)$ ($t\in[a,b]$)라고 하자.
+여기서 $x$, $y$는 실함수이다.
+그러면, 코시-리만 방정식에 의해
+\begin{align*}
+u(x,y) + iv(x,y) 
+&= f(x+iy) = F'(x+iy) \\
+&= \dfrac{\partial U}{\partial x}(x,y) + i \dfrac{\partial V}{\partial x}(x,y)
+= \dfrac{\partial V}{\partial y}(x,y) - i \dfrac{\partial U}{\partial y}(x,y).
+\end{align*}
+위 식에 연쇄법칙을 적용하면,
+\begin{align*}
+\dfrac d{dt} U(x(t), y(t))
+&= \dfrac{\partial U}{\partial x}(x(t),y(t))\cdot x'(t)
+ + \dfrac{\partial U}{\partial y}(x(t),y(t))\cdot y'(t) \\
+&= u(x(t),y(t))\cdot x'(t) - v(x(t),y(t))\cdot y'(t).
+\end{align*}
+비슷한 방법으로,
+\begin{align*}
+\dfrac d{dt} V(x(t), y(t))
+&= \dfrac{\partial V}{\partial x}(x(t),y(t))\cdot x'(t)
+ + \dfrac{\partial V}{\partial y}(x(t),y(t))\cdot y'(t) \\
+&= v(x(t),y(t))\cdot x'(t) + u(x(t),y(t))\cdot y'(t).
+\end{align*}
+따라서,
+\begin{align*}
+\int_\gamma f(z)dz
+&= \int_a^b f(\gamma(t))\gamma'(t)dt \\
+&= \int_a^b \left( u(x(t), y(t)) + iv(x(t),y(t)) \right) (x'(t)+iy'(t))dt \\
+&= \int_a^b \dfrac d{dt} U(x(t), y(t))dt + i \int_a^b \dfrac d{dt} V(x(t), y(t))dt \\
+&= U(x(b), y(b)) - U(x(a), y(a)) + 
+i\left( V(x(b), y(b)) - V(x(a), y(a)) \right) \\
+&= F(\gamma(b)) - F(\gamma(a)).
+\end{align*}
+이로써 증명이 끝난다. \hfill $\square$
 
 
 
