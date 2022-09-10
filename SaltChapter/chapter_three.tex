@@ -832,6 +832,500 @@ i\left( V(x(b), y(b)) - V(x(a), y(a)) \right) \\
 \end{align*}
 이로써 증명이 끝난다. \hfill $\square$
 
+\begin{salt_exercise} \label{ex-3-11}
+코시-리만 방정식을 이용하여
+$\mathbb C$에 정의된 함수 $z \mapsto \bar z$는 원시함수(부정적분)를 
+갖지 않음을 보여라.
+\end{salt_exercise}
+
+\begin{salt_exercise}[부분적분 공식] \label{ex-3-12}
+영역 $D$에 정의된 복소해석함수 $f$, $g$의 미분
+$f'$, $g'$이 $D$에서 연속이라고 하자.
+영역 $D$ 내부의 경로 $\gamma$가 
+점 $w\in D$에서 $z\in D$까지의  조각적으로 매끄러운 경로이면
+다음 공식이 성립함을 보여라.
+\[
+\int_\gamma f(\zeta)g'(\zeta)d\zeta 
+= f(z)g(z) - f(w)g(w) - \int_\gamma f'(\zeta)g(\zeta)d\zeta.
+\]
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-3-13}
+$-i$와 $i$를 잇는 임의의 경로 $\gamma$에 대하여
+경로적분 $\dint_\gamma \cos z\, dz$를 계산하라.
+\end{salt_exercise}
+
+\begin{salt_definition} \label{def-3-2}
+$\gamma:[a,b] \to \mathbb C$가
+$\gamma(a)= \gamma(b)$를 만족하면 {\bf 닫힌경로}라고 한다.
+\end{salt_definition}
+
+\begin{figure*}[!h]
+\begin{center}
+\includegraphics[width=0.25\textwidth]{./SaltChapter/fig-3-0-1}
+\end{center}
+\end{figure*}
+
+\begin{salt_corollary} \label{coro-3-1}
+\
+\begin{itemize}
+\item[(1)] $D$가 복소평면 $\mathbb C$의 영역이고,
+\item[(2)] $\gamma : [a,b] \to D$가 조각적으로 매끄러운 {\bf 닫힌}경로이고,
+\item[(3)] $f:D\to\mathbb C$가 $D$에서 연속함수이고,
+\item[(4)] $F:D\to \mathbb C$가 $D$에서 $F'=f$를 만족하는 복소해석함수이면,
+\end{itemize}
+\ \ $\dint_\gamma f(z)dz = 0$.
+\end{salt_corollary}
+
+{\bf 증명}
+$\gamma(b)=\gamma(a)$이므로,
+$\dint_\gamma f(z)dz = F(\gamma(b)) - F(\gamma(a)) = 0$.
+\hfill $\square$
+
+\begin{salt_example}\label{example-3-7}
+$m\in\mathbb Z\setminus \{0\}$, $z\in D:=\mathbb C \setminus\{0\}$
+에 대하여, 
+$\dfrac d{dz}\left( \dfrac{z^m}m\right) = z^{m-1}$이므로,
+$D$의 임의의 닫힌경로 $\gamma$에 대하여
+\[
+\int_\gamma z^{m-1}dz = 0.
+\]
+$m=0$일 때는 어떻게 될까?
+$z\in\tilde D:= \mathbb C \setminus (-\infty,0)$에서
+$\Log' z = 1/z$이므로 $\tilde D$의 임의의 닫힌경로 $\tilde \gamma$에 대하여
+\[
+\int_{\tilde\gamma} \frac1z dz = 0
+\]
+임을 알고 있다. 하지만, 영역 $D$에서 $\dfrac 1z$는 부정적분을 갖지 않는다.
+연습문제 \ref{ex-3-16}을 보라.
+\end{salt_example}
+
+\begin{salt_exercise} \label{ex-3-14}
+경로적분의 기본정리를 이용하여 
+$0$과 $a+ib$를 잇는 경로 $\gamma$에 대하여
+다음 적분을 계산하라.
+\[
+\int_\gamma \exp z \, dz.
+\]
+$0$부터 $a+ib$까지 직선을 따라 매개변수 적분으로 계산한 결과와 동일함을 이용하여
+다음 등식을 증명하라.
+\[
+\int_0^1 e^{ax}\cos(bx)\, dx = \dfrac{a(e^a\cos b - 1) + be^a\sin b}{a^2+b^2}.
+\]
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-3-15}
+$\exp z$와 원형 경로에 경로적분의 기본정리를 적용하여
+모든 $r>0$에 대하여 다음 등식을 증명하라.
+\[
+\int_0^{2\pi} e^{r\cos\theta} \cos(r\sin\theta+|theta)d\theta = 0.
+\]
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-3-16}
+뚫린 평면 $\mathbb C\setminus \{0\}$에서 $1/z$는 부정적분을 갖지 않음을 보여라.
+\end{salt_exercise}
+
+\section{코시 적분정리}
+
+이제 복소해석학의 중요 결과 중 하나인 코시 적분정리를 증명하고자 한다.
+
+\begin{salt_theorem} [코시 적분정리] \label{thm-3-4}
+\
+\begin{itemize}
+\item[(1)] $D$가 복소평면 $\mathbb C$의 영역이고,
+\item[(2)] $f:D\to\mathbb C$가 $D$에서 복소해석적이고,
+\item[(3)] 두 경로 $\gamma_0, \gamma_1 :[0,1]\to D$는  조각적으로 매끄러운 닫힌경로로
+$D$-호모토픽(homotopic)이면,
+\end{itemize}
+\[
+\int_{\gamma_0} f(z)dz = \int_{\gamma_1} f(z)dz.
+\]
+\end{salt_theorem}
+
+더 진행하기에 앞서 정리의 의미를 이해해보자.
+우선 $D$의 두 경로는 닫힌경로이다.
+다음으로 두 닫힌경로가 $D$-호모토픽이라는 것은 무엇일까?
+직관적으로 다음과 같은 의미를 가진다.
+한 영역의 내부에 두 경로를 나타낸 그림 \ref{fig-3-12}를 보자.
+$\gamma_0$를 따라 고무밴드를 위치시킨다고 상상하자.
+$\gamma_0$가 $\gamma_1$과 $D$-호모토픽이려면
+이 고무밴드를 변형하여 $\gamma_1$에 맞출 수 있어야 한다.
+이 때, 중간과정에서 고무밴드의 위치는 반드시 영역 $D$의 내부에 머물러야 한다.
+분명히 어떤 경우는 이 변형이 불가능할 수도 있다. 
+예를 들면 영역에 구멍을 가진 경우가 그렇다.
+그림 \ref{fig-3-12}의 오른쪽 그림을 보면 
+영역 $D$를 뚫린 복소평면 $D=\mathbb C\setminus \{0\}$으로 정하면
+영역의 두 경로가 $D$-호모토픽이 될 수 없다.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.9\textwidth]{./SaltChapter/fig-3-12}
+\end{center}
+\caption{왼쪽 그림에서 $D:=\mathbb C$의 경로 $\gamma_0, \gamma_1$은 $D$-호모토픽이다.
+하지만, 오른쪽 그림에서 $D:=\mathbb C\setminus\{0\}$의 두 경로
+$\gamma_0, \gamma_1$은 $\mathbb C\setminus\{0\}$-호모토픽이 아니다.}
+\label{fig-3-12}
+\end{figure}
+
+이제 엄밀한 정의를 만들어보자.
+
+\begin{salt_definition} \label{def-3-3}
+$D$를 복소평면 $\mathbb C$의 영역,
+$\gamma_0, \gamma_1 : [0,1] \to D$를 닫힌경로라고 하자.
+다음 조건을 만족하는 연속함수 $H:[0,1]\times[0,1]\to D$가 존재하면
+$\gamma_0$는 $\gamma_1$과 {\bf $D$-호모토픽}이라 한다.
+\begin{itemize}
+\item[(H1)] 모든 $t\in [0,1]$에 대하여, $H(t,0)=\gamma_0(t)$.
+\item[(H2)] 모든 $t\in [0,1]$에 대하여, $H(t,1)=\gamma_1(t)$.
+\item[(H3)] 모든 $s\in [0,1]$에 대하여, $H(0,s)=H(1,s)$.
+\end{itemize}
+\end{salt_definition}
+
+$H$를 주어진 시각 $s$에 대하여
+$[0,1]$에서 $D$로의 닫힌경로의 모임으로 간주할 수 있다.
+시각 $s$에서 닫힌경로를 시각 $s$에서 고무밴드의 위치로 생각해도 된다.
+초기에는 $s=0$이고, $H(\cdot, 0)$는 경로 $\gamma_0$가 되며,
+마지막으로 $s=1$일 때, 경로 $\gamma_1$을 나타내는
+$H(\cdot, 1)$가 된다.
+여기까지는 조건 (H1)과 (H2)의 의미이다.
+조건 (H3)로부터 주어진 시각 $s$에 대하여 중간 경로 
+$\gamma_s:= H(\cdot, s)$도 닫힌경로임이다.
+$H$의 연속성은 고무밴드가 끊어지지 않음을 보장하며
+변형이 매끄럽게 이루어진다는 것을 의미한다.
+아래 그림은 이를 표현한 것이다.
+
+\begin{figure*}[!h]
+\begin{center}
+\includegraphics[width=0.35\textwidth]{./SaltChapter/fig-3-0-2}
+\end{center}
+\end{figure*}
+
+\newpage  %===[salt: 페이지 조정]
+
+\begin{salt_example} \label{example-2-8}
+$D=\mathbb C$이고 원형 경로 $\gamma_0, \gamma_1 : [0,1] \to \mathbb C$가
+$\gamma_0 = 4\exp(2\pi it)$와 $\gamma_1 = 2i+\exp(2\pi it)$ ($t\in[0,1]$)로 주어졌다고 하자.
+그러면 $\gamma_0$는 $\gamma_1$과 $\mathbb C$-호모토픽이다.
+실제로  $H$를 $\gamma_0(t)$와 $\gamma_1(t)$의 점에 대한 볼록결합으로 정의하면 된다.
+그림 \ref{fig-3-8}을 참고하라.
+
+\begin{figure*}[!h]
+\begin{center}
+\includegraphics[width=0.3\textwidth]{./SaltChapter/fig-3-0-3}
+\end{center}
+\end{figure*}
+
+$H:[0,1]\times [0,1] \to \mathbb C$를 
+$H(t,s) = (1-s)\cdot \gamma_0(t) + s\cdot \gamma_1(t)
+= (4-3s)\cdot \exp(2\pi it) + s\cdot 2i$ ($0\le t,s\le 1$)로 정의하자.
+그러면 $H$가 연속임은 분명하며 다음이 성립한다.
+\begin{itemize}
+\item[(H1)] 모든 $t\in [0,1]$에 대하여, $H(t,0)= (4-0)\cdot \exp(2\pi it) + 0\cdot 2i = \gamma_0(t)$.
+\item[(H2)] 모든 $t\in [0,1]$에 대하여, $H(t,1)= (4-3)\cdot \exp(2\pi it) + 1\cdot 2i = \gamma_1(t)$.
+\item[(H3)] 모든 $s\in [0,1]$에 대하여, $H(0,s)= (4-3s)\cdot 1 + s\cdot 2i = H(1,s)$.
+\end{itemize}
+따라서 (H1), (H2), (H3)가 만족되므로 
+$\gamma_0$는 $\gamma_1$과 $\mathbb C$-호모토픽이다.
+
+한편, 이 경로들은 $\mathbb C\setminus \{0\}$-호모토픽은 아니다.
+왜 그렇게 될까? 만일 $\mathbb C\setminus \{0\}$-호모토픽이라면
+코시-적분정리에 의해 $\mathbb C\setminus \{0\}$에서 복소해석함수인
+$1/z$의 두가지 경로적분이 같은 값을 가져야 한다. 하지만
+\[
+\int_{\gamma_0} \dfrac 1z dz = 2\pi i \ne 0 = \int_{\gamma_1} \dfrac 1z dz
+\]
+이므로 모순이다. 
+$\mathbb C\setminus \{0\}$에서 $1/z$가 부정적분 $\Log z$을 가지므로,
+마지막 등호는 경로적분의 기본정리로부터 얻어진다.
+\hfill $\diamondsuit$
+\end{salt_example}
+
+\begin{salt_exercise} \label{ex-3-17}
+$D$가 $\mathbb C$의 영역이라고 하자.
+$D$의 모든 닫힌경로의 집합에서 $D$-호모토피는 동치관계임을 보여라.
+특히, ``$\gamma_0$가 $\gamma_1$에 $D$-호모토픽하다''는 대신
+``$\gamma_0$과 $\gamma_1$가 $D$-호모토픽하다''라고 쓸 수 있다.
+\end{salt_exercise}
+
+{\bf 증명} (정리 3.4)
+호모토피 $H$가 두번 연속미분가능하다고 가정하자.
+매끈함에 대한 이 조건을 생략해도 증명은 가능하다 ([Conway (1978)]을 보라). %==[salt] reference에 추가
+하지만 증명이 복잡해진다. 
+또한 두번 연속미분가능하다는 것이 강한 조건은 아니다.
+앞으로 편미분의 순서를 바꿀 필요가 있을 때 이 조건을 사용할 것이다.
+\[
+\dfrac{\partial^2 H}{\partial s \partial t} =\dfrac{\partial^2 H}{\partial t \partial s}.
+\]
+
+{\bf 증명의 아이디어:}
+시간 $s$에서의 중간 경로를 $\gamma_s := H(\cdot, s)$라 하고
+다음과 같이 함수 $I(s)$를 정의하자.
+\[
+I(s) := \int_{\gamma_s} f(z)dz, \quad s\in [0,1].
+\]
+적분기호하에서 $s$에 대한 미분을 사용하여
+\[
+\dfrac d{ds} I(s) \equiv 0
+\]
+을 보임으로써 $s\mapsto I(s)$가 상수함수임을 증명할 것이다.
+특히, 보이고자 하는 결론
+\[
+\int_{\gamma_0} f(z)dz = I(0) = I(1) = \int_{\gamma_1} f(z)dz
+\]
+가 성립한다.
+
+\begin{align*}
+\dfrac{dI}{ds}(s)
+&= \dfrac d{ds} \int_{\gamma_s} f(z)dz 
+= \dfrac d{ds} \int_0^1 f(H(t,s))\dfrac{\partial H}{\partial t}(t,s)dt \\
+&= \int_0^1 \dfrac{\partial}{\partial s} \left( f(H(t,s))\dfrac{\partial H}{\partial t}(t,s) \right) dt \\
+&= \int_0^1 \left(  f'(H(t,s))\dfrac{\partial H}{\partial s}(t,s)\dfrac{\partial H}{\partial t}(t,s)
++ f(H(t,s)) \textcolor{blue}{\dfrac{\partial^2H}{\partial s\partial t}(t,s)} \right) dt \\
+&= \int_0^1 \left(  f'(H(t,s))\dfrac{\partial H}{\partial s}(t,s)\dfrac{\partial H}{\partial t}(t,s)
++ f(H(t,s)) \textcolor{blue}{\dfrac{\partial^2H}{\partial t\partial s}(t,s)} \right) dt \\
+&= \int_0^1 \dfrac \partial{\partial t} \left( f(H(t,s)) \dfrac{\partial H}{\partial s}(t,s) \right) dt
+\end{align*}
+이므로 적분에 대한 기본정리에 의하여,
+\begin{align*}
+\dfrac{dI}{ds}(s)
+&= \int_0^1 \dfrac \partial{\partial t} \left( f(H(t,s)) \dfrac{\partial H}{\partial s}(t,s) \right) dt \\
+&= f(H(1,s))  \dfrac{\partial H}{\partial s}(1,s) - f(H(0,s)) \dfrac{\partial H}{\partial s}(0,s) \\
+&= f(H(1,s)) \lim_{\sigma\to s} \dfrac{H(1,\sigma) - H(1,s)}{\sigma - s}
+- f(H(0,s)) \lim_{\sigma\to s} \dfrac{H(0,\sigma) - H(0,s)}{\sigma - s} \\
+&= f(H(1,s)) \lim_{\sigma\to s} \dfrac{H(1,\sigma) - H(1,s)}{\sigma - s}
+- f(H(1,s)) \lim_{\sigma\to s} \dfrac{H(1,\sigma) - H(1,s)}{\sigma - s} \\
+&=0.
+\end{align*}
+따라서 함수 $s\mapsto I(s): [0,1] \to \mathbb C$는 상수이고, 특히
+다음이 성립한다.
+\[
+\int_{\gamma_0} f(z)dz = I(0) = I(1) = \int_{\gamma_1} f(z)dz.
+\]
+이로써 증명이 끝난다. 하지만 $f$가 복소해석함수라는 조건을 어디에서 사용했을까?
+위 식의 세번째 줄에서 이 조건을 아래와 같이 사용했다.
+\[
+\dfrac\partial{\partial s}(f(H(t,s))) = f'(H(t,s))\cdot \dfrac{\partial H}{\partial s}(t,s).
+\]
+$f=u+iv$, $H=X+iY$라 하자 ($u,v,X,Y$는 실함수).
+매개변수 $(t,s)$를 생략하고 식을 써보면 다음과 같다.
+\begin{align*}
+\dfrac\partial{\partial s}(f(H(t,s)))
+&= \dfrac\partial{\partial s}(u(X,Y) + iv(X,Y)) \\
+&= \dfrac{\partial u}{\partial x}(X,Y)\cdot \dfrac{\partial X}{\partial s}
++ \textcolor{red}{\dfrac{\partial u}{\partial y}(X,Y)}\cdot \dfrac{\partial Y}{\partial s} \\
+&\quad\quad + i \left(
+\dfrac{\partial v}{\partial x}(X,Y)\cdot \dfrac{\partial X}{\partial s}
++ \textcolor{blue}{\dfrac{\partial v}{\partial y}(X,Y)}\cdot \dfrac{\partial Y}{\partial s}
+\right) \\
+&= \dfrac{\partial u}{\partial x}(X,Y)\cdot \dfrac{\partial X}{\partial s}
+- \textcolor{red}{\dfrac{\partial v}{\partial x}(X,Y)}\cdot \dfrac{\partial Y}{\partial s} \\
+&\quad\quad + i \left(
+\dfrac{\partial v}{\partial x}(X,Y)\cdot \dfrac{\partial X}{\partial s}
++ \textcolor{blue}{\dfrac{\partial u}{\partial x}(X,Y)}\cdot \dfrac{\partial Y}{\partial s}
+\right) \\
+&= \left( \dfrac{\partial u}{\partial x}(X,Y) + i \dfrac{\partial v}{\partial x}(X,Y) \right)
+\cdot \left( \dfrac{\partial X}{\partial s} + i\dfrac{\partial Y}{\partial s} \right) \\
+&= f'(X+iY)\cdot \dfrac \partial{\partial s} (X+iY)
+= f'(H(t,s))\cdot \dfrac{\partial H}{\partial s}(t,s).
+\end{align*}
+주의깊은 독자는 적분기호하에서 미분할 때 $f'$이 연속이라고 가정했음을 알아챘을 것이다.
+이 가정이 없어도 결과는 성립하지만 여기서 다루진 않을 것이다.
+관심있는 독자는 [Conway (1978)] 등에서   %==[salt] reference에 추가
+코시 적분정리의 완전한 증명을 찾아보기 바란다.
+\hfill $\square$
+
+\begin{salt_exercise} \label{ex-3-18}
+$C$가 중심이 $0$이고 반지름 $1$인 원을 반시계방향으로 도는 원형 경로이면
+\[
+\int_C \dfrac 1z dz = 2\pi i
+\]
+임을 이미 알고 있다.
+이제 $\pm 1$, $\pm i$를 꼭지점으로 하는 사각형을 따라 반시계방향으로 도는 경로 $S$를 생각하자.
+그림을 그려서 $S$가 $C$와 $\mathbb C\setminus \{0\}$-호모토픽임을 확인하라.
+매개변수 적분
+\[
+\int_S \dfrac 1z dz
+\]
+를 직접 계산하여 결과가 실제로 $2\pi i$가 됨을 확인하라.
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-3-19}
+$a>0$, $b>0$이고, $E:[0,2\pi] \to \mathbb C$는 타원
+\[
+E(t) = a\cos t + ib\sin t, \quad t\in [0,2\pi]
+\]
+이라고 하자.
+적분 $\dint_E \dfrac 1z dz$를 고려하여
+$\dint_0^{2\pi} \dfrac 1{a^2(\cos \theta)^2 + b^2(\sin \theta)^2}d\theta = \dfrac{2\pi}{ab}$
+임을 보여라.
+\end{salt_exercise}
+
+\subsection{특별한 경우: 단순연결 영역}
+
+``퇴화된'' 단힌곡선으로 상수의 경우를 생각하자.
+즉, $D$가 영역이고 $p\in D$일 때,
+$\gamma_p:[0,1] \to D$가 모든 $t\in[0,1]$에 대하여 $\gamma_p(t)=p$인 경우이다.
+그러면 $\gamma_p$는 $\gamma_p(0)=\gamma_p(1)$을 만족하므로 닫힌경로이다.
+임의의 연속함수 $f:D\to\mathbb C$에 대하여, 적분
+\[
+\int_{\gamma_p} f(z)dz
+\]
+은 어떤 값을 가질까? 
+모든 $t\in[0,1]$에 대하여 $\gamma_p'(t)=0$이므로 적분값은
+$0$이 된다.
+\[
+\int_{\gamma_p} f(z)dz = \int_0^1 f(\gamma_p(t))\cdot \gamma_p'(t)dt = 0.
+\]
+이로부터 코시 적분정리의 특별하고 중요한 경우로
+닫힌경로 $\gamma$가 한점(즉, 상수경로 $\gamma_p(t)=p$, $t\in[0,1]$)과 
+$D$-호모토픽일 때를 생각할 수 있다.
+이 경우  $\gamma$를  $D$-축약가능하다고 한다.
+$\gamma$를 따라 고무밴드를 놓고 
+중간단계에서 고무밴드가 $D$를 벗어나지 않도록 유지하며 수축시켜 한점으로 만들자. 
+$D$-축약가능한 경로 $\gamma$ (즉, 한점 $p\in D$와 $D$-호모토픽인 경로)와
+복소해석함수 $f:D \to \mathbb C$에 대하여
+코시 적분정리로부터 다음 결과를 얻는다.
+\[
+\int_\gamma f(z) dz = \int_{\gamma_p} f(z) dz = 0.
+\]
+모든 닫힌경로가 $D$-축약가능한 영역을 {\bf 단순연결} 영역이라고 한다.
+
+예를 들어 $\mathbb C$, $\mathbb D:=\{z\in\mathbb C\,:\, |z|<1\}$,
+$\mathbb C\setminus(-\infty,0]$는 모두 단순연결 영역이다.
+앞의 두 예에서 영역에 속하는 임의의 점 $p$를 잡으면 호모토피를 다음과 같이 만들 수 있다.
+\[
+H(t,s) := (1-s)\gamma(t) = sp, \quad t,s\in[0,1].
+\]
+$\mathbb C\setminus(-\infty,0]$의 경우는
+임의의 경로 $\gamma: [0,1] \to D$에 대하여
+점 $p$를 양수로 잡으면 (예를 들어 $p=1$) 위와 같은 $H$를 만들 수 있다.
+위의 예는 공통적으로 ``구멍''을 갖지 않는다는 점에 주목하자.
+한편 구멍을 갖는 영역은 단순연결 영역이 아니다. 예를 들어
+뚫린 복소평면 $\mathbb C\setminus \{0\}$은 단순연결이 아니다.
+중심이 $0$이고 반지름 $r$인 원을 반시계방향으로 한바퀴 도는 원형 경로에 대하여
+\[
+\int_C \dfrac 1z dz = 2\pi i
+\]
+이다. 그런데 $C$가 뚫린 복소평면의 어떤 한점으로 
+$\mathbb C\setminus \{0\}$-축약가능하다면
+코시 적분정리에 의하여
+\[
+\int_C \dfrac 1z dz = 0
+\]
+이 되어여 한다.
+따라서 $C$는 $\mathbb C\setminus \{0\}$의 한점으로 $\mathbb C\setminus \{0\}$-축약가능한 
+경로가 아니며 $\mathbb C\setminus \{0\}$는 단순연결 영역이 아니다.
+유사하게 원환
+\[
+\{ z\in\mathbb C \,:\,  1<|z|<2 \}
+\]
+가 단순연결이 아님을 보일 수 있다.
+그림 \ref{fig-3-13}을 보자.
+구멍의 방해는 명면을 뚫고 나오는 못 또는 기둥으로 생각할 수 있으며,
+이는 구멍을 둘러싸고 있는 고무밴드가 평면을 떠나지 않으면서
+한점으로 축소되는 것을 막는다.
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.9\textwidth]{./SaltChapter/fig-3-13}
+\end{center}
+\caption{$\mathbb C$, $\mathbb D:=\{z\in\mathbb C\,:\, |z|<1\}$,
+$\mathbb C\setminus(-\infty,0]$는 모두 단순연결 영역이지만,
+원환 $\mathbb A:= \{ z\in\mathbb C \,:\,  1<|z|<2 \}$와 
+뚫린 복소평면 $\mathbb C\setminus \{0\}$는 아니다.}
+\label{fig-3-13}
+\end{figure}
+
+다음은 코시 적분정리의 따름정리이다.
+
+\begin{salt_corollary} \label{coro-3-2}
+\
+\begin{itemize}
+\item[(1)] $D$가 단순연결 영역이고,
+\item[(2)] $\gamma$는 영역 $D$에서 조각적으로 매끄러운 닫힌경로이고,
+\item[(3)] $f:D\to\mathbb C$는 $D$에서 복소해석적이면,
+\end{itemize}
+\[
+\int_\gamma f(z)dz = 0.
+\]
+\end{salt_corollary}
+
+이 따름정리가 코시 적분정리로 불리기도 한다.
+
+\begin{salt_example} \label{example-3-9}
+$\exp$가 전해석함수이고, $\mathbb C$가 단순연결 영역이므로
+임임의 닫힌경로 $\gamma$에 대하여
+\[
+\int_\gamma \exp z \, dz = 0.
+\]
+실제로 임의의 전해석함수 $f$와 임의의 닫힌경로 $\gamma$에 대하여, $\dint_\gamma f(z)dz=0$이다.
+\hfill $\diamondsuit$
+\end{salt_example}
+
+$D$가 단순연결 영역이 아닌 경우에도 복소미분가능한 함수 $f:D\to \mathbb C$가
+영역 $D$의 임의의 닫힌경로 $\gamma$에 대하여
+\[
+\dint_\gamma f(z)dz=0
+\]
+를 만족할 수 있다.
+예를 들면 $D=\mathbb C\setminus \{0\}$, $f:=1/z^2$이면,
+$1/z^2$은 $\mathbb C\setminus \{0\}$에서 부정적분을 가지므로
+\[
+\dfrac d{dz}\left(- \dfrac 1z\right) = \dfrac1{z^2}, \quad z\in \mathbb C\setminus \{0\},
+\]
+뚫린 복소평면의 임의의 닫힌경로 $\gamma$에 대하여
+\[
+\int_\gamma \dfrac 1{z^2}dz=0.
+\]
+
+\begin{salt_exercise} \label{ex-3-20}
+$|z|=3$을 따라 반시계방향으로 도는 원형 경로를 따라 다음 함수의 적분을 구하라.
+\begin{itemize}
+\item[(1)] $\Log (z-4i)$.
+\item[(2)] $\dfrac1{z-1}$.
+\item[(3)] $i^{z-3}$의 주치.
+\end{itemize}
+\end{salt_exercise}
+
+\begin{salt_exercise}[경로의 회전수] \label{ex-3-21}
+$\gamma:[0,1]\to\mathbb C$가 $0$을 지나지 않는
+매끄러운 닫힌경로라고 가정하자. ($0$에 대한) $\gamma$의 {\bf 회전수}를 
+다음과 같이 정의한다.
+\[
+w(\gamma) := \dfrac1{2\pi i}\int_\gamma \dfrac 1z dz
+= \dfrac1{2\pi i}\int_0^1 \dfrac{\gamma'(t)}{\gamma(t)}dt.
+\]
+\begin{itemize}
+\item[(1)] $\exp(2\pi ia)=1$일 필요충분조건이 $a\in\mathbb Z$임을 이용하여,
+$w(\gamma)\in\mathbb Z$임을 다음 과정으로 증명하라.
+함수 $\varphi:[0,1] \to\mathbb C$를 
+\[
+\varphi(t) = \exp\left( \int_0^t \dfrac{\gamma'(s)}{\gamma(s)}ds\right),
+\quad t\in[0,1]
+\]
+로 정의하자.  $w(\gamma)\in\mathbb Z$를 증명하려면
+$\varphi(1)=1$을 보이면 충분하다.
+이를 위해, $\varphi'(t)$를 계산하여 $\varphi/\gamma$가 $[0,1]$에서 상수임을 증명하라.
+이 사실로부터 $\varphi(1)=1$이라는 결론을 얻을 수 있다.
+\item[(2)] $\Gamma_1(t)=\exp(2\pi it)$ ($t\in[0,1]$)로 주어진 경로 $\Gamma_1:[0,1]\to\mathbb C$의
+회전수를 계산하라.
+\item[(3)] $\gamma_1, \gamma_2:[0,1]\to\mathbb C$가 $0$을 지나지 않는
+매끄러운 닫힌경로라 하자. 두 경로의 곱 $\gamma_1\cdot\gamma_2$을
+점별 곱으로 정의하면, $w(\gamma_1\cdot\gamma_2) = w(\gamma_1)+w(\gamma_2)$임을
+증명하라.
+\item[(4)] $m\in \mathbb N$이라 하자. 
+$\Gamma_m(t)=\exp(2\pi imt)$ ($t\in[0,1]$)로 주어진 경로 $\Gamma_m:[0,1]\to\mathbb C$의
+회전수를 계산하라.
+\item[(5)] 
+\end{itemize}
+\end{salt_exercise}
+
+
+
+
+
+
+
 
 
 
