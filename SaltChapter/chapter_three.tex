@@ -2115,10 +2115,115 @@ $\dint_C \dfrac{f(z)}{z-a_1}dz$와 $\dint_C \dfrac{f(z)}{z-a_2}dz$로 나타내�
 
 \section{모레라 정리: 코시 적분정리의 역}
 
+ 코시 적분정리를 다시 돌아보자.
+\begin{itemize}
+\item[(1)] $D$가 영역이고, 
+\item[(2)] $f:D\to \mathbb C$는 \textcolor{red}{복소해석함수}이고,
+\item[(3)] $\Delta$는 $\Delta \subset D$의 임의의 원판이고,
+\item[(4)] $\gamma$는 $\Delta$ 내부의 조각적으로 매끄러운 닫힌 경로이면,
+\end{itemize}
+\[
+\int_\gamma f(z)dz = 0.
+\]
+이제 다음과 같이 그 역도 성립함을 보일 것이다.
+\begin{salt_theorem}[모레라 정리] \label{thm-3-8}
+\
+\begin{itemize}
+\item[(1)] $D$가 영역이고, 
+\item[(2)] $f:D\to \mathbb C$는 \textcolor{red}{연속함수}이고,
+\item[(3)] $D$에 속하는 모든 닫힌 사각형 경로 $\gamma$에 대하여
+\[
+\int_\gamma f(z)dz = 0
+\]
+이면,
+\end{itemize}
+$f$는 $D$에서 \textcolor{red}{복소해석함수}이다.
+\end{salt_theorem}
+다시 말하면, 특별한 경로적분들이 $0$이면
+$f$가 복소해석함수라는 결론을 얻는다!
 
+{\bf 증명}
 
+$z_0\in D$, $\Delta$는 중심이 $z_0$이고 $\Delta \subset D$인 원판이고,
+$\gamma_{z_0,z}$는 $z_0$에서 수평방향으로 먼저 진행한 후
+수직방향으로 움직여 $z$에 도달하는 경로라고 하자.
+\begin{figure*}[h!]
+\begin{center}
+\includegraphics[width=0.3\textwidth]{./SaltChapter/fig-3-0-12}
+\end{center}
+\end{figure*}
 
+$F:\Delta \to \mathbb C$를 $F(z) = \dint_{\gamma_{z_0,z}} f(\zeta)d\zeta$, $z\in\Delta$로
+정의하자.
 
+이제 $F$가 $\Delta$에서 복소해석함수이고, 그 미분이 $f$가 됨을 보일 것이다.
+이로써 $f$가 $\Delta$에서 복소해석함수임이 증명된다. 왜?
+$f$가 복소해석함수의 도함수이므로 따름정리 \ref{coro-3-6}에 의해
+$D$에서 복소해석함수이다.
 
+$z\in \Delta$가 주어졌고, $\epsilon>0$이라 가정하자.
+$f$가 연속이므로, $\delta>0$가 존재하여
+$|w-z|<\delta$와 $w\in \Delta$를 만족할 때마다
+$|f(w) - f(z)| <\epsilon$가 성립한다.
+\[
+F(w) - F(z) = \int_{\gamma_{z_0,w}} f(\zeta) d\zeta
+- \int_{\gamma_{z_0,z}} f(\zeta) d\zeta
+\]
+이므로
+닫힌 사각형 경로에서 $f$의 적분이 $0$임을 이용하면 다음을 얻는다.
+\[
+F(w) - F(z) = \int_{\gamma_{z,w}} f(\zeta) d\zeta,
+\]
+여기서 $\gamma_{z,w}$는 $z$에서 수평방향으로 먼저 진행한 후
+수직방향으로 움직여 $w$에 도달하는 경로이다.
+예를 들어 아래 그림의 적분 경로에서는 다음과 같이 계산된다 (피적분함수는 생략하고 쓰면).
+\begin{align*}
+F(w) - F(z) 
+&= \int_{\gamma_{z_0,w}} f(\zeta) d\zeta
+- \int_{\gamma_{z_0,z}} f(\zeta) d\zeta
+= \cancel{\int_A} + \int_B + \int_C - \left(\cancel{\int_A} + \int_D \right) \\
+&= \underbrace{\int_B + \int_C + \int_{-\gamma_{z,w}} + \int_{-D}}_{=0}
++\int_{\gamma_{z,w}} f(\zeta) d\zeta.
+\end{align*}
 
+\begin{figure*}[h!]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{./SaltChapter/fig-3-0-13}
+\end{center}
+\end{figure*}
+
+따라서 $0<|w-z|<\delta$에 대하여, 다음을 얻는다.
+\begin{align*}
+\frac{F(w)-F(z)}{w-z} - f(z)
+&= \dfrac1{w-z}\int_{\gamma_{z,w}} f(\zeta)d\zeta - f(z) \dfrac1{w-z}\int_{\gamma_{z,w}} 1 d\zeta \\ 
+& = \int_{\gamma_{z,w}} (f(\zeta) - f(z)) d\zeta.
+\end{align*}
+여기서 
+\[
+\int_{\gamma_{z,w}} 1 d\zeta = w-z
+\]
+를 얻기위해 복소해석함수 $1$에 대하여 경로적분의 기본정리를 사용하였다.
+결론적으로 위의 결과와 경로 $\gamma_{z,w}$의 길이가
+\[
+|\Re(w-z)| + |\Im(w-z)| \le 2|w-z|
+\]
+를 만족한다는 성질로부터 다음을 얻는다.
+\begin{align*}
+\left| \frac{F(w)-F(z)}{w-z} - f(z) \right|
+&= \left| \dfrac1{w-z} \int_{\gamma_{z,w}} (f(\zeta) - f(z)) d\zeta \right|  \\
+&< \dfrac\epsilon{|w-z|} (|\Re(w-z)| + |\Im(w-z)|) \le 2\epsilon.
+\end{align*}
+이로써 증명이 끝난다.
+\hfill $\square$
+
+\section{참고}
+
+정리 \ref{thm-3-4}의 증명은 [Beck, Marchesi, Pixton, Sabalka (2008)]의 설명을
+거의 따랐다. 연습문제 \ref{ex-3-3}, \ref{ex-3-4}, \ref{ex-3-12}, \ref{ex-3-20}, \ref{ex-3-27}은
+[Beck, Marchesi, Pixton, Sabalka (2008)]에서 가져왔다.
+연습문제 \ref{ex-3-10}, \ref{ex-3-14}, \ref{ex-3-18}, \ref{ex-3-19}, \ref{ex-3-22}, \ref{ex-3-24}는
+[Needham (1997)]을 인용하였다.
+연습문제 \ref{ex-3-21}은 [Rudin (1987)]에서, 
+연습문제 \ref{ex-3-26}, \ref{ex-3-33}, \ref{ex-3-34}는 [Flanigan (1972)]에서,
+연습문제 \ref{ex-3-28}은 [Howie (2003)]을 각각 인용하였다.
 

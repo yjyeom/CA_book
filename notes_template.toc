@@ -34,3 +34,7 @@
 \contentsline {section}{\numberline {3.7}복소해석함수는 무한번 미분가능하다}{106}{section.3.7}%
 \contentsline {section}{\numberline {3.8}리우비유 정리와 대수학의 기본정리}{109}{section.3.8}%
 \contentsline {section}{\numberline {3.9}모레라 정리: 코시 적분정리의 역}{111}{section.3.9}%
+\contentsline {section}{\numberline {3.10}참고}{114}{section.3.10}%
+\contentsline {chapter}{\numberline {4}테일러 급수와 로랑 급수}{115}{chapter.4}%
+\hypertarget {chap-4}{}
+\contentsline {section}{\numberline {4.1}급수}{116}{section.4.1}%
