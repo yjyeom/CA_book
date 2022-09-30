@@ -1,0 +1,6 @@
+%%!TEX encoding = UTF-8 Unicode
+saltexer:=\begin{salt_exercise}\label{ex-#INS#}#RET##RET#\end{salt_exercise}#RET#
+saltexam:=\begin{salt_example}\label{example-#INS#}#RET##RET#\end{salt_example}#RET#
+saltthm:=\begin{salt_theorem}\label{thm-#INS#}#RET##RET#\end{salt_theorem}#RET#
+saltnfig:=\begin{figure*}[h!]#RET#\begin{center}#RET#\includegraphics[width=0.5\textwidth]{./SaltChapter/fig-#INS#}#RET#\end{center}#RET#\end{figure*}#RET#
+saltfig:=\begin{figure}[!h]#RET#\begin{center}#RET#\includegraphics[width=0.4\textwidth]{./SaltChapter/fig-#INS#}#RET#\end{center}#RET#\caption{ }#RET#\label{fig-}#RET#\end{figure}#RET#
