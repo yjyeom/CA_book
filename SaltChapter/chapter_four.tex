@@ -545,15 +545,234 @@ $\mathbb R \setminus [-R,R]$에서 발산한다.
 복소해석함수를 실수축에 제한한 것으로 볼 수 있다.
 이 결과로 실해석학과 복소해석학의 세계를 연결하는
 상호작용을 엿볼 수 있다
-(우리는 이미 앞에서 코시-리만 방정식을 공부하면서 이러한 사례를 살펴 본 바 있다).
+(우리는 코시-리만 방정식을 공부하면서 이미 이러한 사례를 살펴 본 바 있다).
+
+앞의 결과를 반복하면 다음을 쉽게 얻는다.
+
+\begin{salt_corollary}\label{coro-4-1}
+$R>0$이고, $f(z):= \Sum_{n=0}^\infty c_n z^n$이 $|z|<R$에서 수렴한다고 하자.
+그러면, $k\ge1$에 대하여
+\begin{equation}\label{eq-4-1}
+f^{(k)}(z) = \sum_{n=k}^\infty n(n-1)(n-2)\cdots (n-k+1)c_nz^{n-k}.
+\quad (|z|<R)
+\end{equation}
+특히, $n\ge0$에 대하여, $c_n = \dfrac1{n!} f^{(n)}(0)$.
+\end{salt_corollary}
+
+{\bf 증명}
+
+직접 계산하여 바로 얻을 수 있는 결과이며, 두번째 결과를 얻기 위해
+식 \eqref{eq-4-1}에 $z=0$을 대입하면
+\[
+f^{(k)}(0) = k(k-1)\cdots 1c_k + z \sum{n=k+1}^\infty n(n-1) \cdots (n-k+1)c_n z^{n-k-1}\Big|_{z=0}
+= k!c_k
+\]
+이며, $f(0)=c_0$이다.
+\hfill $\square$
+
+이는 $0$을 중심으로 전개한 제곱급수에 한정된 결과가 아니다.
+복소수 $z_0$를 택하여 제곱급수
+\[
+\sum_{n=0}^\infty c_n(z-z_0)^n
+\]
+를 생각하면, 정리 \ref{thm-4-1}과 \ref{thm-4-3}으로부터
+다음 결과를 바로 얻는다.
 
 
+\begin{salt_corollary} \label{thm-4-2}
+제곱급수 $\Sum_{n=0}^\infty c_n(z-z_0)^n$에 대하여
+다음 두 가지 중 정확히 하나만 성립한다.
+\begin{itemize}
+\item[(1)] 모든 $z\in\mathbb C$에 대하여 절대수렴하거나
+\item[(2)] 음이 아닌 실수 $R$이 유일하게 존재하여 다음을 만족한다.
+\begin{itemize}
+\item[(a)] $|z-z_0|<R$인 모든 $z\in\mathbb C$에 대하여 
+$\Sum_{n=0}^\infty c_n(z-z_0)^n$이 절대수렴하고,
+\item[(b)] $|z-z_0|>R$인 모든 $z\in\mathbb C$에 대하여 
+$\Sum_{n=0}^\infty c_n(z-z_0)^n$는 발산한다.
+\end{itemize}
+\end{itemize}
+\end{salt_corollary}
 
+\begin{salt_corollary}\label{coro-4-3}
+$z_0\in \mathbb C$, $R>0$이고, 
+$f(z):= \Sum_{n=0}^\infty c_n (z-z_0)^n$이 $|z-z_0|<R$에서 수렴한다고 하자.
+그러면, $k\ge1$에 대하여
+\begin{equation}\label{eq-4-1}
+f^{(k)}(z) = \sum_{n=k}^\infty n(n-1)(n-2)\cdots (n-k+1)c_n(z-z_0)^{n-k}.
+\quad (|z-z_0|<R)
+\end{equation}
+특히, $n\ge0$에 대하여, $c_n = \dfrac1{n!} f^{(n)}(z_0)$.
+\end{salt_corollary}
 
+\begin{salt_remark} [계수의 유일성] \label{rem-4-2}
+중심이 $z_0$, 반지름 $R>0$인 열린원판에서
+두 제곱급수
+\[
+\Sum_{n=0}^\infty c_n(z-z_0)^n \quad\text{와}\quad
+\Sum_{n=0}^\infty \tilde c_n(z-z_0)^n
+\]
+가 모두 같은 함수 $f$로 수렴한다고 하자.
+그러면 위의 따름정리로부터 모든 $n\ge0$에 대하여
+\[
+c_n = \dfrac{f^{(n)}(z_0)}{n!} = \tilde c_n.
+\]
+\end{salt_remark}
 
+\begin{salt_exercise} \label{ex-4-10}
+$|z|<1$일 때,
+$1^2 + 2^2z + 3^2z^2 + 4^2z^3 + \cdots$의 값은?
+\end{salt_exercise}
 
+\begin{salt_exercise} \label{ex-4-11}
+제곱급수 $\Sum_{n=0}^\infty c_nz^n$에 대하여 다음 문장의 참, 거짓을 판정하라.
+\begin{itemize}
+\item[(1)] 급수가 수렴하는  복소수 $z$의 집합은 $\{0\}$이거나, 유한한 반지름을 갖는 열린원판,
+또는 복소평면 전체가 되며 다른 경우는 생길 수 없다.
+\item[(2)] 제곱급수가 $z=1$에서 수렴하면 $|z|<1$에서 수렴한다.
+\item[(3)] 제곱급수가 $z=1$에서 수렴하면 원 $|z|=1$의 모든 점에서 수렴한다.
+\item[(4)] 제곱급수가 $z=1$에서 수렴하면 $z=-1$에서 수렴한다.
+\item[(5)] 제곱급수가 원점이 중심이고 반지름이 유한한 열린원판에서 수렴하면
+원판의 경계(즉, 원판을 둘러싸는 원)의 전체 또는 일부에서도 수렴할 수 있으나
+그 이외의 점에서는 수렴할 수 없다.
+\item[(6)] 수렴하는 범위가 닫힌원판 $|z|\le 1$ 전체인 제곱급수가 존재한다.
+\item[(7)] 제곱급수가 $z=i$에서 발산하면, $z=1+i$에서도 발산한다.
+\end{itemize}
+\end{salt_exercise}
 
+\section{테일러 급수} \label{section-4-3}
 
+앞 절에서 수렴반경이 $R$인 복수제곱급수
+\[
+\sum_{n=0}^\infty c_n(z-z_0)^n
+\]
+은 영역 $|z-z_0|<R$에서 복소해석함수가 됨을 살펴보았다.
+이 절에서는 역으로 $f$가 원판 $|z-z_0|<R$에서 복소해석함수이면
+\[
+f(z) = \sum_{n=0}^\infty c_n (z-z_0)^n \quad (|z-z_0|<R)
+\]
+임을 보일 것이다. 여기서 계수 $c_n$은 $f$로부터 결정된다.
+따라서 영역 $D$에 정의된 복소해석함수 $f$는 임의의 점 $z_0\in D$의 근방에서
+제곱급수 전개를 갖는다.
 
+\begin{salt_theorem}\label{thm-4-4}
+$f$가 $D(z_0,R) := \{ z\in \mathbb C \,:\, |z-z_0| <R \}$에서 복소해석함수이면,
+$z\in D(z_0,R)$에 대하여
+$f(z) = c_0 + c_1(z-z_0) + c_2(z-z_0)^2 + c_3(z-z_0)^3+ \cdots$이다.
+여기서, $n\ge0$에 대하여
+\[
+c_n = \dfrac1{2\pi i} \int_C \dfrac{f(\zeta)}{(\zeta-z_0)^{n+1}} d\zeta
+\]
+이고, $C$는 중심이 $z_0$이고 반지름 $r$ ($0<r<R$)인 원을 반시계방향으로 도는 원이다.
+\end{salt_theorem}
 
+\begin{figure*}[h!]
+\begin{center}
+\includegraphics[width=0.3\textwidth]{./SaltChapter/fig-4-0-4}
+\end{center}
+%\caption{$\mathbb C$에 정의된 제곱급수의 수렴영역}
+%\label{fig-4-0-3}
+\end{figure*}
+
+{\bf 증명}
+
+$z\in D(z_0, R)$이라 하자.
+우선 $|z-z_0|<r<R$인 $r$을 잡고
+코시 적분공식을 적용하면
+\begin{align*}
+f(z) &= \dfrac1{2\pi i}\int_C \dfrac{f(\zeta)}{\zeta-z} d\zeta
+= \dfrac1{2\pi i}\int_C \dfrac{f(\zeta)}{\zeta-z_0+z_0-z} d\zeta \\
+&= \dfrac1{2\pi i}\int_C \dfrac{f(\zeta)}{(\zeta-z_0)\left(1- \dfrac{z-z_0}{\zeta-z_0}\right)} d\zeta.
+\end{align*}
+$w:=\dfrac{z-z_0}{\zeta-z_0}$라 하면,
+$|w| = \dfrac{|z-z_0|}r <1$이므로
+\begin{align*}
+\dfrac1{1-\dfrac{z-z_0}{\zeta-z_0}} = \dfrac1{1-w}
+& = 1+ w + w^2 + w^3 + \cdots + w^{n-1} + \dfrac{w^n}{1-w} \\
+&= 1 + \dfrac{z-z_0}{\zeta-z_0} + \cdots + \dfrac{(z-z_0)^{n-1}}{(\zeta-z_0)^{n-1}}
++ \dfrac{(z-z_0)^n}{(\zeta-z_0)^{n-1}(\zeta-z)}.
+\end{align*}
+이 결과를 종합하면
+\begin{align*}
+f(z) &= \dfrac1{2\pi i}\int_C f(\zeta) \left(
+\dfrac1{\zeta-z_0} + \cdots + \dfrac{(z-z_0)^{n-1}}{(\zeta-z_0)^{n}}
++ \dfrac{(z-z_0)^n}{(\zeta-z_0)^{n}(\zeta-z)} \right) d\zeta \\
+&= c_0 + c_1(z-z_0) + \cdots + c_{n-1}(z-z_0)^{n-1} + R_n(z),
+\end{align*}
+여기서 
+\[
+R_n(z) := \dfrac1{2\pi i} \int_C \dfrac{f(\zeta)(z-z_0)^n}{(\zeta-z_0)^n(\zeta-z)}d\zeta.
+\]
+이제 $n\to\infty$일 때, $R_n(z)$가 $0$으로 수렴하는 것을 보이면 증명이 끝난다.
+콤팩트 집합의 연속 실함수이므로 $|f|$는 원 위에서 유계이다.
+즉, 원 위의 모든 $\zeta\in C$에 대하여 $|f(\zeta)|<M$을 만족하는 상수 $M>0$이 존재한다
+(약간 왜곡하면 경로 $C$를 생각할 때, 점 $C(t)$의 집합 ($t\in [0,2\pi]$)으로 간주할 수 있다).
+또한 $\zeta\in C$에 대하여
+\[
+\left| \dfrac{(z-z_0)^n}{(\zeta-z_0)^n}\right| 
+= \left( \dfrac{|z-z_0|}r \right)^n
+\stackrel{n\to\infty}{\longrightarrow} 0.
+\]
+한편 $\zeta\in C$에 대하여 $1/|\zeta-z|$는 어떻게 되는가?
+어떤 수로 유계임을 보일 수 있는가?
+아래 그림을 보면 실제로 원 $C$와  $z$의 거리의 역수로 유계이다.
+
+\begin{figure*}[h!]
+\begin{center}
+\includegraphics[width=0.3\textwidth]{./SaltChapter/fig-4-0-5}
+\end{center}
+%\caption{$\mathbb C$에 정의된 제곱급수의 수렴영역}
+%\label{fig-4-0-3}
+\end{figure*}
+
+$|\zeta-z| = |\zeta-z_0-(z-z_0)| \ge
+|\zeta-z_0| - |z-z_0| = r - |z-z_0|$이므로
+\[
+|R_n(z)| \le \left( \dfrac{|z-z_0|}r \right)^n \dfrac M{r-|z-z_0|} 
+\stackrel{n\to\infty}{\longrightarrow} 0.
+\]
+따라서 제곱급수 $c_0 + c_1(z-z_0) + c_2(z-z_0)^2 + c_3(z-z_0)^3+ \cdots$는
+$f(z)$로 수렴한다.
+지금까지 결과로
+\[
+c_n = \dfrac1{2\pi i} \int_C \dfrac{f(\zeta)}{(\zeta-z_0)^{n+1}} d\zeta
+\]
+이 $|z-z_0|<r<R$인 $r$에서 성립한다는 것만을 보였다.
+하지만 코시 적분정리를 사용하면 적분이 $r$에 무관함을 알 수 있고
+$r\in (0,R)$이 다음을 만족하도록 선택할 수 있다.
+\begin{itemize}
+\item[(1)] $\dfrac{f(\cdot)}{(\cdot - z_0)^{n+1}}$이 
+$0<|z-z_0|<R$인 뚫린 원판 $D_*(z_0,R)$에서 복소해석함수이다.
+\item[(2)] $C$이외의 다른 경로로 중심이 $z_0$, 반지름 $\tilde r\in (0,R)$인 원 $\tilde C$를 잡으면
+$C$와 $\tilde C$는 $D_*(z_0,R)$에서 호모토픽하다. 
+\end{itemize}
+이로써 증명이 완성된다. \hfill $\square$
+
+한편 정리 \ref{thm-4-3}으로부터
+\[
+f(z) = \sum_{n=0}^\infty c_n(z-z_0)^n
+\quad (|z-z_0| <R)
+\]
+로 정의하면 $n\ge0$에 대하여 $c_n = \dfrac{f^{(n)}(z_0)}{n!}$이다.
+이상에서 적분으로 주어진 계수 $c_n$에 대한  다른 표현식을 얻었다.
+하지만 임의의 원판에서 제곱급수를 전개할 때 계수는 유일하게 결정된다.
+따라서 두 표현식은 같은 결과가 된다는 것을 기억하면 다음 결과를 얻는다.
+
+\begin{salt_corollary}(테일러 급수) \label{coro-4-4}
+\begin{itemize}
+\item[(1)] $D$가 영역이고,
+\item[(2)] $f:D\to \mathbb C$가 복소해석함수 이고,
+\item[(3)] $z_0\in D$ 이면,
+\end{itemize}
+\[
+f(z) = f(z_0) + \dfrac{f'(z_0)}{1!}(z-z_0) + \dfrac{f''(z_0)}{2!}(z-z_0)^ 2 
++ \cdots, \quad |z-z_0|<R.
+\]
+여기서 $R$은 $z_0$를 중심으로 하는 원판 중 영역 $D$에 속하는 가장 큰 열린집합의
+반지름이다. 또한,
+\begin{equation} \label{eq-4-2}
+f^{(n)}(z_0) = \dfrac{n!}{2\pi i}\int_C {f(z)}{(z-z_0)^{n+1}}dz.
+\end{equation}
+\end{salt_corollary}
+단, $C$는 $z_0$를 중심으로 하는 반지름 $r$ ($0<r<R$)인 원을 반시계방향으로 회전하는 경로이다.
 
