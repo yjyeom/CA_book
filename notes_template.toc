@@ -42,3 +42,5 @@
 \contentsline {subsection}{\numberline {4.2.1}제곱급수와 수렴영역}{117}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}복소해석함수의 제곱급수}{122}{subsection.4.2.2}%
 \contentsline {section}{\numberline {4.3}테일러 급수}{126}{section.4.3}%
+\contentsline {section}{\numberline {4.4}근의 분류}{131}{section.4.4}%
+\contentsline {section}{\numberline {4.5}항등정리}{135}{section.4.5}%

@@ -598,10 +598,10 @@ $\Sum_{n=0}^\infty c_n(z-z_0)^n$는 발산한다.
 $z_0\in \mathbb C$, $R>0$이고, 
 $f(z):= \Sum_{n=0}^\infty c_n (z-z_0)^n$이 $|z-z_0|<R$에서 수렴한다고 하자.
 그러면, $k\ge1$에 대하여
-\begin{equation}\label{eq-4-1}
+\[
 f^{(k)}(z) = \sum_{n=k}^\infty n(n-1)(n-2)\cdots (n-k+1)c_n(z-z_0)^{n-k}.
 \quad (|z-z_0|<R)
-\end{equation}
+\]
 특히, $n\ge0$에 대하여, $c_n = \dfrac1{n!} f^{(n)}(z_0)$.
 \end{salt_corollary}
 
@@ -758,10 +758,14 @@ f(z) = \sum_{n=0}^\infty c_n(z-z_0)^n
 하지만 임의의 원판에서 제곱급수를 전개할 때 계수는 유일하게 결정된다.
 따라서 두 표현식은 같은 결과가 된다는 것을 기억하면 다음 결과를 얻는다.
 
-\begin{salt_corollary}(테일러 급수) \label{coro-4-4}
+\begin{salt_corollary}(테일러\footnote{
+이 급수 전개에 대하여 연구한 학자 중 실해석 함수 관점에서 연구한
+브룩 테일러(Brook Taylor, 1685-1731)의 이름이다.
+}
+ 급수) \label{coro-4-4}
 \begin{itemize}
 \item[(1)] $D$가 영역이고,
-\item[(2)] $f:D\to \mathbb C$가 복소해석함수 이고,
+\item[(2)] $f:D\to \mathbb C$가 복소해석함수이고,
 \item[(3)] $z_0\in D$ 이면,
 \end{itemize}
 \[
@@ -771,8 +775,398 @@ f(z) = f(z_0) + \dfrac{f'(z_0)}{1!}(z-z_0) + \dfrac{f''(z_0)}{2!}(z-z_0)^ 2
 여기서 $R$은 $z_0$를 중심으로 하는 원판 중 영역 $D$에 속하는 가장 큰 열린집합의
 반지름이다. 또한,
 \begin{equation} \label{eq-4-2}
-f^{(n)}(z_0) = \dfrac{n!}{2\pi i}\int_C {f(z)}{(z-z_0)^{n+1}}dz.
+f^{(n)}(z_0) = \dfrac{n!}{2\pi i}\int_C \dfrac{f(z)}{(z-z_0)^{n+1}}dz.
 \end{equation}
 \end{salt_corollary}
 단, $C$는 $z_0$를 중심으로 하는 반지름 $r$ ($0<r<R$)인 원을 반시계방향으로 회전하는 경로이다.
+
+식 \eqref{eq-4-2}는 (일반화된) 코시 적분공식이라 불린다. 우리는 앞서 $n=0$인 경우(정리 \ref{thm-3-4})와
+$n=1$인 경우(정리 \ref{thm-3-6}의 증명)에 대하여 증명했었다.
+여기에 더하여 위 결과로부터 임의의 점 $w\in \Delta:=\{z\in\mathbb C\,:\, |z-z_0| <R \}$에 
+대하여 다음 식을 얻는다.
+\[
+f^{(n)}(w) = \dfrac{n!}{2\pi i}\int_C \dfrac{f(z)}{(z-w)^{n+1}}dz.
+\]
+이는 코시 적분정리로부터 얻어지는데,
+우선 $w$를 중심으로 하는 작은 원 $C_\delta$에 대하여 위 식을 증명한 다음
+경로 $C$와 $C_\delta$가 $\Delta\setminus \{w\}$-호모토픽이며,
+$f(\cdot)/(\cdot-w)^{n+1}$이 $\Delta\setminus \{w\}$에서 복소해석함수임을 이용하여 보일 수 있다.
+
+{\bf 증명}
+
+정리 \ref{thm-4-4}로부터,
+중심이 $z_0$이고 $D(z_0,R):= \{ z\in \mathbb C \,:\, |z-z_0|<R\}$가
+$D$에 포함되는 가장 큰 열린원판이 되도록 $R$을 선택한다.
+\begin{equation}\label{eq-4-3}
+f(z) = c_0 + c_1(z-z_0) + c_2(z-z_0)^2 + c_3(z-z_0)^3 + \cdots, \quad
+z\in D(z_0,R).
+\end{equation}
+또한, $n\ge0$에 대하여
+\[
+c_n = \dfrac1{2\pi i} \int_C \dfrac{f(z)}{(z-z_0)^{n+1}} dz,
+\]
+여기서 $C$는 $z_0$를 중심으로 하는 반지름 $r$ ($0<r<R$)인 원을 반시계방향으로 회전하는 경로이다.
+한편, 따름정리 \ref{coro-4-3}에 의하여
+제곱급수는 무한번 미분가능하고, $n\ge0$에 대하여
+\[
+\dfrac1{n!}f^{(n)}(z_0) = c_n
+\]
+이므로 원하는 결과를 얻는다. \hfill $\square$
+
+요약하면, 
+$f$가 영역 $|z-z_0|<R$에 정의된 복소해석함수이면, $|z-z_0|<R$에서
+\[
+f(z) = \sum_{n=0}^\infty \left( \dfrac 1{2\pi i}
+\int_C \dfrac{f(\zeta)}{(\zeta - z_0)^{n+1}}d\zeta \right)\cdot
+(z-z_0)^n
+=  \sum_{n=0}^\infty \dfrac{f^{(n)}(z_0)}{n!} (z-z_0)^n,
+\]
+여기서 $C(t) = z_0 + r\exp (it)$ ($t\in[0,2\pi]$)이고 $r$은
+$0<r<R$을 만족하는 임의의 실수이다.
+
+\begin{salt_example} \label{exxample-4-3}
+지수함수 $f$, $z\mapsto f(z):=\exp z$는 전해석함수이다.
+따라서 적당한 계수 $c_n$에 대하여
+\[
+\exp z = \sum_{n=0}^\infty c_nz^n \quad (z\in \mathbb C)
+\]
+로 쓸 수 있다. 
+다음 식으로 주어진 계수들을 실제로 구하면?
+\[
+c_n = \dfrac1{n!}f^{(n)}(z_0), \quad n\ge 0
+\]
+$\dfrac d{dz}\exp z = \exp z$이고$f^{(n)}(0)=1$이므로
+\[
+f(z) = \sum_{n=0}^\infty \dfrac{f^{(n)}(0)}{n!} (z-0)^n 
+=\sum_{n=0}^\infty \dfrac{1}{n!} z^n\quad (z\in\mathbb C).
+\]
+\hfill $\diamondsuit$
+\end{salt_example}
+
+\begin{salt_example} \label{exxample-4-4}
+$f(z) = \Log(z)$로 정의된 함수 $f$는 $\mathbb C\setminus (-\infty,0]$에서 
+복소해석함수이다. 이 잘린 평면에서 $z_0=1$을 중심으로 가장 큰 열린원판을 잡으면
+$D = \{z\in\mathbb C\,:\, |z-1|<1\}$이다.
+\[
+f^{(n)}(z_0) = \dfrac{(-1)^n(n-1)!}{z_0^n} = (-1)^n (n-1)!
+\]
+이므로 $|w|<1$에 대하여
+\[
+\Log (1+w) = w - \dfrac {w^2}{2} + \cdots + \dfrac{(-1)^nw^n}n + \cdots
+\]
+를 얻는다. \hfill $\diamondsuit$
+\end{salt_example}
+
+\begin{salt_exercise} \label{ex-4-12}
+$z\in\mathbb C$에 대하여 다음 등식을 보여라.
+\[
+\sin z = z - \dfrac{z^3}{3!} + \dfrac{z^5}{5!} - \cdots,
+\quad
+\cos z = 1 - \dfrac{z^2}{2!} + \dfrac{z^4}{4!} - \cdots.
+\]
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-4-13}
+$z_0=1$을 중심으로 하여
+다항식 $z^-z^4 + z^2 -1$의 테일러 급수를 구하라.
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-4-14}
+함수 $f$가 다음과 같을 때 테일러 급수 $\Sum_{n=0}^\infty c_nz^n$의 계수 $c_n$을 구하라.
+\begin{itemize}
+\item[(1)] $f(z) = \dint_{\gamma_{0z}} \exp(\zeta^2)d\zeta$ ($z\in\mathbb C$),
+단, $\gamma_{0z}$는 $0$에서 $z$까지 연결하는 직선 경로이다. \\
+힌트: $f'(z) = \exp(z^2)$.
+\item[(2)] $f(z) = \dfrac{z^2}{(z+1)^2}$ ($z\in \mathbb C\setminus \{-1\}$). \\
+힌트: $|z|<1$에 대하여, $\dfrac1{z+1} = 1- z + z^2 - \cdots$.
+\end{itemize}
+\end{salt_exercise}
+
+일반화된 코시 적분정리에서 얻어지는 결과를 더 살펴보자.
+
+\begin{salt_corollary}[코시 부등식] \label{coro-4-5}
+\ 
+\begin{itemize}
+\item[(1)] $f$가 $D(z_0, R):= \{z \in \mathbb C\,:\, |z-z_0| <R \}$에 정의된
+복소해석함수이고,
+\item[(2)] 모든 $z\in D(z_0,R)$에 대하여 $|f(z)|\le M$이면,
+\end{itemize}
+$n\ge0$에 대하여  \ $|f^{(n)}(z_0)| \le \dfrac{n! M}{R^n}$.
+\end{salt_corollary}
+
+{\bf 증명}
+
+$C$가 $z_0$를 중심으로 하고 반지름이 $r<R$인 원이라 하자. 그러면
+\begin{align*}
+|f^{(n)}(z_0)| &= \left| \dfrac{n!}{2\pi i} \int_C \dfrac{f(z)}{(z-z_0)^{n+1}}dz \right| \\
+&\le \dfrac{n!}{2\pi} \max_{z\in C} \left| \dfrac{f(z)}{(z-z_0)^{n+1}} \right| \cdot 
+2\pi r = \dfrac{n!}{2\pi} \dfrac{M}{r^{n+1}}2\pi r = \dfrac{n! M}{r^n}.
+\end{align*}
+극한 $r\nearrow R$을 취하면 원하는 결과를 얻는다. 
+\hfill $\square$
+
+\begin{salt_exercise} \label{ex-4-15}
+$f$가 전해석함수이고 모든 $z\in\mathbb C$에 대하여
+$|f(z)| \le < M|z|^n$을 만족하는  $M>0$과 정수 $n\ge0$가 존재한다고 가정하자.
+코시 부등식을 이용하여 모든 $z$에 대하여 $f^{(n+1)}(z) = 0$을 증명하고
+$f$는 $n$차 이하 다항식임을 보여라. $n=0$일 때는 어떤 결론을 얻는가?
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-4-16}
+$C$가 원점을 중심으로 반지름 $1$인 원을 반시계방향으로 도는 원형 경로일 때,
+$\dint_C \dfrac{\sin z}{z^{2013}}dz$를 구하라.
+\end{salt_exercise}
+
+\section{근의 분류}
+
+영역 $D$에서  $f: D\to \mathbb C$가 복소해석함수라고 하자.
+항등적으로 $0$이 아닌 함수 $f$의 근은 어떤 모습일까?
+($f(z_0)=0$를 만족하는 점 $z_0\in D$를 $f$의 {\bf 근(zero)}이라 한다)
+이 절에서는 이 문제의 답으로 근들이 ``고립''되어 있음을 보일 것이다.
+연속함수의 경우는 이러한 일이 일어나지 않는다. 
+연속함수는 복소해석함수만큼 엄격한 조건을 갖지 않기 때문에
+의 근이 고립될 필요가 없다.
+
+\begin{salt_example}\label{example-4-5}
+\
+\begin{itemize}
+\item[(1)] $\exp z$는 $\mathbb C$에서 근을 갖지 않는다.
+실제로, 모든 $z\in \mathbb C$에 대하여 $|\exp(z)| = e^{\Re(z)} >0$이다.
+\item[(2)] $\cos z - 3$은 $\mathbb C$에서 무한이 많은 근 
+$2\pi n \pm i \log(3+2\sqrt{2})$ ($n\in\mathbb Z$)
+을 갖는다.
+모든 근은 수평선에 분포하고 인접한 근과의 간격은 $2\pi$이다.
+계산방법은 연습문제 \ref{ex-1-38}을 참고하라.
+\item[(3)] 다항식 $p(z) = (z+1)^3z^9(z-1)^9$은 $-1, 0, 1$에서 근을 갖는다. 
+\hfill $\diamondsuit$
+\end{itemize}
+\end{salt_example}
+
+$p$가 항등적으로 $0$이 아닌 다항식이고 $p(z_0)=0$이면
+나눗셈정리에 따라 
+\[
+p(z) = (z-z_0) q(z)
+\]
+을 만족하는 다항식 $q$(몫)가 존재한다
+(즉, 나머지가 $0$이다). 
+이제 다음 두 가지  가능성을 생각할 수 있다.
+\begin{itemize}
+\item[$1^\circ$] $q(z_0) \ne0$. 그러면 $z_0$는 $p$의 고립 근이다.
+\item[$2^\circ$] $q(z_0) =0$. 그러면 $p$를 $q$로 바꾸어 위 과정을 반복한다.
+\end{itemize}
+
+궁극적으로 적당한 $m\ge1$에 대하여 $p(z) = (z-z_0)^mq(z)$이고  $q(z_0)\ne0$에 도달한다.
+이 때 $m$을 ($p$의 근) $z_0$의 중복도(multiplicity) 또는 차수(order)라 부른다.
+아래 명제 \ref{prop-4-1}에서 복소해석함수 $f$에서도 (다항식 $p$를 대체하여)
+같은 종류의 결과를 얻을 수 있음을 보일 것이다.
+다만, 결과가 다항식 $q$ 대신 복소해석함수 $g$로 마무리된다는 것만 다르다.
+이는 아주 놀라운 결과는 아니다. 왜냐하면, 제곱급수는 다항식으로부터 유추될 수 있고
+임의의 복소해석함수는 국소적으로 제곱급수 전개가 가능하기 때문이다.
+우선 다음 정의를 만들자.
+
+\begin{salt_definition} \label{def-4-2}
+$D$가 영역이고, $f:D\to\mathbb C$가 $D$에서 복소해석함수라고 하자.
+$f(z_0)=0$이면 점 $z_0\in D$를 $f$의 {\bf 근}이라고 한다.
+다음 조건을 만족하는 가장 작은 자연수를 $m\in\mathbb N$이 존재하면,
+\begin{itemize}
+\item[(1)] $f^{(m)}(z_0) \ne 0$이고,
+\item[(2)] $f(z_0) = \cdots = f^{(m-1)}(z_0) = 0$.
+\end{itemize}
+$z_0$는 $f$의 {\bf $m$ 중근}이라 한다
+(관습적으로 $f^{(0)} := f$라 한다).
+\end{salt_definition}
+
+그러면, 복소해석함수의 근의 분류에 대한 다음 결과를 얻는다.
+
+\begin{salt_prop} [근의 분류] \label{prop-4-1}
+\
+\begin{itemize}
+\item[(1)] $D$가 영역이고,
+\item[(2)] $f:D\to\mathbb C$가 $D$에서 복소해석함수이고,
+\item[(3)] $z_0 \in D$가 $f$의 근이라고 하자.
+\end{itemize}
+그러면, 정확히 다음 두 가지 가능성이 있다.
+\begin{itemize}
+\item[$1^\circ$] 양수 $R$이 존재하여 $|z-z_0|<R$인 모든 $z$에 대하여
+$f(z)=0$.
+\item[$2^\circ$] $m\in\mathbb N$이 존재하여
+ $z_0$가 $f$의 $m$중근이다. 또한, 
+ $g(z_0)\ne0$이고 모든 $z\in D$에 대하여 $f(z) = (z-z_0)^mg(z)$인
+ 복소해석함수 $g:D\to\mathbb C$가 존재한다.
+\end{itemize}
+\end{salt_prop}
+
+$2^\circ$의 경우 $g$가 연속이고 $g(z_0)\ne0$이므로
+$g$는 $z_0$를 중심으로 하는 작은 원판 $\Delta$에서 $0$이 아니며,
+$z\in \Delta\setminus \{z_0\}$에서 $f(z) = (z-z_0)^mg(z) \ne 0$이므로
+$f$는 $\Delta\setminus \{z_0\}$에서 $0$이 아니다.
+따라서 $z_0$는 $\Delta$에서 $f$ 의 유일한 근이다. 즉, 고립된 근이다.
+
+한편, 앞으로 보게 될 항등정리에 따르면
+$1^\circ$의 경우는 영역 $D$ 전체에서 $f\equiv 0$이다.
+
+{\bf 증명}
+
+중심이 $z_0$이고 반지름 $R>0$인 원판에서 $f$의 제곱급수 전개를 하면,
+\[
+f(z) = c_0 + c_1(z-z_0) + c_2(z-z_0)^2 + c_3(z-z_0)^3 + \cdots, \quad
+(|z-z_0| <R).
+\]
+$f(z_0)=0$이므로, $c_0=0$임을 바로 알 수 있다. 
+이제 정확히 두 가지 가능성이 있다.
+\begin{itemize}
+\item[$1^\circ$] 모든 $c_n$이 $0$이다. 그러면, $|z-z_0| <R$에서 $f(z)=0$이다.
+\item[$2^\circ$] $c_m\ne 0$인 가장 작은 $m\ge1$이 존재한다.
+그러면 $c_0=c_1=\cdots = c_{m-1}=0$이고,
+\[
+c_n = \dfrac{f^{(n)}(z_0)}{n!}, \quad n\ge0
+\]
+로부터 $z_0$는 $m$ 중근이다.
+또한, 제곱급수 전개로부터 $|z-z_0|<R$에 대하여
+\begin{equation} \label{eq-4-4}
+f(z) = c_m(z-z_0)^m + c_{m+1}(z-z_0)^{m+1} + \cdots
+= (z-z_0)^m \sum_{k=0}^\infty c_{m+k} (z-z_0)^k.
+\end{equation}
+따라서 $g:D\to \mathbb C$를 
+\[
+g(z) = \begin{cases}
+\dfrac{f(z)}{(z-z_0)^m}, & z\ne z_0, \\
+\Sum_{k=0}^\infty c_{m+k} (z-z_0)^k, & |z-z_0|<R
+\end{cases}	
+\]
+로 정의하면,
+식 \eqref{eq-4-4}로부터 두 가지 조건을 모두 만족하는 경우
+두 가지 경우의 계산결과가 일치하므로
+$g$는 잘 정의된다. 추가적으로 다음 결론을 얻는다.
+\begin{itemize}
+\item[(1)]  $g$는 $D$에서 복소해석함수이다. $z\ne z_0$에서
+$f$와 $1/(\cdot - z_0)^m$이 $D\setminus \{z_0\}$에서 복소해석함수이므로
+$|z-z_0|<R$에 대하여 제곱급수로 정의된 $g$는 복소해석함수이다.
+\item[(2)] $g(z_0) = c_m\ne 0$ ($m$의 정의에서)
+\item[(3)] 식 \eqref{eq-4-4}로부터 $z\in D\setminus \{z_0\}$에 대하여
+$f(z) = (z-z_0)^mg(z)$. 한편, $z=z_0$이면 양변이 $0$이 된다.
+따라서 모든 $z\in D$에 대하여 $f(z) = (z-z_0)^mg(z)$이 성립한다.
+\item[(4)] $z_0$는 $m$ 중근이다.
+왜냐하면, 모든 $n$에 대하여 $c_n = f^{(n)}(z_0)/n!$이므로
+$c_m \ne 0$이고, $c_0 = c_1 = \cdots = c_{m-1}= 0$.
+\end{itemize}
+\end{itemize}
+이상에서 정리가 증명된다. \hfill $\square$
+
+\begin{salt_example} \label{example-4-6}
+\
+\begin{itemize}
+\item[(1)] $n\in \mathbb Z$에 대하여 $n\pi$는 $\sin z$의 근이다.
+$\sin z$를 실수축에 한정하면 $n\pi$의 근방에서 
+$\sin z$가 항등적으로 $0$이 아님을 알 수 있다.
+$\sin z$의 근으로서 $n\pi$는 몇 중근인가?
+$\sin `z = \cos z$이고, $\cos z \Big|_{z=n\pi}= (-1)^n \ne 0$이므로
+$n\pi$는 $\sin z$의 근이지만 중근이 아니다.
+\item[(2)] $\exp(0^2) -1 = 1-1 = 0$이므로
+$\exp (z^2) -1$은 근으로 $0$을 갖는다.
+몇 중근일까?
+\[
+\exp (z^2) = 1 + \dfrac{z^2}{1!} + \dfrac{z^4}{3!} + \cdots,
+\quad z\in \mathbb C
+\]
+이고, $\exp(z^2) -1 = z^2g(z)$ ($z\in \mathbb C$),
+여기서 $g(z):= \dfrac1{1!} + \dfrac{z^2}{2!} = \cdots$.
+$g$는 $\mathbb C$에서 수렴하는  제곱급수로 전개되므로
+전해석함수이다. 또한, $g(0)=1\ne 0$이다.
+따라서 $0$은 $\exp(z^2) -1$의 2중근이다.
+다른 방법으로 보일 수도 있다.
+\begin{align*}
+\dfrac{d}{dz} (\exp(z^2)-1) \Big|_{z=0} 
+&= (\exp(z^2))\cdot 2z  \Big|_{z=0}  = 0, \\
+\dfrac{d^2}{dz^2} (\exp(z^2)-1)\Big|_{z=0} 
+&=  (\exp(z^2))\cdot 2 \Big|_{z=0}  +  (\exp(z^2))\cdot (2z^2)  \Big|_{z=0}  \\
+&= 2\ne 0.
+\end{align*}
+$\exp(z^2) -1$의 근으로서 $0$은 이중근이다.
+\end{itemize}
+\end{salt_example}
+
+\begin{salt_exercise} \label{ex-4-17}
+$D$가 영역이고, $m\in \mathbb N$, $R>0$, $z_0\in D$라고 하자.
+복소해석함수 $f,g: D\to \mathbb C$가 $g(z_0)\ne0$이고
+$|z-z_0|<R$에 대하여 $f(z) = (z-z_0)^m g(z)$이면,
+$z_0$가 $f$의 $m$ 중근임을 증명하라.
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-4-18}
+함수 $f$를 다음과 같이 정의할 때 $f$의 근 $z_0$의 차수는?
+\begin{itemize}
+\item[(1)]  $z_0 = i$, $f(z) = (1+z^2)^4$.
+\item[(2)]  $z_0 = 2n\pi i$ ($n$은 정수), $f(z) = \exp z -1$.
+\item[(3)] $z_0=0$, $f(z) = \cos z - 1 + \dfrac12(\sin z)^2$.
+\end{itemize}
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-4-19}
+$f$가 원 $\gamma$를 내부에 포함하는 원판에서 복소해석함수라고 하자.
+$f$의 근 $z_0$의 차수는 1이고,
+$z_0$는 원 $\gamma$의 내부에 있다.
+다음을 증명하라.
+\[
+z_0 = \dfrac1{2\pi i} \int_\gamma \dfrac{zf'(z)}{f(z)} dz.
+\]
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-4-20}
+$f$가 영역 $D$에서 복소해석함수이고 $z_0\in D$에서
+차수 $m$의 근을 갖는다고 하자.
+함수 $z \mapsto (f(z))^2$은 차수 $2m$의 근을 가지며,
+$f'$은 차수 $m-1$의 근을 가짐을 보여라.
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-4-21}
+복소 연속함수의 경우는 명제 \ref{prop-4-1}의 복소해석함수에 대한
+이분법적 결론을 적용할 수 없다. 
+$f:\mathbb C \to \mathbb C$에 대하여 
+$0$이  고립된 근도 아니며 $f$가 $0$을 포함하는 작은 원판에서  
+항등적으로 $0$이 되지 않는 예를 보여라.
+\end{salt_exercise}
+
+\section{항등정리}
+
+이 절에서는 복소해석함수의 엄밀성을 다시 강조하는 항등정리 학습한다.
+개략적으로 말하자면
+항등적으로 $0$이 아닌 복소해석함수는 정의역에서 근의 집적점(accumulation)을 갖지 않는다.
+
+\begin{salt_theorem} \label{thm-4-5}
+\
+\begin{itemize}
+\item[(1)] $D$가 영역이고,
+\item[(2)] $f:D\to\mathbb C$가 $D$에서 복소해석함수이고,
+\item[(3)] $f$의 서로 다른 근으로 이루어진 수열 $(z_n)_{n\in\mathbb N}$이 $z_*\in D$로 수렴한다면,
+\end{itemize}
+$f$는 $D$에서 항등적으로 $0$이다.
+\end{salt_theorem}
+
+{\bf 증명}
+
+우선 $z_*$도 $f$의 근이 됨을 보이자.
+$f$의 연속성으로부터
+\[
+f(z_*) = f\left(\lim_{n\to\infty} z_n \right) = \lim_{n\to\infty}f( z_n) 
+= \lim_{n\to\infty} 0 = 0.
+\]
+
+$z_*$를 중심으로 반지름 $r>0$인 어떤 원판 $\Delta$에서 $f\equiv0$임을 보아자.
+그렇지 않다면, $z_*$가 차수 $m$의 근이라고 하자.
+$z\in \Delta$에 대하여
+$f(z)=(z-z_*)^mg(z)$이고 $g(z)\ne0$이다.
+하지만 $n$을 크게 잡을 수 으면 $\Delta$에 속하게 되고
+$0 = f(z_n) = (z_n-z_0)^m g(z_n) \ne 0$가 되어 모순이다.
+
+다음으로 $D$에서 $f\equiv 0$임을 보이자.
+
+
+
+
+
+
+
+
+
 
