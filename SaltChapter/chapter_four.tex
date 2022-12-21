@@ -231,7 +231,7 @@ $\Sum_{n=0}^\infty c_nz^n$이 절대수렴하고,
 \item[(b)] $|z|>\sup S$이면  $\Sum_{n=0}^\infty c_nz^n$는 발산한다.
 \end{itemize}
 $z\in S$가 $|z|<\sup S$를 만족하면
-상계(supremum)의 %= ##[SALT] 용어확인
+상한(supremum)의 %= ##[SALT] 용어확인
 정의에 따라,
 $|z|<y$인 $y\in S$가 존재한다. 
 그러면 $\underline{1}^\circ$ $S$의 증명과정을 아래와 같이 반복할 수 있다.
@@ -1160,13 +1160,143 @@ $f(z)=(z-z_*)^mg(z)$이고 $g(z)\ne0$이다.
 $0 = f(z_n) = (z_n-z_0)^m g(z_n) \ne 0$가 되어 모순이다.
 
 다음으로 $D$에서 $f\equiv 0$임을 보이자.
+어떤 점 $w\in D$에서 $f(w)\ne0$라고 가정하자.
+그러면 $z_*$와 $w$를 잇는 경로 $\gamma :[0,1] \to D$를 만들 수 있다
+($\gamma(0)=z_*$, $\gamma(1)=w$).
+집합 $S:=\{t\in[0,1]\,:\, f(\gamma(\tau))=0, 0\le \tau \le t \}$의
+상한을 $T:=\sup S$라 하자. $S$가 공집합이 아니기 때문에 (적어도 $0$은 $S$에 속한다)
+$\sup S$가 존재함을 알 수 있고
+$S$는 위로 유계이다 ($1$을 넘지 못한다). 
+그렇다면 $T$의 값은? 변수 $t$를 시간이라고 생각하여
+시간 $t=0$에 $z_*$에서 출발하여 경로 $\gamma$를 따라 움직여
+시간 $t=1$에 $w$에 도착한다고 하면,
+$T$는 경로를 따라 움직일 때 함수 $f$의 값이 $0$을 유지하는 가장 큰 시간을 의미한다.
+$T=1$이라면 증명이 끝난다. 왜냐하면 $f$의 연속성에서 $f(w)=f(\gamma(T))=0$이기 때문이다.
+따라서 $T<1$이라 하자.
+그러면 연속성에서 $f(\gamma(T))=0$이다. 
+\begin{figure*}[h!]
+\begin{center}
+\includegraphics[width=0.3\textwidth]{./SaltChapter/fig-4-0-6}
+\end{center}
+%\caption{$\mathbb C$에 정의된 제곱급수의 수렴영역}
+%\label{fig-4-0-3}
+\end{figure*}
 
+그런데 $\gamma(T)$는 $f$의 고립된 근이 아니므로
+$\gamma(T)$를 중심으로 적당한 반지름 $\delta$의 원판에서
+ $f(z)=0$이다. 즉, 
+ $t$ 를 $T$에 가깝게 잡아 $|\gamma(t) - \gamma(T)|<r$을 만족하면
+ $T$보다 큰 $t$에 대하여 $f(\gamma(t))=0$이 된다.
+이는 $T$의 정의에 모순이다. 따라서 $T$는 $1$보다 작을 수 없어 증명이 끝난다.
+\hfill $\square$
 
+\begin{salt_example} \label{example-4-7}
+$\cos z$와 $\sin z$의 정의로부터 모든 복소수 $z\in \mathbb C$에 대하여
+$(\cos z)^2 + (\sin z)^2 = 1$임을 이미 알고 있다.
+여기서는 정리의 결과를 이용하여 이를 증명해보자.
+$f:\mathbb C \to \mathbb C$를 $f(z) = (\cos z)^2 + (\sin z)^2 - 1$로
+정의하자. 그러면 $f$는 전해석함수이다. 또한
+모든 $x\in \mathbb R$에 대하여 $ f(x) = (\cos x)^2 + (\sin x)^2 - 1 = 0$이다.
+이제 정리를 적용하면 $\mathbb C$에서 $f\equiv 0$임을 알 수 있다.
+\end{salt_example}
 
+정리로부터 다음 결과를 바로 얻는다.
 
+\begin{salt_corollary} [항등정리] \label{coro-4-6}
+\
+\begin{itemize}
+\item[(1)] $D$가 영역이고,
+\item[(2)] $f,g:D\to\mathbb C$가 $D$에서 복소해석함수이고,
+\item[(3)] $D$의 서로 다른 점으로 만든 수열 $(z_n)_{n\in\mathbb N}$이 $z_*\in D$로 수렴하고,
+$f(z_n) = g(z_n)$이면,
+\end{itemize}
+모든 $z\in D$에 대하여 $f(z) = g(z)$이다.
+\end{salt_corollary}
 
+{\bf 증명}
 
+$z\in D$에 대하여
+$h:D\to\mathbb C$를 $h(z) = f(z) - g(z)$로 정의하고
+$z_n$을 복소해석함수 $h$의 근이라 하자.
+정리의 결과로부터 $h$는 $D$에서 항등적으로 $0$이 되므로 증명이 끝난다.\hfill $\square$
 
+\begin{salt_example} \label{example-4-8}
+함수 $\exp:\mathbb C \to \mathbb C$
+\[
+\exp z = \exp(x+iy) := e^x (\cos y + i\sin y), \quad
+z + x+iy\in \mathbb C
+\]
+는  전해석함수이고, $x\in \mathbb R$에서 $\exp x = e^x$를 만족한다.
+다시 말하면, $\exp$ 함수는 실수에 정의된 지수함수를 복소수 전해석함수로 확장한 것이다.
+전해석함수로 확장하는 다른 방법이 있을까? 그렇지 않다는 것을 보이자.
+$g:\mathbb C \to \mathbb C$를  $x\in \mathbb R$에서 $g(x)=e^x$를 만족하는
+전해석함수라고 가정하자.
+그러면,
+\[
+\text{모든 } x\in \mathbb R \text{에 대하여 } \exp x = g(x).
+\]
+특히, 
+\[
+\exp\left(\dfrac1n\right)=  g\left(\dfrac1n\right), \quad n\in\mathbb N
+\]
+이고 $1/n \to 0\in \mathbb C$이다.
+따라서 항등정리에 의해  모든 $z\in \mathbb C$에 대하여 $\exp z = g(z)$이다.
+따라서 실수로 한정했을 때 $e^x$가 되는 전해석함수는 유일하다.
+이 결과는 \ref{sec-1-4-1}의 복소 지수함수가 자연스러운 정의임을 설명해준다. 
+\hfill $\diamondsuit$
+\end{salt_example}
+
+\begin{salt_exercise} \label{ex-4-22}
+항등정리를 이용하여 모든 $z_1, z_2 \in \mathbb C$에 대하여
+\[
+\cos(z_1 + z_2) = (\cos z_1)(\cos z_2) - (\sin z_1)(\sin z_2)
+\]
+이 성립함을 보여라.
+$z_1$, $z_2$가 실수인 경우에 성립함을 활용하라.
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-4-23}
+영역  $D$에 정의된 복소해석함수의 집합을 $\Hol(D)$라 하자.
+그러면 $z\in D$와 $f,g\in \Hol(D)$에 대한 점별 연산
+\begin{align*}
+(f+g)(z) &=f(z)+g(z), \\
+(f\cdot g)(z) &=f(z)g(z)
+\end{align*}
+에 대하여 $\Hol(D)$가 가환환(commutative ring)이 됨을 쉽게 확인할 수 있다.
+(가환환 $R$은 두 연산 $+$와 $\cdot$를 가지며
+$(R,+)$는 가환군이고 $\cdot$는 교환법칙, 결합법칙을 만족하며
+분배법칙도 성립한다. 즉, $a,b,c\in R$에 대하여 $(a+b)\cdot c = a\cdot c + b\cdot c$이다.)
+$\Hol(D)$가 정역(integral domain)이 됨을 보여라.
+즉, 영인자(zero divisor)를 갖지 않는다. 다시 말해 $f,g\in \Hol(D)$가 $f\cdot g=0$를
+만족하면 $f=0$이거나 $g=0$이다.
+
+$\Hol(D)$ 대신 $D$에 정의된 복소 연속함수의 집합 $C(D)$를 생각하면
+$C(D)$도 점별 연산에 대하여 가환환이 된다.
+$C(D)$도 정역인가?
+(이 결과는 연속함수는 복소해석함수만큼 ``엄밀''하지 않음을 보여준다.)
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-4-24}
+영역 $D$에서 $f,g$가 복소해석함수라 하자.
+다음 중 어떤 조건이 영역 전체에서 $f=g$임을 보장하는가?
+\begin{itemize}
+\item[(1)] 
+$D$의 서로 다른 점으로 된 수열 $(z_n)_{n\in\mathbb N}$이 존재하여
+모든 $n\in \mathbb N$에서 $f(z_n) = g(z_n)$을 만족한다.
+\item[(2)] $D$의 서로 다른 점으로 된 수열 $(z_n)_{n\in\mathbb N}$이 $D$의 한점으로 수렴하고
+모든 $n\in \mathbb N$에서 $f(z_n) = g(z_n)$을 만족한다.
+\item[(3)] $D$의 서로 다른 두 점 $a,b$를 연결하는 매끄러운 경로 $\gamma$에서
+$f=g$이다.
+\item[(4)]  $w\in D$이고, 모든 $n\ge0$에 대하여 $f^{(n)}(w) = g^{(n)}(w)$이다.
+\end{itemize}
+\end{salt_exercise}
+
+\begin{salt_exercise} \label{ex-4-25}
+$f$가 전해석함수라고 가정하자.
+임의의 점 $z_0\in \mathbb C$에 대한 제곱급수 전개
+$f(z) = \Sum_{n=0}^\infty c_n(z-z_0)^n$마다 적어도 하나의 계수가 $0$이다.
+$f$는 다항식임을 증명하라.
+\end{salt_exercise}
 
 
 

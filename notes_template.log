@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  21 DEC 2022 02:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  22 DEC 2022 01:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3945,7 +3945,16 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 LaTeX Warning: Hyper reference `toc-contents' on page 134 undefined on input li
 ne 1128.
 
-[134])
+[134]
+<./SaltChapter/fig-4-0-6.png, id=1983, 202.50656pt x 127.22531pt>
+File: ./SaltChapter/fig-4-0-6.png Graphic file (type png)
+<use ./SaltChapter/fig-4-0-6.png>
+Package pdftex.def Info: ./SaltChapter/fig-4-0-6.png  used on input line 1179.
+(pdftex.def)             Requested size: 145.02512pt x 91.11487pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3956,7 +3965,7 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 135 undefined on input li
-ne 309.
+ne 1192.
 
 [135]
 
@@ -3969,9 +3978,35 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 136 undefined on input li
+ne 1241.
+
+[136 <./SaltChapter/fig-4-0-6.PNG>])
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 137 undefined on input li
 ne 309.
 
-[136
+[137]
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 138 undefined on input li
+ne 309.
+
+[138
 
 ]
 
@@ -4016,10 +4051,10 @@ Package logreq Info: Writing requests to 'notes_template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37930 strings out of 478268
- 676798 string characters out of 5850346
- 1509202 words of memory out of 5000000
- 54437 multiletter control sequences out of 15000+600000
+ 37975 strings out of 478268
+ 677677 string characters out of 5850346
+ 1509868 words of memory out of 5000000
+ 54464 multiletter control sequences out of 15000+600000
  593552 words of font info for 392 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,19n,117p,1186b,849s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -4116,10 +4151,10 @@ ummjmd4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd
 5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb>
 <c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/te
 xlive/2022/texmf-dist/fonts/type1/uhc/umj/umj34.pfb>
-Output written on notes_template.pdf (136 pages, 7395055 bytes).
+Output written on notes_template.pdf (138 pages, 7408970 bytes).
 PDF statistics:
- 2556 PDF objects out of 2984 (max. 8388607)
- 2039 compressed objects within 21 object streams
- 717 named destinations out of 1000 (max. 500000)
- 737 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2590 PDF objects out of 2984 (max. 8388607)
+ 2069 compressed objects within 21 object streams
+ 734 named destinations out of 1000 (max. 500000)
+ 742 words of extra memory for PDF output out of 10000 (max. 10000000)
 
