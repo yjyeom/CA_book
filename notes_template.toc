@@ -44,3 +44,5 @@
 \contentsline {section}{\numberline {4.3}테일러 급수}{126}{section.4.3}%
 \contentsline {section}{\numberline {4.4}근의 분류}{131}{section.4.4}%
 \contentsline {section}{\numberline {4.5}항등정리}{135}{section.4.5}%
+\contentsline {section}{\numberline {4.6}최대절대값정리}{138}{section.4.6}%
+\contentsline {section}{\numberline {4.7}로랑 급수}{139}{section.4.7}%
