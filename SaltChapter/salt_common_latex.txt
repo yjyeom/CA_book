@@ -22,3 +22,16 @@ z\in \mathbb C
 \begin{salt_theorem} \label{thm-4-7}
 
 \end{salt_theorem}
+
+
+
+\begin{figure*}[h!]
+\begin{center}
+\includegraphics[width=0.3\textwidth]{./SaltChapter/fig-4-0-7}
+\end{center}
+%\caption{$\mathbb C$에 정의된 제곱급수의 수렴영역}
+%\label{fig-4-0-3}
+\end{figure*}
+
+
+

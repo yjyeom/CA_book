@@ -1542,6 +1542,323 @@ f(z) = \Sum_{n\in \mathbb Z} c_n(z-z_0)^n, \quad z\in\mathbb A
 또한, 식 \eqref{eq-4-5}의 계수는 유일하게 결정된다.
 \end{salt_theorem}
 
+\begin{salt_example} \label{example-4-11}
+함수 $f:\mathbb C\setminus \{0\} \to \mathbb C$를
+$f(z) = z^3\exp(1/z)$ ($z\ne0$)로 정의하자.
+그러면, $f$는 $\mathbb A:= \{ z\in \mathbb C \,:\,  0 <|z| <+\infty \}$에서
+복소해석함수이다. 따라서 정리의 결과를 적용하면
+$f$는 로랑 급수
+\[
+\sum_{n\in\mathbb Z} c_n z^n
+\]
+을 갖는다. 
+계수를 직접 찾아보면
+\[
+\exp \dfrac 1z = 1 + \dfrac1z + \dfrac1{2!z^2} + \cdots, \quad z\ne0
+\]
+이므로
+$f(z) = z^3 \exp \dfrac 1z = z^3 + z^2 + \dfrac 1{2!} + \dfrac1{3!}
++ \dfrac1{4!z} + \cdots$ ($z\ne 0$)를 얻는다.
+따라서,
+\[
+\ldots, c_{-1} = \dfrac1{4!}, c_0 = \dfrac1{3!}, c_1 = \dfrac1{2!}, c_2 = 1, c_3 = 1,
+\]
+이고 $n\ge4$에 대하여 $c_n=0$이다.
+\hfill $\diamondsuit$
+\end{salt_example}
+
+{\bf 증명 (정리 \ref{thm-4-7})} (존재성).
+
+$z\in \mathbb A$를 고정하자.
+$r < \tilde r < |z-z_0| <\tilde R <R$을 만족하는 $\tilde r$과  $\tilde R$을 선택한다.
+$t\in [\theta, 2\pi + \theta]$, $\theta:= Arg(z) + \pi/2$에 대하여
+원형 경로 $\gamma_1$과  $\gamma_2$를 
+\begin{align*}
+\gamma_1(t) &= z_0 + \tilde r \exp (it),\\
+\gamma_2(t) &= z_0 + \tilde R \exp (it)
+\end{align*}
+라고 하자. 
+$\gamma_3: [\tilde r, \tilde R] \to \mathbb A$는 경로
+\[
+\gamma_3(t) = ti\dfrac{z-z_0}{|z-z_0|}
+\]
+라 하자. (이 경로는 $\gamma_1$과 $\gamma_2$를 잇는 직선 경로이다.
+$i$를 곱한 것은 $z$를 피하기 위해 $90^\circ$ 회전을 의미한다.)
+그림 \ref{fig-4-2}를 참고하라.
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.4\textwidth]{./SaltChapter/fig-4-2}
+\end{center}
+\caption{로랑 급수}
+\label{fig-4-2}
+\end{figure}
+
+당연히
+경로 $\gamma := \gamma_2 - \gamma_3 - \gamma_1 + \gamma_3$는
+$z$를 중심으로 하는 작은 원 $C_\delta$와 $\mathbb A\setminus \{z\}$-호모토픽하다.
+또한, $\dfrac{f(\cdot)}{\cdot-z}$는 $\mathbb A\setminus \{z\}$에서
+복소해석함수이므로
+\[
+\int_\gamma \dfrac{f(\zeta)}{\zeta-z} d\zeta
+= \int_{C_\delta} \dfrac{f(\zeta)}{\zeta-z} d\zeta
+= f(z) \cdot 2\pi i,
+\]
+여기서 첫번째 등호는 코시 적분정리로부터,
+두번째 등호는 코시 적분공식로부터 얻어진다.
+$\gamma_3$를 따른 경로적분은 $-\gamma_3$에서의 경로적분과 상쇄된다.
+\begin{align*}
+f(z) &= \dfrac1{2\pi i} \int_\gamma \dfrac{f(\zeta)}{\zeta-z}d\zeta
+= \dfrac1{2\pi i} \int_{\gamma_2} - \cancel{ \int_{\gamma_3}}
+-  \int_{\gamma_1} + \cancel{\int_{\gamma_3 }}\dfrac{f(\zeta)}{\zeta-z}d\zeta \\
+&= \underbrace{\dfrac1{2\pi i} \int_{\gamma_2} \dfrac{f(\zeta)}{\zeta-z}d\zeta}_{(\rm I)}
+- \underbrace{\dfrac1{2\pi i} \int_{\gamma_1} \dfrac{f(\zeta)}{\zeta-z}d\zeta}_{(\rm II)}.
+\end{align*}
+이제 적분 $(\rm I)$은
+\[
+\sum_{n=0}^\infty c_n(z-z_0)^n
+\]
+으로 적분 $(\rm II)$는 
+\[
+\sum_{n=1}^\infty c_{-n}(z-z_0)^{-n}
+\]
+으로 표현되고 이를 합하면 $f$의 로랑 급수 전개를 얻는다는 것을 보이자.
+
+{\bf 단계 1}.
+이 단계에서는 $\dfrac1{2\pi i} \dint_{\gamma_2} \dfrac{f(\zeta)}{\zeta-z}d\zeta
+= \Sum_{n=0}^\infty c_n(z-z_0)^n$을 증명하자.
+
+$\zeta \in \gamma_2$에 대하여
+\[
+\dfrac{f(\zeta)}{\zeta-z} = \dfrac{f(\zeta)}{\zeta-z_0+z_0-z}
+= \dfrac{f(\zeta)}{(\zeta-z_0)\left(1 - \dfrac{z-z_0}{\zeta- z_0}\right)}
+= \dfrac{f(\zeta)}{(\zeta-z_0)(1-w)},
+\]
+여기서 $w:= \dfrac{z-z_0}{\zeta- z_0}$이다.
+$|w| = \dfrac{|z-z_0|}{|\zeta- z_0|} = \dfrac{|z-z_0|}{\tilde R} < 1$이므로
+\[
+\dfrac1{1-w} = 1+ w + w^2 + w^3 + \cdots + w^{n-1} + \dfrac{w^n}{1-w}.
+\]
+피적분함수를 다시 쓰면,
+\begin{align*}
+\dfrac{f(\zeta)}{\zeta-z} &= \dfrac{f(\zeta)}{\zeta-z_0} \left(
+1+ w + \cdots + w^{n-1} + \dfrac{w^n}{1-w} \right) \\
+&= \dfrac{f(\zeta)}{\zeta-z_0} + \cdots \dfrac{f(\zeta)}{(\zeta-z_0)^n}(z-z_0)^{n-1}
++ \dfrac{f(\zeta)(z-z_0)^n}{(\zeta-z_0)^n(\zeta-z)}.
+\end{align*}
+따라서 적분은
+\begin{align*}
+\dfrac1{2\pi i} \int_{\gamma_2} \dfrac{f(\zeta)}{\zeta-z} d\zeta
+&= \dfrac1{2\pi i} \int_{\gamma_2} \dfrac{f(\zeta)}{\zeta-z_0} d\zeta
++ \cdots + \dfrac1{2\pi i} \int_{\gamma_2} \dfrac{f(\zeta)}{(\zeta-z_0)^n} d\zeta 
+\cdot (z-z_0)^{n-1} \\
+& \quad\quad + \dfrac1{2\pi i} \int_{\gamma_2} \dfrac{f(\zeta)}{(\zeta-z_0)^n(\zeta-z)} d\zeta
+\cdot (z-z_0)^{n}  \\
+&= c_0 + c_1(z-z_0) + \cdots + c_{n-1}(z-z_0)^{n-1} + R_n(z),
+\end{align*}
+여기서, 
+\[
+R_n(z) := \dfrac1{2\pi i} \int_{\gamma_2} \dfrac{f(\zeta)(z-z_0)^n}{(\zeta-z_0)^n(\zeta-z)} d\zeta.
+\]
+이 계산과정에서 $\gamma_2$가 중심이 $z_0$이고 반지름 $\rho$ ($r<\rho<R$)인
+임의의 원과 $\mathbb A$-호모토픽함을 이용했다.
+정리 \ref{thm-3-4}에 의해
+\[
+\dfrac1{2\pi i} \int_{\gamma_2} \dfrac{f(\zeta)}{(\zeta-z_0)^k} d\zeta
+= \dfrac1{2\pi i} \int_{C} \dfrac{f(\zeta)}{(\zeta-z_0)^k} d\zeta
+= c_{k-1},
+\quad k=1,\ldots, n.
+\]
+이제 
+$\Lim_{n\to\infty} R_n = 0$만 보이면,
+원하는 식을 얻는다.
+\[
+\dfrac1{2\pi i} \dint_{\gamma_2} \dfrac{f(\zeta)}{\zeta-z}d\zeta
+= \Sum_{n=0}^\infty c_n(z-z_0)^n.
+\]
+모든 $\zeta \in \gamma_2$에 대하여 $|f(\zeta)| <M$인 $M>0$이 존재한다.
+또한 $|\zeta - z_0| = \tilde R$이고,
+\[
+|\zeta - z| = |\zeta - z_0 - (z-z_0) | \ge
+|\zeta - z_0| - |z-z_0| = \tilde R - |z-z_0|
+\]
+이므로 
+\[
+|R_n(z)| \le \left( \dfrac{|z-z_0|}{\tilde R} \right)^n
+\dfrac{M\tilde R}{\tilde R - |z-z_0|} 
+\stackrel{n\to\infty}{\longrightarrow} 0.
+\]
+결론적으로 
+$c_0 + c_1(z-z_0) + c_2(z-z_0)^2 + c_3(z-z_0)^3 + \cdots
+= \dfrac1{2\pi i } \dint_{\gamma_2} \dfrac{f(\zeta)}{\zeta-z}d\zeta$.
+
+
+{\bf 단계 2}. 이 단계에서는
+$ - \dfrac1{2\pi i } \dint_{\gamma_1} \dfrac{f(\zeta)}{\zeta-z}d\zeta
+\sum_{n=1}^\infty c_{-n}(z-z_0)^{-n}$를 보이자.
+\begin{align*}
+-\dfrac1{2\pi i } \dint_{\gamma_1} \dfrac{f(\zeta)}{\zeta-z}d\zeta
+&= \dfrac1{2\pi i } \dint_{\gamma_1} \dfrac{f(\zeta)}{(\zeta-z_0) - (\zeta-z_0)}d\zeta \\
+&= \dfrac1{2\pi i } \dint_{\gamma_1} \dfrac{f(\zeta)}{(z-z_0)
+\left(1 - \dfrac{\zeta-z_0}{z-z_0}\right)}d\zeta
+\end{align*}
+에서 $w:= \dfrac{\zeta-z_0}{z-z_0}$라 두면,
+$|w| = \dfrac{\tilde r}{|z-z_0|} <1$이므로
+\[
+\dfrac1{1 - \dfrac{\zeta-z_0}{z-z_0}}
+= \dfrac1{1-w} = 1+ w + w^2 + w^3 + \cdots + w^{n-1} + \dfrac{w^n}{1-w}.
+\]
+따라서
+\begin{align*}
+-\dfrac1{2\pi i } & \dint_{\gamma_1} \dfrac{f(\zeta)}{\zeta-z}d\zeta \\
+& = \dfrac1{2\pi i } \dint_{\gamma_1} f(\zeta) \left(
+\dfrac1{z-\zeta} + \cdots + \dfrac{(\zeta-z_0)^{n-1}}{(z-z_0)^n}
++ \dfrac{(\zeta - z_0)^n}{(z-z_0)^n(z-\zeta)} \right) d\zeta \\
+&=\dfrac1{2\pi i }  \dint_{\gamma_1} f(\zeta)d\zeta \cdot \dfrac1{z-z_0} 
++ \cdots + \dfrac1{2\pi i } \dint_{\gamma_1} \dfrac{f(\zeta)}{(\zeta-z_0)^{-n+1}} d\zeta
+\cdot\dfrac1{(z-z_0)^n} \\
+&\quad \quad + \dfrac1{2\pi i } \dint_{\gamma_1} 
+\dfrac{f(\zeta)(\zeta-z_0)^n}{(\zeta-z_0)^n(z-\zeta)} d\zeta \\
+& = c_{-1}(z-z_0)^{-1} + \cdots + c_{-n}(z-z_0)^{-n} + \tilde R_n(z),
+\end{align*}
+여기서, 
+\[
+\tilde R_n(z) := \dfrac1{2\pi i} \int_{\gamma_1} \dfrac{f(\zeta)(\zeta-z_0)^n}{(z-z_0)^n(z-\zeta)} d\zeta.
+\]
+이 계산과정에서 $\gamma_1$이 중심이 $z_0$이고 반지름 $\rho$ ($r<\rho<R$)인
+임의의 원과 $\mathbb A$-호모토픽함을 이용했다.
+정리 \ref{thm-3-4}에 의해
+\[
+\dfrac1{2\pi i} \int_{\gamma_1} \dfrac{f(\zeta)}{(\zeta-z_0)^k} d\zeta
+= \dfrac1{2\pi i} \int_{C} \dfrac{f(\zeta)}{(\zeta-z_0)^k} d\zeta
+= c_{k-1},
+\quad k=0,-1,\ldots, -n+1.
+\]
+이제 
+$\Lim_{n\to\infty} \tilde R_n = 0$만 보이면,
+원하는 식을 얻는다.
+모든 $\zeta \in \gamma_1$에 대하여 $|f(\zeta)| <M$인 $M>0$이 존재한다.
+또한 $|\zeta - z_0| = \tilde r$이고,
+\[
+|z-\zeta| = |(z-z_0) -(\zeta - z_0) | \ge
+|z- z_0| - |\zeta-z_0| =  |z-z_0| - \tilde r
+\]
+이므로 
+\[
+|\tilde R_n(z)| \le \left( \dfrac{\tilde r}{|z-z_0|} \right)^n
+\dfrac{M \tilde r}{|z-z_0| - \tilde r} 
+\stackrel{n\to\infty}{\longrightarrow} 0.
+\]
+결론적으로 
+$c_{-1}(z-z_0)^{-1} +\cdots + c_{1(n-1)} (z-z_0)^{-(n-1)} + \cdots
+= - \dfrac1{2\pi i } \dint_{\gamma_1} \dfrac{f(\zeta)}{\zeta-z}d\zeta$.
+이로써 로랑 급수 전개의 존재성을 증명하였다.
+
+{\bf 계수들의 유일성}.
+코시 적분공식을 이용하여 로랑 급수가 유일함을 보이자. 즉,
+\[
+f(z) = \sum_{n\in\mathbb Z} \tilde c_n(z-z_0)^n, \quad
+r < |z-z_0| <R
+\]
+이면, 모든 $n$에 대하여 $\tilde c_n = c_n$이다.
+$n\ne 1$이면, $(z-z_0)^n = \dfrac d{dz} \left( \dfrac{(z-z_0)^{n+1}}{n+1} \right)$이므로
+\[
+\int_C (z-z_0)^n dz = 0 \quad (n\ne1),
+\]
+여기서 $C$는 $C(t)=z_0 + \rho\exp(it)$ ($t\in[0,2\pi]$)로 주어진 경로이다.
+직접 계산하는 방법으로
+\[
+\int_C \dfrac1{z-z_0} dz = \int_0^{2\pi} \dfrac1{r\exp(it)}ir\exp(it)dt = 2\pi i.
+\]
+따라서 원환에서 항별 적분을 적용할 수 있다면,
+\[
+\int_C (z-z_0)^{-m-1} \sum_{n\in\mathbb Z} \tilde c (z-z_0)^n dz
+= \sum_{n\in\mathbb Z} \tilde c \int_C (z-z_0)^{n-m-1} dz = 2\pi i \tilde c_m
+\]
+이 되므로 계수의 유일성을 얻는다.
+이제 항별 적분이 가능함을 보아자.
+\begin{align*}
+ \sum_{n\in\mathbb Z} \tilde c (z-z_0)^{n-m-1}
+ &= \left( \cdots + \dfrac{\tilde c_{m-2}}{(z-z_0)^3} +  \dfrac{\tilde c_{m-1}}{(z-z_0)^2} \right) \\
+ & \quad + \dfrac{\tilde c_m}{z-z_0} + (\tilde c_{m+1} + \tilde c_{m+2}(z-z_0) + \cdots) \\
+ & = f_1(z) + \dfrac{\tilde c_m}{z-z_0} + f_2(z).
+\end{align*}
+$f_1$과 $f_2$가 원환에서 부정적분을 가짐을 보이면 된다. 그러면, 원하는 결과로
+\begin{align*}
+\int_C  \sum_{n\in\mathbb Z} \tilde c (z-z_0)^{n-m-1} dz
+&= \int_C \left( f_1(z) + \dfrac{\tilde c_m}{z-z_0} + f_2(z) \right) dz \\
+&= 0 + 2\pi i \tilde c_m + 0 = 2\pi i \tilde c_m.
+\end{align*}
+을 얻는다.
+$|z-z_0|<R$에서 $f_2(z) = \Sum_{n=1}^\infty \tilde c_{m+n} (z-z_0)^{n-1}$이고
+\[
+F_2(z) := \Sum_{n=1}^\infty \dfrac{\tilde c_{m+1}}n (z-z_0)^n,
+\quad |z-z_0|<R
+\]
+이면, $\dfrac d{dz} F_2(z) = f_2(z)$가 되어 $F_2$는 $f_2$의 부정적분이 된다.
+$f_1$에 대하여 
+\[
+f_1(z) = \sum_{n=1}^\infty \dfrac{\tilde c_{m-n}}{(z-z_0)^{n+1}} 
+= \sum_{n=1}^\infty \tilde c_{m-n} w^{n+1},
+\]
+$w = \dfrac1{z-z_0}$이다. $R>|z-z_0| >r$에서 유효하므로
+\[
+\sum_{n=1}^\infty \tilde c_{m-n} w^{n+1}
+\]
+은 $|w|<\dfrac1r$에서 수렴한다. 
+\[
+G(w) = - \sum_{n=1}^\infty \dfrac{\tilde c_{m-n}}n w^n,\quad
+|w|<\dfrac1r
+\]
+이라 하면, $\dfrac d{dz} G(w) = - \Sum_{n=1}^\infty \tilde c_{m-n} w^{n-1}$이다. 
+이제 모든 $z\in \mathbb A$에 대하여
+\[
+F_1(z) = G\left(\dfrac1{z-z_0}\right) 
+= - \Sum_{n=1}^\infty\dfrac{\tilde c_{m-n}}n (z-z_0)^{-n}
+\]
+로 정의하면,
+\begin{align*}
+\dfrac d{dz} F_1(z)
+&= \left( G'\left(\dfrac1{z-z_0}\right)\right) \left(- \dfrac1{(z-z_0)^2}\right) \\
+&= (z-z_0)^{-2} \sum_{n=1}^\infty \tilde c_{m-n} (z-z_0)^{-n+1} = f_1(z).
+\end{align*}
+\hfill $\square$
+
+계수의 유일성은 고정된 원환에 대해서만 유효하다.
+같은 함수라도 다른 원환들에서 유효하도록 로랑 급수를 전개하면
+다른 로랑 급수를 얻는다.
+
+\begin{salt_example} \label{example-4-10}
+
+함수 $f$를 $\mathbb C\setminus\{0,1\}$에서
+$f(z) = \dfrac1{z(z-1)}$로 정의하자. 
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.7\textwidth]{./SaltChapter/fig-4-3}
+\end{center}
+\caption{영역 $\mathbb C\setminus \{0,1\}$,
+$\mathbb A:=\{ z\in \mathbb C\,:\, 0<|z|<1 \}$,
+$\tilde {\mathbb A}:=\{ z\in \mathbb C\,:\, 1<|z|<\infty \}$.}
+\label{fig-4-3}
+\end{figure}
+$f$는 원환 $\mathbb A:=\{ z\in \mathbb C\,:\, 0<|z|<1 \}$에서
+복소해석함수이다. 그 로랑 급수를 구하면?
+$|z|<1$이므로
+\[
+f(z) = \dfrac1{z(z-1)} %= \dfrac1{z^2(1-1/z)}
+= - \dfrac1z \left(1+z+z^2+ z^3 + \cdots \right)
+= -\dfrac1z -1 -z -z^2 -z^3 - \cdots
+\]
+로 쓸 수 있기 때문에
+계수를 구하면
+\begin{align*}
+c_{-2} &= c_{-3} = \cdots = 0, \\
+c_{-1} & = c_0 = c_1 = \cdots = -1.
+\end{align*}
+\end{salt_example}
+
+
 
 
 
