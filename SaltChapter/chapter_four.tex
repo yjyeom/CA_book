@@ -1828,7 +1828,7 @@ F_1(z) = G\left(\dfrac1{z-z_0}\right)
 같은 함수라도 다른 원환들에서 유효하도록 로랑 급수를 전개하면
 다른 로랑 급수를 얻는다.
 
-\begin{salt_example} \label{example-4-10}
+\begin{salt_example} \label{example-4-12}
 
 함수 $f$를 $\mathbb C\setminus\{0,1\}$에서
 $f(z) = \dfrac1{z(z-1)}$로 정의하자. 
@@ -1856,15 +1856,758 @@ f(z) = \dfrac1{z(z-1)} %= \dfrac1{z^2(1-1/z)}
 c_{-2} &= c_{-3} = \cdots = 0, \\
 c_{-1} & = c_0 = c_1 = \cdots = -1.
 \end{align*}
+그런데 $f$는 안쪽 반지름이 $1$이고 바깥쪽 반지름이 무한대인
+원환 $\tilde{\mathbb A}:=\{ z\in \mathbb C\,:\, 1<|z| \}$에서도
+복소해석함수이다. 따라서
+$f$는 $\tilde{\mathbb A}$에서도 로랑 급수 전개가 가능하다.
+$|z|>1$에서
+\begin{align*}
+f(z) = \dfrac1{z(z-1)} = \dfrac1{z^2(1-1/z)}
+&= \dfrac1{z^2} \left( 1+ \dfrac1z + \dfrac1{z^2} + \dfrac1{z^3} + \cdots \right) \\
+&= \dfrac 1{z^2} + \dfrac1{z^3} + \cdots
+\end{align*}
+이므로 로랑 급수의 계수는 다음과 같다.
+\begin{align*}
+\tilde c_{-2} &= \tilde c_{-3} = \cdots = 1, \\
+\tilde c_{-1} & = \tilde c_0 = \tilde c_1 = \cdots = 0.
+\end{align*}
+두 가지 로랑 급수의 계수가 다르게 나오는데 놀라운 일이 아니다.
+왜냐하면 다른 원환에서 로랑 급수를 전개했기 때문이다.
+\hfill $\diamondsuit$
 \end{salt_example}
 
+\begin{salt_exercise}\label{ex-4-29}
+예제 \ref{example-4-12}를 다시 생각해보자.
+원환 $\tilde{\mathbb A_1}:=\{ z\in\mathbb C\,:\, 0 <|z-1|<1\}$과
+원환 $\tilde{\mathbb A_2}:=\{ z\in\mathbb C\,:\, 1<|z-1|\}$에서
+$f$의 로랑 급수를 구하라.
+\end{salt_exercise}
+
+\section{특이점의 분류}
+
+다음 세 함수
+\[
+\dfrac{\sin z}{z}, \quad \dfrac1{z^3}, \quad \exp \dfrac1z
+\]
+는 모두 $0$에서 정의되지 않기 때문에
+$0$을 이 함수들의 ``특이점(singularity)''이라 부른다.
+그런데 특이점 근방에서 세 함수의 특성은 매우 다르다.
+즉, {|bf 특이점의 본질}은 각 경우에서 모두 다르다.
+우리는 각각의 경우 함수가 특이점 근방에서 어떻게 되는지를 
+상세하게 살펴볼 예정인데 이를 특이점의 분류라 한다.
+또한, 특이점의 종류를 쉽게 판별하는 분류법 2가지를 보게 될 것인데,
+하나는 극한을 이용하여 특이점을 규명하는 방법이고
+다른 하나는 로랑 급수의 계수 입장에서 특이점을 분류하는 것이다.
+우선 다음 정의부터 시작하자.
+
+\begin{salt_definition} \label{def-4-4}
+복소함수 $f$가 $z_0$에서 정의되지 않고
+$z_0$를 중심으로 반지름 $R>0$인
+뚫린 원판 $\{z\in\mathbb C\,:\, 0<|z-z_0|<R\}$에서
+복소해석함수라고 하자. 그러면, $z_0$를 $f$의 
+{\bf 고립 특이점}(isolated singularity)라고 한다.
+\end{salt_definition}
+
+\begin{salt_example}\label{example-4-13}
+예를 들어 다음 함수
+\[
+\dfrac{\sin z}{z}, \quad \dfrac1{z^3}, \quad \exp \dfrac1z
+\]
+는 $0$에서 고립 특이점을 갖는다. 한편,
+\[
+f(z):= \dfrac1{\sin (1/z)}
+\]
+는 $0$에서 특이점을 갖지만, 고립 특이점은 아니다.
+($f$는 $z=1/n\pi$, $n\in\mathbb Z$에서 정의되지 않는다.)
+\hfill $\diamondsuit$
+\end{salt_example}
+
+\begin{salt_definition} \label{def-4-5}
+$f$의 고립 특이점 $z_0$는
+\begin{itemize}
+\item[(1)] 원판 $\{z\in\mathbb C\,:\, |z-z_0|<R\}$에서 복소해석함수 $F$가
+존재하여 뚫린원판 $\{z\in\mathbb C\,:\, 0<|z-z_0|<R\}$에서 $F=f$를 만족하면
+{\bf 제거가능한 특이점}(removable singularity)이라 한다.
+\item[(2)] $\Lim_{z\to z_0} |f(z)| = + \infty$이면 {\bf 극}(pole)이라 한다.
+즉, 모든 $M>0$에 대하여 $0<|z-z_0|<\delta$이면 $|f(z)|>M$인 $\delta>0$가
+존재한다.
+\item[(3)] 제거가능한 특이점이나 극이 아니면,
+{\bf 본질적 특이점}(essential singularity)이라 한다.
+\end{itemize}
+\end{salt_definition}
+
+\begin{salt_example}\label{example-4-14}
+\
+\begin{itemize}
+\item[(1)] 함수 $f(z)=\dfrac{\sin z}z$는 $0$에서 제거가능한 특이점을 갖는다.
+왜냐하면, $z\ne0$에 대하여
+\[
+\dfrac{\sin z}z = \dfrac 1z\left( z - \dfrac{z^3}{3!} + \dfrac{z^5}{5!} - \cdots
+\right) \sum_{n=0}^\infty \dfrac{(-1)^n}{(2n+1)!}z^{2n}
+\]
+이고 우변 제곱급수의 수렴반경은 무한대이므로 (왜?)
+전해석함수 $F$를 정의한다. 함수 $F$와 $f$는 $\mathbb C\setminus \{0\}$에서
+일치하므로 $f$는 $0$에서 제거가능한 특이점을 갖는다.
+\item[(2)] $\Lim_{z\to 0} \dfrac1{|z|^3} = + \infty$이므로
+함수 $\dfrac1{z^3}$은 $0$에서 극을 갖는다.
+\item[(3)] 함수 $\exp \dfrac1z$는 $0$에서 본질적 특이점을 갖는다. 왜냐하면,
+\begin{itemize}
+\item[(a)] $\Lim_{x\searrow 0} e^{\frac1x} = + \infty$이므로
+$0$은 제거가능한 특이점이 될 수 없다.
+\item[(b)] $0$은 극도 될 수 없다. 왜냐하면,
+$\Lim_{x\nearrow 0} e^{\frac1x} =0$이므로  
+$\Lim_{z\to 0} |f(z)| = + \infty$이 될 수 없다.
+\end{itemize}
+\end{itemize}
+\hfill $\diamondsuit$
+\end{salt_example}
+
+이제 극한의 성질로부터 특이점을 분류하는 방법을 알아보자.
+
+\begin{salt_theorem}[극한을 이용한 특이점의 분류] \label{thm-4-8}
+$z_0$가 $f$의 고립 특이점이라고 하자. 그러면,
+\begin{center}
+\begin{tabular}{ |p{6cm}|p{6.5cm}| } 
+ \hline
+$z_0$는 제거가능한 특이점이다. \hfill $\Leftrightarrow$ 
+& $\Lim_{z\to z_0} (z-z_0)f(z)=0$. \\ \hline 
+$z_0$는 극이다. \hfill $\Leftrightarrow$ 
+& (a) $\neg \left( \Lim_{z\to z_0} (z-z_0)f(z) = 0 \right)$이고 
+(b)~$\exists n\in \mathbb N$, 
+$\Lim_{z\to z_0} (z-z_0)^{n+1}f(z) = 0$.
+(가장 작은 $n$을 $z_0$에서 극의 차수(order)라고 한다.) \\ \hline
+$z_0$는 본질적 특이점이다. \hfill $\Leftrightarrow$ 
+& $\forall n\in \mathbb N$,  
+$\neg\left( \Lim_{z\to z_0} (z-z_0)^nf(z) = 0 \right)$ \\ 
+ \hline
+\end{tabular}
+\end{center}
+\end{salt_theorem}
+
+{\bf 증명}
+
+(1) \fbox{ $z_0$는 제거가능한 특이점이다. 
+$\Rightarrow$  $\Lim_{z\to z_0} (z-z_0)f(z)=0$}
+
+$z_0$를 제거가능한 특이점이라 하자. 그러면 $F$는
+\[
+D(z_0,R):= \{ z\in\mathbb C\,:\, |z-z_0|<R\}
+\]
+에서 해석적이고 $0<|z-z_0| <R$에서 $F=f$이다.
+$F$가 $z_0$에서 연속임을 이용하면,
+\[
+\Lim_{z\to z_0} (z-z_0)f(z) = \Lim_{z\to z_0} (z-z_0)F(z) = 0\cdot F(z_0) = 0.
+\]
+따라서 임의의 $\epsilon>0$에 대하여
+$0<|z-z_0|<\delta$이면
+\[
+|(z-z_0)f(z) -0| = |(z-z_0)F(z) -0| < \epsilon
+\]
+를 만족하는 $\delta>0$가 존재한다.
+결론적으로 
+\[
+\Lim_{z\to z_0} (z-z_0)f(z) = 0
+\]
+을 얻는다.
+이제 
+\fbox{ $\Lim_{z\to z_0} (z-z_0)f(z)=0$ $\Rightarrow$  
+$z_0$는 제거가능한 특이점이다.}를
+증명하자.
+\[
+\Lim_{z\to z_0} (z-z_0)f(z) = 0
+\]
+를 가정하면, $f$는 뚫린원판 $\{z\in\mathbb C\,:\, 0<|z-z_0|<R\}$에서
+복소해석함수이므로
+$f$의 로랑 급수 전개
+\[
+f(z) = \sum_{n\in\mathbb Z} c_n(z-z_0)^n, \quad
+0 < |z-z_0| <R
+\]
+를 생각할 수 있다. 여기서 계수 $c_n$은 
+중심이 $z_0$이고 반지름 $r<R$인 원형경로 
+$C_r$을 따른 경로적분으로 주어진다.
+\[
+c_n = \dfrac1{2\pi i} \int_{C_r} \dfrac{f(z)}{(z-z_0)^{n+1}}dz.
+\]
+이제 $n\in\mathbb N$에 대하여 $c_{-n}=0$를 보이자.
+주어진 $\epsilon>0$에 대하여 
+$C_r$위에서 $|(z-z_0)f(z)| <\epsilon$이 되도록 $r$을 작게 잡자.
+그러면 모든 $n\in\mathbb N$에 대하여
+\begin{align*}
+|c_{-n}| = \left| \dfrac1{2\pi i} \int_{C_r} \dfrac{f(z)}{(z-z_0)^{-n+1}}dz \right|
+&= \left| \dfrac1{2\pi i} \int_{C_r} \dfrac{(z-z_0)f(z)}{(z-z_0)^{-n+2}}dz \right| \\
+&\le \dfrac1{2\pi} \dfrac\epsilon{r^{-n+2}} 2\pi r = \epsilon r^{n-1}
+\le \epsilon R^{n-1}.
+\end{align*}
+$\epsilon>0$을 임의로 작게 선택할 수 있으므로 
+모든 $n\in\mathbb N$에 대하여 $c_{-n}=0$이다.
+따라서
+\[
+F(z):= \sum_{n\in\mathbb Z} c_n(z-z_0)^n,
+\]
+으로 정의하면 $F$는 $\{z\in\mathbb C\,:\, |z-z_0|<R\}$에서
+복소해석함수이고
+뚫린원판 $\{z\in\mathbb C\,:\, 0<|z-z_0|<R\}$에서 $F=f$이다.
+
+(2) \fbox{ $z_0$는 극이다. $\Rightarrow 
+\begin{cases}
+\neg \left( \Lim_{z\to z_0} (z-z_0)f(z) = 0 \right)\text{ 이고}, \\
+\exists n\in \mathbb N, 
+\Lim_{z\to z_0} (z-z_0)^{n+1}f(z) = 0.
+\end{cases}$}
+
+$z_0$가 $f$의 극이라고 가정하자. 그러면
+$z_0$는 제거가능한 특이점은 아니다. (왜?)
+따라서
+\[
+\neg \left( \Lim_{z\to z_0} (z-z_0)f(z) = 0 \right).
+\]
+(여기서 기호 `$\neg$'는 논리적 부정(NOT)을 나타내는 것으로
+`$\sim$을 만족하지 않는다'는 뜻이다.)
+뚫린원판
+\[
+D:= \{ z\in\mathbb C\,:\, 0<|z-z_0|<R\}
+\]
+에서 $|f(z)|>1$이 되도록 $R>0$을 선택할 수 있다.
+함수 $g$를 뚫린원판 $D$에서 
+\[
+g(z) = \dfrac1{f(z)}
+\]
+로 정의하자.
+$z_0$기 $f$의 극이므로 $\Lim_{z\to z_0} g(z) = 0$이다.
+특히 
+\[
+\Lim_{z\to z_0} (z-z_0)g(z)=0
+\]
+이고 $g(z)$는 
+\[
+\{ z\in\mathbb C\,:\, |z-z_0|<R\}
+\]
+까지 복소해석함수 $G$로 확장될 수 있다.
+또한, 
+\[
+G(z_0) = \Lim_{z\to z_0}  G(z) = \Lim_{z\to z_0}  g(z) = 0.
+\]
+$z_0$가 $G$의 근이고 $G$는 $z_0$ 근방에서 항등적으로 $0$이 되지는 않기 때문에
+$z_0$는 적당한 차수 $n\in\mathbb N$의 근이다.
+$|z-z_0|<R$에 정의된 복소해석함수 $H$가 존재하여 $H(z_0)\ne0$이고
+\[
+G(z) = (z-z_0)^n H(z)
+\]
+를 만족한다.
+특히, $0<|z-z_0|<R$에서
+\[
+f(z) = \dfrac1{g(z)} = \dfrac1{G(z)}
+= \dfrac1{(z-z_0)^n H(z)}
+\]
+이므로
+\[
+\Lim_{z\to z_0} (z-z_0)^{n+1}f(z) 
+= \Lim_{z\to z_0} \dfrac{(z-z_0)}{H(z)} = \dfrac{0}{H(z_0)} = 0
+\]
+가 되어 증명이 끝난다.
+
+\fbox{$\begin{cases}
+\neg \left( \Lim_{z\to z_0} (z-z_0)f(z) = 0 \right)\text{ 이고}, \\
+\exists n\in \mathbb N, 
+\Lim_{z\to z_0} (z-z_0)^{n+1}f(z) = 0.
+\end{cases} \Rightarrow $  $z_0$는 극이다. }
+
+이 조건을 만족하는 가장 작은 $n$을 $n_*$라고 하자.
+\begin{align*}
+& \Lim_{z\to z_0} (z-z_0)^{n_*+1} f(z) = 0, \\
+& \neg\left( \Lim_{z\to z_0} (z-z_0)^{n_*} f(z) = 0 \right).
+\end{align*}
+그러면, $(z-z_0)^{n_*} f(z)$는 $z=z_0$에서 제거가능한 특이점을 갖는다.
+따라서 $\{ z\in\mathbb C\,:\, |z-z_0|<R\}$에서 
+정의된 복소해석함수 $F$가 존재하여
+$0<|z-z_0|<R$에서
+\[
+(z-z_0)^{n_*} f(z) = F(z)
+\]
+를 만족한다. 
+\[
+F(z_0) = \Lim_{z\to z_0} F(z) = \Lim_{z\to z_0} (z-z_0)^{n_*} f(z) \ne 0
+\]
+를 만족하도록 $n_*$를 잡았음을 상기하자.
+\[
+f(z) = \dfrac{F(z)}{(z-z_0)^{n_*}}
+\]
+로부터 $0<|z-z_0| < R$에서
+\[
+\Lim_{z\to z_0} |f(z)| = \Lim_{z\to z_0}\dfrac{|F(z)|}{|z-z_0|^{n_*}}
+= \underbrace{|F(z_0)|}_{\ne0} \cdot
+\Lim_{z\to z_0} \dfrac1{|z-z_0|^{n_*}} = + \infty
+\]
+를 만족하므로 $z_0$는 $f$의 극이다.
+
+(3) 이 증명은 앞의 두 결과로부터 쉽게 얻어진다.
+$z_0$가 $f$의 본질적 특이점이라고 하자. 그러면, 제거가능한 특이점은 아니므로
+\[
+ \neg\left( \Lim_{z\to z_0} (z-z_0)f(z) = 0 \right)
+\]
+에서 $n=1$인 경우를 확인하고
+$z_0$가 극이 아니므로 (2)에서 모든 다른 $n$를 선택해도 같은 결과를 얻어
+원하는 결론이 증명된다.
 
 
+역으로, 모든 $n\in\mathbb N$에 대하여
+\[
+ \neg\left( \Lim_{z\to z_0} (z-z_0)^{n} f(z) = 0 \right)
+\]
+라면, 특히 $n=1$인 경우를 생각하면 $z_0$는 제거가능한 특이점이 될 수 없다.
+$n\ge2$인 경우를 보면 $z_0$는 극이 될 수도 없다.
+따라서 $z_0$는 본질적 특이점이다. \hfill $\square$
+
+예제 \ref{example-4-14}를 다시 생각하자.
+
+\begin{salt_example}\label{example-4-15}
+\
+\begin{itemize}
+\item[(1)] $\Lim_{z\to0} z \cdot \dfrac{\sin z}z = \Lim_{z\to0} \sin z 
+= \sin 0 = 0$이므로 $0$은 $\dfrac{\sin z}z$의 제거가능한 특이점이다.
+\item[(2)] $\neg\left(\lim_{z\to 0} z\cdot \dfrac1{z^3} = 0 \right)$이고
+$\Lim_{z\to 0} z^4 \cdot \dfrac1{z^3} = \Lim_{z\to0} z = 0$ 이므로
+$0$은 $\dfrac1{z^3}$의 극이다. \\
+$\neg\left(\lim_{z\to 0} z^2\cdot \dfrac1{z^3} = 0 \right)$이고
+$\neg\left(\lim_{z\to 0} z^3\cdot \dfrac1{z^3} = 0 \right)$이므로
+$3$차의 극을 갖는다.
+\item[(3)] $x>0$에 대하여
+$e^{\frac1x} = 1 + \dfrac1{1!x} + \dfrac1{2!x^2} + \dfrac1{3!x^3} + \cdots
+> \dfrac1{n!x^n}$이므로,
+모든 $n\in\mathbb N$에 대하여 $x^ne^{\frac1x} > \dfrac1{n!}$이고
+\[
+\neg\left(\lim_{x\searrow 0} x^ne^{\frac1x} = 0 \right). 
+\]
+따라서  모든 $n\in\mathbb N$에 대하여
+\[
+\neg\left(\lim_{z\to 0} z^n\exp \frac1z = 0 \right)
+\]
+이 되어 $0$은 $\exp \dfrac 1z$의 본질적 특이점이다. 
+\hfill $\diamondsuit$
+\end{itemize}
+
+이제 로랑 급수를 이용한 특이점의 두번째 분류방법 살펴보자.
+\end{salt_example}
+
+\begin{salt_theorem}[로랑 급수의 계수를 이용한 분류법] \label{thm-4-9}
+\
+\begin{itemize}
+\item[(1)] $z_0$기 $f$의 고립 특이점이고,
+\item[(2)] 어떤 $R>0$에 대하여 $0<|z-z_0|<R$에서
+$f(z)= \Sum_{n\in\mathbb Z} c_n(z-z_0)^n$이라 하자.
+\end{itemize}
+그러면,
+\begin{center}
+\begin{tabular}{ |p{6cm}|p{6.5cm}| } 
+ \hline
+$z_0$는 제거가능한 특이점이다. \hfill $\Leftrightarrow$ 
+& 모든 $n<0$에 대하여 $c_n=0$. \\ \hline 
+$z_0$는 극이다. \hfill $\Leftrightarrow$ 
+& 다음을 만족하는 $m\in\mathbb N$이 존재한다.
+\begin{itemize}
+\item[(a)]  $c_{-m} \ne 0$이고,
+\item[(b)] $n<-m$에 대하여, $c_n=0$이다.
+\end{itemize}
+$m$을 극의 차수라고 한다. \\ \hline
+$z_0$는 본질적 특이점이다. \hfill $\Leftrightarrow$ 
+& 무한이 많은 음수  $n$에 대하여 $c_n\ne0$. \\ 
+ \hline
+\end{tabular}
+\end{center}
+\end{salt_theorem}
 
 
+\begin{figure*}[h!]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{./SaltChapter/fig-4-0-8}
+\end{center}
+%\caption{$\mathbb C$에 정의된 제곱급수의 수렴영역}
+%\label{fig-4-0-3}
+\end{figure*}
 
+{\bf 증명}
 
+(1) \fbox{$z_0$는 제거가능한 특이점이다. 
+$\Rightarrow$ 모든 $n<0$에 대하여 $c_n=0$.}
 
+$z_0$가 제거가능한 특이점이라고 가정하자.
+그러면 $f$는 $|z-z_0|<R$에 정의된 복소해석함수 $F$로 확장할 수 있다.
+$F$의 테일러 급수 전개는
+\[
+F(z) = \sum_{n=0}^\infty  \tilde c_n (z-z_0)^n,\quad
+|z-z_0| <R.
+\]
+특히, $0<|z-z_0| <R$에서
+\[
+f(z) = \sum_{n=0}^\infty  \tilde c_n (z-z_0)^n 
+= \sum_{n\in\mathbb Z} c_n(z-z_0)^n
+\]
+이고 고정된 원환에서 로랑 급수 전개의 유일성으로부터
+$n\ge0$에서 $c_n = \tilde c_n$이고,
+$n<0$에서 $c_n=0$이다.
+
+\fbox{ 모든 $n<0$에 대하여 $c_n=0$.
+$\Rightarrow$ $z_0$는 제거가능한 특이점이다.}
+
+모든 $n<0$에서 $c_n=0$이라고 가정하자. 그러면,
+$0<|z-z_0|<R$에서
+\[
+f(z) = \sum_{n\in\mathbb Z} \tilde c_n (z-z_0)^n
+= \sum_{n=0}^\infty  c_n (z-z_0)^n
+\]
+이고 $|z-z_0|<R$에서 $F$를
+\[
+F(z) = \sum_{n=0}^\infty  \tilde c_n (z-z_0)^n
+\]
+로 정의하면, $F$는 
+$\{ z\in\mathbb C\,:\, |z-z_0|<R\}$에서 복소해석함수이다.
+(왜냐하면 제곱급수로 정의되었기 때문에)
+또한, $0<|z-z_0|<R$에서 $F=f$이다.
+
+(2) $z_0$가 $m$차의 극이면,
+\[
+f(z) = \dfrac{c_{-m}}{(z-z_0)^m} + \cdots + \dfrac{c_{-1}}{z-z_0}
++ c_0 + \sum_{n=0}^\infty c_n(z-z_0)^n
+\]
+이고 $c_{-m} \ne 0$임을 증명해보자.
+$z_0$가 $m$차의 극이라고 가정하자.
+정리 \ref{thm-4-8}을 이용하면,
+\[
+\lim_{z\to z_0} (z-z_0)\left( (z-z_0)^m f(z) \right)
+= \lim_{z\to z_0} (z-z_0)^{m+1} f(z) =0,
+\]
+이고 $(z-z_0)^m f(z)$는 $z_0$에서 제거가능한 특이점을 갖는다.
+\[
+(z-z_0)^mf(z) = (z-z_0)^m \sum_{n\in\mathbb Z}c_n(z-z_0)^n
+= \sum_{n\in\mathbb Z}c_n(z-z_0)^{n+m}
+\]
+의 급수 전개에서 $z-z_0$의 차수가 음수인 항의 계수들은 모두 $0$이 되어야 한다.
+즉, $0 = c_{-(m+1)} = c_{-(m+2)} = \cdots$.
+따라서 $0<|z-z_0|<R$에 대하여
+\begin{equation}\label{eq-4-6}
+(z-z_0)^mf(z) = c_{-m} + c_{-m+1}(z-z_0) + c_{-m+2}(z-z_0)^2 + \cdots
+\end{equation}
+이므로,
+\[
+f(z) = \dfrac{c_{-m}}{(z-z_0)^m} + \cdots + \dfrac{c_{-1}}{(z-z_0)}
++ c_0 + c_1(z-z_0) + c_2(z-z_0)^2 + \cdots.
+\]
+또한, 
+$c_{-m} + c_{-m+1}(z-z_0) + c_{-m+2}(z-z_0)^2 + \cdots$는 
+복소해석함수이고, $z\to z_0$일 때 극한값 $c_{-m}$을 갖는다.
+\[
+\lim_{z\to z_0} (z-z_0)^mf(z) 
+= \lim_{z\to z_0}  \left( 
+c_{-m} + c_{-m+1}(z-z_0) + c_{-m+2}(z-z_0)^2 + \cdots \right) = c_{-m}.
+\]
+한편, $z_0$는 $m$차 극이므로, 
+\[
+\neg \left( \lim_{z\to z_0} (z-z_0)^mf(z) =0 \right).
+\]
+따라서 식 \eqref{eq-4-6}으로부터 $c_{-m} \ne 0$이다.
+
+이제 
+\[
+f(z) = \dfrac{c_{-m}}{(z-z_0)^m} + \cdots + \dfrac{c_{-1}}{(z-z_0)}
++ c_0 + c_1(z-z_0) + c_2(z-z_0)^2 + \cdots
+\]
+이고 $c_{-m} \ne 0$를 가정하고 $z_0$가 $m$차 극임을 보이자.
+어떤 $m\in \mathbb N$이 존재하여,
+$c_{-m} \ne 0$이고, $n<-m$에 대하여 $c_n=0$이라고 가정하자.
+그러면, 
+$(z-z_0)^mf(z) = c_{-m} + c_{-m+1}(z-z_0) + c_{-m+2}(z-z_0)^2 + \cdots$이고
+우변은 복소해석함수를 정의한다. 이를 $h$라 하자.
+$\{z \in \mathbb C\,:\, |z-z_0| <R\}$에서
+\begin{align*}
+& \lim_{z\to z_0} (z-z_0)^m f(z) = \lim_{z\to z_0} h(z) = h(z_0) = c_{-m} \ne0,\\
+& \lim_{z\to z_0} (z-z_0)^{m+1}f(z) = 0 \cdot c_{-m} = 0.
+\end{align*}
+따라서, 정리 \ref{thm-4-8}에 의해 $z_0$는 $m$차 극이다.
+
+(3) 본질적 특이점은 제거가능한 특이점 또는 극이 아닌 경우를 뜻하므로
+앞의 두 경우의 증명으로부터 쉽게 도출된다.
+\hfill $\square$
+
+다시 예제 \ref{example-4-14}를 돌아보자.
+
+\begin{salt_example}\label{example-4-16}
+\
+\begin{itemize}
+\item[(1)] $z\ne0$에 대하여
+\[
+\dfrac{\sin z}z = \dfrac 1z\left( z - \dfrac{z^3}{3!} + \dfrac{z^5}{5!} - \cdots
+\right) =1 - \dfrac{z^2}{3!} + \dfrac{z^4}{5!} - \dfrac{z^6}{7!} + \cdots.
+\]
+로랑 급수에서 $z$의 음의 지수 항이 나타나지 않기 때문에
+$0$은 제거가능한 특이점이다.
+\item[(2)] $z\ne0$에 대하여 
+\[
+\dfrac1{z^3} = \cdots + 0 + \dfrac1{z^3} + 0 + \cdots.
+\]
+$c_{-3}=1 \ne 0$이고 $0=c_{-4} = c_{-5} = \cdots$이다.
+따라서 $\dfrac1{z^3}$은 $0$에서 $3$차의 극을 갖는다.
+\item[(3)] $z\ne0$에 대하여 
+\[
+\exp \dfrac1z = 1 + \dfrac1{1!z} + \dfrac1{2!z^2} + \dfrac1{3!z^3} + \cdots
+\]
+무한이 많은 음의 인덱스 (실제로 모든) $n$에서 $0$이 아니므로
+\[
+c_{-n} = \dfrac1{n!} \ne 0
+\]
+$0$은 $\exp \dfrac1z$의 본질적 특이점이다.
+\hfill $\diamondsuit$
+\end{itemize}
+\end{salt_example}
+
+\begin{salt_exercise}\label{ex-4-30}
+영역 $D$에 정의된 복소해석함수 $f$가 $D$에서 유일한 근으로
+$m$중근 $z_0$를 갖는다고 하자.
+함수 $z\mapsto 1/f(z)$는 $z_0$에서 $m$차 극을 가짐을 보여라.
+\end{salt_exercise}
+
+\begin{salt_exercise}\label{ex-4-31}
+$D$가 $z_0$를 중심으로 하는 원판이고, 
+$D\setminus \{z_0\}$에 정의된 함수 $f$는 함수값이 $0$이 되지 않으며
+$z_0$에서 $m$차 극을 갖는다고 하자. 
+함수 $z\mapsto 1/f(z)$는 $D$에 정의된 복소해석함수 $g$로 확장될 수 있으며
+$g$는 $z_0$에서 $m$중근을 가짐을 보여라.
+\end{salt_exercise}
+
+\begin{salt_exercise}\label{ex-4-32}
+영역 $D$와  $z_0\in D$에 대하여
+$f$는 $z_0$에서 $m$차 극을 가지며 다음과 같은 로랑 급수 전개가 가능하다고 하자.
+\[
+f(z) = \sum_{n\in\mathbb Z} c_n(z-z_0)^n,\quad
+0<|z-z_0|<R,
+\]
+단, $R$은 양의 상수이다. 다음 식이 성립함을 보여라.
+\[
+c_{-1} = \dfrac1{(m-1)!}\lim_{z\to z_0} \dfrac{d^{m-1}}{dz^{m-1}}
+\left( (z-z_0)^m f(z) \right).
+\]
+\end{salt_exercise}
+
+\begin{salt_exercise}\label{ex-4-33}
+참 또는 거짓을 밝혀라.
+\begin{itemize}
+\item[(1)] $f$의 로랑 급수가 $z^{-1} + c_0 + c_1z + \cdots$가
+원점을 중심으로 하는 어떤 뚫린원판에서 수렴한다면, $f$는 $0$에서 극을 갖는다.
+\item[(2)] 하나의 함수가 수렴하는 원환의 선택에 따라 $z_0$를 중심으로 다른
+로랑 급수를 가질 수 있다.
+\item[(3)] $f$가 $z_0$에서 고립 특이점을 갖는다면, 
+$z_0$를 중심으로 하는 로랑 급수는 원환 $0<|z-z_0|<R$에서 수렴한다.
+\item[(4)] $f$의 로랑 급수가 원환 $R_1 <|z-z_0| <R_2$에서
+실제로 테일러 급수가 되면 ($z-z_0$의 음의 지수 항이 없다면),
+이 급수는 실제로 (적어도) 원판 $|z-z_0|<R_2$에서 수렴한다.
+\item[(5)] 앞의 결과가 맞다면, $f$가 원판 $|z-z_0|<R_2$에서
+특이점이 있더라도 제거가능한 특이점만 존재하며 
+이 원판에서 복소해석함수로 간주할 수 있다.
+\end{itemize}
+\end{salt_exercise}
+
+\begin{salt_exercise}\label{ex-4-34}
+다음 함수들이 $0$에서 특이점을 갖는다면 어떤 종류인지 판정하라.
+복소해석함수이거나 고립 특이점을 갖는 함수이면
+뚫린원판 $0<|z|<R$에서 수렴하는 급수로 전개하라.
+\[
+\sin z, \quad \sin \dfrac1z,\quad \dfrac{\sin z}z,
+\quad \dfrac{\sin z}{z^2}, \quad \dfrac1{\sin \frac1z},
+\quad z\sin \dfrac1z
+\]
+\end{salt_exercise}
+
+\begin{salt_exercise}\label{ex-4-35}
+참 또는 거짓을 밝혀라.
+\begin{itemize}
+\item[(1)] $\Lim_{z\to 0} \left| \exp \dfrac1z \right| = +\infty$.
+\item[(2)] $f$가 $z_0$에서 $m$차 극을 가지면, 
+$z_0$를 중심으로 하는 원판에서
+$f - \dfrac{p}{(z-z_0)^m}$가 복소해석함수가 되게 하는
+다항식 $p$가 존재한다.
+\item[(3)] $f$가 $0$의 근방에서 복소해석함수이면,
+$n>m$일 때 $\dfrac f{z^n}$이 $0$에서 극을 갖는 정수 $m$이 존재한다.
+\item[(4)] $z_0$에서 $f$, $g$가 각각 $m_f$차, $m_g$차 극을 갖는다면,
+점별 곱으로 정의된 함수 $f\cdot g$는 $z_0$에서 $m_f+m_g$차 극을 갖는다.
+\end{itemize}
+\end{salt_exercise}
+
+\begin{salt_exercise}\label{ex-4-36}
+두 본질적 특이점 $0$과 $1$을 제외한  $\mathbb C$ 에서
+복소해석함수인 예를 들면?
+\end{salt_exercise}
+
+\begin{salt_exercise}\label{ex-4-37}
+함수 $f(z) = 1/(z-1)$은 $0$에서 특이점을 갖지 않음은 분명하다.
+그런데 $|z|>1$에서 로랑 급수가 $z^{-1} + z^{-2} + z^{-3} + \cdots$이므로
+무한이 많은 $z$의 음의 차수 항이 $0$이 아기 때문에
+$0$은 $f$의 본질적 특이점으로 오해할 수 있다. 
+이 주장에서 무엇이 잘못되었는지 찾아라.
+\end{salt_exercise}
+
+\begin{salt_exercise}\label{ex-4-38}
+증명 또는 반증하라:
+$z_0$에서 $f$와 $g$가 각각 극과 본질적 특이점을 찾는다면,
+$fg$는 $z_0$에서 본질적 특이점을 갖는다.
+\end{salt_exercise}
+
+\subsection{본질적 특이점 근방에서의 역동적 변화}
+
+이제 본질적 특이점 $z_0$의 근방에서 함수 $f$의
+``역동적'' 변화를 보여주는 결과를 살펴보자. 
+임의의 복소수 $w$와 $\epsilon>0$, 
+$z_0$를 중심으로 하는 임의의 작은 뚫린원판 $\Delta$이
+주어졌을 때, 
+$f(z)$와 $w$의 거리가 $\epsilon$보다 작은 점 $z$가
+$\Delta$에 존재한다. 따라서
+본질적 특이점을 중심으로 하는 임의의 뚫린원판의 상(image)은
+$\mathbb C$에서 조밀하다.
+다른 표현으로는, 본질적 특이점 $z_0$의 임의의 근방에서
+함수 $f$는 임의의 복소수에 가까이 다가갈 수 있다.
+
+\begin{salt_theorem} [카소라티-바이어스트라스]
+\footnote{
+이 결과는 바이어스트라스(Weierstrass)에 의해
+1876년 (독일어로) 그리고
+소콧스키(Sokhotski)에 의해 1873년(러시아어로) 발표되었다.
+따라서 러시아 문헌에서는 소콧스키 정리로
+서양에서는 바이어스트라스 정리로 불렸다. 
+같은 정리는 이미 1868년 카소라티(Casorati)가 출판하였고,
+1859년 Briot와 Bouquet의 책의 초판에도 소개되었다.
+하지만, 이들은 1875년 개정판을 만들면서 정리를 삭제해버렸다.
+} \label{thm-4-10}
+$z_0$가 $f$의 본질적 특이점이하고 하자. 그러면,
+\begin{itemize}
+\item[(1)] 임의의 복소수 $w$,
+\item[(2)] 임의의 $\delta>0$,
+\item[(3)] 임의의 $\epsilon>0$에 대하여,
+\end{itemize}
+$z\in\mathbb C$가 존재하여
+$|z-z_0| <\delta$와 $|f(z) - w| < \epsilon$을 만족한다.
+\end{salt_theorem}
+
+\begin{figure*}[h!]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{./SaltChapter/fig-4-0-9}
+\end{center}
+%\caption{$\mathbb C$에 정의된 제곱급수의 수렴영역}
+%\label{fig-4-0-3}
+\end{figure*}
+
+{\bf 증명}
+
+증명의 결과를 부정하자.
+그러면 $w\in\mathbb C$, $\epsilon>0$, $\delta>0$이 존재하여
+$z\in D:= \{ z\in\mathbb C\,:\, 0<|z-z_0|<\delta\}$일 때
+$|f(z) -w| \ge \epsilon$를 얻는다.
+이제  $z\in D$에 대하여
+\[
+g(z) = \dfrac1{f(z)-w}
+\]
+로 정의하면, $g$는 복소해석함수이고,
+\[
+0\le |g(z)| = \dfrac1{|f(z)-w|} \le \dfrac1\epsilon, \quad
+z\in D
+\]
+이므로 
+$\Lim_{z\to z_0} (z-z_0)g(z) = 0$이다.
+따라서 $g$는 제거가능한 특이점 $z_0$를 갖는다.
+이 함수를 확장한 것도 $g$로 쓰기로 하자.
+$g$가 $z_0$에서 $m$중근을 갖는다고 하면
+($g(z_0)\ne0$이면 $m=0$으로 설정한다)
+$g(z) = (z-z_0)^m h(z)$로 쓸 수 있다.
+여기서, $h$는 $D$에 정의된 복소해석함수로 $h(z_0)\ne0$이다.
+그러면, $0 < |z-z_0| < \delta$에 대하여
+\begin{align*}
+(z-z_0)^{m+1} f(z)
+&= (z-z_0)^{m+1}(f(z) -w + w) \\
+&= (z-z_0)^{m+1} \dfrac1{g(z)} + (z-z_0)^{m+1}\cdot w \\
+&= \dfrac{z-z_0}{h(z)} + (z-z_0)^{m+1}\cdot w \\
+& \stackrel{z\to z_0}{\longrightarrow}
+\dfrac0{h(z_0)} + 0 \cdot w = 0.
+\end{align*}
+따라서, $f$는 $z_0$에서 제거가능한 특이점을 갖거나($m=0$일 때),
+극($m\in\mathbb N$일 때)을 갖는다.
+따라서 $z_0$는 $f$의 본질적 특이점이 되지 못하므로
+모순이 되어 증명이 끝난다. \hfill $\square$
+
+\begin{salt_example}\label{example-4-17}
+함수 $\exp (1/z)$는 $0$에서 본질적 특이점을 갖는다.
+$0$의 임의의 근방에서
+$0$이 아닌 모든  $w$ ($=\rho \exp(i\theta)$, $\rho, \theta \in \mathbb R$)
+를 함수값으로 가짐을 보일 것이다.
+이를 위해 $z= r\exp(it)$라 하면,
+\[
+\exp \dfrac 1z = \exp \left( \dfrac {\cos t}r  - i \dfrac{\sin t}r\right) 
+= \rho e^{i\theta}
+\]
+를 풀어야 한다.
+절대값을 취하는 방법으로 
+\[
+\dfrac{\cos t}r = \log \rho,
+\]
+한편 편각을 비교하면
+하나의 해는 
+\[
+- \dfrac{\sin t}r = \theta.
+\]
+를 풀어서 얻을 수 있다.
+$(\cos t)^2 + (\sin t)^2 =1$을 이용하면,
+\[
+r = \dfrac1{\sqrt{(\log \rho)^2 + \theta^2}}
+\]
+과 
+\[
+\tan t = - \dfrac{\theta}{\log \rho}
+\]
+를 얻는다. $\theta$가 $2\pi$ 주기를 가지므로
+$2\pi$의 정수배를 더해도 $w$는 변하지 않는다. 
+이로부터 $r$을 원하는 만큼 작게 만들 수 있다.
+\hfill $\diamondsuit$
+\end{salt_example}
+
+이 예제는 카소라티-바이어스트라스 정리가 얼마나 강력한 것인지 보여준다.
+피카드는 본질적 특이점을 중심으로 하는 임의의 뚫린원판의 상은
+복소평면에서 기껏해야 한 점을 제외한 집합이 됨을 보였다.
+우리는 예제에서 함수의 상이 $w=0$를 제외한 집합이 됨을 확인하였다.
+피카드 정리는 이 책의 범위를 벗어나며, [Conway (1978)]을 참고하라.
+
+\begin{salt_exercise}\label{ex-4-39}
+카소라티-바이어스트라스 정리를 이용하여
+$f$가 $z_0$에서 본질적 특이점을 가지고,
+$w$가 임의의 복소수라고 하면,
+\[
+\Lim_{n\to \infty} z_n = z_0,
+\quad
+\Lim{n\to\infty} f(z_n) = w.
+\]
+를 만족하는 복소수열 $z_1, z_2, z_4, \ldots$이 존재함을 보여라.
+\end{salt_exercise}
+
+\section{유수 정리}
+
+$D$가 영역일 때
+복소해석함수 $f:D\setminus \{z_0\}\to \mathbb C$가
+$z_0$에서 고립 특이점을 갖는다고 하자.
+\[
+f(z) = \sum_{n\in\mathbb Z} c_n (z-z_0)^n,\quad
+0<|z-z_0|<R.
+\]
+이 때, $c_{-1}$을 $z_0$에서 $f$의 {\bf 유수}(residue)라고 하며,
+\[
+\res(f,z_0)
+\]
+로 쓴다.
+왜 이런 이름을 붙였을까?
+일상적인 언어에서 유수(residue)는 남은 것(left over)을 뜻한다.
+위의 $c_{-1}$도 다음과 같이 남은 것으로 생각할 수 있다.
+\[
+2\pi i c_{-1} = \int_{C_r} \dfrac{f(z)}{(z-z_0)^{-1+1}}dz
+= \int_{C_r} f(z)dz 
+= \int_{C_r} \left( \sum_{n\in\mathbb Z}c_n(z-z_0)^n\right) dz,
+\]
+여기서 $C_r$은 $C_r(t) = z_0 + r\exp(it)$ ($t\in[0,2\pi$)이고
+$r<R$이다.
 
 
 
