@@ -54,3 +54,8 @@
 \hypertarget {chap-5}{}
 \contentsline {section}{\numberline {5.1}조화함수란?}{173}{section.5.1}%
 \contentsline {section}{\numberline {5.2}조화함수와 복소해석함수의 연결고리는 무엇인가?}{175}{section.5.2}%
+\contentsline {section}{\numberline {5.3}(복소해석함수 $\leftrightarrow $ 조화함수)의 양방향성의 결과들}{179}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}매끄러운 조화함수}{180}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}평균값 정리}{180}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}최대원리}{181}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.4}디리클레 문제의 해의 유일성}{182}{section.5.4}%

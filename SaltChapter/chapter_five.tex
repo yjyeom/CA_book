@@ -231,9 +231,319 @@ $\mathbb C\setminus \{0\}$에 정의된 복소해석함수 $f$가 존재할 수 
 
 {\bf 증명} (정리 \ref{thm-5-2})
 
+실수부가 $u$인 복소해석함수 $f$를 만들고
+$v:=\Im(f)$가 조화함수임을 보이도록 하자.
+우선 
+\[
+g=\dfrac{\partial u}{\partial x} - i \dfrac{\partial u}{\partial y}
+\]
+라 하자.
+$g$가 복소해석함수임을 보이고 $g$의 부정적분을 만들면 우리가 원하는 $f$가 된다.
+$g$가 복소해석함수임을 보이기 위해 정리 \ref{thm-2-2}를 사용한다.
+우선  $u$가 조화함수이므로
+\[
+\Re(g) = \dfrac{\partial u}{\partial x}, \quad
+\Im(g) = - \dfrac{\partial u}{\partial y}
+\]
+가 연속인 편도함수를 갖는다.
+또한 $u$가 라플라스 방정식을 만족한다는 것을 이용하면
+실수부와 허수부는 코시-리만 방정식을 만족함을 보일 수 있다.
+\begin{align*}
+\dfrac{\partial}{\partial x}(\Re(g)) 
+&=  \dfrac{\partial}{\partial x}\left(\dfrac{\partial u}{\partial x} \right)
+= \dfrac{\partial^2 u}{\partial x^2} = - \dfrac{\partial^2 u}{\partial y^2} 
+=  \dfrac{\partial}{\partial y}\left(-\dfrac{\partial u}{\partial y} \right)
+=  \dfrac{\partial}{\partial y}(\Im (g)) \\
+\dfrac{\partial}{\partial y}(\Re(g)) 
+&=  \dfrac{\partial}{\partial y}\left(\dfrac{\partial u}{\partial x} \right)
+= \dfrac{\partial}{\partial x}\left(\dfrac{\partial u}{\partial y}\right)
+= - \dfrac{\partial}{\partial x}  \left( - \dfrac{\partial u}{\partial y}\right)
+=  - \dfrac{\partial}{\partial x}(\Im (g))
+\end{align*}
+따라서 $g$는 $U$에서 복소해석함수이다. 정리 \ref{thm-3-5}에 의하여
+단순연결영역 $U$에서 부정적분 $G$를 갖는다.
+$G=\tilde u + i\tilde v$를 실수부 $\tilde u$와 허수부 $\tilde v$로 나누어 보면
+\begin{equation}\label{eq-5-1}
+\dfrac{\partial u}{\partial x} - \dfrac{\partial u}{\partial y} = g = G'
+= \dfrac{\partial \tilde u}{\partial x} + \dfrac{\partial \tilde v}{\partial x}
+\end{equation}
+이고
+\[
+\dfrac{\partial(u-\tilde u)}{\partial x} = 0
+\]
+적분학의 기본정리에 의하여 $u - \tilde u$는 국소적으로 수평방향을 따라 상수이다.
+식 \eqref{eq-5-1}에 코시-리만 방정식을 적용하면
+\[
+- \dfrac{\partial u}{\partial y} = \dfrac{\partial \tilde v}{\partial x} 
+\stackrel{\text{(C-R)}}{=} - \dfrac{\partial \tilde u}{\partial y}
+\]
+에서 
+\[
+\dfrac{\partial(u-\tilde u)}{\partial y} = 0
+\]
+이므로
+$u-\tilde u$는 국소적으로 수직방뱡으로도 상수이다.
+영역 $U$의 두 점은 계단형 경로로 연결가능하므로
+$\tilde u-u$는 상수함수이다. 상수를 $C(\in \mathbb R)$라 하자.
+그러면
+\[
+f:= G - C = (\tilde u-C) + i\tilde v = u + i\tilde v
+\]
+는 $U$에서 복소해석함수이며 $u=\Re(f)$와
+$v:=\tilde v = \Im(G)$는 조화함수인 $f=u+iv$을 얻어 증명이 끝난다.
+\hfill $\square$
+
+\begin{salt_definition} \label{def-5-2}
+열린집합 $U$에 정의된 조화함수 $u:U \to \mathbb R$에 대하여
+$f:=u+iv$가 복소해석함수가 되는 조화함수 $v:U \to \mathbb R$를
+$u$의 {\bf 조화켤레함수}(harmonic conjugate)라 한다.
+\end{salt_definition}
+
+\begin{salt_example}\label{example-5-4}
+$v:=2xy$는 예제 \ref{example-5-1}에서 언급한 $u:=x^2-y^2$의 조화켤레함수이다.
+왜냐하면, $z=x+iy$라 할 때,
+\[
+f:= u+iv = x^2-y^2 + 2xyi = (x+iy)^2 = z^2
+\]
+은 전해석함수가 된다.
+\end{salt_example}
+
+조화켤레함수에 상수를 더하면 새로운 조화켤레함수가 되므로 
+조화켤레함수는 유일하지 않다.
+정리 \ref{thm-5-2}는 단순연결영역에서 모든 조화함수가
+조화켤레함수를 가진다는 것을 보장한다.
+하지만, 조화켤레함수를 찾는데 특별히 유용하지는 않다.
+(증명을 따른다면 부정적분 $G$를 직접 찾아야 하기 때문이다.)
+좀 더 직접적인 방법은 다음 예제와 같이 코시-리만 방정식을 이용하는 것이다.
+
+\begin{salt_example}\label{example-5-5}
+$u=-(\sin x)(\sinh y)$라고 하자. 그러면,
+\begin{align*}
+\dfrac{\partial^2 u}{\partial x^2} &= + (\sin x)(\sinh y), \\
+\dfrac{\partial^2 u}{\partial y^2} &= - (\sin x)(\sinh y)
+\end{align*}
+이므로 $u$는 $\mathbb R^2$에서 조화함수이다.
+$\mathbb R^2$이 단순연결영역이므로 조화켤레함수가 존재함을 알 수 있다.
+어떻게 찾을 수 있을까?
+$v$가 조화켤레함수라면 $u+iv$가 복소해석함수이므로
+$u$와 $v$는 코시-리만 방정식을 만족한다. 따라서 
+\begin{align}
+\dfrac{\partial v}{\partial x} &= -\dfrac{\partial u}{\partial y} = +(\sin x)(\cosh y),
+\label{eq-5-2} \\
+\dfrac{\partial v}{\partial y} &= \dfrac{\partial u}{\partial x} = -(\cos x)(\sinh y). 
+\label{eq-5-3} 
+\end{align}
+식 \eqref{eq-5-2}에서 $y$를 고정하고 $x$에 대하여 적분하면
+\begin{equation} \label{eq-5-4}
+v = - (\cos x)(\cosh y) + C(y),
+\end{equation}
+여기서 상수 $C(y)$는 $y$에는 의존한다.
+$C(y)$가 미분가능하다고 가정하면,
+\[
+- (\cos x)(\sinh y) \stackrel{\eqref{eq-5-3}}{=}
+ \dfrac{\partial v}{\partial y} \stackrel{\eqref{eq-5-4}}{=}
+=- (\cos x)(\sinh y)  + \dfrac{dC}{dy}(y).
+\]
+따라서
+\[
+\dfrac{dC}{dy}(y)=0
+\]
+이므로 $C(y)=C$이다. 
+상수 $C$는 임의로 잡을 수 있는데 특별히 $C=0$으로 선택하자.
+그러면 
+\[
+v = -(\cos x)(\cosh y)
+\]
+를 $u$의 조화켤레함수의 후보로 택할 수 있다.
+이 선택이 맞는지 검증하기 위해 $u$, $v$가 코시-리만 방정식을 만족하는지 
+빠르게 확인할 수 있어 $f:u+iv$는 복소해석함수이다.
+한편, 연습문제 \ref{ex-1-37}을 계산을 활용하면
+$f$가 복소해석함수임을 직접 확인할 수 있다.
+\begin{align*}
+f = u+iv &=  - (\sin x)(\sinh y) - i(\cos x)(\cosh y) \\
+&= -i \left( (\cos x)(\cosh y) - i(\sin x)(\sinh y) \right)
+= - i\cos z
+\end{align*}
+이므로 $f$는 전해석함수이다.
+\hfill $\diamondsuit$
+\end{salt_example}
 
 
+\begin{salt_exercise}\label{ex-5-4}
+다음 조화함수의 조화켤레함수를 찾아라.
+\[
+e^x\sin y, \quad x^3-3xy^2-2y, \quad x(1+2y).
+\]
+\end{salt_exercise}
 
+\begin{salt_exercise}\label{ex-5-5}
+$\mathbb C\setminus\{0\}$에 정의된 복소해석함수 $f$의
+실수부가 $(x,y)\in \mathbb R^2 \setminus\{(0,0)\}$에서 $u(x,y) = \log(x^2+y^2)$이
+될 수 없음을 보여라.\\
+힌트: $v$를 $u$의 조화켤레함수라 하면, $h(z) := z^2\exp(-(u+iv))$는
+복소해석함수이다. $|h|$를 찾고 $h'=0$임을 보여라.
+$h'=0$로부터 $2/z$가 $\mathbb C\setminus\{0\}$에서 부정적분을 가지게 되는데
+이는 불가능하다.
+\end{salt_exercise}
+
+\begin{salt_exercise}\label{ex-5-6}
+\[
+f (x+iy)= x^3+y^3 + iv(x,y),\quad (x,y)\in \mathbb R^2
+\]
+이 $\mathbb C$에서 복소해석함수가 되는 $v:\mathbb R^2 \to \mathbb R$를
+찾을 수 있는가? 
+\end{salt_exercise}
+
+\section{(복소해석함수 $\leftrightarrow$ 조화함수)의 양방향성의 결과들}
+
+앞에서 정리 \ref{thm-5-1}과 \ref{thm-5-2}의 결과로부터 조화함수의 실해석학 세계와
+복소해석학 세계 사이의 유용한 상호 작용을 살펴보았다.
+
+\begin{figure*}[h!]
+\begin{center}
+\includegraphics[width=0.7\textwidth]{./SaltChapter/fig-5-0-1}
+\end{center}
+%\caption{$\mathbb C$에 정의된 제곱급수의 수렴영역}
+%\label{fig-4-0-3}
+\end{figure*}
+
+앞의 3개의 장에 걸쳐 복소해석함수가 갖는 많은 성질을 살펴보았다.
+이제 이로부터 조화함수가 갖는 중요한 성질을 유도해보자.
+특히, 다음 결과를 강조하고자 한다.
+\begin{itemize}
+\item[(1)] $u$가 조화함수이면 $C^\infty$
+\item[(2)] 조화함수에 대한 평균값정리
+\item[(3)] 조화함수의 최대원리
+\item[(4)] 디리클레 방정식 해의 유일성
+\end{itemize}
+
+\subsection{매끄러운 조화함수}
+
+\begin{salt_corollary}\label{coro-5-1}
+조화함수는 무한번 미분가능하다.
+\end{salt_corollary}
+
+(조화함수의 정의는 단지 두번 미분가능한 성질만 요구한다.
+그런데 라플라스 방정식을 만족한다는 성질로부터 무한번 미분가능하다는 놀라운 결과가 얻어진다.
+이런 종류의 결과를 편미분방정식 이론에서 정칙성(regularity)이라 부른다.)
+
+{\bf 증명}
+
+$u$가 열린집합 $U$의 조화함수이고 $z_0=(x_0,y_0) \in U$라 하자.
+그러면 $z_0$를 중심으로 반지름 $r$인 원판 $D$가 $U$에  포함되게 하는 $r>0$이 존재한다.
+그런데 $u|_D$가 $D$에서 조화함수이고 $D$는 단순연결영역이다.
+따라서 $D$에서 $\Re(f)=u$를 만족하는 복소해석함수 $f$가 존재한다.
+$D$에서 $f$는 무한번 복소미분 가능한 함수이므로
+$u$가 $D$에서, 특히 $z_0$에서 무한번 미분가능하다.
+$z_0$의 선택을 임의로 할 수 있기 때문에 모든 점에서 무한번 미분가능하다.
+\hfill $\square$
+
+\begin{salt_exercise}\label{ex-5-7}
+조화함수의 모든 편미분이 조화함수임을 보여라.
+\end{salt_exercise}
+
+\subsection{평균값 정리}
+
+코시 적분공식을 이용하면
+조화함수의 평균값 정리를 바로 얻을 수 있다.
+어떤 점에서 조화함수는 그 점을 중심으로 하는 원에서의 함수값의 평균으로 주어진다.
+
+\begin{salt_theorem} [조화함수의 평균값 정리] \label{thm-5-3}
+\
+\begin{itemize}
+\item[(1)] $U$가 열린집합이고,
+\item[(2)] $U$에서 $u:U\to\mathbb R$가 조화함수이고,
+\item[(3)] $z_0\in U$,
+\item[(4)] 원판 $\{ z\in\mathbb C\,:\, |z-z_0|<R \} \subset U$인 $R>0$이 존재하면,
+\end{itemize}
+모든 $r$ ($0<r<R$)에 대하여
+$u(z_0) = \dfrac1{2\pi} \dint_0^{2\pi} u(z_0 + r\exp(it)dt$이다.
+\end{salt_theorem}
+
+{\bf 증명}
+
+원판 $\{ z\in\mathbb C\,:\, |z-z_0|<R \} $이 단순연결영역이므로
+$D$에서 실수부가 $u$인 복소해석함수 $f$가 존재한다.
+한편, 코시 적분공식에 의하면, 
+$C(t) = z_0 + r\exp(it)$ ($t\in[02\pi]$)로 주어진 원형경로 $C$애 대하여 
+\begin{align*}
+f(z_0) &= \dfrac1{2\pi i} \int_C \dfrac{f(z)}{z-z_0} dz
+= \dfrac1{2\pi i} \int_C \dfrac{f(z_0+r\exp(it))}{r\exp(it)} ir\exp(it) dt\\
+&= \dfrac1{2\pi} \int_0^{2\pi} f(z_0+r\exp(it)) dt.
+\end{align*}
+양변의 실수부만 취하면 원하는 결과를 얻는다.
+\hfill $\square$
+
+\subsection{최대원리}
+
+최대절대값정리(\pageref{sec-4-6}페이지 참고)로부터 %== [salt] 페이지 인용방법은?
+다음 정리를 얻는다.
+
+\begin{salt_theorem} [최대원리] \label{thm-5-4}
+\
+\begin{itemize}
+\item[(1)] $U$가 단순연결영역이고,
+\item[(2)] $U$에서 $u:U\to\mathbb R$가 조화함수이고,
+\item[(3)] $z_0\in U$가 모든 $z\in U$에 대하여 $u(z_0) \ge u(z)$를 만족하면,
+\end{itemize}
+$u$는 $U$에서 상수함수이다.
+\end{salt_theorem}
+
+{\bf 증명}
+
+$u$를 실수부로 가지며 $U$에 정의된 복소해석함수 $f$가 존재한다.
+그러면 $g(z)=\exp(f(z))$로 정의하면
+$g:U\to\mathbb C$도 $U$에서 복소해석함수이다.
+\[
+|g(z_0)| = |\exp(f(z_0))| = e^{\Re(f(z_0))}
+= e^{u(z_0)} \ge e^{u(z)} = |g(z)|
+\quad (z\in U)
+\]
+최대절대값정리를 $g$에 적용하면
+$g$는 $U$에서 상수함수이다.
+그러면 $|g|$ 또한 $U$에서 상수, 즉, $|g| = e^{\Re(f)}$가 상수이다.
+양변에 (실함수) 로그를 취하면 $u$는  $U$에서 상수함수이다.
+\hfill $\square$
+
+\section{디리클레 문제의 해의 유일성}
+
+최대원리로부터 디리클레 문제의 해가 유일하다는 중요한 결론을 얻는다.
+\begin{align*}
+\mathbb D&:= \{ z\in\mathbb C\,:\, |z|<1\},\\
+\mathbb T&:= \{ z\in\mathbb C\,:\, |z|=1\}
+\end{align*}
+라고 하자.
+
+\begin{figure*}[h!]
+\begin{center}
+\includegraphics[width=0.4\textwidth]{./SaltChapter/fig-5-0-2}
+\end{center}
+%\caption{$\mathbb C$에 정의된 제곱급수의 수렴영역}
+%\label{fig-4-0-3}
+\end{figure*}
+
+디리클레(Dirichlet) 문제는 다음과 같다.
+\begin{quote}
+주어진 연속함수 $\varphi: \mathbb T \to \mathbb R$에 대하여
+\begin{itemize}
+\item[(1)] $u$는 $\mathbb D \cup \mathbb T$에서 연속이고,
+\item[(2)] $u|_{\mathbb T}=\varphi$,
+\item[(3)] $u$는 $\mathbb D$에서 연속인 $2$차편도함수를 가지고,
+\item[(4)] $\mathbb D$에서 $\Delta u  = 0$을 만족하는
+\end{itemize}
+$u: \mathbb D \cup \mathbb T \to \mathbb R$을 찾아라.
+\end{quote}
+
+주어진 함수 $\varphi$를 경계값이라고 부른다.
+디리클레 문제를 푸는데 관심을 가지는 이유 중 하나는
+열 전도, 정전기학, 유체역학 등의 응용에 필요하기 때문이다.
+최대원리를 이용하면 다음 결과를 보일 수 있다.
+
+\begin{salt_prop}\label{prpo-5-1}
+디리클레 문제의 해는 유일하다.
+\end{salt_prop}
+
+{\bf 증명}
 
 
 
