@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  30 DEC 2022 17:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  31 DEC 2022 00:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1762,11 +1762,9 @@ Chapter 1.
 [15
 
 ]
-
-LaTeX Warning: Reference `ex-1-1' on page 16 undefined on input line 66.
-
 Package hyperref Info: bookmark level for unknown salt_prop defaults to 0 on in
 put line 72.
+
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1889,18 +1887,18 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 21 undefined on input lin
-e 356.
+e 355.
 
 [21 <./SaltChapter/fig-1-5.PNG> <./SaltChapter/fig-1-6.PNG>]
 <./SaltChapter/fig-1-7.png, id=557, 478.03593pt x 258.9675pt>
 File: ./SaltChapter/fig-1-7.png Graphic file (type png)
 <use ./SaltChapter/fig-1-7.png>
-Package pdftex.def Info: ./SaltChapter/fig-1-7.png  used on input line 368.
+Package pdftex.def Info: ./SaltChapter/fig-1-7.png  used on input line 367.
 (pdftex.def)             Requested size: 338.38702pt x 183.31497pt.
 <./SaltChapter/fig-1-8.png, id=559, 405.76593pt x 239.39438pt>
 File: ./SaltChapter/fig-1-8.png Graphic file (type png)
 <use ./SaltChapter/fig-1-8.png>
-Package pdftex.def Info: ./SaltChapter/fig-1-8.png  used on input line 386.
+Package pdftex.def Info: ./SaltChapter/fig-1-8.png  used on input line 385.
 (pdftex.def)             Requested size: 338.38702pt x 199.64702pt.
 
 
@@ -1909,7 +1907,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 417.
+(amsmath)                 on input line 416.
 
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
@@ -1921,13 +1919,13 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 22 undefined on input lin
-e 422.
+e 421.
 
 [22 <./SaltChapter/fig-1-7.PNG>]
 <./SaltChapter/fig-1-9.png, id=579, 673.76718pt x 316.93407pt>
 File: ./SaltChapter/fig-1-9.png Graphic file (type png)
 <use ./SaltChapter/fig-1-9.png>
-Package pdftex.def Info: ./SaltChapter/fig-1-9.png  used on input line 453.
+Package pdftex.def Info: ./SaltChapter/fig-1-9.png  used on input line 452.
 (pdftex.def)             Requested size: 338.38702pt x 159.17754pt.
 
 
@@ -1943,16 +1941,16 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 23 undefined on input lin
-e 476.
+e 475.
 
 [23 <./SaltChapter/fig-1-8.PNG>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 525.
+(hyperref)                removing `math shift' on input line 524.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 525.
+(hyperref)                removing `math shift' on input line 524.
 
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
@@ -1964,30 +1962,30 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 24 undefined on input lin
-e 534.
+e 533.
 
 [24 <./SaltChapter/fig-1-9.PNG>]
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 539.
+(Font)              scaled to size 14.4pt on input line 538.
 LaTeX Font Info:    Font shape `LUC/nanummj/b/n' in size <14.4> not available
 (Font)              Font shape `LUC/nanummj/bx/n' tried instead on input line 5
-39.
+38.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 539.
+(hyperref)                removing `math shift' on input line 538.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 539.
+(hyperref)                removing `math shift' on input line 538.
 
 <./SaltChapter/fig-1-10.png, id=615, 628.59843pt x 184.43906pt>
 File: ./SaltChapter/fig-1-10.png Graphic file (type png)
 <use ./SaltChapter/fig-1-10.png>
-Package pdftex.def Info: ./SaltChapter/fig-1-10.png  used on input line 553.
+Package pdftex.def Info: ./SaltChapter/fig-1-10.png  used on input line 552.
 (pdftex.def)             Requested size: 435.06798pt x 127.65427pt.
 
-Overfull \hbox (4.05676pt too wide) in paragraph at lines 567--571
+Overfull \hbox (4.05676pt too wide) in paragraph at lines 566--570
 []\LUC/nanummj/m/n/12/ad ¯\LUC/nanummj/m/n/12/b9 º [][]\OT1/LinuxLibertineT-TLF
 /m/n/12 1.11[][]\LUC/nanummj/m/n/12/c7 D \LUC/nanummj/m/n/12/bc Ù\LUC/nanummj/m
 /n/12/c7 ê\OT1/LinuxLibertineT-TLF/m/n/12 . \LUC/nanummj/m/n/12/c7 t \LUC/nanum
@@ -2005,7 +2003,7 @@ cmm/m/it/12 x[] \OT1/cmr/m/n/12 +
 <./SaltChapter/fig-1-11.png, id=617, 277.035pt x 206.27063pt>
 File: ./SaltChapter/fig-1-11.png Graphic file (type png)
 <use ./SaltChapter/fig-1-11.png>
-Package pdftex.def Info: ./SaltChapter/fig-1-11.png  used on input line 575.
+Package pdftex.def Info: ./SaltChapter/fig-1-11.png  used on input line 574.
 (pdftex.def)             Requested size: 241.70607pt x 179.96701pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2020,13 +2018,13 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 25 undefined on input lin
-e 589.
+e 588.
 
 [25 <./SaltChapter/fig-1-10.PNG>]
 <./SaltChapter/fig-1-0-1.png, id=631, 201.75375pt x 157.33781pt>
 File: ./SaltChapter/fig-1-0-1.png Graphic file (type png)
 <use ./SaltChapter/fig-1-0-1.png>
-Package pdftex.def Info: ./SaltChapter/fig-1-0-1.png  used on input line 608.
+Package pdftex.def Info: ./SaltChapter/fig-1-0-1.png  used on input line 607.
 (pdftex.def)             Requested size: 145.02512pt x 113.09827pt.
 
 
@@ -2042,7 +2040,7 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 26 undefined on input lin
-e 622.
+e 621.
 
 [26 <./SaltChapter/fig-1-11.PNG>]
 
@@ -2055,15 +2053,15 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 27 undefined on input lin
-e 672.
+e 671.
 
 [27 <./SaltChapter/fig-1-0-1.PNG>]
 Package hyperref Info: bookmark level for unknown salt_definition defaults to 0
- on input line 726.
+ on input line 725.
 <./SaltChapter/fig-1-0-2.png, id=657, 475.7775pt x 182.93344pt>
 File: ./SaltChapter/fig-1-0-2.png Graphic file (type png)
 <use ./SaltChapter/fig-1-0-2.png>
-Package pdftex.def Info: ./SaltChapter/fig-1-0-2.png  used on input line 732.
+Package pdftex.def Info: ./SaltChapter/fig-1-0-2.png  used on input line 731.
 (pdftex.def)             Requested size: 241.70607pt x 92.93472pt.
 
 
@@ -2072,7 +2070,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <./SaltChapter/fig-1-0-3.png, id=658, 202.50656pt x 142.28156pt>
 File: ./SaltChapter/fig-1-0-3.png Graphic file (type png)
 <use ./SaltChapter/fig-1-0-3.png>
-Package pdftex.def Info: ./SaltChapter/fig-1-0-3.png  used on input line 741.
+Package pdftex.def Info: ./SaltChapter/fig-1-0-3.png  used on input line 740.
 (pdftex.def)             Requested size: 145.02512pt x 101.8977pt.
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
@@ -2084,13 +2082,13 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 28 undefined on input lin
-e 744.
+e 743.
 
 [28]
 <./SaltChapter/fig-1-12.png, id=676, 528.47438pt x 258.21469pt>
 File: ./SaltChapter/fig-1-12.png Graphic file (type png)
 <use ./SaltChapter/fig-1-12.png>
-Package pdftex.def Info: ./SaltChapter/fig-1-12.png  used on input line 767.
+Package pdftex.def Info: ./SaltChapter/fig-1-12.png  used on input line 766.
 (pdftex.def)             Requested size: 338.38702pt x 165.33563pt.
 
 
@@ -2106,13 +2104,13 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 29 undefined on input lin
-e 793.
+e 792.
 
 [29 <./SaltChapter/fig-1-0-2.PNG> <./SaltChapter/fig-1-0-3.PNG>]
 <./SaltChapter/fig-1-13.png, id=692, 663.22781pt x 278.54062pt>
 File: ./SaltChapter/fig-1-13.png Graphic file (type png)
 <use ./SaltChapter/fig-1-13.png>
-Package pdftex.def Info: ./SaltChapter/fig-1-13.png  used on input line 820.
+Package pdftex.def Info: ./SaltChapter/fig-1-13.png  used on input line 819.
 (pdftex.def)             Requested size: 338.38702pt x 142.11333pt.
 
 
@@ -2128,20 +2126,20 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 30 undefined on input lin
-e 836.
+e 835.
 
 [30 <./SaltChapter/fig-1-12.PNG>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 836.
+(hyperref)                removing `math shift' on input line 835.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\exp' on input line 836.
+(hyperref)                removing `\exp' on input line 835.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 836.
+(hyperref)                removing `math shift' on input line 835.
 
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
@@ -2153,25 +2151,25 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 31 undefined on input lin
-e 873.
+e 872.
 
 [31 <./SaltChapter/fig-1-13.PNG>]
 <./SaltChapter/fig-1-14.png, id=717, 631.60968pt x 359.84438pt>
 File: ./SaltChapter/fig-1-14.png Graphic file (type png)
 <use ./SaltChapter/fig-1-14.png>
-Package pdftex.def Info: ./SaltChapter/fig-1-14.png  used on input line 913.
+Package pdftex.def Info: ./SaltChapter/fig-1-14.png  used on input line 912.
 (pdftex.def)             Requested size: 290.05023pt x 165.25038pt.
 <./SaltChapter/fig-1-15.png, id=719, 266.49562pt x 232.61906pt>
 File: ./SaltChapter/fig-1-15.png Graphic file (type png)
 <use ./SaltChapter/fig-1-15.png>
-Package pdftex.def Info: ./SaltChapter/fig-1-15.png  used on input line 925.
+Package pdftex.def Info: ./SaltChapter/fig-1-15.png  used on input line 924.
 (pdftex.def)             Requested size: 145.02512pt x 126.59207pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (1.6845pt too wide) in paragraph at lines 931--938
+Overfull \hbox (1.6845pt too wide) in paragraph at lines 930--937
 \OT1/LinuxLibertineT-TLF/m/n/12 (5) $\OML/cmm/m/it/12 x; y \OMS/cmsy/m/n/12 2 \
 U/msb/m/n/12 R$\LUC/nanummj/m/n/12/c5 – \LUC/nanummj/m/n/12/b3 ^^@\LUC/nanummj/
 m/n/12/d5 X\LUC/nanummj/m/n/12/c5 Ï $\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 e[] [] 
@@ -2191,18 +2189,18 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 32 undefined on input lin
-e 938.
+e 937.
 
 [32 <./SaltChapter/fig-1-14.PNG>]
 <./SaltChapter/fig-1-16.png, id=731, 615.0478pt x 359.84438pt>
 File: ./SaltChapter/fig-1-16.png Graphic file (type png)
 <use ./SaltChapter/fig-1-16.png>
-Package pdftex.def Info: ./SaltChapter/fig-1-16.png  used on input line 947.
+Package pdftex.def Info: ./SaltChapter/fig-1-16.png  used on input line 946.
 (pdftex.def)             Requested size: 290.05023pt x 169.6979pt.
 <./SaltChapter/fig-1-17.png, id=732, 615.0478pt x 606.76688pt>
 File: ./SaltChapter/fig-1-17.png Graphic file (type png)
 <use ./SaltChapter/fig-1-17.png>
-Package pdftex.def Info: ./SaltChapter/fig-1-17.png  used on input line 955.
+Package pdftex.def Info: ./SaltChapter/fig-1-17.png  used on input line 954.
 (pdftex.def)             Requested size: 290.05023pt x 286.14336pt.
 
 
@@ -2218,11 +2216,11 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 33 undefined on input lin
-e 968.
+e 967.
 
 [33 <./SaltChapter/fig-1-15.PNG> <./SaltChapter/fig-1-16.PNG>]
 
-LaTeX Warning: Command \i invalid in math mode on input line 978.
+LaTeX Warning: Command \i invalid in math mode on input line 977.
 
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
@@ -2234,10 +2232,10 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 34 undefined on input lin
-e 1012.
+e 1011.
 
 [34 <./SaltChapter/fig-1-17.PNG>]
-Overfull \hbox (22.35764pt too wide) in paragraph at lines 1027--1030
+Overfull \hbox (22.35764pt too wide) in paragraph at lines 1026--1029
 []\LUC/nanummj/m/n/12/ba á\LUC/nanummj/m/n/12/ac ^^@\LUC/nanummj/m/n/12/c9 ¿ \L
 UC/nanummj/m/n/12/c0 º\LUC/nanummj/m/n/12/ac ^^A\LUC/nanummj/m/n/12/d5 h\LUC/na
 nummj/m/n/12/c2 ^^X \LUC/nanummj/m/n/12/ac ı\LUC/nanummj/m/n/12/c2 ›\LUC/nanumm
@@ -2261,18 +2259,18 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 35 undefined on input lin
-e 1072.
+e 1071.
 
 [35]
 <./SaltChapter/fig-1-18.png, id=772, 534.49687pt x 146.79843pt>
 File: ./SaltChapter/fig-1-18.png Graphic file (type png)
 <use ./SaltChapter/fig-1-18.png>
-Package pdftex.def Info: ./SaltChapter/fig-1-18.png  used on input line 1103.
+Package pdftex.def Info: ./SaltChapter/fig-1-18.png  used on input line 1102.
 (pdftex.def)             Requested size: 386.73119pt x 106.21893pt.
 <./SaltChapter/fig-1-19.png, id=774, 572.1375pt x 220.57407pt>
 File: ./SaltChapter/fig-1-19.png Graphic file (type png)
 <use ./SaltChapter/fig-1-19.png>
-Package pdftex.def Info: ./SaltChapter/fig-1-19.png  used on input line 1132.
+Package pdftex.def Info: ./SaltChapter/fig-1-19.png  used on input line 1131.
 (pdftex.def)             Requested size: 386.73119pt x 149.09647pt.
 
 
@@ -2288,7 +2286,7 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 36 undefined on input lin
-e 1143.
+e 1142.
 
 [36 <./SaltChapter/fig-1-18.PNG>]
 
@@ -2301,13 +2299,13 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 37 undefined on input lin
-e 1193.
+e 1192.
 
 [37 <./SaltChapter/fig-1-19.PNG>]
 <./SaltChapter/fig-1-20.png, id=802, 585.68813pt x 266.49562pt>
 File: ./SaltChapter/fig-1-20.png Graphic file (type png)
 <use ./SaltChapter/fig-1-20.png>
-Package pdftex.def Info: ./SaltChapter/fig-1-20.png  used on input line 1240.
+Package pdftex.def Info: ./SaltChapter/fig-1-20.png  used on input line 1239.
 (pdftex.def)             Requested size: 386.73119pt x 175.97304pt.
 
 
@@ -2323,7 +2321,7 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 38 undefined on input lin
-e 1264.
+e 1263.
 
 [38]) (./SaltChapter/chapter_two.tex
 
@@ -4847,10 +4845,10 @@ Package logreq Info: Writing requests to 'notes_template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38654 strings out of 478268
- 690797 string characters out of 5850346
- 1517996 words of memory out of 5000000
- 54891 multiletter control sequences out of 15000+600000
+ 38655 strings out of 478268
+ 690810 string characters out of 5850346
+ 1518071 words of memory out of 5000000
+ 54892 multiletter control sequences out of 15000+600000
  602309 words of font info for 418 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,19n,117p,1186b,849s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -4952,7 +4950,7 @@ public/nanumtype1/nanummjmd4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
 /nanumtype1/nanummjmd5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanum
 type1/nanummjmd6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/
 nanummjmd7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/uhc/umj/umj34.pfb>
-Output written on notes_template.pdf (186 pages, 7937931 bytes).
+Output written on notes_template.pdf (186 pages, 7937803 bytes).
 PDF statistics:
  3304 PDF objects out of 3580 (max. 8388607)
  2683 compressed objects within 27 object streams
