@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  31 DEC 2022 00:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  1 JAN 2023 02:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1144,44 +1144,44 @@ Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 \@quotelevel=\count492
 \@quotereset=\count493
 LaTeX Font Info:    Trying to load font information for OT1+LinuxLibertineT-TLF
- on input line 232.
+ on input line 233.
 
 (c:/texlive/2022/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.fd
 File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 232.
+(Font)              scaled to size 12.0pt on input line 233.
 
 (./CA_solution.aux)
 \openout1 = `CA_solution.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 232.
-LaTeX Font Info:    ... okay on input line 232.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 232.
-LaTeX Font Info:    ... okay on input line 232.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 232.
-LaTeX Font Info:    ... okay on input line 232.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 232.
-LaTeX Font Info:    ... okay on input line 232.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 232.
-LaTeX Font Info:    ... okay on input line 232.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 232.
-LaTeX Font Info:    ... okay on input line 232.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 232.
-LaTeX Font Info:    ... okay on input line 232.
-LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 232.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 233.
+LaTeX Font Info:    ... okay on input line 233.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 233.
+LaTeX Font Info:    ... okay on input line 233.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 233.
+LaTeX Font Info:    ... okay on input line 233.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 233.
+LaTeX Font Info:    ... okay on input line 233.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 233.
+LaTeX Font Info:    ... okay on input line 233.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 233.
+LaTeX Font Info:    ... okay on input line 233.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 233.
+LaTeX Font Info:    ... okay on input line 233.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 233.
 LaTeX Font Info:    Trying to load font information for LUC+nanummj on input li
-ne 232.
+ne 233.
 
 (c:/texlive/2022/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
-LaTeX Font Info:    ... okay on input line 232.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 232.
-LaTeX Font Info:    ... okay on input line 232.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 232.
-LaTeX Font Info:    ... okay on input line 232.
+LaTeX Font Info:    ... okay on input line 233.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 233.
+LaTeX Font Info:    ... okay on input line 233.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 233.
+LaTeX Font Info:    ... okay on input line 233.
 \c@mv@tabular=\count494
 \c@mv@boldtabular=\count495
 
@@ -1248,7 +1248,7 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                --- It may be the consequence 
 (minitoc(hints))                of loading the ``hyperref'' package.
 
-Package hyperref Info: Link coloring ON on input line 232.
+Package hyperref Info: Link coloring ON on input line 233.
 (c:/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1260,9 +1260,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count503
 )
-LaTeX Info: Redefining \ref on input line 232.
-LaTeX Info: Redefining \pageref on input line 232.
-LaTeX Info: Redefining \nameref on input line 232.
+LaTeX Info: Redefining \ref on input line 233.
+LaTeX Info: Redefining \pageref on input line 233.
+LaTeX Info: Redefining \nameref on input line 233.
 
 (./CA_solution.out) (./CA_solution.out)
 \@outlinefile=\write6
@@ -1317,38 +1317,38 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'CA_solution.bbl' not found.
 
 No file CA_solution.bbl.
-Package biblatex Info: Reference section=0 on input line 232.
-Package biblatex Info: Reference segment=0 on input line 232.
+Package biblatex Info: Reference section=0 on input line 233.
+Package biblatex Info: Reference segment=0 on input line 233.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 242.
+(Font)              scaled to size 20.74pt on input line 243.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 242.
+(Font)              scaled to size 20.74pt on input line 243.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 242.
+(Font)              scaled to size 24.88pt on input line 243.
 LaTeX Font Info:    Font shape `LUC/nanummj/b/n' in size <24.88> not available
 (Font)              Font shape `LUC/nanummj/bx/n' tried instead on input line 2
-42.
+43.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 242.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 242
+(Font)              scaled to size 14.4pt on input line 243.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 243
 .
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 242
+LaTeX Font Info:    Trying to load font information for U+msb on input line 243
 .
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 24
-2.
+3.
 
 (c:/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for LUC+uhcmj on input line
- 242.
+ 243.
 
 (c:/texlive/2022/texmf-dist/tex/latex/kotex-utf/lucuhcmj.fd
 File: lucuhcmj.fd 2013/09/26 UHC Myeongjo font definitions
@@ -1463,7 +1463,21 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 LaTeX Warning: Hyper reference `toc-contents' on page 6 undefined on input line
  193.
 
-[6])
+[6]
+
+LaTeX Warning: Reference `ex-1-9' on page 7 undefined on input line 218.
+
+<./figs/fig-5-3.png, id=101, 536.0025pt x 524.71031pt>
+File: ./figs/fig-5-3.png Graphic file (type png)
+<use ./figs/fig-5-3.png>
+Package pdftex.def Info: ./figs/fig-5-3.png  used on input line 246.
+(pdftex.def)             Requested size: 290.05023pt x 283.93982pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `ex-1-10' on page 7 undefined on input line 252.
+
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1474,7 +1488,7 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 7 undefined on input line
- 314.
+ 257.
 
 [7]
 
@@ -1487,13 +1501,309 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 8 undefined on input line
- 314.
+ 291.
 
-[8
+[8 <./figs/fig-5-3.PNG>]
+
+LaTeX Warning: Reference `ex-1-11' on page 9 undefined on input line 301.
+
+<./figs/fig-5-4.png, id=122, 508.14844pt x 269.50688pt>
+File: ./figs/fig-5-4.png Graphic file (type png)
+<use ./figs/fig-5-4.png>
+Package pdftex.def Info: ./figs/fig-5-4.png  used on input line 324.
+(pdftex.def)             Requested size: 290.05023pt x 153.83846pt.
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 9 undefined on input line
+ 334.
+
+[9 <./figs/fig-5-4.PNG>]
+
+LaTeX Warning: Reference `ex-1-12' on page 10 undefined on input line 334.
+
+
+LaTeX Warning: Reference `ex-1-13' on page 10 undefined on input line 374.
+
+<./figs/fig-5-5.png, id=130, 515.67656pt x 544.28343pt>
+File: ./figs/fig-5-5.png Graphic file (type png)
+<use ./figs/fig-5-5.png>
+Package pdftex.def Info: ./figs/fig-5-5.png  used on input line 378.
+(pdftex.def)             Requested size: 290.05023pt x 306.15038pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 10 undefined on input lin
+e 405.
+
+[10]
+
+LaTeX Warning: Reference `ex-1-14' on page 11 undefined on input line 410.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 11 undefined on input lin
+e 422.
+
+[11 <./figs/fig-5-5.PNG>]
+
+LaTeX Warning: Reference `ex-1-15' on page 12 undefined on input line 426.
+
+
+LaTeX Warning: Reference `ex-1-16' on page 12 undefined on input line 446.
+
+<./figs/fig-s-0-1.png, id=144, 282.30469pt x 294.34969pt>
+File: ./figs/fig-s-0-1.png Graphic file (type png)
+<use ./figs/fig-s-0-1.png>
+Package pdftex.def Info: ./figs/fig-s-0-1.png  used on input line 463.
+(pdftex.def)             Requested size: 145.02512pt x 151.21225pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `ex-1-17' on page 12 undefined on input line 469.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 12 undefined on input lin
+e 482.
+
+[12]
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 485.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 485.
+
+
+LaTeX Warning: Reference `ex-1-18' on page 13 undefined on input line 488.
+
+
+LaTeX Warning: Reference `ex-1-19' on page 13 undefined on input line 513.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 13 undefined on input lin
+e 522.
+
+[13 <./figs/fig-s-0-1.PNG>]
+<./figs/fig-5-6.png, id=158, 592.46344pt x 326.72063pt>
+File: ./figs/fig-5-6.png Graphic file (type png)
+<use ./figs/fig-5-6.png>
+Package pdftex.def Info: ./figs/fig-5-6.png  used on input line 535.
+(pdftex.def)             Requested size: 338.38702pt x 186.61157pt.
+
+
+LaTeX Warning: Reference `ex-1-20' on page 14 undefined on input line 541.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 14 undefined on input lin
+e 583.
+
+[14 <./figs/fig-5-6.PNG>]
+
+LaTeX Warning: Reference `ex-1-21' on page 15 undefined on input line 612.
+
+
+LaTeX Warning: Reference `ex-1-22' on page 15 undefined on input line 633.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 15 undefined on input lin
+e 649.
+
+[15]
+
+LaTeX Warning: Reference `ex-1-23' on page 16 undefined on input line 649.
+
+<./figs/fig-5-7.png, id=175, 670.00313pt x 251.43938pt>
+File: ./figs/fig-5-7.png Graphic file (type png)
+<use ./figs/fig-5-7.png>
+Package pdftex.def Info: ./figs/fig-5-7.png  used on input line 655.
+(pdftex.def)             Requested size: 386.73119pt x 145.13283pt.
+<./figs/fig-s-0-2.png, id=176, 276.28218pt x 189.70876pt>
+File: ./figs/fig-s-0-2.png Graphic file (type png)
+<use ./figs/fig-s-0-2.png>
+Package pdftex.def Info: ./figs/fig-s-0-2.png  used on input line 665.
+(pdftex.def)             Requested size: 145.02512pt x 99.5812pt.
+<./figs/fig-s-0-3.png, id=177, 286.82156pt x 199.49532pt>
+File: ./figs/fig-s-0-3.png Graphic file (type png)
+<use ./figs/fig-s-0-3.png>
+Package pdftex.def Info: ./figs/fig-s-0-3.png  used on input line 674.
+(pdftex.def)             Requested size: 145.02512pt x 100.87065pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./figs/fig-5-8.png, id=178, 549.55313pt x 283.81032pt>
+File: ./figs/fig-5-8.png Graphic file (type png)
+<use ./figs/fig-5-8.png>
+Package pdftex.def Info: ./figs/fig-5-8.png  used on input line 685.
+(pdftex.def)             Requested size: 290.05023pt x 149.79514pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 16 undefined on input lin
+e 700.
+
+[16 <./figs/fig-5-7.PNG> <./figs/fig-s-0-2.PNG>]
+<./figs/fig-5-9.png, id=188, 664.73344pt x 286.06876pt>
+File: ./figs/fig-5-9.png Graphic file (type png)
+<use ./figs/fig-5-9.png>
+Package pdftex.def Info: ./figs/fig-5-9.png  used on input line 704.
+(pdftex.def)             Requested size: 290.05023pt x 124.82303pt.
+<./figs/fig-5-10.png, id=189, 673.76718pt x 366.61969pt>
+File: ./figs/fig-5-10.png Graphic file (type png)
+<use ./figs/fig-5-10.png>
+Package pdftex.def Info: ./figs/fig-5-10.png  used on input line 715.
+(pdftex.def)             Requested size: 290.05023pt x 157.82799pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `ex-1-24' on page 17 undefined on input line 722.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 17 undefined on input lin
+e 731.
+
+[17 <./figs/fig-s-0-3.PNG> <./figs/fig-5-8.PNG> <./figs/fig-5-9.PNG>]
+
+LaTeX Warning: Reference `ex-1-25' on page 18 undefined on input line 752.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 18 undefined on input lin
+e 763.
+
+[18 <./figs/fig-5-10.PNG>]
+
+LaTeX Warning: Reference `ex-1-26' on page 19 undefined on input line 786.
+
+
+Overfull \hbox (27.20667pt too wide) in paragraph at lines 790--801
+\LUC/nanummj/m/n/12/b8 \ \LUC/nanummj/m/n/12/c2 ^^X\LUC/nanummj/m/n/12/b8 4\LUC
+/nanummj/m/n/12/d5 \\LUC/nanummj/m/n/12/b2 ä\OT1/LinuxLibertineT-TLF/m/n/12 . \
+LUC/nanummj/m/n/12/b5 0\LUC/nanummj/m/n/12/b7 |\LUC/nanummj/m/n/12/c1 ^^\ $\OT1
+/cmr/m/n/12 ([](\OML/cmm/m/it/12 z[]\OT1/cmr/m/n/12 ))[]$\LUC/nanummj/m/n/12/ac
+ ü $\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 ^^@ []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 z
+[]\OT1/cmr/m/n/12 ))[]$\LUC/nanummj/m/n/12/c7 @ \LUC/nanummj/m/n/12/ac ^^A^^A $
+[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 L\OT1/cmr/m/n/12 )$\LUC/nanummj/m/n/12/ac ü
+ $\OMS/cmsy/m/n/12 ^^@ []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 L\OT1/cmr/m/n/12 )$\
+LUC/nanummj/m/n/12/b8 \ \LUC/nanummj/m/n/12/c2 ^^X\LUC/nanummj/m/n/12/b8 4\LUC/
+nanummj/m/n/12/d5 \\LUC/nanummj/m/n/12/b2 ä\OT1/LinuxLibertineT-TLF/m/n/12 . \L
+UC/nanummj/m/n/12/c9 ‰\OT1/LinuxLibertineT-TLF/m/n/12 , $\OT1/cmr/m/n/12 ([]([]
+))[]$
+ []
+
+
+LaTeX Warning: Reference `ex-1-27' on page 19 undefined on input line 809.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 19 undefined on input lin
+e 315.
+
+[19]
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 20 undefined on input lin
+e 315.
+
+[20
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 318.
+LaTeX Warning: Empty bibliography on input line 319.
 
 runsystem(makeindex -s index.ist CA_solution.idx)...executed safely (allowed).
 
@@ -1520,72 +1830,80 @@ Package logreq Info: Writing requests to 'CA_solution.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31311 strings out of 478268
- 552366 string characters out of 5850346
- 1365835 words of memory out of 5000000
- 48767 multiletter control sequences out of 15000+600000
- 530398 words of font info for 194 fonts, out of 8000000 for 9000
+ 31522 strings out of 478268
+ 556214 string characters out of 5850346
+ 1374008 words of memory out of 5000000
+ 48936 multiletter control sequences out of 15000+600000
+ 537242 words of font info for 210 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,12n,117p,1156b,849s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,19n,117p,1156b,849s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{c:/tex
 live/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_lyu3x3.enc}<c:/texlive/2022
 /texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb><c:/texlive/2022/tex
 mf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb><c:/texlive/2022/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/font
 s/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c
-:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/
-2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2022
-/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/tex
-mf-dist/fonts/type1/public/nanumtype1/nanummjbb9.pfb><c:/texlive/2022/texmf-dis
-t/fonts/type1/public/nanumtype1/nanummjbba.pfb><c:/texlive/2022/texmf-dist/font
-s/type1/public/nanumtype1/nanummjbbb.pfb><c:/texlive/2022/texmf-dist/fonts/type
-1/public/nanumtype1/nanummjbbc.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publ
-ic/nanumtype1/nanummjbc1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nan
-umtype1/nanummjbc2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype
-1/nanummjbc5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanu
-mmjbc7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc8
-.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd4.pfb><
-c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd5.pfb><c:/tex
-live/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb><c:/texlive/2
-022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/texlive/2022/te
-xmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb><c:/texlive/2022/texmf-di
-st/fonts/type1/public/nanumtype1/nanummjmaf.pfb><c:/texlive/2022/texmf-dist/fon
-ts/type1/public/nanumtype1/nanummjmb0.pfb><c:/texlive/2022/texmf-dist/fonts/typ
-e1/public/nanumtype1/nanummjmb2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pub
-lic/nanumtype1/nanummjmb3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/na
-numtype1/nanummjmb4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtyp
-e1/nanummjmb5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nan
-ummjmb6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb
-7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb>
-<c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb><c:/te
-xlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb><c:/texlive/
-2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb><c:/texlive/2022/t
-exmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/2022/texmf-d
-ist/fonts/type1/public/nanumtype1/nanummjmbd.pfb><c:/texlive/2022/texmf-dist/fo
-nts/type1/public/nanumtype1/nanummjmc0.pfb><c:/texlive/2022/texmf-dist/fonts/ty
-pe1/public/nanumtype1/nanummjmc1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pu
-blic/nanumtype1/nanummjmc2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/n
-anumtype1/nanummjmc4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumty
-pe1/nanummjmc5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/na
-nummjmc6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjm
-c7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb
-><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:/t
-exlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcd.pfb><c:/texlive
-/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb><c:/texlive/2022/
-texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb><c:/texlive/2022/texmf-
-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb><c:/texlive/2022/texmf-dist/f
-onts/type1/public/nanumtype1/nanummjmd3.pfb><c:/texlive/2022/texmf-dist/fonts/t
-ype1/public/nanumtype1/nanummjmd5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/p
-ublic/nanumtype1/nanummjmd6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
-nanumtype1/nanummjmd7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/uhc/umj/umj34
-.pfb>
-Output written on CA_solution.pdf (8 pages, 2220011 bytes).
+ublic/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:
+/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/20
+22/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts
+/type1/public/amsfonts/latxfont/line10.pfb><c:/texlive/2022/texmf-dist/fonts/ty
+pe1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/
+public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publ
+ic/nanumtype1/nanummjbb9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nan
+umtype1/nanummjbba.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype
+1/nanummjbbb.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanu
+mmjbbc.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc1
+.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc2.pfb><
+c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc5.pfb><c:/tex
+live/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc7.pfb><c:/texlive/2
+022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc8.pfb><c:/texlive/2022/te
+xmf-dist/fonts/type1/public/nanumtype1/nanummjbd4.pfb><c:/texlive/2022/texmf-di
+st/fonts/type1/public/nanumtype1/nanummjbd5.pfb><c:/texlive/2022/texmf-dist/fon
+ts/type1/public/nanumtype1/nanummjmac.pfb><c:/texlive/2022/texmf-dist/fonts/typ
+e1/public/nanumtype1/nanummjmad.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pub
+lic/nanumtype1/nanummjmae.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/na
+numtype1/nanummjmaf.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtyp
+e1/nanummjmb0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nan
+ummjmb1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb
+2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb>
+<c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb><c:/te
+xlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb><c:/texlive/
+2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb6.pfb><c:/texlive/2022/t
+exmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb><c:/texlive/2022/texmf-d
+ist/fonts/type1/public/nanumtype1/nanummjmb8.pfb><c:/texlive/2022/texmf-dist/fo
+nts/type1/public/nanumtype1/nanummjmb9.pfb><c:/texlive/2022/texmf-dist/fonts/ty
+pe1/public/nanumtype1/nanummjmba.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pu
+blic/nanumtype1/nanummjmbb.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/n
+anumtype1/nanummjmbc.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumty
+pe1/nanummjmbd.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/na
+nummjmbe.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjm
+c0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb
+><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb><c:/t
+exlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc4.pfb><c:/texlive
+/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb><c:/texlive/2022/
+texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb><c:/texlive/2022/texmf-
+dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texlive/2022/texmf-dist/f
+onts/type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/2022/texmf-dist/fonts/t
+ype1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/p
+ublic/nanumtype1/nanummjmca.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
+nanumtype1/nanummjmcc.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumt
+ype1/nanummjmcd.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/n
+anummjmce.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummj
+mcf.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pf
+b><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb><c:/
+texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb><c:/texliv
+e/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb><c:/texlive/2022
+/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb><c:/texlive/2022/texmf
+-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texlive/2022/texmf-dist/
+fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/2022/texmf-dist/fonts/
+type1/uhc/umj/umj34.pfb>
+Output written on CA_solution.pdf (20 pages, 2869003 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
- 226 compressed objects within 3 object streams
- 18 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 499 PDF objects out of 1000 (max. 8388607)
+ 317 compressed objects within 4 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

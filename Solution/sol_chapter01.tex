@@ -215,5 +215,596 @@ qm - pn = \dfrac{\sqrt{3}}2 (m^2 + n^2)
 \]
 를 얻어 모순이 생긴다.
 
+\subsection*{연습문제 \ref{ex-1-9}}
 
+$-1 = 1 \cdot (\cos \pi + i \sin \pi)$로 쓸 수 있다.
+$w = \rho(\cos\alpha + i\sin\alpha)$가 
+\[
+w^4 = \rho^4(\cos(4\alpha) + i\sin(4\alpha)) = 1 \cdot (\cos \pi + i \sin \pi)
+\]
+를 만족해야 하므로,
+$\rho^4 = 1$에서 $\rho=1$이다.
+또한, $4\alpha \in \{ \pi, \pi\pm2\pi, \pi\pm4\pi, \ldots\}$에서
+\[
+\alpha \in \left\{ \dfrac\pi4, \dfrac\pi4\pm\dfrac\pi2, \dfrac\pi4\pm\pi,\ldots
+\right\}.
+\]
+따라서 $ w = \rho(\cos\alpha + i\sin\alpha) = 1\cdot((\cos\alpha + i\sin\alpha) $는
+다음 집합에 속한다.
+\begin{align*}
+&\left\{ \cos\dfrac\pi4+i\sin\dfrac\pi4, \cos\dfrac{3\pi}4+i\sin\dfrac{3\pi}4, 
+\cos\dfrac{5\pi}4+i\sin\dfrac{5\pi}4, \cos\dfrac{7\pi}4+i\sin\dfrac{7\pi}4
+\right\} \\
+&\qquad\quad\quad = \left\{ \dfrac{1+i}{\sqrt{2}},  \dfrac{-1+i}{\sqrt{2}},
+ \dfrac{-1-i}{\sqrt{2}},  \dfrac{1-i}{\sqrt{2}} \right\}.
+\end{align*}
+
+네 개의 해를 복소평면에 그려보면 그림 \ref{fig-5-3}\과 같다.
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{./figs/fig-5-3}
+\end{center}
+\caption{$w^4=-1$을 만족하는 복소수 $w$의 위치}
+\label{fig-5-3}
+\end{figure}
+
+\subsection*{연습문제 \ref{ex-1-10}}
+
+방정식으로부터
+\[
+0=z^6 -z^3-2 = (z^3)^2 -2z^3 +z^3 -2 = (z^3-2)(z^3+1)
+\]
+이므로
+$z^3=2$ 또는 $z^3=-1$이다.
+$z^3=2$를 만족하는 해를 구하면
+\[
+z\in \left\{ \sqrt[3]{2} \left( \cos\dfrac{2\pi}3 + i\sin\dfrac{2\pi}3\right),
+\sqrt[3]{2} \left( \cos\dfrac{4\pi}3 + i\sin\dfrac{4\pi}3\right), 
+\sqrt[3]{2} \right\}
+\]
+로부터 
+\[
+z\in \left\{ \sqrt[3]{2} \left( - \dfrac12+ i\dfrac{\sqrt{3}}2\right),
+\sqrt[3]{2} \left( -\dfrac12 - i\dfrac{\sqrt{3}}2\right), 
+\sqrt[3]{2} \right\}
+\]
+이다. 한편, $z^3=-1$의 해는
+\[
+z\in\left\{ \cos\dfrac\pi3 + i\sin\dfrac\pi3, \cos\pi + i\sin\pi,
+\cos\dfrac{5\pi}3 + i\sin\dfrac{5\pi}3 \right\}
+\]
+로부터 
+\[
+z\in \left\{ \dfrac12+ i\dfrac{\sqrt{3}}2, -1,
+\dfrac12 - i\dfrac{\sqrt{3}}2 \right\}
+\]
+이다. 결론적으로
+$z^6 - z^3-2=0$일 필요충분조건은 [$z^3=2$ 또는 $z^3=-1$]이다.
+즉,
+\begin{align*}
+z\in & \left\{ \sqrt[3]{2} \left( - \dfrac12+ i\dfrac{\sqrt{3}}2\right),
+\sqrt[3]{2} \left( -\dfrac12 - i\dfrac{\sqrt{3}}2\right), 
+\sqrt[3]{2} \right\}\\
+&\bigcup \left\{ \dfrac12+ i\dfrac{\sqrt{3}}2, -1,
+\dfrac12 - i\dfrac{\sqrt{3}}2 \right\}.
+\end{align*}
+따라서 구하는 해는
+\[
+z\in \left\{ \sqrt[3]{2} \left( - \dfrac12+ i\dfrac{\sqrt{3}}2\right),
+\sqrt[3]{2} \left( -\dfrac12 - i\dfrac{\sqrt{3}}2\right), 
+\sqrt[3]{2},
+\dfrac12+ i\dfrac{\sqrt{3}}2, -1,
+\dfrac12 - i\dfrac{\sqrt{3}}2 \right\}.
+\]
+
+\subsection*{연습문제 \ref{ex-1-11}}
+
+$\omega^3=1$을 만족하는 $\omega\in\mathbb C \setminus \mathbb R$을 생각하자.
+그러면, $(\omega-1)(\omega^2+\omega+1)=0$이고,
+$\omega\ne1$이므로 $\omega^2+\omega+1=0$이다.
+따라서,
+\begin{align*}
+((b-a)\omega &+(b-c))((b-a)\omega^2+b-c) \\
+&= (b-a)^2\omega^3 + (b-a)(b-c)(-1) + (b-c)^2 \\
+&= (b-a)^2\cdot 1 + (b-a)(b-c)(-1)  + (b-c)^2 \\
+&= (b-a)(b-a-b+c) + (b-c)^2 \\
+&=(bc-ca-ab+a^2+b^2-2bc+c^2 \\
+&= a^2+b^2+c^2 -ab - bc - ca = 0.
+\end{align*}
+따라서 $(b-a)\omega = c-b$이거나 $(b-a)\omega^2 = c-a$이다.
+두번째 식은 $(b-a)\omega^3 = (c-a)\omega$와 동치이므로
+$(c-b)\omega = b-a$이다.
+이로부터 $|b-a|=|c-b|$를 얻고
+$a$와 $b$, $a$와 $c$를 잇는 두 선분의 사잇각은 $\pi/3$이다.
+그림 \ref{fig-5-4}\를 참고하라.
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{./figs/fig-5-4}
+\end{center}
+\caption{정삼각형을 이루는 세 점 $a$, $b$, $c$}
+\label{fig-5-4}
+\end{figure}
+
+두 가지 그림 모두 세 점 $a$, $b$, $c$는 정삼각형을 이룬다.
+ $a$, $b$, $c$가 실수인 경우는 한점 $r\in\mathbb R$로 모이게 되어
+ $a=b=c=(=r)$이 되어 실수의 경우도 원하는 결과를 얻는다.
+
+\subsection*{연습문제 \ref{ex-1-12}}
+
+$\omega\in\mathbb C\setminus \mathbb R$이 $\omega^3=1$을 만족한다고 하자.
+$(\omega-1)(\omega^2+\omega+1)=0$이고,
+$\omega\ne1$이므로 $\omega^2+\omega+1=0$이다.
+또한, $1+\omega^2+\omega^4 = 1+ \omega^2 + \omega\cdot\omega^3 =
+1+ \omega^2 + \omega = 0$이므로,
+\[
+(1+1)^{3n} + (1+\omega)^{3n} + (1+\omega^2)^{3n}
+= \Sum_{k=0}^{3n} {3n \choose k} (1+\omega^k + \omega^{2k}).
+\]
+그런데,
+\begin{align*}
+(1+\omega^k + \omega^{2k})
+&= \begin{cases}
+1+1+1, & k\equiv 0 \mod 3, \\
+1+\omega + \omega^2, & k\equiv 1 \mod 3, \\
+1+\omega^2 + \omega^4,& k\equiv 2 \mod 3
+\end{cases} \\
+&=\begin{cases}
+3, & k\equiv 0 \mod 3, \\
+0, & k\equiv 1 \mod 3, \\
+0, & k\equiv 2 \mod 3.
+\end{cases}
+\end{align*}
+에서
+\[
+(1+1)^{3n} + (1+\omega)^{3n} + (1+\omega^2)^{3n}
+= 3\cdot \left(
+{3n \choose 0} + {3n \choose 3} + \cdots + {3n \choose 3n} \right).
+\]
+다른 방법으로 보면,
+\begin{align*}
+(1+1)^{3n} + (1+\omega)^{3n} + (1+\omega^2)^{3n}
+&= 2^{3n} + (-\omega^2)^{3n} +  (-\omega)^{3n} \\
+&= 2^{3n} + (-1)^n + (-1)^n \\
+&= 2^{3n} + 2\cdot(-1)^n
+\end{align*}
+이므로 원하는 결과를 얻는다.
+
+\subsection*{연습문제 \ref{ex-1-13}}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{./figs/fig-5-5}
+\end{center}
+\caption{$RP$와 $SQ$는 길이가 같고 수직으로 만난다}
+\label{fig-5-5}
+\end{figure}
+
+그림 \ref{fig-5-5}\와 같이
+평면위의 네 점 $A$, $B$, $C$, $D$를 복소수 $a$, $b$, $c$, $d$에 각각 대응시키자.
+$AB'$은  $A$를 중심으로 하여 $AB$를 반시계방향으로 $90^\circ$회전한 것이므로
+$B'$은 복소수 $a-i(b-a)$에 대응된다.
+$P$는 $BB'$의 중점이므로 다음 복소수에 대응된다.
+\[
+\dfrac{a+b-i(b-a)}2.
+\]
+같은 방법으로 $Q$, $R$, $S$는 각각 다음 복소수에 대응된다.
+\[
+\dfrac{b+c-i(c-b)}2, \quad
+\dfrac{c+d-i(d-c)}2, \quad
+\dfrac{d+a-i(a-d)}2.
+\]
+점 $P$, $Q$, $R$, $S$에 대응되는 복소수를 각각
+$p$, $q$, $r$, $s$라 하면,
+\begin{align*}
+i(q-s) &= i \left(
+\dfrac{b+c-i(c-b)}2 - \dfrac{d+a-i(a-d)}2 \right) \\
+&= \dfrac{-b+c-a+d+i(b+c-d-a)}2 \\
+&= \dfrac{-a-b+i(b-a)}2 + \dfrac{c+d-i(d-c)}2 = -p+r
+\end{align*}
+이므로, $|q-s| = |p-r|$이 되어 $\ell(QS) = \ell(PR)$이다.
+또한, $i$를 곱하는 것은 원점을 중심으로 $90^\circ$ 회전을 의미하기 때문에
+$PR\perp QS$이다.
+
+\subsection*{연습문제 \ref{ex-1-14}}
+
+실수 $x_1, x_2, y_1, y_2$에 대하여
+$z_1 = x_1 + iy_1$, $z_2 = x_2 + iy_2$라 하자.
+그러면 $z_1z_2 = x_1x_2 - y_1y_2 = i(x_1y_2+y_1x_2)$이고,
+\begin{align*}
+|z_1z_2|^2 &=  (x_1x_2 - y_1y_2)^2 + (x_1y_2 + y_1x_2)^2 \\
+&= x_1^2x_2^2 - \cancel{2x_1x_2y_1y_2} + y_1^2y_2^2
++ x_1^2y_2^2 + \cancel{2x_1y_2y_1x_2} + y_1^2x_2^2 \\
+&=x_1^2(x_2^2+y_2^2) + y_1^2(y_2^2+x_2^2)
+= (x_1^2+y_1^2)(x_2^2+y_2^2) \\
+&= |z_1|^2|z_2|^2.
+\end{align*}
+$|z_1|$, $|z_2|$, $|z_1z_2|$는 모두 음이 아닌 실수 이므로
+$|z_1||z_2| = |z_1||z_2|$가 성립한다.
+
+\subsection*{연습문제 \ref{ex-1-15}}
+
+$z=x+iy$ ($x,y\in\mathbb R$)이라 하자. 그러면,
+\[
+\overline{(\bar z)} = \overline{x-iy}
+= x - i(-y) = x+iy = z.
+\]
+또한, 
+\[
+z\bar z = (x+iy)(x-iy) = x^2+y^2 + i(- xy + xy)
+= x^2+y^2 = |z|^2.
+\]
+끝으로,
+\begin{align*}
+\dfrac{z + \bar z}2 &= \dfrac{x+\cancel{iy}+ x -\cancel{iy}}2
+= \dfrac{2x}2 = x =\Re(z), \\
+\dfrac{z - \bar z}{2i} &= \dfrac{\cancel{x}+iy - \cancel{x} +iy}{2i}
+= \dfrac{2iy}{2i} = y = \Im(z).
+\end{align*}
+
+\subsection*{연습문제 \ref{ex-1-16}}
+
+$z = x+iy$ ($x,y\in\mathbb R$)이라 하면,
+\begin{align*}
+|z| &= |x+iy| = \sqrt{x^2+y^2} = \sqrt{x^2+(-y)^2} = |x-iy| = |\bar z|, \\
+|\Re(z)| & =  |x| = \sqrt{x^2} \le  \sqrt{x^2+y^2} = |x+iy| = |z|, \\
+|\Im(z)| &= |y| = \sqrt{y^2} \le  \sqrt{x^2+y^2} = |x+iy| = |z|.
+\end{align*}
+
+$\bar z$는 $z$를 실수축에 대칭시켜 얻어지며,
+$0\in\mathbb R$이므로 원점과 $z$와의 거리는 $\bar z$와의 거리와 같다.
+즉, $ |z| = |\bar z|$.
+부등식 $|\Re(z)| \le|z|$와 $|\Im(z)|\le |z|$는 
+아래 그림에서 직각삼각형에서 빗변의 길이가 가장 길다는 것을 의미한다.
+
+\begin{figure*}[h!]
+\begin{center}
+\includegraphics[width=0.3\textwidth]{./figs/fig-s-0-1}
+\end{center}
+%\caption{$RP$와 $SQ$는 길이가 같고 수직으로 만난다}
+%\label{fig-5-5}
+\end{figure*}
+
+\subsection*{연습문제 \ref{ex-1-17}}
+
+우선 $|\bar az| = |\bar a||z| = |a||z| <1\cdot 1 =1$이므로, $\bar az \ne 1$이고,
+\begin{align*}
+\dfrac{z-a}{1-\bar az}\cdot \overline{\left(\dfrac{z-a}{1-\bar az}\right)}
+&= \dfrac{z-a}{1-\bar az}\cdot \dfrac{\bar z-\bar a}{1-a\bar z}
+= \dfrac{z\bar z - a\bar z - \bar a z+a\bar a}{1-a\bar z - \bar a z + a\bar a z \bar z} \\
+&= \dfrac{|z|^2 - a\bar z - \bar a z + |a|^2}{1-a\bar z - \bar a z + |a|^2|z|^2} \\
+&= \dfrac{1 - a\bar z - \bar a z + |a|^2|z|^2+|z|^2+|a|^2-1-|a|^2|z|^2}
+{1-a\bar z - \bar a z + |a|^2|z|^2} \\
+&= 1 + \dfrac{|z|^2+|a|^2-1-|a|^2|z|^2}{1-a\bar z - \bar a z + |a|^2|z|^2} \\
+&= 1 + \dfrac{|z|^2+|a|^2-1-|a|^2|z|^2}{|1- \bar a z|^2} \\
+&= 1 -  \dfrac{(1-|z|^2)(1-|a|^2)}{|1- \bar a z|^2}.
+\end{align*}
+따라서
+$\left| \dfrac{z-a}{1-\bar az} \right|^2 = 1 -
+\underbrace{\dfrac{(1-|z|^2)(1-|a|^2)}{|1- \bar a z|^2}}_{\ge0\ (|z|<1, |a|<1\text{ 이므로})}
+\le 1-0 = 1$.
+
+\subsection*{연습문제 \ref{ex-1-18}}
+
+$w\in\mathbb C$가 $p(w)=0$, 즉,
+$c_0 + c_1w + \cdots + c_dw^d=0$을 만족한다고 하자. 
+그러면,
+\[
+\overline{c_0 + c_1w + \cdots + c_dw^d} = \bar 0 = 0
+\]
+이고, 모든 $c_k$ ($0\le k\le d$)가 실수이므로
+\begin{align*}
+0 & = \overline{c_0 + c_1w + \cdots + c_dw^d} 
+= \overline{c_0} + \overline{c_1w} + \cdots + \overline{c_dw^d} \\
+&= \overline{c_0} + \overline{c_1}\overline{w} + \cdots + \overline{c_d}\overline{w^d}
+= c_0 + c_1\overline{w} + \cdots + c_d(\bar w)^d.
+\end{align*}
+마지막 등식에서 
+\[
+\overline{w^k} = \underbrace{\overline{w\cdots w}}_{k\text{번}}
+= \underbrace{\bar w \cdots \bar w}_{k\text{번}}
+= (\bar w)^k,
+\quad 1\le k \le d
+\]
+를 사용하였다.
+따라서, $0=c_0 + c_1\overline{w} + \cdots + c_d(\bar w)^d = p(\bar w)$.
+
+\subsection*{연습문제 \ref{ex-1-19}}
+
+$a = |a|(\cos\alpha + i\sin\alpha)$, 
+$b = |b|(\cos\beta + i\sin \beta)$라고 하자.
+단, $\alpha, \beta \in [0,2\pi)$. 그러면,
+\begin{align*}
+a\bar b &= |a|(\cos\alpha + i\sin\alpha)\cdot
+|b|(\cos\beta - i\sin \beta) \\
+&=|a||b|(\cos\alpha + i\sin\alpha)(\cos\beta - i\sin \beta)
+\end{align*}
+이고 $\Im(a\bar b) = |a||b|(-(\cos\alpha)(\sin\beta) + (\sin\alpha)(\cos\beta))
+= |a||b|\sin(\alpha-\beta)$.
+$0$, $a$, $b$를 꼭지점으로 하는 $\Delta OAB$의 면적은
+($O\equiv 0$, $A\equiv a$, $B\equiv b$)
+\[
+\dfrac12 \ell(OA)\ell(OB) \cdot \sin \angle AOB
+= \dfrac12 |a|\cdot |b| \cdot |\sin(\alpha-\beta)|
+= \dfrac12 |\Im(a\bar b)| = \left| \dfrac{\Im(a\bar b)}2\right|.
+\]
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.7\textwidth]{./figs/fig-5-6}
+\end{center}
+\caption{$0$, $a$, $b$를 꼭지점으로 하는 $\Delta OAB$의 면적}
+\label{fig-5-6}
+\end{figure}
+
+\subsection*{연습문제 \ref{ex-1-20}}
+
+$z_1, z_2, z_3 \in\mathbb C$에 대하여,
+\[
+w:= \overline{i\cdot \det \begin{bmatrix}
+1 & z_1 & \overline{z_1} \\
+1 & z_2 & \overline{z_2} \\
+1 & z_3 & \overline{z_3}
+\end{bmatrix}}
+= -i\cdot \overline{\det \begin{bmatrix}
+1 & z_1 & \overline{z_1} \\
+1 & z_2 & \overline{z_2} \\
+1 & z_3 & \overline{z_3}
+\end{bmatrix}}.
+\]
+한편, 정사각행렬 $M=[m_{ij}]$에 대하여,
+\[
+\det M = \sum_{\sigma\in S_n} (\sgn \sigma) \cdot m_{i\sigma(i)},
+\]
+여기서, $S_n$은 $\{1,\ldots, n\}$에 대한 모든 치환(permutation)의 집합이다.
+\[
+\overline{\det M} = \sum_{\sigma\in S_n} (\sgn \sigma) \cdot
+\overline{m_{i\sigma(i)}} = \det \overline{M},
+\]
+여기서, $\overline{M}$은 $M$의 모든 원소에 대하여 켤레복소수를 취한 것이다.
+따라서,
+\[
+\overline{\det \begin{bmatrix}
+1 & z_1 & \overline{z_1} \\
+1 & z_2 & \overline{z_2} \\
+1 & z_3 & \overline{z_3}
+\end{bmatrix}}
+= \det \begin{bmatrix}
+1 & \overline{z_1} & z_1 \\
+1 & \overline{z_2} & z_2 \\
+1 & \overline{z_3} & z_3
+\end{bmatrix}
+= -  \det \begin{bmatrix}
+1 & z_1 & \overline{z_1} \\
+1 & z_2 & \overline{z_2} \\
+1 & z_3 & \overline{z_3}
+\end{bmatrix},
+\]
+마지막 등식은 두번째 열과 세번째 열을 바꾼 것이다.
+종합하면,
+\begin{align*}
+\overline{i\cdot \det \begin{bmatrix}
+1 & z_1 & \overline{z_1} \\
+1 & z_2 & \overline{z_2} \\
+1 & z_3 & \overline{z_3}
+\end{bmatrix}}
+= -i\cdot \overline{\det \begin{bmatrix}
+1 & z_1 & \overline{z_1} \\
+1 & z_2 & \overline{z_2} \\
+1 & z_3 & \overline{z_3}
+\end{bmatrix}}
+& = -i \cdot \left(
+-  \det \begin{bmatrix}
+1 & z_1 & \overline{z_1} \\
+1 & z_2 & \overline{z_2} \\
+1 & z_3 & \overline{z_3}
+\end{bmatrix}
+\right) \\
+& = i \cdot  \det \begin{bmatrix}
+1 & z_1 & \overline{z_1} \\
+1 & z_2 & \overline{z_2} \\
+1 & z_3 & \overline{z_3}
+\end{bmatrix}.
+\end{align*}
+따라서, $w$는 켤레복소수와 동일하므로 실수이다.
+
+\subsection*{연습문제 \ref{ex-1-21}}
+
+\begin{align*}
+|z_1+z_2|^2 + & |z_1 - z_2|^2 \\
+&= (z_1 + z_2)(\overline{z_1} + \overline{z_2}) + (z_1 - z_2)(\overline{z_1} - \overline{z_2}) \\
+&= z_1\cdot \overline{z_1} + z_1 \cdot \overline{z_2} + z_2 \cdot \overline{z_1}
++ z_2\cdot \overline{z_2} \\
+&\qquad + z_1\overline{z_1} + z_1\cdot(-\overline{z_2}) + (-z_2)\cdot\overline{z_1}
++ (-z_2)(-\overline{z_2}) \\
+& = |z_1|^2 + \cancel{z_1 \cdot \overline{z_2}} + \cancel{z_2 \cdot \overline{z_1}}
++ |z_2|^2 + |z_1|^2 - \cancel{z_1 \cdot \overline{z_2}}  
+- \cancel{z_2 \cdot \overline{z_1}} + |z_2|^2 \\
+&= 2(|z_1|^2 + |z_2|^2).
+\end{align*}
+
+복소평면에서 $0$, $z_1$, $z_2$, $z_1+z_2$를 꼭지점으로 하는 평행사변형 $P$를 생각하자.
+그러면, $|z_1+z_2|$는 $P$의 한쪽 대각선의 길이가 되고,
+$|z_1-z_2|$는 다른쪽 대각선의 길이가 된다. 또한, $|z_1|$, $|z_2|$는
+$P$의 두변의 길이다. 따라서 위의 식이 의미하는 것은
+``평행사변형에서 대각선 길이의 제곱의 합은 변의 길이의 제곱의 합의 두배와 같다'' 이다.
+
+\subsection*{연습문제 \ref{ex-1-22}}
+
+$z_1, z_2\in\mathbb C$에 대하여,
+$|z_1| = |z_1 - z_2 + z_2| \le |z_1 - z_2| + |z_2|$이므로
+\begin{equation} \label{eq-5-12}
+|z_1| - |z_2| \le |z_1 - z_2|.
+\end{equation}
+모든 $z_1, z_2\in\mathbb C$에 대하여,
+식 \eqref{eq-5-12}에서 $z_1$과 $z_2$의 역할을 바꾸어도 성립하므로
+\begin{equation}\label{eq-5-13}
+|z_2| - |z_1| \le |z_2 - z_1| = |-(z_1-z_2)|
+= |-1| |z_1-z_2| =|z_1-z_2|.
+\end{equation}
+식 \ref{eq-5-12}\와 \ref{eq-5-13}\로부터 
+$\left| |z_1| -|z_2| \right| \le |z_1 - z_2|$이다.
+
+\subsection*{연습문제 \ref{ex-1-23}}
+
+\begin{itemize}
+\item[(1),(2),(3):] \
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{./figs/fig-5-7}
+\end{center}
+\caption{왼쪽부터 $|z-(1-i)|=2$, $|z-(1-i)|<2$,
+$1<|z-(1-i)|<2$}
+\label{fig-5-7}
+\end{figure}
+\item[(4):] $z=x+iy$ ($x,y\in\mathbb R$)이라 하면,
+$\Re(z-(1-i))=3$은 $x-1=3$과 동치이므로, $x=4$이다.
+\begin{figure*}[h!]
+\begin{center}
+\includegraphics[width=0.3\textwidth]{./figs/fig-s-0-2}
+\end{center}
+%\caption{$RP$와 $SQ$는 길이가 같고 수직으로 만난다}
+%\label{fig-5-5}
+\end{figure*}
+\item[(5):] $z=x+iy$ ($x,y\in\mathbb R$)이라 하면,
+$|\Im(z-(1-i))|<3$은 $|y+1|<3$, 즉, $-4<y<2$와 같다.
+\begin{figure*}[h!]
+\begin{center}
+\includegraphics[width=0.3\textwidth]{./figs/fig-s-0-3}
+\end{center}
+%\caption{$RP$와 $SQ$는 길이가 같고 수직으로 만난다}
+%\label{fig-5-5}
+\end{figure*}
+\item[(6):] $\{ z\in\mathbb C\,:\, |z-(1-i)| = |z-(1+i)|\}$는
+$1-i$와 $1+i$에서 같은 거리에 있는 복소수 $z$의 집합이다.
+따라서, $1-i$와 $1+i$을 잇는 선분의 수직이등분선이 된다.
+즉, 실수축이다.
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{./figs/fig-5-8}
+\end{center}
+\caption{$|z-(1-i)| = |z-(1+i)|$를 만족하는 집합은 $\mathbb R$}
+\label{fig-5-8}
+\end{figure}
+\item[(7):] 방정식 $|z-(1-i)| + |z-(1+i)| =2$는 
+$z$에서 $1+i$까지의  거리와  $1-i$까지의 거리의 합이 $2$가 됨을 의미한다.
+그런데 $1-i$와 $1+i$의 거리가 $2$이므로
+$z$는 $1-i$와 $1+i$를 잇는 선분에 있다.
+
+직접 계산하는 방식으로도 같은 결과를 얻을 수 있다.
+$z=x+iy$ ($x,y\in\mathbb R$)이면
+\begin{align*}
+2 &= \sqrt{(x-1)^2 + (y+1)^2} + \sqrt{(x-1)^2 + (y-1)^2} \\
+&\ge |y+1| + |y-1| \ge 1 + \cancel{y} + 1 - \cancel{y} =2
+\end{align*}
+이므로 $|y+1| + |y-1|=2$이고, $x=1$이다.
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{./figs/fig-5-9}
+\end{center}
+\caption{$|z-(1-i)| + |z-(1+i)|=2$를 만족하는 집합은 $1-i$와 $1+i$를 잇는 선분이다.}
+\label{fig-5-9}
+\end{figure}
+\item[(8):] 방정식 $|z-(1-i)| + |z-(1+i)| =3$을 만족하는 집합은
+초점이 $1+i$와 $1-i$인 타원 $E$이 된다.
+따라서, $\{z\in\mathbb C\,:\, |z-(1-i)| + |z-(1+i)| < 3\}$은
+타원 $E$의 내부가 된다.
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{./figs/fig-5-10}
+\end{center}
+\caption{$|z-(1-i)| + |z-(1+i)| < 3$을 만족하는 집합은 타원  $E$의 내부이다.}
+\label{fig-5-10}
+\end{figure}
+\end{itemize}
+
+\subsection*{연습문제 \ref{ex-1-24}}
+
+$z\ne0$에 대하여
+$p(z) = z^d \left( c_d + \dfrac{c_{d-1}}z + \cdots + \dfrac{c_1}{z^{d-1}}
++ \dfrac{c_0}{z^d} \right)$.
+\[
+\lim_{n\to\infty}  \left( 
+ \dfrac{|c_{d-1}|}n + \cdots + \dfrac{|c_1|}{n^{d-1}}
++ \dfrac{|c_0|}{n^d} \right) = 0
+\]
+이므로, 
+다음을  만족하도록 충분히 큰 $N$을 잡을 수 있다.
+\[
+\dfrac{|c_{d-1}|}N + \cdots + \dfrac{|c_1|}{N^{d-1}}
++ \dfrac{|c_0|}{N^d} < \dfrac{|c_d|}2.
+\]
+그러면 $|z|>N=:R$에 대하여
+\begin{align*}
+|p(z)| &= |z^d| \left|
+c_d + \dfrac{c_{d-1}}z + \cdots + \dfrac{c_1}{z^{d-1}}
++ \dfrac{c_0}{z^d} \right| \\
+&\ge |z|^d \left( |c_d| - \left| \dfrac{c_{d-1}}z + \cdots + \dfrac{c_1}{z^{d-1}}
++ \dfrac{c_0}{z^d} \right| \right) \\
+&\ge |z|^d \left(|c_d| - \left( \dfrac{|c_{d-1}|}{|z|} + \cdots + \dfrac{|c_1|}{|z|^{d-1}}
++ \dfrac{|c_0|}{|z|^d} \right) \right) \\
+&\ge |z|^d \left(|c_d| - \left( \dfrac{|c_{d-1}|}N + \cdots + \dfrac{|c_1|}{N^{d-1}}
++ \dfrac{|c_0|}{N^d} \right) \right) \\
+&\ge |z|^d \left(|c_d| - \dfrac{|c_d|}2 \right) = \underbrace{\dfrac{|c_d|}2}_{=:M} |z|^d.
+\end{align*}
+
+\subsection*{연습문제 \ref{ex-1-25}}
+
+$(\Leftarrow):$ 
+
+실수열 $(\Re(z_n))_{n\in\mathbb N}$과 
+$(\Im(z_n))_{n\in\mathbb N}$가 각각 $\Re(L)$과 $\Im(L)$로 수렴한다고 하자.
+그러면, 주어진 $\epsilon>0$에 대하여,
+충분히 큰 $N$이 존재하여 $n>N$이면
+\[
+|\Re(z_n) - \Re(L)| < \dfrac\epsilon{\sqrt{2}},\quad
+|\Im(z_n) - \Im(L)| < \dfrac\epsilon{\sqrt{2}}
+\]
+을 만족하게 할 수 있고,
+\begin{align*}
+|z_n-L| &= \sqrt{ (\Re(z_n) - \Re(L))^2 + (\Im(z_n) - \Im(L))^2} \\
+&< \sqrt{\left(\dfrac\epsilon{\sqrt{2}}\right)^2  + \left(\dfrac\epsilon{\sqrt{2}}\right)^2}
+= \epsilon.
+\end{align*}
+따라서 $(z_n)_{n\in\mathbb N}$은 $L$로 수렴한다.
+
+\noindent $(\Rightarrow):$
+
+$(z_n)_{n\in\mathbb N}$이 $L$로 수렴한다고 가정하자.
+$n>N$이면  $|z-L|<\epsilon$이 되도록 하는 $N$을 잡을 수 있다.
+그러면 모든 $n>N$에 대하여,
+\begin{align*}
+|\Re(z_n) - \Re(L)| &= |\Re(z_n -L)| \le |z_n -L| <\epsilon, \\
+|\Im(z_n) - \Re(L)| &= |\Im(z_n -L)| \le |z_n -L| <\epsilon
+\end{align*}
+이 되어
+$(\Re(z_n))_{n\in\mathbb N}$과 
+$(\Im(z_n))_{n\in\mathbb N}$이 각각 
+$\Re(L)$과 $\Im(L)$로 수렴한다.
+
+\subsection*{연습문제 \ref{ex-1-26}}
+
+$(\Rightarrow):$
+
+$(z_n)_{n\in\mathbb N}$이 $L$로 수렴한다고 가정하자.
+그러면 $(\Re(z_n))_{n\in\mathbb N}$과 
+$(\Im(z_n))_{n\in\mathbb N}$이 각각 
+$\Re(L)$과 $\Im(L)$로 수렴한다.
+따라서 $(\Re(z_n))_{n\in\mathbb N}$과 
+$(-\Im(z_n))_{n\in\mathbb N}$은 각각 
+$\Re(L)$과 $-\Im(L)$로 수렴한다.
+즉, $(\Re(\overline{z_n}))_{n\in\mathbb N}$과 
+$(\Im(\overline{z_n}))_{n\in\mathbb N}$이 각각 
+$\Re(\overline{L})$과 $\Im(\overline{L})$로 수렴한다.
+결론적으로 $(\overline{z_n})_{n\in\mathbb N}$이 $\overline{L}$로 수렴한다.
+
+\noindent $(\Leftarrow):$ 
+
+$(\overline{z_n})_{n\in\mathbb N}$이 $\overline{L}$로 수렴한다고 하자.
+앞의 증명에서 $(\overline{(\overline{z_n})})_{n\in\mathbb N}$이 
+$\overline{(\overline{L})}$로 수렴한다.
+다시 쓰면, $(z_n)_{n\in\mathbb N}$이 $L$로 수렴한다.
+
+\subsection*{연습문제 \ref{ex-1-27}}
 

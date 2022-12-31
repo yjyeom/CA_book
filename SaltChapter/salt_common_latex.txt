@@ -49,3 +49,6 @@ z\in \mathbb C
 \end{tabular}
 \end{center}
 
+
+% 수식에서 지우는 표시하기 
+\cancel{  }
