@@ -808,3 +808,266 @@ $\overline{(\overline{L})}$로 수렴한다.
 
 \subsection*{연습문제 \ref{ex-1-27}}
 
+$(z_n)_{n\in\mathbb N}$이 $\mathbb C$의 코시수열이라고 하자.
+\begin{align*}
+|\Re(z_n) - \Re(z_m)| &= |\Re(z_n-z_m)| \le |z_n - z_m|, \\
+|\Im(z_n) - \Im(z_m)| &= |\Im(z_n-z_m)| \le |z_n - z_m|
+\end{align*}
+이므로  $(\Re(z_n))_{n\in\mathbb N}$과 
+$(\Im(z_n))_{n\in\mathbb N}$도 코시수열이다.
+$\mathbb R$의 완비성으로부터 두 수열은 수렴한다.
+각각 $a,b\in\mathbb R$로 수렴한다고 하자.
+그러면 $(z_n)_{n\in\mathbb N}$은 $\mathbb C$에서 $a+ib$로 수렴한다.
+따라서 $\mathbb C$는 완비공간이다.
+
+\subsection*{연습문제 \ref{ex-1-28}}
+
+$z_0\in\mathbb C$와 $\epsilon >0$이 주어졌다고 하자.
+$\delta = \epsilon>0$으로 잡으면,
+$|z-z_0|< \delta$일 때,
+\[
+|\Re(z) - \Re(z_0)| = |\Re(z-z_0)| \le |z-z_0| < \delta = \epsilon
+\]
+을 만족한다.
+따라서 $z \mapsto \Re(z)$는 $z_0$에서 연속이고,
+$z_0\in\mathbb C$는 임의로 선택할 수 있으므로
+$z \mapsto \Re(z)$는 $\mathbb C$에서 연속이다.
+
+\subsection*{연습문제 \ref{ex-1-29}}
+
+$U:= \{ z\in\mathbb C\,:\, \Re(z)\cdot \Im(z) >1 \}$이라 하자.
+$U$의 여집합을 $F:=U^C$로 쓰자.
+$F$에 정의된 수열 $(z_n)_{n\in\mathbb N}$이 $\mathbb C$에서 $L$로 수렴한다면,
+\begin{equation} \label{eq-5-14}
+\Re(z_n)\cdot \Im(z_n) \le 1
+\quad (n\in \mathbb N)
+\end{equation}
+이고 $(\Re(z_n))_{n\in\mathbb N}$과 
+$(\Im(z_n))_{n\in\mathbb N}$이 각각 $\Re(L)$과 $\Im(L)$로 수렴한다.
+따라서,  $(\Re(z_n)\cdot \Im(z_n))_{n\in\mathbb N}$도 수렴하며
+극한은 $\Re(L)\cdot \Im(L)$이 된다.
+식 \eqref{eq-5-14}\로부터 $\Re(z)\cdot \Im(z) \le 1$이므로
+$L\in F$이다.
+결론적으로 $F$는 닫힌집합이고, 그 여집합인 $U$는 열린집합이 된다.
+
+이제 $U$가 영역이 아님을 보이자.
+우선 영역이라고 가정하자.
+그러면 
+$\gamma(a) = 2+2i\in U$와  $\gamma(b) = -2-2i\in U$을 잇는 
+(계단형) 경로 $\gamma: [a,b] \to U$가 존재한다.
+함수 $z\mapsto  \Re(z): \mathbb C \to \mathbb R$가 연속이므로,
+$t\stackrel{\varphi}{\mapsto} \Re(\gamma(t)): [a,b] \to \mathbb R$도 연속이다.
+\begin{align*}
+\varphi(a) &= \Re(\gamma(a)) = \Re(2+2i) = 2,\\
+\varphi(b) &= \Re(\gamma(b)) = \Re(-2-2i) = -2.
+\end{align*}
+그런데, $\varphi(a) = 2 >0>-2=\varphi(b)$이므로,
+중간값정리에 의해 $0=\varphi(t_*) = \Re(\gamma(t_*))$를 만족하는
+$t_*\in [a,b]$가 존재한다. 
+한편, $\Re(\gamma(t_*))\cdot \Im(\gamma(t_*)) = 0 \cdot\Im(\gamma(t_*)) =0\not>1$
+이므로 $\gamma(t_*) \not\in U$이다.
+이는 $U$가 경로연결된 집합이라는 가정에 모순이 되어, $U$는 영역이 될 수 없다.
+
+\subsection*{연습문제 \ref{ex-1-30}}
+
+$D$가 열린집합이므로 이를 실수축에 대칭시킨 $D^*$도 열린집합이다.
+$w_1, w_2 \in D^*$라 하면,
+$\overline{w_1}, \overline{w_2} \in D$이다.
+$D$가 영역이므로 
+$\gamma(a) = \overline{w_1}$, $\gamma(b) = \overline{w_2}$이고
+모든 $ t\in[a,b]$에 대하여 $\gamma(t)\in D$인
+계단형 경로 $\gamma:[a,b] \to \mathbb C$가 존재한다.
+이제 $\gamma^*:[a,b] \to \mathbb C$를 $\gamma^*(t) = \overline{\gamma(t)}$로
+정의하자. 
+그러면 $\gamma^*(a) = \overline{\overline{w_1}}=w_1$,
+$\gamma^*(b) = \overline{\overline{w_2}}=w_2$이고,
+모든 $t\in[a,b]$에 대하여 $\gamma^*(t)\in D^*$이다.
+$\gamma^*$는 연속함수 $\gamma$와 $z\mapsto \bar z$의 합성함수이므로
+연속이다.
+$\gamma$가 계단형 경로이므로, 
+$k=0,1,\ldots, n$에 대하여 $\gamma\big|_{[t_k, t_{k+1}]}$는
+실수부 또는 허수부가 상수인
+\[
+t_0 =a <t_1 < \cdots < t_n  < t_{n+1} = b
+\]
+가 존재한다.
+마찬가지로 $\gamma^*\big|_{[t_k, t_{k+1}]}$도 
+실수부 또는 허수부가 상수이다.
+(실수부는 $\gamma\big|_{[t_k, t_{k+1}]}$의 실수부와 같고
+허수부는 $\gamma\big|_{[t_k, t_{k+1}]}$의 허수부에 마이너스 부호를 
+붙인 것과 같다.)
+따라서, $\gamma^*$도 계단형 경로이고,
+$D^*$는 경로연결된 집합이다.
+
+$D^*$는 열린집합이고 경로연결된 집합이므로 영역이 된다.
+
+\subsection*{연습문제 \ref{ex-1-31}}
+
+\begin{align*}
+\exp\left(i\dfrac{9\pi}2\right) 
+&= \exp\left(i\left(4\pi + \dfrac{\pi}2\right) \right)
+= e^0 \left( \cos\dfrac\pi2 + i\sin\dfrac\pi2 \right) 
+= 1(0+i\cdot 1) = i, \\
+\exp(3+\pi i) &= e^3(\cos \pi + i\sin \pi) = e^3(-1+i\cdot 0) = -e^3.
+\end{align*}
+
+\subsection*{연습문제 \ref{ex-1-32}}
+
+$z=x+iy$ ($x,y\in\mathbb R$)이라 하면,
+$e^x(\cos y + i\sin y) = \pi i$를 만족해야 한다.
+양변의 절대값을 취하면 $e^x = \pi$이므로
+$x=\log \pi$이다.
+따라서 $\cos y + i\sin y = i$가 되어
+$\sin y = 1$, $\cos y=0$을 만족한다.
+따라서 $y = \dfrac\pi2 + 2\pi k$ ($k\in \mathbb Z$)이다.
+그림 \ref{fig-5-11}\을 참고하라.
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{./figs/fig-5-11}
+\end{center}
+\caption{$\cos y + i\sin y = i$를 만족하는 $y$는
+$y = \dfrac\pi2 + 2\pi k$ ($k\in \mathbb Z$)로 주어진다.
+}
+\label{fig-5-11}
+\end{figure}
+
+$\exp z = \pi i$라면,
+\[
+z\in \left\{ \log \pi + i \left(\dfrac\pi 2 + 2\pi k\right), k\in\mathbb Z\right\}.
+\]
+역으로 어떤 $k\in\mathbb Z$에 대하여
+$z\in \log \pi + i \left(\dfrac\pi 2 + 2\pi k\right)$라면,
+\[
+\exp z = e^{\log \pi} \left(
+\cos\left(\dfrac\pi2+2\pi k\right) + i \sin\left(\dfrac\pi2+2\pi k\right)
+\right) = \pi(0+i\cdot 1) = \pi i.
+\]
+결론적으로 $\exp z = \pi i$일 필요충분조건은
+$z\in \left\{ \log \pi + i \left(\dfrac\pi 2 + 2\pi k\right), k\in\mathbb Z\right\}$이다.
+
+\subsection*{연습문제 \ref{ex-1-33}}
+
+$\gamma(t):= \exp(it)$, $t\in[0,2\pi]$라고 하자. 그러면,
+\[
+\gamma(t) = \exp(it) = e^0\left(\cos t + i\sin t\right) 
+= \cos t + i\sin t.
+\]
+
+점 $(\cos t, \sin t)$는 중심이 $(0,0)$이고 반지름이 $1$인 원 위에 있고
+$t$가 증가함에 따라 반시계방향으로 움직인다.
+따라서 곡선 $t\mapsto \gamma(t)$는 반시계방향으로 도는 원이 된다.
+그림 \ref{fig-5-12}\를 참고하라.
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{./figs/fig-5-12}
+\end{center}
+\caption{곡선 $t\mapsto \gamma(t):=\exp(it)$, $t\in[0,2\pi]$
+}
+\label{fig-5-12}
+\end{figure}
+
+\subsection*{연습문제 \ref{ex-1-34}}
+
+$\exp(t+it) = e^t(\cos t + i\sin t)$이므로
+곡선은 $t\mapsto (e^t\cos t, e^t\sin t)$로 주어진다.
+대강의 그림을 그려보면 \ref{fig-5-13}\와 같다.
+나선형 곡선이 되며, $t\searrow -\infty$일 때
+$(e^t\cos t, e^t\sin t)$는 $0$으로 수렴하고,
+$t\nearrow +\infty$일 때 나선형의 바깥으로 발산한다.
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{./figs/fig-5-13}
+\end{center}
+\caption{함수 $z=x+iy \mapsto \exp z$에 의한 직선 $y=x$의 상
+}
+\label{fig-5-13}
+\end{figure}
+
+\subsection*{연습문제 \ref{ex-1-35}}
+
+\[
+\exp(z^2) = \exp\left( (x+iy)^2 \right)
+= \exp(x^2-y^2 + 2xyi) = e^{x^2-y^2}( \cos(2xy) + i \sin (2xy))
+\]
+이므로
+$|\exp(z^2)| = e^{x^2-y^2}$, $\Re(\exp(z^2)) = e^{x^2-y^2} \cos(2xy)$,
+$\Im(\exp(z^2)) = e^{x^2-y^2} \sin(2xy)$이다.
+
+$z\ne0$에 대하여
+\begin{align*}
+\exp \dfrac1z &= \exp\left(\dfrac1{x+iy}\right)
+= \exp\left( \dfrac{x-iy}{x^2+y^2} \right) \\
+&= e^{\frac{x}{x^2+y^2}} \left( \cos \left( \dfrac{-y}{x^2+y^2} \right)
++i  \sin \left( \dfrac{-y}{x^2+y^2} \right) \right)
+\end{align*}
+이므로
+\begin{align*}
+\left| \exp \dfrac1z \right| &= e^{\frac{x}{x^2+y^2}}, \\
+\Re\left( \exp \dfrac1z \right) 
+& = e^{\frac{x}{x^2+y^2}} \cos \left( \dfrac{-y}{x^2+y^2} \right), \\
+\Im\left( \exp \dfrac1z \right) 
+&=  e^{\frac{x}{x^2+y^2}} \sin \left( \dfrac{-y}{x^2+y^2} \right).
+\end{align*}
+
+\subsection*{연습문제 \ref{ex-1-36}}
+
+$z_1, z_2 \in \mathbb C$에 대하여,
+\begin{align*}
+(\sin z_1)(\cos z_2) &+ (\cos z_1)(\sin z_2) \\
+&= \left( \dfrac{\exp(iz_1) - \exp(-iz_1)}{2i}\right)
+\left( \dfrac{\exp(iz_2) + \exp(-iz_2)}{2}\right) \\
+&\qquad + \left( \dfrac{\exp(iz_1) + \exp(-iz_1)}{2}\right) 
+\left( \dfrac{\exp(iz_2) - \exp(-iz_2)}{2i}\right) \\
+&= \dfrac{2\exp(i(z_1+z_2)) -2\exp(-i(z_1+z_2))}{4i}
+= \sin(z_1+z_2).
+\end{align*}
+
+\subsection*{연습문제 \ref{ex-1-37}}
+
+$z=x+iy$ ($x,y\in\mathbb R$)이라 하면,
+\begin{align*}
+\cos z &= \cos(x+iy) = (\cos x)(\cos(iy)) - (\sin x)(\sin(iy)) \\
+&= (\cos x)\left( \dfrac{e^{-y}+e^y}2\right)
+- (\sin x)\left( \dfrac{e^{-y}-e^y}{2i}\right) \\
+&= (\cos x)(\cosh y) - (\sin x)\left(-\dfrac{\sinh y}i\right) \\
+&= (\cos x)(\cosh y) - i(\sin x)(\sinh y).
+\end{align*}
+따라서
+\begin{align*}
+|\cos z|^2 &= (\cos x)^2(\cosh y)^2 + (\sin x)^2(\sinh y)^2 \\
+&= (1-(\sin x)^2)(\cosh y)^2 + (\sin x)^2\left(\dfrac{e^{2y} -2 + e^{-2y}}4\right) \\
+&= (\cosh y)^2  - (\sin x)^2(\cosh y)^2 + (\sin x)^2
+\left(\dfrac{e^{2y} + 2 + e^{-2y}}4 -1\right) \\
+&= (\cosh y)^2  - (\sin x)^2(\cosh y)^2 + (\sin x)^2((\cosh y)^2-1) \\
+&=  (\cosh y)^2  - \cancel{(\sin x)^2(\cosh y)^2} + \cancel{(\sin x)^2(\cosh y)^2}
+-(\sin x)^2 \\
+&= (\cosh y)^2 - (\sin x)^2.
+\end{align*}
+
+\subsection*{연습문제 \ref{ex-1-38}}
+
+$z=x+iy$ ($x,y\in\mathbb R$)이라 하면,
+$\cos z =3$은 다음과 동치이다.
+\begin{align}
+(\cos x)(\cosh y) &= 3, \label{eq-5-15} \\
+(\sin x)(\sinh y) &= 0. \label{eq-5-16}
+\end{align}
+
+여기서 $\sinh y=0$는 $y=0$와 동치이다. 
+그런데 $y=0$는 불가능하다.
+왜냐하면, $z=x+iy=x$가 실수가 되는데 $\cos x =3$을 만족하는 실수 $x$는 없기 때문이다.
+그러므로 식 \eqref{eq-5-16}에서 $\sin x = 0$이다.
+따라서 $x \in \{ n\pi \,:\, n\in\mathbb Z\}$.
+한편, $\cos x = \pm 1$
+
+
+
+
+
+
+
+
+

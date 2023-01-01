@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  31 DEC 2022 23:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  2 JAN 2023 00:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2219,9 +2219,6 @@ LaTeX Warning: Hyper reference `toc-contents' on page 33 undefined on input lin
 e 967.
 
 [33 <./SaltChapter/fig-1-15.PNG> <./SaltChapter/fig-1-16.PNG>]
-
-LaTeX Warning: Command \i invalid in math mode on input line 977.
-
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4950,7 +4947,7 @@ public/nanumtype1/nanummjmd4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
 /nanumtype1/nanummjmd5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanum
 type1/nanummjmd6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/
 nanummjmd7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/uhc/umj/umj34.pfb>
-Output written on notes_template.pdf (186 pages, 7937821 bytes).
+Output written on notes_template.pdf (186 pages, 7937700 bytes).
 PDF statistics:
  3304 PDF objects out of 3580 (max. 8388607)
  2683 compressed objects within 27 object streams

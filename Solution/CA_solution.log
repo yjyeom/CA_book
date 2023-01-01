@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  1 JAN 2023 02:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  2 JAN 2023 00:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1773,7 +1773,9 @@ UC/nanummj/m/n/12/c9 ‰\OT1/LinuxLibertineT-TLF/m/n/12 , $\OT1/cmr/m/n/12 ([]([]
 
 LaTeX Warning: Reference `ex-1-27' on page 19 undefined on input line 809.
 
-)
+
+LaTeX Warning: Reference `ex-1-28' on page 19 undefined on input line 823.
+
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1784,9 +1786,15 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 19 undefined on input lin
-e 315.
+e 830.
 
 [19]
+
+LaTeX Warning: Reference `ex-1-29' on page 20 undefined on input line 836.
+
+
+LaTeX Warning: Reference `ex-1-30' on page 20 undefined on input line 871.
+
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1797,11 +1805,105 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 20 undefined on input lin
+e 901.
+
+[20]
+
+LaTeX Warning: Reference `ex-1-31' on page 21 undefined on input line 904.
+
+
+LaTeX Warning: Reference `ex-1-32' on page 21 undefined on input line 914.
+
+<./figs/fig-5-11.png, id=219, 670.00313pt x 370.38374pt>
+File: ./figs/fig-5-11.png Graphic file (type png)
+<use ./figs/fig-5-11.png>
+Package pdftex.def Info: ./figs/fig-5-11.png  used on input line 927.
+(pdftex.def)             Requested size: 290.05023pt x 160.34135pt.
+
+LaTeX Warning: Reference `ex-1-33' on page 21 undefined on input line 949.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 21 undefined on input lin
+e 955.
+
+[21 <./figs/fig-5-11.PNG>]
+<./figs/fig-5-12.png, id=227, 435.87843pt x 301.125pt>
+File: ./figs/fig-5-12.png Graphic file (type png)
+<use ./figs/fig-5-12.png>
+Package pdftex.def Info: ./figs/fig-5-12.png  used on input line 964.
+(pdftex.def)             Requested size: 241.70607pt x 166.97931pt.
+
+
+LaTeX Warning: Reference `ex-1-34' on page 22 undefined on input line 971.
+
+<./figs/fig-5-13.png, id=229, 571.38469pt x 387.69844pt>
+File: ./figs/fig-5-13.png Graphic file (type png)
+<use ./figs/fig-5-13.png>
+Package pdftex.def Info: ./figs/fig-5-13.png  used on input line 982.
+(pdftex.def)             Requested size: 241.70607pt x 164.00356pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `ex-1-35' on page 22 undefined on input line 989.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 22 undefined on input lin
+e 1013.
+
+[22 <./figs/fig-5-12.PNG>]
+
+LaTeX Warning: Reference `ex-1-36' on page 23 undefined on input line 1015.
+
+
+LaTeX Warning: Reference `ex-1-37' on page 23 undefined on input line 1028.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 23 undefined on input lin
+e 1037.
+
+[23 <./figs/fig-5-13.PNG>]
+
+LaTeX Warning: Reference `ex-1-38' on page 24 undefined on input line 1050.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 24 undefined on input lin
 e 315.
 
-[20
-
-]
+[24]
 
 LaTeX Warning: Empty bibliography on input line 319.
 
@@ -1830,10 +1932,10 @@ Package logreq Info: Writing requests to 'CA_solution.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31522 strings out of 478268
- 556214 string characters out of 5850346
- 1374008 words of memory out of 5000000
- 48936 multiletter control sequences out of 15000+600000
+ 31588 strings out of 478268
+ 557322 string characters out of 5850346
+ 1374596 words of memory out of 5000000
+ 48989 multiletter control sequences out of 15000+600000
  537242 words of font info for 210 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,19n,117p,1156b,849s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1900,10 +2002,10 @@ e/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb><c:/texlive/2022
 -dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texlive/2022/texmf-dist/
 fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/2022/texmf-dist/fonts/
 type1/uhc/umj/umj34.pfb>
-Output written on CA_solution.pdf (20 pages, 2869003 bytes).
+Output written on CA_solution.pdf (24 pages, 2955878 bytes).
 PDF statistics:
- 499 PDF objects out of 1000 (max. 8388607)
- 317 compressed objects within 4 object streams
- 43 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 533 PDF objects out of 1000 (max. 8388607)
+ 341 compressed objects within 4 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
