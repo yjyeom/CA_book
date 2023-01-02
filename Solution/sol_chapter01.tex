@@ -1061,7 +1061,120 @@ $\cos z =3$은 다음과 동치이다.
 왜냐하면, $z=x+iy=x$가 실수가 되는데 $\cos x =3$을 만족하는 실수 $x$는 없기 때문이다.
 그러므로 식 \eqref{eq-5-16}에서 $\sin x = 0$이다.
 따라서 $x \in \{ n\pi \,:\, n\in\mathbb Z\}$.
-한편, $\cos x = \pm 1$
+한편, $\cos x = \pm 1$이고, 모든 $y\in\mathbb R$에 대하여
+\[
+\cosh y = \dfrac{e^y + e^{-y}}2 > 0
+\]
+이므로 식 \eqref{eq-5-15}에서 $\cos x$는 $-1$이 될 수 없다.
+결론적으로 $x \in \{ 2n\pi \,:\, n\in\mathbb Z\}$이고 $\cos x =1$이다.
+이제 $\cosh y = 3$에서
+\[
+\dfrac{e^y + y^{-y}}2 = 3.
+\]
+즉, $(e^y)^2 - 6e^y+1=0$.
+\[
+e^y = \dfrac{6\pm \sqrt{36-4}}2 = 3 \pm \sqrt{9-1} = 3\pm 2\sqrt{2}
+\]
+에서 $y=\log(3+2\sqrt{2})$ 또는 
+\[
+y=\log(3-2\sqrt{2}) = \log\dfrac{9-8}{3+2\sqrt{2}} = \log \dfrac1{3+2\sqrt{2}} 
+= -\log(3+2\sqrt{2})
+\]
+이므로
+$z \in \{ 2\pi n \pm i \log(3+2\sqrt{2}), n\in\mathbb Z\}$.
+
+역으로, 어떤 $n\in\mathbb Z$에 대하여 $z=2\pi n \pm i \log(3+2\sqrt{2})$라면,
+\begin{align*}
+\cos z &= \underbrace{(\cos(2\pi n))}_{=1} (\cosh (\pm(3\pm2sqrt{2})))
+- i \underbrace{(\sin(2\pi n))}_{=0}(\sinh \cdots)) \\
+&= \cosh(\pm(3\pm 2\sqrt{2})) = \dfrac{e^{\log(3+2\sqrt{2})}+ e^{-\log(3+2\sqrt{2})}}2 \\
+&= \dfrac{3+2\sqrt{2} + (3+2\sqrt{2})^{-1}}2 
+\dfrac{3+2\sqrt{2} + 3-2\sqrt{2}}2 = 3.
+\end{align*}
+종합하면, $\cos z =3$일 필요충분조건은
+$z \in \{ 2\pi n \pm i \log(3+2\sqrt{2}), n\in\mathbb Z\}$이다.
+
+\subsection*{연습문제 \ref{ex-1-39}}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{./figs/fig-5-14}
+\end{center}
+\caption{$\left\{ z \in\mathbb C \,:\, z\ne0, \dfrac\pi4 < |\Arg(z)| < \dfrac\pi3 \right\}$
+}
+\label{fig-5-14}
+\end{figure}
+
+\subsection*{연습문제 \ref{ex-1-40}}
+
+\begin{align*}
+\Log(1+i) &= \Log\left( \sqrt{2} \left( \dfrac1{\sqrt{2}} + i \dfrac1{\sqrt{2}} \right)\right)
+= \Log\left( \sqrt{2} \left( \cos\dfrac\pi4 + i \sin\dfrac\pi4 \right)\right) \\
+&= \Log\left(\sqrt{2}\exp\left(i \dfrac\pi4\right)\right) = \log\sqrt{2} + i \dfrac\pi4.
+\end{align*}
+
+\subsection*{연습문제 \ref{ex-1-41}}
+
+\begin{align*}
+\Log(-1) &= \Log(1\cdot \exp(i\pi)) = \log1 +i\pi = 0 + i\pi = i\pi, \\
+\Log(1) &= \Log(1\cdot \exp(i0) = \log\sqrt{2} + i \dfrac\pi4.
+\end{align*}
+$z=-1$이면,
+$\Log(z^2) = \Log((-1)^2) = \Log(1) = 0$인 반면,
+$2\cdot\Log(z) = 2\cdot \Log(-1) = 2\cdot i\pi$. 
+따라서 $z=-1$일 때,
+\[
+\Log(z^2) = 0 \ne 2\cdot i\pi = 2\cdot \Log(z).
+\]
+
+\subsection*{연습문제 \ref{ex-1-42}}
+
+$\mathbb A:= \{ z \in \mathbb C \,:\, 1 < z < e \}$라 하면,
+$z\in \mathbb A$일 필요충분조건은 $ z=r\exp(i\Arg(z))$이고
+$1<r<e$, $\Arg(z)\in (-\pi,\pi]$이다.
+이런 $z$에 대하여
+\[
+\Log(z) = \Log(r\exp(i\Arg(z))) = \log r + i\Arg(z)
+\]
+이고 $0=\log 1 < \log r < \log e = 1$이다.
+따라서 상은 직사각형
+\[
+\mathbb I := \{ x+iy\,:\, 0<x<1, -\pi <y<\pi \}
+\]
+가 된다.
+
+\begin{figure*}[h!]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{./figs/fig-s-0-5}
+\end{center}
+%\caption{$\left\{ z \in\mathbb C \,:\, z\ne0, \dfrac\pi4 < |\Arg(z)| < \dfrac\pi3 \right\}$}
+%\label{fig-5-14}
+\end{figure*}
+
+역으로, $x+iy\in\mathbb I$이면,
+$z:= \exp(x+iy) = e^x\exp(iy)\in \mathbb A$이다.
+왜냐하면, $|z|=e^x \in (1,e)$이고 
+$\Log(z) = \Log (e^x \exp(iy)) = \log e^x + iy = x+iy$이기 때문이다.
+따라서 $\mathbb A$의 $\Log$함수에 대한 상은 정확히 $\mathbb I$와 일치한다.
+
+\subsection*{연습문제 \ref{ex-1-43}}
+
+$(1+i)^{1-i}$의 주치는 $\exp((1-i)\Log(1+i))$이다.
+\[
+\Log(1+i)  = \Log \left( \sqrt{2}\exp\left(i \dfrac\pi4\right)\right)
+= \log\sqrt{2} + i \dfrac\pi4.
+\]
+따라서 $(1+i)^{1-i}$의 주치를 계산하면,
+\begin{align*}
+\exp((1-i)\Log(1+i)) &= \exp\left( (1-i)\left(\log\sqrt{2} + i \dfrac\pi4\right)\right) \\
+&= e^{\log\sqrt{2} + \frac\pi4} \exp \left( i\left( \dfrac\pi4 - \log\sqrt{2} \right)\right) \\
+&= \sqrt{2} e^{\frac\pi4} \dfrac{(1+i)}{\sqrt{2}} \exp\left(-i\log\sqrt{2}\right) \\
+&=e^{\frac\pi4}(1+i)\left(\cos (\log\sqrt{2}) - i \sin(\log\sqrt{2})\right).
+\end{align*}
+
+
+
+
 
 
 

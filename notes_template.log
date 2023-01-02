@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  2 JAN 2023 00:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.25)  2 JAN 2023 13:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4835,15 +4835,21 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `notes_template.out' has not changed.
-(rerunfilecheck)             Checksum: 2A2AF1F9EB373CD0762C50D293CBA319;7268.
+
+Package rerunfilecheck Warning: File `notes_template.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `notes_template.out':
+(rerunfilecheck)             Before: CB89CC97645C1F63738EC43DA87E1D55;7325
+(rerunfilecheck)             After:  2A2AF1F9EB373CD0762C50D293CBA319;7268.
 Package logreq Info: Writing requests to 'notes_template.run.xml'.
 \openout1 = `notes_template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
  38656 strings out of 478268
- 690813 string characters out of 5850346
+ 690813 string characters out of 5850345
  1518082 words of memory out of 5000000
  54893 multiletter control sequences out of 15000+600000
  602309 words of font info for 418 fonts, out of 8000000 for 9000
