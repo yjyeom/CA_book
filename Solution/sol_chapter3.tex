@@ -59,6 +59,163 @@ i \dfrac{\partial v}{\partial x}(x(t),y(t)) \right) (x'(t) + iy'(t)) \\
 \end{align*}
 \end{itemize}
 
+\subsection*{연습문제 \ref{ex-3-4}}
+
+\begin{itemize}
+\item[(1)] $\gamma(t) =(1+i)t$, $t\in[0,1]$이므로,
+$\dint_\gamma \Re(z)dz = \dint_0^1 t(1+i)dt = \dfrac{1+i}2$. 
+\item[(2)] $\gamma(t) =1+\exp(it)$, $t\in[-\pi/2,0]$이므로, 
+\begin{align*}
+\int_\gamma \Re(z) dz &= \int_{-\pi/2}^0 (\cos t)i\exp(it)dt
+= \int_{-\pi/2}^0 i(\cos t)^2 -(\cos t)(\sin t)dt \\
+&= \int_{-\pi/2}^0 \left( i\dfrac{\cos(2t)+1}2 - \dfrac{\sin(2t)}2 \right) dt \\
+&= 0 + i\cdot \dfrac12 \cdot \dfrac \pi2 + \dfrac12 = \dfrac12 + i\dfrac\pi4.
+\end{align*}
+\item[(3)] $\gamma(t) =t+it^ 2$, $t\in[0,1]$이므로,
+\[
+\int_\gamma \Re(z) dz  = \int_0^1 t\cdot(1+2it)dt = \dfrac12 + 2i\cdot\dfrac13 
+=\dfrac12 + \dfrac23i.
+\]
+\end{itemize}
+
+\subsection*{연습문제 \ref{ex-3-5}}
+
+이항정리에 의하여
+\[
+(1+z)^n = \sum_{\ell = 0}^n  {n \choose \ell} z^\ell 1^{n-\ell} 
+\sum_{\ell = 0}^n  {n \choose \ell} z^\ell.
+\]
+$0\le k \le n$에 대하여,
+\[
+\dfrac{(1+z)^n}{z^{k+1}} =\sum_{\ell = 0}^n  {n \choose \ell} z^{\ell-k-1}
+\]
+이므로
+\begin{align*}
+\dfrac1{2\pi i} \int_C \dfrac{(1+z)^n}{z^{k+1}}dz
+&= \dfrac1{2\pi i} \int_C \sum_{\ell = 0}^n  {n \choose \ell} z^{\ell-k-1} dz \\
+&  \sum_{\ell = 0}^n  {n \choose \ell} \dfrac1{2\pi i} \int_C  z^{\ell-k-1}dz
+= {n \choose k}.
+\end{align*}
+
+\subsection*{연습문제 \ref{ex-3-6}}
+\begin{itemize}
+\item[(1)]
+$U_f, V_f, U_g, V_g:[a,b] \to \mathbb R$에 대하여
+$f(\gamma(t))\gamma'(t) = U_f(t) + iV_f(t)$,
+$g(\gamma(t))\gamma'(t) = U_g(t) + iV_g(t)$, $t\in[a,b]$라고 하자.
+
+\begin{align*}
+\int_\gamma (f+g)(z)dz
+&= \int_a^b (f+g)(\gamma(t))\cdot \gamma'(t)dt \\
+&= \int_a^b \left( f(\gamma(t))\cdot \gamma'(t) + g(\gamma(t))\cdot \gamma'(t) \right) dt\\
+&= \int_a^b (U_f(t) + U_g(t)) dt + i \int_a^b (V_f(t) + V_g(t)) dt \\
+&= \int_a^b U_f(t)dt + \int_a^b V_f(t)dt + i\int_a^b V_f(t)dt + i\int_a^b V_g(t)dt \\
+&= \int_\gamma f(z)dz + \int_\gamma g(z)dz.
+\end{align*}
+
+\item[(2)] $\alpha = p+iq$ ($p,q\in\mathbb R$)이고
+$U,V:  [a,b] \to \mathbb R$에 대하여
+$f(\gamma(t))\gamma'(t)  = U(t) + iV(t)$, $t\in[a,b]$라 하자.
+그러면,
+\begin{align*}
+\int_\gamma (\alpha\cdot f)(z) dz
+&= \int_a^b (p+iq)(U(t) + iV(t))dt \\
+&= \int_a^b(pU(t) - qV(t))dt + i\int_a^b (pV(t) + qU(t))dt \\
+&= p \left(\int_a^b U(t)dt + i \int_a^b V(t)dt \right)
++ iq\left(\int_a^b U(t)dt + i \int_a^b V(t)dt \right) \\
+&= (p+iq)\left(\int_a^b U(t)dt + i \int_a^b V(t)dt \right)
+= \alpha \cdot \int_\gamma f(z)dz.
+\end{align*}
+\end{itemize}
+
+\subsection*{연습문제 \ref{ex-3-7}}
+
+$-(-\gamma): [a,b] \to \mathbb C$는 다음 식으로 주어진다.
+\[
+(-(-\gamma))(t)= (-\gamma)(a+b-t) = \gamma(a+b-(a+b-t)) = \gamma(t),
+\quad t\in[a,b].
+\]
+따라서 $-(-\gamma) = \gamma$이며, 그림으로 보면 직관적으로 명백하다.
+
+\subsection*{연습문제 \ref{ex-3-8}}
+
+$\gamma(b) = (-\gamma)(a)$이므로
+$\gamma$와 $-\gamma$는 결합가능한 경로이다.
+\[
+\int_{\gamma+(-\gamma)} f(z) dz = \int_\gamma f(z) dz + \int_{-\gamma} f(z)dz
+=  \int_\gamma f(z) dz - \int_\gamma f(z) dz = 0.
+\]
+
+\subsection*{연습문제 \ref{ex-3-9}}
+
+$\gamma:[0,1] \to \mathbb C$를 $\gamma(t) = (1+i)t$, $t\in [0,1]$이라 하자.
+피타고라스 정리를 쓰면, $\gamma$의 길이는 $\sqrt{1^2+1^2} = \sqrt{2}$.
+
+\begin{figure*}[h!]
+\begin{center}
+\includegraphics[width=0.3\textwidth]{./figs/fig-s-0-8}
+\end{center}
+%\caption{$\left\{ z \in\mathbb C \,:\, z\ne0, \dfrac\pi4 < |\Arg(z)| < \dfrac\pi3 \right\}$}
+%\label{fig-5-14}
+\end{figure*}
+
+또한 $|(\gamma(t))^2| = |t+it|^2 = 2t^2$이고,
+$\max\limits_{t\in[0,1]} |(\gamma(t))^2| = 2\cdot 1^2 = 2$.
+따라서
+\[
+\left| \int_\gamma z^2dz \right|
+\le \left( \max\limits_{t\in[0,1]} |(\gamma(t))^2|  \right) \cdot
+(\text{$\gamma$의 길이})
+= 2\sqrt{2}.
+\]
+직접 계산하면,
+\begin{align*}
+\int_\gamma z^2 dz = \int_0^1 (t+it)^2\cdot(1+i)dt
+= \int_0^1 (1+i)^3t^2dt = \dfrac{(1+i)^3}3
+\end{align*}
+이므로
+$\left| \dint_\gamma z^2 dz \right| = \dfrac{(\sqrt{3})^3}3 = \dfrac{2\sqrt{2}}3$.
+
+\subsection*{연습문제 \ref{ex-3-10}}
+
+\begin{align*}
+{2n \choose n} = \left|  {2n \choose n} \right|
+&= \left| \dfrac1{2\pi i}\int_C \dfrac{(1+z)^{2n}}{z^{n+1}}dz \right| \\
+&\le \dfrac1{2\pi} \left( \max_{|z|=1} \left| \dfrac{(1+z)^{2n}}{z^{n+1}}\right| \right)
+\cdot 2\pi\cdot 1 = \max_{|z|=1} \dfrac{|1+z|^{2n}}1 \\
+&\le (1+1)^{2n} = 2^{2n} = 4^n.
+\end{align*}
+
+\subsection*{연습문제 \ref{ex-3-11}}
+
+$F=U+iV$를 $\bar z \in \mathbb C$의 부정적분이라고 하자.
+그러면,
+\[
+\dfrac{\partial U}{\partial x}  + i \dfrac{\partial V}{\partial x}
+= \dfrac{\partial V}{\partial y} - i\dfrac{\partial U}{\partial y}
+= F' = \bar z = x-iy.
+\]
+
+$x_0\in\mathbb R$을 고정하자. 그러면 $(x,y)\in\mathbb R^2$에 대하여
+\[
+V(x,y ) - V(x_0, y) = \int_{x_0}^x \dfrac{\partial V}{\partial x}(\xi, y )d\xi
+= \int_{x_0}^x -y d\xi = -xy +x_0y.
+\]
+따라서 $V(x,y) = -xy + \varphi(y)$, $\varphi(y):+V(x_0,y_0) + x_0y$이면,
+\[
+x  = \dfrac{\partial V}{\partial y} = -x + \varphi'(y).
+\]
+즉, 모든 $x\in\mathbb R$에 대하여 $\varphi'(y) = 2x$인데
+이는 분명 모순이다.
+특히, $2\cdot 1 = 2 = \varphi'(y) = 2\cdot  0 = 0$.
+
+
+
+
+
+
+
+
 %
 
 

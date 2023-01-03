@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.25)  3 JAN 2023 16:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  4 JAN 2023 00:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1144,44 +1144,44 @@ Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 \@quotelevel=\count492
 \@quotereset=\count493
 LaTeX Font Info:    Trying to load font information for OT1+LinuxLibertineT-TLF
- on input line 233.
+ on input line 236.
 
 (c:/texlive/2022/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.fd
 File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 233.
+(Font)              scaled to size 12.0pt on input line 236.
 
 (./CA_solution.aux)
 \openout1 = `CA_solution.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 233.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 236.
+LaTeX Font Info:    ... okay on input line 236.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 236.
+LaTeX Font Info:    ... okay on input line 236.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 236.
+LaTeX Font Info:    ... okay on input line 236.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 236.
+LaTeX Font Info:    ... okay on input line 236.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 236.
+LaTeX Font Info:    ... okay on input line 236.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 236.
+LaTeX Font Info:    ... okay on input line 236.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 236.
+LaTeX Font Info:    ... okay on input line 236.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 236.
 LaTeX Font Info:    Trying to load font information for LUC+nanummj on input li
-ne 233.
+ne 236.
 
 (c:/texlive/2022/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
+LaTeX Font Info:    ... okay on input line 236.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 236.
+LaTeX Font Info:    ... okay on input line 236.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 236.
+LaTeX Font Info:    ... okay on input line 236.
 \c@mv@tabular=\count494
 \c@mv@boldtabular=\count495
 
@@ -1248,7 +1248,7 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                --- It may be the consequence 
 (minitoc(hints))                of loading the ``hyperref'' package.
 
-Package hyperref Info: Link coloring ON on input line 233.
+Package hyperref Info: Link coloring ON on input line 236.
 (c:/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1260,9 +1260,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count503
 )
-LaTeX Info: Redefining \ref on input line 233.
-LaTeX Info: Redefining \pageref on input line 233.
-LaTeX Info: Redefining \nameref on input line 233.
+LaTeX Info: Redefining \ref on input line 236.
+LaTeX Info: Redefining \pageref on input line 236.
+LaTeX Info: Redefining \nameref on input line 236.
 
 (./CA_solution.out) (./CA_solution.out)
 \@outlinefile=\write6
@@ -1317,38 +1317,38 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'CA_solution.bbl' not found.
 
 No file CA_solution.bbl.
-Package biblatex Info: Reference section=0 on input line 233.
-Package biblatex Info: Reference segment=0 on input line 233.
+Package biblatex Info: Reference section=0 on input line 236.
+Package biblatex Info: Reference segment=0 on input line 236.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 243.
+(Font)              scaled to size 20.74pt on input line 246.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 243.
+(Font)              scaled to size 20.74pt on input line 246.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 243.
+(Font)              scaled to size 24.88pt on input line 246.
 LaTeX Font Info:    Font shape `LUC/nanummj/b/n' in size <24.88> not available
 (Font)              Font shape `LUC/nanummj/bx/n' tried instead on input line 2
-43.
+46.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 243.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 243
+(Font)              scaled to size 14.4pt on input line 246.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 246
 .
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 243
+LaTeX Font Info:    Trying to load font information for U+msb on input line 246
 .
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 24
-3.
+6.
 
 (c:/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for LUC+uhcmj on input line
- 243.
+ 246.
 
 (c:/texlive/2022/texmf-dist/tex/latex/kotex-utf/lucuhcmj.fd
 File: lucuhcmj.fd 2013/09/26 UHC Myeongjo font definitions
@@ -2206,7 +2206,9 @@ e 36.
 
 LaTeX Warning: Reference `ex-3-3' on page 38 undefined on input line 38.
 
-)
+
+LaTeX Warning: Reference `ex-3-4' on page 38 undefined on input line 62.
+
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2217,11 +2219,93 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 38 undefined on input lin
-e 315.
+e 67.
 
 [38]
 
-LaTeX Warning: Empty bibliography on input line 319.
+LaTeX Warning: Reference `ex-3-5' on page 39 undefined on input line 81.
+
+
+LaTeX Warning: Reference `ex-3-6' on page 39 undefined on input line 100.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 39 undefined on input lin
+e 114.
+
+[39]
+
+LaTeX Warning: Reference `ex-3-7' on page 40 undefined on input line 131.
+
+
+LaTeX Warning: Reference `ex-3-8' on page 40 undefined on input line 140.
+
+
+LaTeX Warning: Reference `ex-3-9' on page 40 undefined on input line 149.
+
+<./figs/fig-s-0-8.png, id=351, 250.68657pt x 218.31563pt>
+File: ./figs/fig-s-0-8.png Graphic file (type png)
+<use ./figs/fig-s-0-8.png>
+Package pdftex.def Info: ./figs/fig-s-0-8.png  used on input line 156.
+(pdftex.def)             Requested size: 145.02512pt x 126.30334pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 40 undefined on input lin
+e 170.
+
+[40]
+
+LaTeX Warning: Reference `ex-3-10' on page 41 undefined on input line 179.
+
+
+LaTeX Warning: Reference `ex-3-11' on page 41 undefined on input line 189.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 41 undefined on input lin
+e 318.
+
+[41 <./figs/fig-s-0-8.PNG>]
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 42 undefined on input lin
+e 318.
+
+[42]
+
+LaTeX Warning: Empty bibliography on input line 322.
 
 runsystem(makeindex -s index.ist CA_solution.idx)...executed safely (allowed).
 
@@ -2248,11 +2332,11 @@ Package logreq Info: Writing requests to 'CA_solution.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31759 strings out of 478268
- 560291 string characters out of 5850345
+ 31795 strings out of 478268
+ 560779 string characters out of 5850346
  1377219 words of memory out of 5000000
- 49123 multiletter control sequences out of 15000+600000
- 546500 words of font info for 238 fonts, out of 8000000 for 9000
+ 49148 multiletter control sequences out of 15000+600000
+ 548225 words of font info for 245 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,19n,117p,1156b,849s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{c:/tex
@@ -2318,10 +2402,10 @@ e/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb><c:/texlive/2022
 -dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texlive/2022/texmf-dist/
 fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/2022/texmf-dist/fonts/
 type1/uhc/umj/umj34.pfb>
-Output written on CA_solution.pdf (38 pages, 3108868 bytes).
+Output written on CA_solution.pdf (42 pages, 3122075 bytes).
 PDF statistics:
- 639 PDF objects out of 1000 (max. 8388607)
- 413 compressed objects within 5 object streams
- 77 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 659 PDF objects out of 1000 (max. 8388607)
+ 427 compressed objects within 5 object streams
+ 82 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
