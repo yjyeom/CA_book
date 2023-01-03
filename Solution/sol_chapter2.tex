@@ -302,13 +302,214 @@ $u$, $v$를 각각 $f$의 실수부와 허수부라 하자.
 \text{ 이고 }
 \dfrac{\partial u}{\partial y} = - \dfrac{\partial v}{\partial x} = 0.
 \]
-따라서 
+따라서 $(x_0,y_0)\in D$과 $(x, y_0)\in D$를 잇는 직선이  $D$ 내부에 있을 때, 이 직선을 따라 적분하면
 \[
-u(x,y_0) = u(x_0,y_0) = \int_{x_0}^z \dfrac{\partial u}{\partial y}(\xi, y_0) d\xi = 0
+u(x,y_0) - u(x_0,y_0) = \int_{x_0}^x \dfrac{\partial u}{\partial x}(\xi, y_0) d\xi = 0.
 \]
+같은 방법으로 
+ $(x_0,y_0)\in D$과 $(x_0, y)\in D$를 잇는 직선이  $D$ 내부에 있을 때, 
+\[
+u(x_0,y) - u(x_0,y_0) = \int_{y_0}^y \dfrac{\partial u}{\partial y}(x_0, \eta) d\eta = 0.
+\]
+즉, $D$의 내부에서 수평선 또는 수직선을 따라 움직이는 동안 $u$의 값은 변하지 않는다.
+그런데 $D$가 경로연결 집합이므로 $u$는 $D$에서 상수이다.
+(왜냐하면, $D$에 속하는 임의의  두점은 계단형 경로로 연결할 수 있기 때문이다.)
+따라서 $f=u+i0 = u$는 $D$에서 상수이다.
+
+\subsection*{연습문제 \ref{ex-2-13}}
+
+$u$, $v$가 각각 $f$의 실수부와 허수부라고 하자.
+$f'(z) = \dfrac{\partial u}{\partial x} + i \dfrac{\partial v}{\partial x} = 0$이면
+$D$에서
+\[
+\dfrac{\partial u}{\partial x} = \dfrac{\partial v}{\partial x} = 0
+\]
+이고 코시-리만 방정식을 이용하면
+\[
+\dfrac{\partial u}{\partial y} \left( = - \dfrac{\partial v}{\partial x} \right) =0,
+\dfrac{\partial v}{\partial y} \left( = \dfrac{\partial u}{\partial x} \right) =0.
+\]
+따라서   $(x_0,y_0)\in D$과 $(x, y_0)\in D$를 잇는 직선이  $D$ 내부에 있을 때, 이 직선을 따라 적분하면
+\[
+u(x,y_0) - u(x_0,y_0) = \int_{x_0}^x \dfrac{\partial u}{\partial x}(\xi, y_0) d\xi = 0.
+\]
+같은 방법으로 
+ $(x_0,y_0)\in D$과 $(x_0, y)\in D$를 잇는 직선이  $D$ 내부에 있을 때, 
+\[
+u(x_0,y) - u(x_0,y_0) = \int_{y_0}^y \dfrac{\partial u}{\partial y}(x_0, \eta) d\eta = 0.
+\]
+연습문제 \ref{ex-2-13}에서와 같이 
+$D$의 내부에서 수평선 또는 수직선을 따라 움직이는 동안 $u$의 값은 변하지 않는다.
+그런데 $D$가 경로연결 집합이므로 $u$는 $D$에서 상수이다.
+(왜냐하면, $D$에 속하는 임의의  두점은 계단형 경로로 연결할 수 있기 때문이다.)
+따라서 $f=u+iv$는 $D$에서 상수이다.
+
+\subsection*{연습문제 \ref{ex-2-14}}
+
+연쇄법칙으로부터 다음 관계식을 얻는다.
+\[
+\dfrac{\partial u}{\partial x} (x,y) = h'(v(x,y))\dfrac{\partial v}{\partial x}  (x,y),
+\quad
+\dfrac{\partial u}{\partial y} (x,y) = h'(v(x,y))\dfrac{\partial v}{\partial y}  (x,y).
+\]
+코시-리만 방정식을 적용하면
+\begin{align*}
+\dfrac{\partial u}{\partial y} (x,y) 
+&= h'(v(x,y))\dfrac{\partial v}{\partial y}  (x,y)
+= h'(v(x,y))\dfrac{\partial u}{\partial x}  (x,y) \\
+&= h'(v(x,y))\cdot\left( h'(v(x,y))\dfrac{\partial v}{\partial x}(x,y) \right) 
+= (h'(v(x,y))^2\cdot \dfrac{\partial v}{\partial x}(x,y) \\
+&= - (h'(v(x,y))^2\cdot \dfrac{\partial u}{\partial y}(x,y)
+\end{align*}
+이므로
+$(1+(h'(v(x,y)))^2) \dfrac{\partial u}{\partial y}(x,y) = 0$.
+$(1+(h'(v(x,y)))^2)\ge0 >1$로부터
+\[
+\dfrac{\partial u}{\partial y}(x,y) = 0.
+\]
+코시-리만 방정식을 다시 적용하면
+\[
+\dfrac{\partial v}{\partial x}(x,y) = - \dfrac{\partial u}{\partial y}(x,y) = 0
+\]
+도 얻으며, 이로부터
+\[
+\dfrac{\partial u}{\partial x} (x,y) = h'(v(x,y))\dfrac{\partial v}{\partial x}  (x,y)
+= h'(v(x,y))\cdot 0 = 0
+\]
+이고 코시-리만 방정식을 한번 더 적용하면,
+\[
+\dfrac{\partial v}{\partial y}(x,y) = \dfrac{\partial u}{\partial x}(x,y) = 0.
+\]
+이제 모든 편도함수가 $0$이 되므로,
+$u$는 수평, 수직방향을 따라 상수이다.
+$D$가 영역이므로, 경로연결 집합이고, 임의의 두 점이 계단형 경로로 연결가능하다.
+따라서 $u$는 $D$에서 상수함수이다.
+같은 방법이로, $v$도 $D$에서 상수함수이며,
+$f=u+iv$도 상수함수가 된다.
+
+\subsection*{연습문제 \ref{ex-2-15}}
+
+($\Leftarrow$)
+
+$k=2$라고 하면,
+\[
+f(z) = x^2-y^2 + 2xyi = x^2 + (iy)^2 + 2x(iy) = (x+iy)^2 = z^2.
+\]
+예제 \ref{example-2-1}에 의하여 $f$는 전해석함수이다.
+
+\noindent($\Rightarrow$)
+
+이제 $f$가 전해석함수라고  가정하자.
+그러면 모든 점에서 코시-리만 방정식을 만족해야 하므로, 모든 $x, y\in \mathbb R$에 대하여
+\[
+\dfrac{\partial u}{\partial x} = 2x = kx = \dfrac{\partial v}{\partial y}.
+\]
+특히 $x=1$로 잡으면, $k=2$을 얻는다.
+
+\subsection*{연습문제 \ref{ex-2-16}}
+
+$z-z_0$의 길이가 $|z_0|\tan(d\theta) \approx |z_0| d\theta$이므로
+$z^n-z_0^n$의 길이는 $|z_0|^n\tan(nd\theta) \approx |z_0|^nnd\theta$이다.
+따라서 국소적으로 $z\mapsto z^n$에 의한 확대비율은
+\[
+ \dfrac{|z^n-z_0^n|}{|z-z_0|} \approx \dfrac{|z_0|^n nd\theta}{|z_0|d\theta}
+ = n|z_0|^{n-1}
+\]
+이고, 그림에 따르면 반시계방향으로 $(n-1)\theta$만큼 회전한 변환이다.
+\begin{align*}
+f'(z_0) &= n|z_0|^{n-1} ( \cos((n-1)\theta) + i\sin((n-1)\theta) ) \\
+&= n(|z_0|(\cos\theta + i\sin\theta))^{n-1} = nz_0^{n-1}.
+\end{align*}
+결론적으로, 모든 $\mathbb C$에 대하여 $\dfrac d{dz} z^n = nz^{n-1}$.
+
+\begin{figure*}[h!]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{./figs/fig-s-0-6}
+\end{center}
+%\caption{$\left\{ z \in\mathbb C \,:\, z\ne0, \dfrac\pi4 < |\Arg(z)| < \dfrac\pi3 \right\}$}
+%\label{fig-5-14}
+\end{figure*}
+
+\subsection*{연습문제 \ref{ex-2-17}}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.7\textwidth]{./figs/fig-5-15}
+\end{center}
+\caption{$\exp$ 함수에 의한 국소적인 확대비율
+}
+\label{fig-5-15}
+\end{figure}
+
+그림 \ref{fig-5-15}에서
+확대비율은
+\[
+\dfrac{e^x\cdot \delta}{\delta} = e^x
+\]
+이다. 
+아래 그림과 같이 반시계방향으로  $y$만큼 회전하는 변환이므로
+$z_0$에서 복소미분은 $e^x(\cos y + i\sin y) = \exp(x+iy)$,
+즉, $\exp' z = \exp z$이다.
+
+\begin{figure*}[h!]
+\begin{center}
+\includegraphics[width=0.7\textwidth]{./figs/fig-s-0-7}
+\end{center}
+%\caption{$\left\{ z \in\mathbb C \,:\, z\ne0, \dfrac\pi4 < |\Arg(z)| < \dfrac\pi3 \right\}$}
+%\label{fig-5-14}
+\end{figure*}
+
+\subsection*{연습문제 \ref{ex-2-18}}
+
+$z_0 \in \mathbb C$에 대하여,
+$z_0$를 기울기 $1$인 직선을 따라 $\delta$만큼 움직인 점을 $z$라고 하자.
+유사한 방법으로 $z_0$를 수평선을 따라 왼쪽으로 $\delta$만큼 이동한 점을 $\tilde z$라고 하자.
+실수부를 취하는 함수 $\Re(\cdot)$가 $z_0$에서 미분가능하다고 가정하자.
+그림 \ref{fig-5-16}에서 $z$ 와 $\tilde z$를 $\Re(\cdot)$로 보낸 점을 보면 
+국소적으로 각각 $45^\circ$와 $0^\circ$ 회전한 것으로 다른 회전량을 갖는다.
+이는 일어날 수 없는 경우로 복소미분가능하다는 가정에 모순이다.
+$z_0\in \mathbb C$의 선택을 임의로  할 수 있으므로
+이 함수는 모든 점에서 복소미분불가능하다.
 
 
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.7\textwidth]{./figs/fig-5-16}
+\end{center}
+\caption{함수 $\Re(\cdot)$의 복소미분 불가능성}
+\label{fig-5-16}
+\end{figure}
 
+\subsection*{연습문제 \ref{ex-2-19}}
+
+$u,v\in C^2$인 $f=u+iv$는 두번 연속미분가능하므로
+\begin{align*}
+4\dfrac\partial{\partial z}\dfrac\partial{\partial \bar z}f
+&= \cancel{4}\cdot \dfrac1{\cancel{2}} \left(\dfrac\partial{\partial x} - i \dfrac\partial{\partial y} \right)
+\cdot\dfrac1{\cancel{2}} \left( \dfrac{\partial u}{\partial x} + i \dfrac{\partial u}{\partial y}
++ i \left( \dfrac{\partial v}{\partial x} + i \dfrac{\partial v}{\partial y} \right) \right) \\
+&=\left(\dfrac\partial{\partial x} - i \dfrac\partial{\partial y} \right)
+\left( \dfrac{\partial u}{\partial x} + i \dfrac{\partial u}{\partial y}
++ i \left( \dfrac{\partial v}{\partial x} + i \dfrac{\partial v}{\partial y} \right) \right) \\
+&= \dfrac{\partial^2 u}{\partial x^2} - \dfrac{\partial^2 v}{\partial x \partial y}
++ i \dfrac{\partial^2 u}{\partial x \partial y} + i\dfrac{\partial^2 v}{\partial x^2}
+- i \dfrac{\partial^2 u}{\partial y \partial x} + i \dfrac{\partial^2 v}{\partial y^2}
++ \dfrac{\partial^2 u}{\partial y^2}  + \dfrac{\partial^2 v}{\partial y\partial x}  \\
+&= \dfrac{\partial^2 u}{\partial x^2} + \dfrac{\partial^2 u}{\partial y^2} 
++ i\left( \dfrac{\partial^2 v}{\partial x^2} + \dfrac{\partial^2 v}{\partial y^2} \right)
++ i\left( \dfrac{\partial^2 u}{\partial x\partial y} - \dfrac{\partial^2 u}{\partial y\partial x} \right)
++ \dfrac{\partial^2 v}{\partial y\partial x}  - \dfrac{\partial^2 v}{\partial x\partial y} .
+\end{align*}
+그런데 $u,v\in C^2$이므로
+$\ \dfrac{\partial^2 u}{\partial x\partial y} - \dfrac{\partial^2 u}{\partial y\partial x} = 0
+= \dfrac{\partial^2 v}{\partial y\partial x} - \dfrac{\partial^2 v}{\partial x\partial y}$이고,
+\[
+4\dfrac\partial{\partial z}\dfrac\partial{\partial \bar z}f
+= \dfrac{\partial^2 u}{\partial x^2} + \dfrac{\partial^2 u}{\partial y^2} 
++ i \left( \dfrac{\partial^2 v}{\partial x^2} + \dfrac{\partial^2 v}{\partial y^2} \right)
+= \left( \dfrac{\partial^2}{\partial x^2} + \dfrac{\partial^2}{\partial y^2} \right)(u+iv)
+= \Delta f.
+\]
 
 
 

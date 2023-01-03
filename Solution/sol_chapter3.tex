@@ -1,0 +1,64 @@
+% !TEX root = ./CA_solution.tex
+
+\section*{3장 - 연습문제 풀이}
+
+\subsection*{연습문제 \ref{ex-3-1}}
+
+$\gamma_1 = \cos t + i\sin t$, $\gamma_2 = \cos (2t) + i\sin (2t)$,
+$\gamma_3 = \cos t - i\sin t$이므로
+$k=1,2,3$ 각각의 경우 모두 $(\Re(\gamma_k(t)))^2 + (\Im(\gamma_k(t)))^2=1$이다.
+$\gamma_k$의 상은 중심이 $0$이고 반지름이 $1$인 원 $\mathbb T$에 있다.
+$\theta \in [0,2\pi)$에 대하여 $z = \exp(i\theta)$이면,
+$z = \gamma_1(\theta) = \gamma_2(\theta/2) = \gamma_3(2\pi - \theta)$이다.
+따라서 $\mathbb T$위의 모든 점은 $\gamma_1, \gamma_2, \gamma_3$ 각각에 의한 상에
+속한다.
+\begin{align*}
+\int_{\gamma_1} \dfrac1z dz &= \int_0^{2\pi} \dfrac1{\exp(it)}\cdot i\exp(it)dt = 2\pi i, \\
+\int_{\gamma_2} \dfrac1z dz &= \int_0^{2\pi} \dfrac1{\exp(2it)}\cdot 2i\exp(2it)dt = 4\pi i, \\
+\int_{\gamma_3} \dfrac1z dz &= \int_0^{2\pi} \dfrac1{\exp(-it)}\cdot (-i)\exp(-it)dt = -2\pi i.
+\end{align*}
+
+\subsection*{연습문제 \ref{ex-3-2}}
+
+실함수 $x,y$에 대하여 $\gamma(t) = x(t) +iy(t)$, $t\in[0,1]$라 하자.
+또한, $u,v$를 각각 함수 $f$의 실수부와 허수부라 하면,
+\begin{align*}
+f'(\gamma(t))\cdot\gamma'(t)
+&= \left( \dfrac{\partial u}{\partial x}(x(t),y(t)) +
+i \dfrac{\partial v}{\partial x}(x(t),y(t)) \right) (x'(t) + iy'(t)) \\
+&= \dfrac{\partial u}{\partial x}(x(t),y(t)) \cdot x'(t) - \dfrac{\partial v}{\partial x}y'(t) \\
+&\qquad +i\left( \dfrac{\partial u}{\partial x}(x(t),y(t)) \cdot y'(t) + \dfrac{\partial v}{\partial x}x'(t) \right) \\
+&= \dfrac{\partial u}{\partial x}(x(t),y(t)) \cdot x'(t) + \dfrac{\partial u}{\partial y}y'(t) \\
+&\qquad +i\left( \dfrac{\partial v}{\partial y}(x(t),y(t)) \cdot y'(t) + \dfrac{\partial v}{\partial x}x'(t) \right) \\
+&\qquad\qquad \text{(코시-리만 방정식을 적용함)} \\
+&= \dfrac d{dt} u(x(t), y(t)) + i \dfrac d{dt} v(x(t),y(t)) \quad\text{(연쇄법칙을 적용함)} \\
+&= \dfrac d{dt} (u(x(t), y(t)) + i v(x(t),y(t))) = \dfrac d{dt} f(\gamma(t)).
+\end{align*}
+
+\subsection*{연습문제 \ref{ex-3-3}}
+
+원형경로 $\gamma$를 $\gamma(t) = 2\exp(it)$, $t\in[0,2\pi]$라 하자.
+\begin{itemize}
+\item[(1)] 
+\begin{align*}
+\int_\gamma (z+\bar z) dz & = \int_0^{2\pi} (2\exp(it) + 2\exp(-it))\cdot 2i \cdot \exp(it) dt \\
+&= 4i\int_0^{2\pi} (\exp(2it) +1)dt - 4i\cdot 0 + 4i\cdot 2\pi = 8\pi i.
+\end{align*}
+\item[(2)] 
+\begin{align*}
+\int_\gamma (z^2-2z+3) dz & = \int_0^{2\pi} (4\exp(2it) - 4\exp(it)+3)\cdot 2i \cdot \exp(it) dt \\
+&= \int_0^{2\pi} i(8\exp(3it) - 8\exp(2it) + 6\exp(it))dt  = 0+0+0 =0.
+\end{align*}
+\item[(3)] 
+\begin{align*}
+\int_\gamma xy dz & = \int_0^{2\pi}  2\cos t\cdot 2\sin t \cdot 2i \cdot(\cos t +i\sin t) dt \\
+&= 4i\int_0^{2\pi} (\sin (2t))(\cos t + i\sin t)dt \\
+&= 4i\int_{-\pi}^\pi \underbrace{(\sin(2t))\cos t}_{\text{기함수}} dt
+- 2\int_0^{2\pi} (\cos t - \cos(3t))dt \\
+&=0 - 2(0-0) = 0.
+\end{align*}
+\end{itemize}
+
+%
+
+
