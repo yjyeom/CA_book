@@ -209,7 +209,57 @@ x  = \dfrac{\partial V}{\partial y} = -x + \varphi'(y).
 이는 분명 모순이다.
 특히, $2\cdot 1 = 2 = \varphi'(y) = 2\cdot  0 = 0$.
 
+\subsection*{연습문제 \ref{ex-3-12}}
 
+$(fg)' = fg' + f'g$이므로
+함수 $\zeta \mapsto f(\zeta)g'(\zeta) + f'(\zeta)g(\zeta)$는 
+부정적분을 갖는다.
+따라서 경로적분의 기본정리에 의하여
+\[
+\int_\gamma \left( f(\zeta)g'(\zeta) + f'(\zeta)g(\zeta) \right) d\zeta
+= f(z)g(z) - f(w)g(w)
+\]
+이고 이를 정리하면 원하는 결과를 얻는다.
+
+\subsection*{연습문제 \ref{ex-3-13}}
+
+$\mathbb C$에서 $\sin' z = \cos z$이므로 $\cos z$는 부정적분을 갖는다.
+따라서 경로적분의 기본정리에 의하여
+\begin{align*}
+\int_\gamma \cos z \, dz 
+&= \sin i - \sin (-i) = 2\sin i = 2\dfrac{\exp(i\cdot i) - \exp(-i\cdot i)}{2i}
+= \dfrac{e^{-1} - e^{1}}i \\
+&= \left( e - \dfrac1e \right)i.
+\end{align*}
+
+
+\subsection*{연습문제 \ref{ex-3-14}}
+
+$\mathbb C$에서  $\exp' z = \exp z$이므로
+$0$과 $a+ib$를 잇는 경로 $\gamma$를 따라 적분하면
+\[
+\int_\gamma \exp z\, dz = \exp(a+ib) - \exp 0 = e^a(\cos b + i \sin b) -1
+= e^a\cos b -1 +ie^a\sin b.
+\]
+ 경로를 $\gamma(x) = (a+ib)x$, $x\in[0,1]$로 잡으면,
+\[
+\int_\gamma \exp z\, dz = \int_0^1 \exp(a+ib)\cdot (a+ib)dx
+= \int_0^1 e^{ax}(\cos(bx) + i\sin(bx))(a+ib)dx.
+\]
+ 따라서,
+$(a-ib)\dint_\gamma \exp z\, dz = \dint_0^1 e^{ax}(\cos(bx) + i\sin(bx))(a^2+b^2)dx$이고,
+\begin{align*}
+(a^2+b^2) \int_0^1 e^{ax} \cos (bx)dx
+&= \Re\left( (a-ib)\int_\gamma \exp z\, dz \right) \\
+&= \Re((a-ib)(e^a\cos b -1 + ie^a\sin b)) \\
+&= a(e^a\cos b -1) + be^a \sin b.
+\end{align*}
+즉,
+$\dint_0^1 e^{ax}\cos(bx)\, dx = \dfrac{a(e^a\cos b - 1) + be^a\sin b}{a^2+b^2}$.
+
+\subsection*{연습문제 \ref{ex-3-15}}
+
+중심이 $0$이고 반지름 $r>0$인 원을 반시계방향으로 도는 닫힌경로 $C$를 생각하자.
 
 
 

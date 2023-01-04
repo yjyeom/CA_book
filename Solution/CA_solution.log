@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  4 JAN 2023 00:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.25)  4 JAN 2023 13:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2277,7 +2277,6 @@ LaTeX Warning: Reference `ex-3-10' on page 41 undefined on input line 179.
 
 LaTeX Warning: Reference `ex-3-11' on page 41 undefined on input line 189.
 
-)
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2288,9 +2287,22 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 41 undefined on input lin
-e 318.
+e 212.
 
 [41 <./figs/fig-s-0-8.PNG>]
+
+LaTeX Warning: Reference `ex-3-12' on page 42 undefined on input line 212.
+
+
+LaTeX Warning: Reference `ex-3-13' on page 42 undefined on input line 224.
+
+
+LaTeX Warning: Reference `ex-3-14' on page 42 undefined on input line 236.
+
+
+LaTeX Warning: Reference `ex-3-15' on page 42 undefined on input line 260.
+
+)
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2304,6 +2316,34 @@ LaTeX Warning: Hyper reference `toc-contents' on page 42 undefined on input lin
 e 318.
 
 [42]
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 43 undefined on input lin
+e 318.
+
+[43]
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 44 undefined on input lin
+e 318.
+
+[44
+
+]
 
 LaTeX Warning: Empty bibliography on input line 322.
 
@@ -2332,10 +2372,10 @@ Package logreq Info: Writing requests to 'CA_solution.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31795 strings out of 478268
- 560779 string characters out of 5850346
+ 31801 strings out of 478268
+ 560829 string characters out of 5850345
  1377219 words of memory out of 5000000
- 49148 multiletter control sequences out of 15000+600000
+ 49152 multiletter control sequences out of 15000+600000
  548225 words of font info for 245 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,19n,117p,1156b,849s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2402,10 +2442,10 @@ e/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb><c:/texlive/2022
 -dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texlive/2022/texmf-dist/
 fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/2022/texmf-dist/fonts/
 type1/uhc/umj/umj34.pfb>
-Output written on CA_solution.pdf (42 pages, 3122075 bytes).
+Output written on CA_solution.pdf (44 pages, 3125781 bytes).
 PDF statistics:
- 659 PDF objects out of 1000 (max. 8388607)
- 427 compressed objects within 5 object streams
- 82 named destinations out of 1000 (max. 500000)
+ 668 PDF objects out of 1000 (max. 8388607)
+ 434 compressed objects within 5 object streams
+ 84 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
