@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  5 JAN 2023 01:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  7 JAN 2023 01:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1153,7 +1153,14 @@ LinuxLibertineT-TLF.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 236.
 
-(./CA_solution.aux)
+(./CA_solution.aux
+
+LaTeX Warning: Label `fig-5-17' multiply defined.
+
+
+LaTeX Warning: Label `fig-5-17@cref' multiply defined.
+
+)
 \openout1 = `CA_solution.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 236.
@@ -1173,8 +1180,7 @@ LaTeX Font Info:    ... okay on input line 236.
 LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 236.
 LaTeX Font Info:    Trying to load font information for LUC+nanummj on input li
 ne 236.
-
-(c:/texlive/2022/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
+ (c:/texlive/2022/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
 LaTeX Font Info:    ... okay on input line 236.
@@ -2392,7 +2398,7 @@ e 445.
 
 LaTeX Warning: Reference `ex-3-20' on page 47 undefined on input line 449.
 
-<./figs/fig-5-18.png, id=391, 345.54094pt x 344.78813pt>
+<./figs/fig-5-18.png, id=392, 345.54094pt x 344.78813pt>
 File: ./figs/fig-5-18.png Graphic file (type png)
 <use ./figs/fig-5-18.png>
 Package pdftex.def Info: ./figs/fig-5-18.png  used on input line 453.
@@ -2426,7 +2432,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 48 undefined on input lin
 e 536.
 
 [48]
-<./figs/fig-5-19.png, id=404, 296.60812pt x 162.6075pt>
+<./figs/fig-5-19.png, id=405, 296.60812pt x 162.6075pt>
 File: ./figs/fig-5-19.png Graphic file (type png)
 <use ./figs/fig-5-19.png>
 Package pdftex.def Info: ./figs/fig-5-19.png  used on input line 566.
@@ -2448,7 +2454,7 @@ e 583.
 
 LaTeX Warning: Reference `ex-3-22' on page 50 undefined on input line 586.
 
-<./figs/fig-s-0-10.png, id=412, 474.27188pt x 374.90062pt>
+<./figs/fig-s-0-10.png, id=413, 474.27188pt x 374.90062pt>
 File: ./figs/fig-s-0-10.png Graphic file (type png)
 <use ./figs/fig-s-0-10.png>
 Package pdftex.def Info: ./figs/fig-s-0-10.png  used on input line 590.
@@ -2481,7 +2487,7 @@ LaTeX Warning: Reference `ex-3-24' on page 51 undefined on input line 625.
 
 LaTeX Warning: Reference `ex-3-25' on page 51 undefined on input line 649.
 
-<./figs/fig-s-0-11.png, id=420, 497.60907pt x 374.90062pt>
+<./figs/fig-s-0-11.png, id=421, 497.60907pt x 374.90062pt>
 File: ./figs/fig-s-0-11.png Graphic file (type png)
 <use ./figs/fig-s-0-11.png>
 Package pdftex.def Info: ./figs/fig-s-0-11.png  used on input line 653.
@@ -2508,7 +2514,7 @@ LaTeX Warning: Reference `ex-3-26' on page 52 undefined on input line 679.
 
 LaTeX Warning: Reference `ex-3-27' on page 52 undefined on input line 698.
 
-<./figs/fig-5-20.png, id=425, 298.11375pt x 249.93375pt>
+<./figs/fig-5-20.png, id=426, 298.11375pt x 249.93375pt>
 File: ./figs/fig-5-20.png Graphic file (type png)
 <use ./figs/fig-5-20.png>
 Package pdftex.def Info: ./figs/fig-5-20.png  used on input line 702.
@@ -2542,7 +2548,12 @@ e 742.
 
 LaTeX Warning: Reference `ex-3-28' on page 54 undefined on input line 760.
 
-)
+
+LaTeX Warning: Reference `ex-3-29' on page 54 undefined on input line 783.
+
+
+LaTeX Warning: Reference `ex-3-30' on page 54 undefined on input line 790.
+
 
 Package fancyhdr Warning: \headheight is too small (13.6pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2553,9 +2564,260 @@ Package fancyhdr Warning: \headheight is too small (13.6pt):
 
 
 LaTeX Warning: Hyper reference `toc-contents' on page 54 undefined on input lin
-e 318.
+e 799.
 
 [54]
+
+LaTeX Warning: Reference `ex-3-31' on page 55 undefined on input line 803.
+
+
+LaTeX Warning: Reference `eq-3-30' on page 55 undefined on input line 808.
+
+
+LaTeX Warning: Reference `ex-3-32' on page 55 undefined on input line 811.
+
+
+LaTeX Warning: Reference `ex-3-33' on page 55 undefined on input line 831.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 55 undefined on input lin
+e 850.
+
+[55]
+
+LaTeX Warning: Reference `ex-3-34' on page 56 undefined on input line 862.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 56 undefined on input lin
+e 906.
+
+[56]) (./sol_chapter4.tex
+
+LaTeX Warning: Reference `ex-4-1' on page 57 undefined on input line 5.
+
+
+Overfull \hbox (33.72182pt too wide) in paragraph at lines 7--11
+$[] \OML/cmm/m/it/12 a[]$\LUC/nanummj/m/n/12/c7 t \LUC/nanummj/m/n/12/c2 ^^X\LU
+C/nanummj/m/n/12/b8 4\LUC/nanummj/m/n/12/d5 X\LUC/nanummj/m/n/12/ba t\OT1/Linux
+LibertineT-TLF/m/n/12 , $[] []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a[]\OT1/cmr/m/n
+/12 )$\LUC/nanummj/m/n/12/ac ü $[] []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a[]\OT1/
+cmr/m/n/12 )$\LUC/nanummj/m/n/12/b3 Ä \LUC/nanummj/m/n/12/ac ^^A^^A \LUC/nanumm
+j/m/n/12/c2 ^^X\LUC/nanummj/m/n/12/b8 4\LUC/nanummj/m/n/12/d5 \\LUC/nanummj/m/n
+/12/b2 ä\OT1/LinuxLibertineT-TLF/m/n/12 . \LUC/nanummj/m/n/12/b5 0\LUC/nanummj/
+m/n/12/b7 |\LUC/nanummj/m/n/12/c1 ^^\ $[] []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a
+[]\OT1/cmr/m/n/12 ) = 0$\LUC/nanummj/m/n/12/c7 t\LUC/nanummj/m/n/12/ac à\OT1/Li
+nuxLibertineT-TLF/m/n/12 , $[] []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a[]\OT1/cmr/
+m/n/12 ) =
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 57 undefined on input lin
+e 12.
+
+[57]
+
+LaTeX Warning: Reference `ex-4-2' on page 58 undefined on input line 12.
+
+
+LaTeX Warning: Reference `ex-4-3' on page 58 undefined on input line 24.
+
+
+LaTeX Warning: Reference `ex-4-4' on page 58 undefined on input line 48.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 58 undefined on input lin
+e 61.
+
+[58]
+
+LaTeX Warning: Reference `ex-4-5' on page 59 undefined on input line 87.
+
+
+LaTeX Warning: Reference `ex-4-6' on page 59 undefined on input line 107.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 59 undefined on input lin
+e 116.
+
+[59]
+
+LaTeX Warning: Reference `ex-4-7' on page 60 undefined on input line 129.
+
+
+LaTeX Warning: Reference `ex-4-8' on page 60 undefined on input line 141.
+
+
+LaTeX Warning: Reference `ex-4-9' on page 60 undefined on input line 149.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 60 undefined on input lin
+e 159.
+
+[60]
+
+LaTeX Warning: Reference `ex-4-10' on page 61 undefined on input line 174.
+
+
+LaTeX Warning: Reference `ex-4-11' on page 61 undefined on input line 200.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 61 undefined on input lin
+e 211.
+
+[61]
+
+LaTeX Warning: Reference `ex-4-12' on page 62 undefined on input line 216.
+
+
+LaTeX Warning: Reference `ex-4-13' on page 62 undefined on input line 246.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 62 undefined on input lin
+e 257.
+
+[62]
+
+LaTeX Warning: Reference `ex-4-14' on page 63 undefined on input line 275.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 63 undefined on input lin
+e 303.
+
+[63]
+
+LaTeX Warning: Reference `ex-4-15' on page 64 undefined on input line 317.
+
+
+LaTeX Warning: Reference `ex-4-16' on page 64 undefined on input line 341.
+
+
+LaTeX Warning: Reference `ex-4-17' on page 64 undefined on input line 352.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 64 undefined on input lin
+e 365.
+
+[64]
+
+LaTeX Warning: Reference `ex-4-18' on page 65 undefined on input line 377.
+
+
+LaTeX Warning: Reference `ex-4-19' on page 65 undefined on input line 408.
+
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 65 undefined on input lin
+e 421.
+
+[65]
+
+LaTeX Warning: Reference `ex-4-20' on page 66 undefined on input line 423.
+
+File: ./figs/fig-5-17.png Graphic file (type png)
+<use ./figs/fig-5-17.png>
+Package pdftex.def Info: ./figs/fig-5-17.png  used on input line 439.
+(pdftex.def)             Requested size: 193.36191pt x 164.44406pt.
+)
+
+Package fancyhdr Warning: \headheight is too small (13.6pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.89998pt}.
+
+
+LaTeX Warning: Hyper reference `toc-contents' on page 66 undefined on input lin
+e 318.
+
+[66]
 
 LaTeX Warning: Empty bibliography on input line 322.
 
@@ -2577,6 +2839,9 @@ Package minitoc(hints) Warning: W0024
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `CA_solution.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'CA_solution.run.xml'.
@@ -2584,11 +2849,11 @@ Package logreq Info: Writing requests to 'CA_solution.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31926 strings out of 478268
- 563216 string characters out of 5850346
- 1377619 words of memory out of 5000000
- 49253 multiletter control sequences out of 15000+600000
- 550539 words of font info for 253 fonts, out of 8000000 for 9000
+ 31976 strings out of 478268
+ 563723 string characters out of 5850346
+ 1377727 words of memory out of 5000000
+ 49286 multiletter control sequences out of 15000+600000
+ 551123 words of font info for 255 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,19n,117p,1156b,849s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{c:/tex
@@ -2655,10 +2920,10 @@ t/fonts/type1/public/nanumtype1/nanummjmd5.pfb><c:/texlive/2022/texmf-dist/font
 s/type1/public/nanumtype1/nanummjmd6.pfb><c:/texlive/2022/texmf-dist/fonts/type
 1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/uhc/
 umj/umj34.pfb>
-Output written on CA_solution.pdf (54 pages, 3273483 bytes).
+Output written on CA_solution.pdf (66 pages, 3327432 bytes).
 PDF statistics:
- 741 PDF objects out of 1000 (max. 8388607)
- 481 compressed objects within 5 object streams
- 101 named destinations out of 1000 (max. 500000)
+ 799 PDF objects out of 1000 (max. 8388607)
+ 526 compressed objects within 6 object streams
+ 115 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
