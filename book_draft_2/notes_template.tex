@@ -5,6 +5,11 @@
 %\documentclass[11pt,twoside]{book}
 %=== [salt] 12p로 변경함 - 작업했던 폰트
 %\documentclass[12pt,twoside]{book}
+
+%== [salt] 아래 클래스는 잘 안됨
+%\documentclass{oblivoir}
+%\usepackage[dbl4x6]{fapapersize}
+
 \documentclass[10.5pt,twoside]{book}
 
 \usepackage[mono=false]{libertine} % new linux font, ignore mono
@@ -130,15 +135,26 @@ delim_0 "\\nobreak\\dotfill"
 \pagestyle{fancy} % enable fancy page style
 \renewcommand{\headrulewidth}{0.0pt} % comment if you want the rule
 \fancyhf{} % clear header and footer
-\fancyhead[lo,le]{\leftmark}
-\fancyhead[re,ro]{\rightmark}
+%\fancyhead[lo,le]{\leftmark}
+%\fancyhead[re,ro]{\rightmark}
+\fancyhead[le]{\leftmark}
+\fancyhead[ro]{\rightmark}
 \fancyfoot[CE,CO]{\hyperref[toc-contents]{\thepage}}
+
+
+%==[salt]
+% 짝수페이지 - chapter, 홀수페이지 - section
+\setlength{\headwidth}{0.79\textwidth}
+%\renewcommand{\chaptermark}[1]{\markboth{\thechapter 장 #1}{}}
 
 % https://tex.stackexchange.com/questions/550520/making-each-page-number-link-back-to-beginning-of-chapter-or-section
 \makeatletter
-\def\chaptermark#1{\markboth{\protect\hyper@linkstart{link}{\@currentHref}{Chapter \thechapter ~ #1}\protect\hyper@linkend}{}}
+%\def\chaptermark#1{\markboth{\protect\hyper@linkstart{link}{\@currentHref}{Chapter \thechapter ~ #1}\protect\hyper@linkend}{}}
+\def\chaptermark#1{\markboth{\protect\hyper@linkstart{link}{\@currentHref}{\thechapter 장 ~ #1}\protect\hyper@linkend}{}}
 \def\sectionmark#1{\markright{\protect\hyper@linkstart{link}{\@currentHref}{\thesection ~ #1}\protect\hyper@linkend}}
 \makeatother
+
+
 %%%%%%%%%%%%%%%%%%% fancyhdr %%%%%%%%%%%%%%%%%
 
 
@@ -209,7 +225,7 @@ delim_0 "\\nobreak\\dotfill"
 \setlength{\paperheight}{25.4cm}
 \setlength{\textwidth}{13.5cm}
 \setlength{\textheight}{21cm}
-
+\setlength{\evensidemargin}{20pt}
 
 
 %=== [salt] 줄 간격을 읽기 좋게 만든다.
@@ -242,10 +258,20 @@ delim_0 "\\nobreak\\dotfill"
 \def\bs{\boldsymbol }
 
 \def\figurename{그림}
+%\def\chaptername{장}
+%\def\chaptername{}
+%\renewcommand\thechapter{\arabic{chapter} 장 ~}
+%\renewcommand\thesection{\arabic{chapter}.\arabic{section}~}
+%\renewcommand{\chapter}[1]{{#1} ~ \chaptername}
+
+%== 아래는 동작안함
+%\renewcommand{\prechapternum}{\chapternamefont }
+%\renewcommand{\postchapternum}{\chapternamefont 장}
+
 
 \begin{document}
 % 레이아웃 페이지를 별도로 출력함
-%\layout 
+\layout 
 
 %==============================
 %=== [salt] 책 표지 만들기 시작

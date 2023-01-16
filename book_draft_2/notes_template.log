@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  9 JAN 2023 01:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  14 JAN 2023 18:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -652,7 +652,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip64
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 47.
+Package hyperref Info: Option `colorlinks' set `true' on input line 52.
 
 (c:/texlive/2022/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
@@ -1345,14 +1345,14 @@ Package glossaries Info: Writing glossary file notes_template.acn on input line
 \@quotelevel=\count549
 \@quotereset=\count550
 LaTeX Font Info:    Trying to load font information for OT1+LinuxLibertineT-TLF
- on input line 246.
+ on input line 272.
 
 (c:/texlive/2022/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.fd
 File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 246.
+(Font)              scaled to size 10.0pt on input line 272.
 
 
 LaTeX Warning: Unused global option(s):
@@ -1374,31 +1374,31 @@ LaTeX Warning: Label `thm-4-2@cref' multiply defined.
 )
 \openout1 = `notes_template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 246.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 272.
+LaTeX Font Info:    ... okay on input line 272.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 272.
+LaTeX Font Info:    ... okay on input line 272.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 272.
+LaTeX Font Info:    ... okay on input line 272.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 272.
+LaTeX Font Info:    ... okay on input line 272.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 272.
+LaTeX Font Info:    ... okay on input line 272.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 272.
+LaTeX Font Info:    ... okay on input line 272.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 272.
+LaTeX Font Info:    ... okay on input line 272.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 272.
 LaTeX Font Info:    Trying to load font information for LUC+nanummj on input li
-ne 246.
+ne 272.
  (c:/texlive/2022/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    ... okay on input line 272.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 272.
+LaTeX Font Info:    ... okay on input line 272.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 272.
+LaTeX Font Info:    ... okay on input line 272.
 \c@mv@tabular=\count551
 \c@mv@boldtabular=\count552
 
@@ -1471,7 +1471,7 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                --- It may be the consequence 
 (minitoc(hints))                of loading the ``hyperref'' package.
 
-Package hyperref Info: Link coloring ON on input line 246.
+Package hyperref Info: Link coloring ON on input line 272.
 (c:/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1483,9 +1483,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count560
 )
-LaTeX Info: Redefining \ref on input line 246.
-LaTeX Info: Redefining \pageref on input line 246.
-LaTeX Info: Redefining \nameref on input line 246.
+LaTeX Info: Redefining \ref on input line 272.
+LaTeX Info: Redefining \pageref on input line 272.
+LaTeX Info: Redefining \nameref on input line 272.
 
 (./notes_template.out) (./notes_template.out)
 \@outlinefile=\write9
@@ -1507,7 +1507,7 @@ LaTeX Info: Redefining \nameref on input line 246.
 * \textwidth=384.1122pt
 * \textheight=597.50787pt
 * \oddsidemargin=-6.82857pt
-* \evensidemargin=-6.82857pt
+* \evensidemargin=20.0pt
 * \topmargin=-36.89606pt
 * \headheight=13.6pt
 * \headsep=18.06749pt
@@ -1540,61 +1540,80 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'notes_template.bbl' not found.
 
 No file notes_template.bbl.
-Package biblatex Info: Reference section=0 on input line 246.
-Package biblatex Info: Reference segment=0 on input line 246.
+Package biblatex Info: Reference section=0 on input line 272.
+Package biblatex Info: Reference segment=0 on input line 272.
+Two-sided document style, odd page.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 258.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 258.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 258.
-LaTeX Font Info:    Font shape `LUC/nanummj/b/n' in size <20.74> not available
-(Font)              Font shape `LUC/nanummj/bx/n' tried instead on input line 2
-58.
+(Font)              scaled to size 8.0pt on input line 275.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 258.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 258
+(Font)              scaled to size 5.0pt on input line 275.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 275
 .
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 258
+LaTeX Font Info:    Trying to load font information for U+msb on input line 275
 .
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 25
-8.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 27
+5.
 
 (c:/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-LaTeX Font Info:    Trying to load font information for LUC+uhcmj on input line
- 258.
-
-(c:/texlive/2022/texmf-dist/tex/latex/kotex-utf/lucuhcmj.fd
-File: lucuhcmj.fd 2013/09/26 UHC Myeongjo font definitions
 ) [1
 
 \openout6 = `notes_template.ist'.
 
-
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Two-sided document style, even page.
+[2]
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 284.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 17.28pt on input line 284.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 20.74pt on input line 284.
+LaTeX Font Info:    Font shape `LUC/nanummj/b/n' in size <20.74> not available
+(Font)              Font shape `LUC/nanummj/bx/n' tried instead on input line 2
+84.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 284.
+LaTeX Font Info:    Trying to load font information for LUC+uhcmj on input line
+ 284.
+ (c:/texlive/2022/texmf-dist/tex/latex/kotex-utf/lucuhcmj.fd
+File: lucuhcmj.fd 2013/09/26 UHC Myeongjo font definitions
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.284 
+       [1
+
+]
 
 LaTeX Warning: Hyper reference `toc-contents' on page 2 undefined on input line
- 266.
+ 292.
 
-[2
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.292 \tableofcontents
+                       [2
 
 ]
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 266.
+(Font)              scaled to size 20.74pt on input line 292.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 266.
+(Font)              scaled to size 24.88pt on input line 292.
 LaTeX Font Info:    Font shape `LUC/nanummj/b/n' in size <24.88> not available
 (Font)              Font shape `LUC/nanummj/bx/n' tried instead on input line 2
-66.
+92.
  (./notes_template.toc
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 1.
@@ -1637,12 +1656,10 @@ LaTeX Font Info:    Font shape `LUC/nanummj/b/n' in size <14.4> not available
 3.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 7.0pt on input line 40.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 40.
  [7]
 Package hyperref Info: bookmark level for unknown salt_example defaults to 0 on
  input line 72.
-<./SaltChapter/preface-fig-0-1.png, id=411, 585.68813pt x 303.38344pt>
+<./SaltChapter/preface-fig-0-1.png, id=420, 585.68813pt x 303.38344pt>
 File: ./SaltChapter/preface-fig-0-1.png Graphic file (type png)
 <use ./SaltChapter/preface-fig-0-1.png>
 Package pdftex.def Info: ./SaltChapter/preface-fig-0-1.png  used on input line 
@@ -1656,7 +1673,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 8 undefined on input line
 [8 <./SaltChapter/preface-fig-0-1.PNG>]
 Package hyperref Info: bookmark level for unknown salt_exercise defaults to 0 o
 n input line 117.
-<./SaltChapter/preface-fig-0-2.png, id=427, 486.31688pt x 235.63031pt>
+<./SaltChapter/preface-fig-0-2.png, id=436, 486.31688pt x 235.63031pt>
 File: ./SaltChapter/preface-fig-0-2.png Graphic file (type png)
 <use ./SaltChapter/preface-fig-0-2.png>
 Package pdftex.def Info: ./SaltChapter/preface-fig-0-2.png  used on input line 
@@ -1668,7 +1685,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 9 undefined on input line
  156.
 
 [9 <./SaltChapter/preface-fig-0-2.PNG>]
-<./SaltChapter/preface-fig-0-3.png, id=438, 505.89pt x 265.74281pt>
+<./SaltChapter/preface-fig-0-3.png, id=447, 505.89pt x 265.74281pt>
 File: ./SaltChapter/preface-fig-0-3.png Graphic file (type png)
 <use ./SaltChapter/preface-fig-0-3.png>
 Package pdftex.def Info: ./SaltChapter/preface-fig-0-3.png  used on input line 
@@ -1685,7 +1702,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 10 undefined on input lin
 e 221.
 
 [10]
-<./SaltChapter/preface-fig-0-4.png, id=444, 325.96782pt x 271.0125pt>
+<./SaltChapter/preface-fig-0-4.png, id=453, 325.96782pt x 271.0125pt>
 File: ./SaltChapter/preface-fig-0-4.png Graphic file (type png)
 <use ./SaltChapter/preface-fig-0-4.png>
 Package pdftex.def Info: ./SaltChapter/preface-fig-0-4.png  used on input line 
@@ -1727,7 +1744,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 16 undefined on input lin
 e 110.
 
 [16]
-<./SaltChapter/fig-1-1.png, id=491, 768.62157pt x 325.215pt>
+<./SaltChapter/fig-1-1.png, id=499, 768.62157pt x 325.215pt>
 File: ./SaltChapter/fig-1-1.png Graphic file (type png)
 <use ./SaltChapter/fig-1-1.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-1.png  used on input line 151.
@@ -1738,7 +1755,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 17 undefined on input lin
 e 167.
 
 [17 <./SaltChapter/fig-1-1.PNG>]
-<./SaltChapter/fig-1-2.png, id=506, 413.29407pt x 253.69781pt>
+<./SaltChapter/fig-1-2.png, id=514, 413.29407pt x 253.69781pt>
 File: ./SaltChapter/fig-1-2.png Graphic file (type png)
 <use ./SaltChapter/fig-1-2.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-2.png  used on input line 207.
@@ -1748,20 +1765,18 @@ Package pdftex.def Info: ./SaltChapter/fig-1-2.png  used on input line 207.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 215.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 215.
 
 LaTeX Warning: Hyper reference `toc-contents' on page 18 undefined on input lin
 e 239.
 
 [18]
-<./SaltChapter/fig-1-3.png, id=521, 633.86812pt x 261.22594pt>
+<./SaltChapter/fig-1-3.png, id=528, 633.86812pt x 261.22594pt>
 File: ./SaltChapter/fig-1-3.png Graphic file (type png)
 <use ./SaltChapter/fig-1-3.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-3.png  used on input line 242.
 (pdftex.def)             Requested size: 307.29092pt x 126.6426pt.
-<./SaltChapter/fig-1-4.png, id=522, 419.31656pt x 276.28218pt>
+<./SaltChapter/fig-1-4.png, id=529, 419.31656pt x 276.28218pt>
 File: ./SaltChapter/fig-1-4.png Graphic file (type png)
 <use ./SaltChapter/fig-1-4.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-4.png  used on input line 258.
@@ -1775,12 +1790,12 @@ LaTeX Warning: Hyper reference `toc-contents' on page 19 undefined on input lin
 e 268.
 
 [19 <./SaltChapter/fig-1-2.PNG> <./SaltChapter/fig-1-3.PNG>]
-<./SaltChapter/fig-1-5.png, id=537, 646.66594pt x 253.69781pt>
+<./SaltChapter/fig-1-5.png, id=542, 646.66594pt x 253.69781pt>
 File: ./SaltChapter/fig-1-5.png Graphic file (type png)
 <use ./SaltChapter/fig-1-5.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-5.png  used on input line 296.
 (pdftex.def)             Requested size: 192.05609pt x 75.34732pt.
-<./SaltChapter/fig-1-6.png, id=538, 642.90187pt x 285.31593pt>
+<./SaltChapter/fig-1-6.png, id=543, 642.90187pt x 285.31593pt>
 File: ./SaltChapter/fig-1-6.png Graphic file (type png)
 <use ./SaltChapter/fig-1-6.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-6.png  used on input line 315.
@@ -1791,7 +1806,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 20 undefined on input lin
 e 319.
 
 [20 <./SaltChapter/fig-1-4.PNG> <./SaltChapter/fig-1-5.PNG>]
-<./SaltChapter/fig-1-7.png, id=550, 478.03593pt x 258.9675pt>
+<./SaltChapter/fig-1-7.png, id=554, 478.03593pt x 258.9675pt>
 File: ./SaltChapter/fig-1-7.png Graphic file (type png)
 <use ./SaltChapter/fig-1-7.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-7.png  used on input line 367.
@@ -1805,7 +1820,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 21 undefined on input lin
 e 380.
 
 [21 <./SaltChapter/fig-1-6.PNG>]
-<./SaltChapter/fig-1-8.png, id=572, 405.76593pt x 239.39438pt>
+<./SaltChapter/fig-1-8.png, id=575, 405.76593pt x 239.39438pt>
 File: ./SaltChapter/fig-1-8.png Graphic file (type png)
 <use ./SaltChapter/fig-1-8.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-8.png  used on input line 385.
@@ -1821,7 +1836,7 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 416.
 
-<./SaltChapter/fig-1-9.png, id=589, 673.76718pt x 316.93407pt>
+<./SaltChapter/fig-1-9.png, id=591, 673.76718pt x 316.93407pt>
 File: ./SaltChapter/fig-1-9.png Graphic file (type png)
 <use ./SaltChapter/fig-1-9.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-9.png  used on input line 452.
@@ -1852,7 +1867,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 538.
 
-<./SaltChapter/fig-1-10.png, id=606, 628.59843pt x 184.43906pt>
+<./SaltChapter/fig-1-10.png, id=608, 628.59843pt x 184.43906pt>
 File: ./SaltChapter/fig-1-10.png Graphic file (type png)
 <use ./SaltChapter/fig-1-10.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-10.png  used on input line 552.
@@ -1862,7 +1877,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 24 undefined on input lin
 e 556.
 
 [24]
-<./SaltChapter/fig-1-11.png, id=630, 277.035pt x 206.27063pt>
+<./SaltChapter/fig-1-11.png, id=631, 277.035pt x 206.27063pt>
 File: ./SaltChapter/fig-1-11.png Graphic file (type png)
 <use ./SaltChapter/fig-1-11.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-11.png  used on input line 574.
@@ -1873,7 +1888,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 25 undefined on input lin
 e 592.
 
 [25 <./SaltChapter/fig-1-10.PNG> <./SaltChapter/fig-1-11.PNG>]
-<./SaltChapter/fig-1-0-1.png, id=646, 201.75375pt x 157.33781pt>
+<./SaltChapter/fig-1-0-1.png, id=645, 201.75375pt x 157.33781pt>
 File: ./SaltChapter/fig-1-0-1.png Graphic file (type png)
 <use ./SaltChapter/fig-1-0-1.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-0-1.png  used on input line 607.
@@ -1891,12 +1906,12 @@ e 721.
 [27]
 Package hyperref Info: bookmark level for unknown salt_definition defaults to 0
  on input line 725.
-<./SaltChapter/fig-1-0-2.png, id=678, 475.7775pt x 182.93344pt>
+<./SaltChapter/fig-1-0-2.png, id=674, 475.7775pt x 182.93344pt>
 File: ./SaltChapter/fig-1-0-2.png Graphic file (type png)
 <use ./SaltChapter/fig-1-0-2.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-0-2.png  used on input line 731.
 (pdftex.def)             Requested size: 192.05609pt x 73.84479pt.
-<./SaltChapter/fig-1-0-3.png, id=679, 202.50656pt x 142.28156pt>
+<./SaltChapter/fig-1-0-3.png, id=675, 202.50656pt x 142.28156pt>
 File: ./SaltChapter/fig-1-0-3.png Graphic file (type png)
 <use ./SaltChapter/fig-1-0-3.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-0-3.png  used on input line 740.
@@ -1907,7 +1922,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 28 undefined on input lin
 e 760.
 
 [28 <./SaltChapter/fig-1-0-2.PNG> <./SaltChapter/fig-1-0-3.PNG>]
-<./SaltChapter/fig-1-12.png, id=694, 528.47438pt x 258.21469pt>
+<./SaltChapter/fig-1-12.png, id=690, 528.47438pt x 258.21469pt>
 File: ./SaltChapter/fig-1-12.png Graphic file (type png)
 <use ./SaltChapter/fig-1-12.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-12.png  used on input line 766.
@@ -1918,7 +1933,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 29 undefined on input lin
 e 812.
 
 [29 <./SaltChapter/fig-1-12.PNG>]
-<./SaltChapter/fig-1-13.png, id=708, 663.22781pt x 278.54062pt>
+<./SaltChapter/fig-1-13.png, id=704, 663.22781pt x 278.54062pt>
 File: ./SaltChapter/fig-1-13.png Graphic file (type png)
 <use ./SaltChapter/fig-1-13.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-13.png  used on input line 819.
@@ -1941,7 +1956,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 30 undefined on input lin
 e 864.
 
 [30 <./SaltChapter/fig-1-13.PNG>]
-<./SaltChapter/fig-1-14.png, id=722, 631.60968pt x 359.84438pt>
+<./SaltChapter/fig-1-14.png, id=717, 631.60968pt x 359.84438pt>
 File: ./SaltChapter/fig-1-14.png Graphic file (type png)
 <use ./SaltChapter/fig-1-14.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-14.png  used on input line 912.
@@ -1950,7 +1965,7 @@ Package pdftex.def Info: ./SaltChapter/fig-1-14.png  used on input line 912.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./SaltChapter/fig-1-15.png, id=724, 266.49562pt x 232.61906pt>
+<./SaltChapter/fig-1-15.png, id=719, 266.49562pt x 232.61906pt>
 File: ./SaltChapter/fig-1-15.png Graphic file (type png)
 <use ./SaltChapter/fig-1-15.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-15.png  used on input line 924.
@@ -1969,7 +1984,7 @@ n/10/b5 0\LUC/nanummj/m/n/10/b7 |\LUC/nanummj/m/n/10/c1 ^^\ $\OMS/cmsy/m/n/10 j
  [][][]j \OT1/cmr/m/n/10 =
  []
 
-<./SaltChapter/fig-1-16.png, id=728, 615.0478pt x 359.84438pt>
+<./SaltChapter/fig-1-16.png, id=723, 615.0478pt x 359.84438pt>
 File: ./SaltChapter/fig-1-16.png Graphic file (type png)
 <use ./SaltChapter/fig-1-16.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-16.png  used on input line 946.
@@ -1977,7 +1992,7 @@ Package pdftex.def Info: ./SaltChapter/fig-1-16.png  used on input line 946.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./SaltChapter/fig-1-17.png, id=729, 615.0478pt x 606.76688pt>
+<./SaltChapter/fig-1-17.png, id=724, 615.0478pt x 606.76688pt>
 File: ./SaltChapter/fig-1-17.png Graphic file (type png)
 <use ./SaltChapter/fig-1-17.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-17.png  used on input line 954.
@@ -2023,12 +2038,12 @@ LaTeX Warning: Hyper reference `toc-contents' on page 34 undefined on input lin
 e 1073.
 
 [34]
-<./SaltChapter/fig-1-18.png, id=780, 534.49687pt x 146.79843pt>
+<./SaltChapter/fig-1-18.png, id=770, 534.49687pt x 146.79843pt>
 File: ./SaltChapter/fig-1-18.png Graphic file (type png)
 <use ./SaltChapter/fig-1-18.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-18.png  used on input line 1102.
 (pdftex.def)             Requested size: 307.29092pt x 84.39948pt.
-<./SaltChapter/fig-1-19.png, id=782, 572.1375pt x 220.57407pt>
+<./SaltChapter/fig-1-19.png, id=772, 572.1375pt x 220.57407pt>
 File: ./SaltChapter/fig-1-19.png Graphic file (type png)
 <use ./SaltChapter/fig-1-19.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-19.png  used on input line 1131.
@@ -2047,7 +2062,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 36 undefined on input lin
 e 1201.
 
 [36 <./SaltChapter/fig-1-19.PNG>]
-<./SaltChapter/fig-1-20.png, id=809, 585.68813pt x 266.49562pt>
+<./SaltChapter/fig-1-20.png, id=797, 585.68813pt x 266.49562pt>
 File: ./SaltChapter/fig-1-20.png Graphic file (type png)
 <use ./SaltChapter/fig-1-20.png>
 Package pdftex.def Info: ./SaltChapter/fig-1-20.png  used on input line 1239.
@@ -2064,7 +2079,7 @@ e 3.
 
 [38]
 Chapter 2.
-<./SaltChapter/fig-2-1.png, id=840, 618.05907pt x 248.42813pt>
+<./SaltChapter/fig-2-1.png, id=826, 618.05907pt x 248.42813pt>
 File: ./SaltChapter/fig-2-1.png Graphic file (type png)
 <use ./SaltChapter/fig-2-1.png>
 Package pdftex.def Info: ./SaltChapter/fig-2-1.png  used on input line 22.
@@ -2077,7 +2092,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 40 undefined on input lin
 e 112.
 
 [40]
-<./SaltChapter/fig-2-2.png, id=861, 585.68813pt x 158.09062pt>
+<./SaltChapter/fig-2-2.png, id=846, 585.68813pt x 158.09062pt>
 File: ./SaltChapter/fig-2-2.png Graphic file (type png)
 <use ./SaltChapter/fig-2-2.png>
 Package pdftex.def Info: ./SaltChapter/fig-2-2.png  used on input line 137.
@@ -2104,7 +2119,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 43 undefined on input lin
 e 315.
 
 [43]
-<./SaltChapter/fig-2-3.png, id=916, 551.81157pt x 187.45032pt>
+<./SaltChapter/fig-2-3.png, id=897, 551.81157pt x 187.45032pt>
 File: ./SaltChapter/fig-2-3.png Graphic file (type png)
 <use ./SaltChapter/fig-2-3.png>
 Package pdftex.def Info: ./SaltChapter/fig-2-3.png  used on input line 330.
@@ -2115,12 +2130,12 @@ LaTeX Warning: Hyper reference `toc-contents' on page 44 undefined on input lin
 e 366.
 
 [44 <./SaltChapter/fig-2-3.PNG>]
-<./SaltChapter/fig-2-4.png, id=930, 570.63188pt x 213.79875pt>
+<./SaltChapter/fig-2-4.png, id=910, 570.63188pt x 213.79875pt>
 File: ./SaltChapter/fig-2-4.png Graphic file (type png)
 <use ./SaltChapter/fig-2-4.png>
 Package pdftex.def Info: ./SaltChapter/fig-2-4.png  used on input line 375.
 (pdftex.def)             Requested size: 268.87737pt x 100.73987pt.
-<./SaltChapter/fig-2-0-1.png, id=931, 399.74344pt x 284.56313pt>
+<./SaltChapter/fig-2-0-1.png, id=911, 399.74344pt x 284.56313pt>
 File: ./SaltChapter/fig-2-0-1.png Graphic file (type png)
 <use ./SaltChapter/fig-2-0-1.png>
 Package pdftex.def Info: ./SaltChapter/fig-2-0-1.png  used on input line 408.
@@ -2129,7 +2144,7 @@ Package pdftex.def Info: ./SaltChapter/fig-2-0-1.png  used on input line 408.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./SaltChapter/fig-2-5.png, id=933, 584.93532pt x 301.8778pt>
+<./SaltChapter/fig-2-5.png, id=913, 584.93532pt x 301.8778pt>
 File: ./SaltChapter/fig-2-5.png Graphic file (type png)
 <use ./SaltChapter/fig-2-5.png>
 Package pdftex.def Info: ./SaltChapter/fig-2-5.png  used on input line 423.
@@ -2152,7 +2167,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 47 undefined on input lin
 e 541.
 
 [47]
-<./SaltChapter/fig-2-6.png, id=969, 1137.4997pt x 488.57532pt>
+<./SaltChapter/fig-2-6.png, id=948, 1137.4997pt x 488.57532pt>
 File: ./SaltChapter/fig-2-6.png Graphic file (type png)
 <use ./SaltChapter/fig-2-6.png>
 Package pdftex.def Info: ./SaltChapter/fig-2-6.png  used on input line 544.
@@ -2173,7 +2188,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 50 undefined on input lin
 e 704.
 
 [50]
-<./SaltChapter/fig-2-7.png, id=1006, 550.30594pt x 222.8325pt>
+<./SaltChapter/fig-2-7.png, id=981, 550.30594pt x 222.8325pt>
 File: ./SaltChapter/fig-2-7.png Graphic file (type png)
 <use ./SaltChapter/fig-2-7.png>
 Package pdftex.def Info: ./SaltChapter/fig-2-7.png  used on input line 731.
@@ -2199,7 +2214,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 54 undefined on input lin
 e 966.
 
 [54]
-<./SaltChapter/fig-2-0-2.png, id=1049, 413.29407pt x 158.09062pt>
+<./SaltChapter/fig-2-0-2.png, id=1020, 413.29407pt x 158.09062pt>
 File: ./SaltChapter/fig-2-0-2.png Graphic file (type png)
 <use ./SaltChapter/fig-2-0-2.png>
 Package pdftex.def Info: ./SaltChapter/fig-2-0-2.png  used on input line 1041.
@@ -2213,7 +2228,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 55 undefined on input lin
 e 1050.
 
 [55]
-<./SaltChapter/fig-2-0-3.png, id=1065, 167.12437pt x 166.37157pt>
+<./SaltChapter/fig-2-0-3.png, id=1034, 167.12437pt x 166.37157pt>
 File: ./SaltChapter/fig-2-0-3.png Graphic file (type png)
 <use ./SaltChapter/fig-2-0-3.png>
 Package pdftex.def Info: ./SaltChapter/fig-2-0-3.png  used on input line 1079.
@@ -2227,7 +2242,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 56 undefined on input lin
 e 1094.
 
 [56 <./SaltChapter/fig-2-0-2.PNG>]
-<./SaltChapter/fig-2-8.png, id=1078, 323.70938pt x 209.28188pt>
+<./SaltChapter/fig-2-8.png, id=1046, 323.70938pt x 209.28188pt>
 File: ./SaltChapter/fig-2-8.png Graphic file (type png)
 <use ./SaltChapter/fig-2-8.png>
 Package pdftex.def Info: ./SaltChapter/fig-2-8.png  used on input line 1132.
@@ -2258,7 +2273,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 57 undefined on input lin
 e 1165.
 
 [57 <./SaltChapter/fig-2-0-3.PNG>]
-<./SaltChapter/fig-2-0-4.png, id=1097, 356.0803pt x 162.6075pt>
+<./SaltChapter/fig-2-0-4.png, id=1065, 356.0803pt x 162.6075pt>
 File: ./SaltChapter/fig-2-0-4.png Graphic file (type png)
 <use ./SaltChapter/fig-2-0-4.png>
 Package pdftex.def Info: ./SaltChapter/fig-2-0-4.png  used on input line 1168.
@@ -2279,7 +2294,7 @@ b3 Ä $[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
 z[]\OT1/cmr/m/n/10 ))$
  []
 
-<./SaltChapter/fig-2-9.png, id=1099, 459.21562pt x 191.9672pt>
+<./SaltChapter/fig-2-9.png, id=1067, 459.21562pt x 191.9672pt>
 File: ./SaltChapter/fig-2-9.png Graphic file (type png)
 <use ./SaltChapter/fig-2-9.png>
 Package pdftex.def Info: ./SaltChapter/fig-2-9.png  used on input line 1192.
@@ -2292,7 +2307,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 58 undefined on input lin
 e 1227.
 
 [58 <./SaltChapter/fig-2-8.PNG> <./SaltChapter/fig-2-0-4.PNG>]
-<./SaltChapter/fig-2-10.png, id=1113, 533.74406pt x 545.78906pt>
+<./SaltChapter/fig-2-10.png, id=1080, 533.74406pt x 545.78906pt>
 File: ./SaltChapter/fig-2-10.png Graphic file (type png)
 <use ./SaltChapter/fig-2-10.png>
 Package pdftex.def Info: ./SaltChapter/fig-2-10.png  used on input line 1235.
@@ -2301,7 +2316,7 @@ Package pdftex.def Info: ./SaltChapter/fig-2-10.png  used on input line 1235.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./SaltChapter/fig-2-11.png, id=1117, 613.54219pt x 341.02406pt>
+<./SaltChapter/fig-2-11.png, id=1084, 613.54219pt x 341.02406pt>
 File: ./SaltChapter/fig-2-11.png Graphic file (type png)
 <use ./SaltChapter/fig-2-11.png>
 Package pdftex.def Info: ./SaltChapter/fig-2-11.png  used on input line 1262.
@@ -2319,12 +2334,12 @@ LaTeX Warning: Hyper reference `toc-contents' on page 60 undefined on input lin
 e 1277.
 
 [60 <./SaltChapter/fig-2-10.PNG> <./SaltChapter/fig-2-11.PNG>]
-<./SaltChapter/fig-2-12.png, id=1140, 603.0028pt x 308.65312pt>
+<./SaltChapter/fig-2-12.png, id=1106, 603.0028pt x 308.65312pt>
 File: ./SaltChapter/fig-2-12.png Graphic file (type png)
 <use ./SaltChapter/fig-2-12.png>
 Package pdftex.def Info: ./SaltChapter/fig-2-12.png  used on input line 1281.
 (pdftex.def)             Requested size: 268.87737pt x 137.62572pt.
-<./SaltChapter/fig-2-13.png, id=1142, 603.75563pt x 274.77657pt>
+<./SaltChapter/fig-2-13.png, id=1108, 603.75563pt x 274.77657pt>
 File: ./SaltChapter/fig-2-13.png Graphic file (type png)
 <use ./SaltChapter/fig-2-13.png>
 Package pdftex.def Info: ./SaltChapter/fig-2-13.png  used on input line 1306.
@@ -2335,7 +2350,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 61 undefined on input lin
 e 1324.
 
 [61 <./SaltChapter/fig-2-12.PNG> <./SaltChapter/fig-2-13.PNG>]
-<./SaltChapter/fig-2-14.png, id=1158, 473.51906pt x 166.37157pt>
+<./SaltChapter/fig-2-14.png, id=1122, 473.51906pt x 166.37157pt>
 File: ./SaltChapter/fig-2-14.png Graphic file (type png)
 <use ./SaltChapter/fig-2-14.png>
 Package pdftex.def Info: ./SaltChapter/fig-2-14.png  used on input line 1363.
@@ -2384,7 +2399,7 @@ e 3.
 ]
 Chapter 3.
 [67]
-<./SaltChapter/fig-3-1.png, id=1221, 643.6547pt x 292.09125pt>
+<./SaltChapter/fig-3-1.png, id=1180, 643.6547pt x 292.09125pt>
 File: ./SaltChapter/fig-3-1.png Graphic file (type png)
 <use ./SaltChapter/fig-3-1.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-1.png  used on input line 58.
@@ -2395,12 +2410,12 @@ LaTeX Warning: Hyper reference `toc-contents' on page 68 undefined on input lin
 e 87.
 
 [68 <./SaltChapter/fig-3-1.PNG>]
-<./SaltChapter/fig-3-2.png, id=1233, 256.70906pt x 204.765pt>
+<./SaltChapter/fig-3-2.png, id=1191, 256.70906pt x 204.765pt>
 File: ./SaltChapter/fig-3-2.png Graphic file (type png)
 <use ./SaltChapter/fig-3-2.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-2.png  used on input line 101.
 (pdftex.def)             Requested size: 153.64253pt x 122.55373pt.
-<./SaltChapter/fig-3-3.png, id=1235, 356.83313pt x 212.29312pt>
+<./SaltChapter/fig-3-3.png, id=1193, 356.83313pt x 212.29312pt>
 File: ./SaltChapter/fig-3-3.png Graphic file (type png)
 <use ./SaltChapter/fig-3-3.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-3.png  used on input line 118.
@@ -2411,7 +2426,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 69 undefined on input lin
 e 129.
 
 [69 <./SaltChapter/fig-3-2.PNG> <./SaltChapter/fig-3-3.PNG>]
-<./SaltChapter/fig-3-4.png, id=1249, 631.60968pt x 344.78813pt>
+<./SaltChapter/fig-3-4.png, id=1206, 631.60968pt x 344.78813pt>
 File: ./SaltChapter/fig-3-4.png Graphic file (type png)
 <use ./SaltChapter/fig-3-4.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-4.png  used on input line 186.
@@ -2430,7 +2445,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 71 undefined on input lin
 e 234.
 
 [71 <./SaltChapter/fig-3-4.PNG>]
-<./SaltChapter/fig-3-5.png, id=1276, 575.90157pt x 274.02374pt>
+<./SaltChapter/fig-3-5.png, id=1232, 575.90157pt x 274.02374pt>
 File: ./SaltChapter/fig-3-5.png Graphic file (type png)
 <use ./SaltChapter/fig-3-5.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-5.png  used on input line 246.
@@ -2441,12 +2456,12 @@ LaTeX Warning: Hyper reference `toc-contents' on page 72 undefined on input lin
 e 296.
 
 [72 <./SaltChapter/fig-3-5.PNG>]
-<./SaltChapter/fig-3-6.png, id=1287, 319.94531pt x 207.77625pt>
+<./SaltChapter/fig-3-6.png, id=1242, 319.94531pt x 207.77625pt>
 File: ./SaltChapter/fig-3-6.png Graphic file (type png)
 <use ./SaltChapter/fig-3-6.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-6.png  used on input line 309.
 (pdftex.def)             Requested size: 153.64253pt x 99.779pt.
-<./SaltChapter/fig-3-7.png, id=1291, 278.54062pt x 237.88875pt>
+<./SaltChapter/fig-3-7.png, id=1246, 278.54062pt x 237.88875pt>
 File: ./SaltChapter/fig-3-7.png Graphic file (type png)
 <use ./SaltChapter/fig-3-7.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-7.png  used on input line 331.
@@ -2460,7 +2475,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 73 undefined on input lin
 e 361.
 
 [73 <./SaltChapter/fig-3-6.PNG>]
-<./SaltChapter/fig-3-8.png, id=1312, 709.90219pt x 225.09094pt>
+<./SaltChapter/fig-3-8.png, id=1264, 709.90219pt x 225.09094pt>
 File: ./SaltChapter/fig-3-8.png Graphic file (type png)
 <use ./SaltChapter/fig-3-8.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-8.png  used on input line 395.
@@ -2481,7 +2496,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 76 undefined on input lin
 e 506.
 
 [76]
-<./SaltChapter/fig-3-9.png, id=1348, 382.42876pt x 188.20313pt>
+<./SaltChapter/fig-3-9.png, id=1297, 382.42876pt x 188.20313pt>
 File: ./SaltChapter/fig-3-9.png Graphic file (type png)
 <use ./SaltChapter/fig-3-9.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-9.png  used on input line 525.
@@ -2492,7 +2507,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 77 undefined on input lin
 e 558.
 
 [77 <./SaltChapter/fig-3-9.PNG>]
-<./SaltChapter/fig-3-10.png, id=1368, 443.40656pt x 126.4725pt>
+<./SaltChapter/fig-3-10.png, id=1318, 443.40656pt x 126.4725pt>
 File: ./SaltChapter/fig-3-10.png Graphic file (type png)
 <use ./SaltChapter/fig-3-10.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-10.png  used on input line 582.
@@ -2503,7 +2518,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 78 undefined on input lin
 e 617.
 
 [78 <./SaltChapter/fig-3-10.PNG>]
-<./SaltChapter/fig-3-11.png, id=1382, 705.38531pt x 226.59656pt>
+<./SaltChapter/fig-3-11.png, id=1331, 705.38531pt x 226.59656pt>
 File: ./SaltChapter/fig-3-11.png Graphic file (type png)
 <use ./SaltChapter/fig-3-11.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-11.png  used on input line 648.
@@ -2529,7 +2544,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 82 undefined on input lin
 e 847.
 
 [82]
-<./SaltChapter/fig-3-0-1.png, id=1436, 171.64125pt x 156.585pt>
+<./SaltChapter/fig-3-0-1.png, id=1379, 171.64125pt x 156.585pt>
 File: ./SaltChapter/fig-3-0-1.png Graphic file (type png)
 <use ./SaltChapter/fig-3-0-1.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-0-1.png  used on input line 865.
@@ -2542,7 +2557,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 83 undefined on input lin
 e 907.
 
 [83 <./SaltChapter/fig-3-0-1.PNG>]
-<./SaltChapter/fig-3-12.png, id=1461, 794.97pt x 400.49625pt>
+<./SaltChapter/fig-3-12.png, id=1404, 794.97pt x 400.49625pt>
 File: ./SaltChapter/fig-3-12.png Graphic file (type png)
 <use ./SaltChapter/fig-3-12.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-12.png  used on input line 963.
@@ -2556,7 +2571,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 84 undefined on input lin
 e 981.
 
 [84]
-<./SaltChapter/fig-3-0-2.png, id=1476, 358.33875pt x 218.31563pt>
+<./SaltChapter/fig-3-0-2.png, id=1418, 358.33875pt x 218.31563pt>
 File: ./SaltChapter/fig-3-0-2.png Graphic file (type png)
 <use ./SaltChapter/fig-3-0-2.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-0-2.png  used on input line 1000.
@@ -2567,7 +2582,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 85 undefined on input lin
 e 1004.
 
 [85 <./SaltChapter/fig-3-12.PNG> <./SaltChapter/fig-3-0-2.PNG>]
-<./SaltChapter/fig-3-0-3.png, id=1488, 197.98969pt x 174.6525pt>
+<./SaltChapter/fig-3-0-3.png, id=1428, 197.98969pt x 174.6525pt>
 File: ./SaltChapter/fig-3-0-3.png Graphic file (type png)
 <use ./SaltChapter/fig-3-0-3.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-0-3.png  used on input line 1015.
@@ -2588,7 +2603,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 88 undefined on input lin
 e 1179.
 
 [88]
-<./SaltChapter/fig-3-13.png, id=1518, 837.1275pt x 581.17125pt>
+<./SaltChapter/fig-3-13.png, id=1456, 837.1275pt x 581.17125pt>
 File: ./SaltChapter/fig-3-13.png Graphic file (type png)
 <use ./SaltChapter/fig-3-13.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-13.png  used on input line 1230.
@@ -2612,12 +2627,12 @@ LaTeX Warning: Hyper reference `toc-contents' on page 91 undefined on input lin
 e 1343.
 
 [91]
-<./SaltChapter/fig-3-0-4.png, id=1549, 293.59688pt x 164.86594pt>
+<./SaltChapter/fig-3-0-4.png, id=1483, 293.59688pt x 164.86594pt>
 File: ./SaltChapter/fig-3-0-4.png Graphic file (type png)
 <use ./SaltChapter/fig-3-0-4.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-0-4.png  used on input line 1346.
 (pdftex.def)             Requested size: 96.02805pt x 53.92291pt.
-<./SaltChapter/fig-3-14.png, id=1550, 621.82312pt x 637.63219pt>
+<./SaltChapter/fig-3-14.png, id=1484, 621.82312pt x 637.63219pt>
 File: ./SaltChapter/fig-3-14.png Graphic file (type png)
 <use ./SaltChapter/fig-3-14.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-14.png  used on input line 1362.
@@ -2626,7 +2641,7 @@ Package pdftex.def Info: ./SaltChapter/fig-3-14.png  used on input line 1362.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./SaltChapter/fig-3-15.png, id=1553, 465.23813pt x 351.56343pt>
+<./SaltChapter/fig-3-15.png, id=1487, 465.23813pt x 351.56343pt>
 File: ./SaltChapter/fig-3-15.png Graphic file (type png)
 <use ./SaltChapter/fig-3-15.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-15.png  used on input line 1392.
@@ -2644,7 +2659,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 93 undefined on input lin
 e 1406.
 
 [93 <./SaltChapter/fig-3-14.PNG> <./SaltChapter/fig-3-15.PNG>]
-<./SaltChapter/fig-3-16.png, id=1575, 458.46281pt x 353.82187pt>
+<./SaltChapter/fig-3-16.png, id=1507, 458.46281pt x 353.82187pt>
 File: ./SaltChapter/fig-3-16.png Graphic file (type png)
 <use ./SaltChapter/fig-3-16.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-16.png  used on input line 1450.
@@ -2658,7 +2673,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 94 undefined on input lin
 e 1475.
 
 [94]
-<./SaltChapter/fig-3-0-5.png, id=1585, 273.27094pt x 254.45062pt>
+<./SaltChapter/fig-3-0-5.png, id=1516, 273.27094pt x 254.45062pt>
 File: ./SaltChapter/fig-3-0-5.png Graphic file (type png)
 <use ./SaltChapter/fig-3-0-5.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-0-5.png  used on input line 1487.
@@ -2669,7 +2684,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 95 undefined on input lin
 e 1510.
 
 [95 <./SaltChapter/fig-3-16.PNG> <./SaltChapter/fig-3-0-5.PNG>]
-<./SaltChapter/fig-3-0-6.png, id=1596, 517.935pt x 226.59656pt>
+<./SaltChapter/fig-3-0-6.png, id=1527, 517.935pt x 226.59656pt>
 File: ./SaltChapter/fig-3-0-6.png Graphic file (type png)
 <use ./SaltChapter/fig-3-0-6.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-0-6.png  used on input line 1567.
@@ -2683,7 +2698,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 96 undefined on input lin
 e 1577.
 
 [96]
-<./SaltChapter/fig-3-0-7.png, id=1611, 488.57532pt x 429.85594pt>
+<./SaltChapter/fig-3-0-7.png, id=1541, 488.57532pt x 429.85594pt>
 File: ./SaltChapter/fig-3-0-7.png Graphic file (type png)
 <use ./SaltChapter/fig-3-0-7.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-0-7.png  used on input line 1611.
@@ -2697,7 +2712,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 97 undefined on input lin
 e 1629.
 
 [97 <./SaltChapter/fig-3-0-6.PNG>]
-<./SaltChapter/fig-3-0-8.png, id=1625, 286.06876pt x 254.45062pt>
+<./SaltChapter/fig-3-0-8.png, id=1553, 286.06876pt x 254.45062pt>
 File: ./SaltChapter/fig-3-0-8.png Graphic file (type png)
 <use ./SaltChapter/fig-3-0-8.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-0-8.png  used on input line 1644.
@@ -2712,7 +2727,7 @@ e 1665.
 LaTeX Warning: Reference `example-3-8' on page 99 undefined on input line 1698.
 
 
-<./SaltChapter/fig-3-0-9.png, id=1639, 383.93437pt x 330.48468pt>
+<./SaltChapter/fig-3-0-9.png, id=1567, 383.93437pt x 330.48468pt>
 File: ./SaltChapter/fig-3-0-9.png Graphic file (type png)
 <use ./SaltChapter/fig-3-0-9.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-0-9.png  used on input line 1702.
@@ -2722,7 +2737,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 99 undefined on input lin
 e 1716.
 
 [99 <./SaltChapter/fig-3-0-9.PNG>]
-<./SaltChapter/fig-3-0-10.png, id=1650, 316.18124pt x 229.60782pt>
+<./SaltChapter/fig-3-0-10.png, id=1577, 316.18124pt x 229.60782pt>
 File: ./SaltChapter/fig-3-0-10.png Graphic file (type png)
 <use ./SaltChapter/fig-3-0-10.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-0-10.png  used on input line 1782.
@@ -2744,7 +2759,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 102 undefined on input li
 ne 1879.
 
 [102]
-<./SaltChapter/fig-3-0-11.png, id=1688, 306.39468pt x 293.59688pt>
+<./SaltChapter/fig-3-0-11.png, id=1612, 306.39468pt x 293.59688pt>
 File: ./SaltChapter/fig-3-0-11.png Graphic file (type png)
 <use ./SaltChapter/fig-3-0-11.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-0-11.png  used on input line 1910.
@@ -2771,7 +2786,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 106 undefined on input li
 ne 2120.
 
 [106]
-<./SaltChapter/fig-3-0-12.png, id=1742, 289.83281pt x 249.93375pt>
+<./SaltChapter/fig-3-0-12.png, id=1661, 289.83281pt x 249.93375pt>
 File: ./SaltChapter/fig-3-0-12.png Graphic file (type png)
 <use ./SaltChapter/fig-3-0-12.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-0-12.png  used on input line 2152.
@@ -2783,7 +2798,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 107 undefined on input li
 ne 2163.
 
 [107 <./SaltChapter/fig-3-0-12.PNG>]
-<./SaltChapter/fig-3-0-13.png, id=1754, 660.96938pt x 346.29375pt>
+<./SaltChapter/fig-3-0-13.png, id=1673, 660.96938pt x 346.29375pt>
 File: ./SaltChapter/fig-3-0-13.png Graphic file (type png)
 <use ./SaltChapter/fig-3-0-13.png>
 Package pdftex.def Info: ./SaltChapter/fig-3-0-13.png  used on input line 2191.
@@ -2808,7 +2823,7 @@ ne 3.
 
 ]
 Chapter 4.
-<./SaltChapter/fig-4-0-1.png, id=1796, 461.47406pt x 200.24812pt>
+<./SaltChapter/fig-4-0-1.png, id=1710, 461.47406pt x 200.24812pt>
 File: ./SaltChapter/fig-4-0-1.png Graphic file (type png)
 <use ./SaltChapter/fig-4-0-1.png>
 Package pdftex.def Info: ./SaltChapter/fig-4-0-1.png  used on input line 10.
@@ -2827,7 +2842,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 113 undefined on input li
 ne 153.
 
 [113]
-<./SaltChapter/fig-4-1.png, id=1833, 476.53032pt x 313.17pt>
+<./SaltChapter/fig-4-1.png, id=1746, 476.53032pt x 313.17pt>
 File: ./SaltChapter/fig-4-1.png Graphic file (type png)
 <use ./SaltChapter/fig-4-1.png>
 Package pdftex.def Info: ./SaltChapter/fig-4-1.png  used on input line 176.
@@ -2838,7 +2853,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 114 undefined on input li
 ne 207.
 
 [114 <./SaltChapter/fig-4-1.PNG>]
-<./SaltChapter/fig-4-0-2.png, id=1845, 281.55188pt x 262.73157pt>
+<./SaltChapter/fig-4-0-2.png, id=1757, 281.55188pt x 262.73157pt>
 File: ./SaltChapter/fig-4-0-2.png Graphic file (type png)
 <use ./SaltChapter/fig-4-0-2.png>
 Package pdftex.def Info: ./SaltChapter/fig-4-0-2.png  used on input line 267.
@@ -2877,7 +2892,7 @@ P\LUC/nanummj/m/n/10/c8 ^^U\LUC/nanummj/m/n/10/bc •\LUC/nanummj/m/n/10/c5 Ð \LU
 C/nanummj/m/n/10/c7 X\LUC/nanummj/m/n/10/d5 t $[] \OML/cmm/m/it/10 nc[]z[]$
  []
 
-<./SaltChapter/fig-4-0-3.png, id=1880, 287.57437pt x 262.73157pt>
+<./SaltChapter/fig-4-0-3.png, id=1788, 287.57437pt x 262.73157pt>
 File: ./SaltChapter/fig-4-0-3.png Graphic file (type png)
 <use ./SaltChapter/fig-4-0-3.png>
 Package pdftex.def Info: ./SaltChapter/fig-4-0-3.png  used on input line 466.
@@ -2905,7 +2920,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 121 undefined on input li
 ne 665.
 
 [121]
-<./SaltChapter/fig-4-0-4.png, id=1933, 230.36063pt x 217.5628pt>
+<./SaltChapter/fig-4-0-4.png, id=1837, 230.36063pt x 217.5628pt>
 File: ./SaltChapter/fig-4-0-4.png Graphic file (type png)
 <use ./SaltChapter/fig-4-0-4.png>
 Package pdftex.def Info: ./SaltChapter/fig-4-0-4.png  used on input line 671.
@@ -2916,7 +2931,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 122 undefined on input li
 ne 715.
 
 [122 <./SaltChapter/fig-4-0-4.PNG>]
-<./SaltChapter/fig-4-0-5.png, id=1942, 234.8775pt x 226.59656pt>
+<./SaltChapter/fig-4-0-5.png, id=1845, 234.8775pt x 226.59656pt>
 File: ./SaltChapter/fig-4-0-5.png Graphic file (type png)
 <use ./SaltChapter/fig-4-0-5.png>
 Package pdftex.def Info: ./SaltChapter/fig-4-0-5.png  used on input line 722.
@@ -2957,7 +2972,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 129 undefined on input li
 ne 1135.
 
 [129]
-<./SaltChapter/fig-4-0-6.png, id=2041, 202.50656pt x 127.22531pt>
+<./SaltChapter/fig-4-0-6.png, id=1937, 202.50656pt x 127.22531pt>
 File: ./SaltChapter/fig-4-0-6.png Graphic file (type png)
 <use ./SaltChapter/fig-4-0-6.png>
 Package pdftex.def Info: ./SaltChapter/fig-4-0-6.png  used on input line 1179.
@@ -2983,7 +2998,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 133 undefined on input li
 ne 1375.
 
 [133]
-<./SaltChapter/fig-4-0-7.png, id=2091, 292.84406pt x 244.66406pt>
+<./SaltChapter/fig-4-0-7.png, id=1983, 292.84406pt x 244.66406pt>
 File: ./SaltChapter/fig-4-0-7.png Graphic file (type png)
 <use ./SaltChapter/fig-4-0-7.png>
 Package pdftex.def Info: ./SaltChapter/fig-4-0-7.png  used on input line 1410.
@@ -3004,7 +3019,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 136 undefined on input li
 ne 1539.
 
 [136]
-<./SaltChapter/fig-4-2.png, id=2132, 384.6872pt x 395.22656pt>
+<./SaltChapter/fig-4-2.png, id=2020, 384.6872pt x 395.22656pt>
 File: ./SaltChapter/fig-4-2.png Graphic file (type png)
 <use ./SaltChapter/fig-4-2.png>
 Package pdftex.def Info: ./SaltChapter/fig-4-2.png  used on input line 1591.
@@ -3038,7 +3053,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 141 undefined on input li
 ne 1824.
 
 [141]
-<./SaltChapter/fig-4-3.png, id=2170, 732.48656pt x 241.65282pt>
+<./SaltChapter/fig-4-3.png, id=2054, 732.48656pt x 241.65282pt>
 File: ./SaltChapter/fig-4-3.png Graphic file (type png)
 <use ./SaltChapter/fig-4-3.png>
 Package pdftex.def Info: ./SaltChapter/fig-4-3.png  used on input line 1838.
@@ -3074,7 +3089,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 147 undefined on input li
 ne 2197.
 
 [147]
-<./SaltChapter/fig-4-0-8.png, id=2228, 707.64375pt x 240.9pt>
+<./SaltChapter/fig-4-0-8.png, id=2106, 707.64375pt x 240.9pt>
 File: ./SaltChapter/fig-4-0-8.png Graphic file (type png)
 <use ./SaltChapter/fig-4-0-8.png>
 Package pdftex.def Info: ./SaltChapter/fig-4-0-8.png  used on input line 2223.
@@ -3100,7 +3115,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 151 undefined on input li
 ne 2446.
 
 [151]
-<./SaltChapter/fig-4-0-9.png, id=2281, 511.9125pt x 179.92218pt>
+<./SaltChapter/fig-4-0-9.png, id=2155, 511.9125pt x 179.92218pt>
 File: ./SaltChapter/fig-4-0-9.png Graphic file (type png)
 <use ./SaltChapter/fig-4-0-9.png>
 Package pdftex.def Info: ./SaltChapter/fig-4-0-9.png  used on input line 2491.
@@ -3126,7 +3141,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 155 undefined on input li
 ne 2705.
 
 [155]
-<./SaltChapter/fig-4-0-10.png, id=2326, 353.82187pt x 268.00125pt>
+<./SaltChapter/fig-4-0-10.png, id=2197, 353.82187pt x 268.00125pt>
 File: ./SaltChapter/fig-4-0-10.png Graphic file (type png)
 <use ./SaltChapter/fig-4-0-10.png>
 Package pdftex.def Info: ./SaltChapter/fig-4-0-10.png  used on input line 2716.
@@ -3138,13 +3153,13 @@ LaTeX Warning: Hyper reference `toc-contents' on page 156 undefined on input li
 ne 2759.
 
 [156 <./SaltChapter/fig-4-0-10.PNG>]
-<./SaltChapter/fig-4-0-11.png, id=2335, 378.66469pt x 355.3275pt>
+<./SaltChapter/fig-4-0-11.png, id=2205, 378.66469pt x 355.3275pt>
 File: ./SaltChapter/fig-4-0-11.png Graphic file (type png)
 <use ./SaltChapter/fig-4-0-11.png>
 Package pdftex.def Info: ./SaltChapter/fig-4-0-11.png  used on input line 2766.
 
 (pdftex.def)             Requested size: 126.75772pt x 118.94463pt.
-<./SaltChapter/fig-4-4.png, id=2341, 757.32938pt x 261.22594pt>
+<./SaltChapter/fig-4-4.png, id=2211, 757.32938pt x 261.22594pt>
 File: ./SaltChapter/fig-4-4.png Graphic file (type png)
 <use ./SaltChapter/fig-4-4.png>
 Package pdftex.def Info: ./SaltChapter/fig-4-4.png  used on input line 2814.
@@ -3158,7 +3173,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 157 undefined on input li
 ne 2823.
 
 [157 <./SaltChapter/fig-4-0-11.PNG>]
-<./SaltChapter/fig-4-0-12.png, id=2355, 344.03531pt x 289.83281pt>
+<./SaltChapter/fig-4-0-12.png, id=2223, 344.03531pt x 289.83281pt>
 File: ./SaltChapter/fig-4-0-12.png Graphic file (type png)
 <use ./SaltChapter/fig-4-0-12.png>
 Package pdftex.def Info: ./SaltChapter/fig-4-0-12.png  used on input line 2863.
@@ -3173,7 +3188,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 158 undefined on input li
 ne 2875.
 
 [158 <./SaltChapter/fig-4-4.PNG>]
-<./SaltChapter/fig-4-0-13.png, id=2368, 334.24875pt x 209.28188pt>
+<./SaltChapter/fig-4-0-13.png, id=2234, 334.24875pt x 209.28188pt>
 File: ./SaltChapter/fig-4-0-13.png Graphic file (type png)
 <use ./SaltChapter/fig-4-0-13.png>
 Package pdftex.def Info: ./SaltChapter/fig-4-0-13.png  used on input line 2912.
@@ -3188,7 +3203,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 159 undefined on input li
 ne 2927.
 
 [159 <./SaltChapter/fig-4-0-12.PNG>]
-<./SaltChapter/fig-4-5.png, id=2381, 797.22844pt x 497.60907pt>
+<./SaltChapter/fig-4-5.png, id=2246, 797.22844pt x 497.60907pt>
 File: ./SaltChapter/fig-4-5.png Graphic file (type png)
 <use ./SaltChapter/fig-4-5.png>
 Package pdftex.def Info: ./SaltChapter/fig-4-5.png  used on input line 2948.
@@ -3228,7 +3243,7 @@ Chapter 5.
 [163
 
 ]
-<./SaltChapter/fig-5-1.png, id=2447, 708.39656pt x 398.99063pt>
+<./SaltChapter/fig-5-1.png, id=2310, 708.39656pt x 398.99063pt>
 File: ./SaltChapter/fig-5-1.png Graphic file (type png)
 <use ./SaltChapter/fig-5-1.png>
 Package pdftex.def Info: ./SaltChapter/fig-5-1.png  used on input line 114.
@@ -3271,7 +3286,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 397.
 
-<./SaltChapter/fig-5-0-1.png, id=2535, 847.66687pt x 279.29344pt>
+<./SaltChapter/fig-5-0-1.png, id=2394, 847.66687pt x 279.29344pt>
 File: ./SaltChapter/fig-5-0-1.png Graphic file (type png)
 <use ./SaltChapter/fig-5-0-1.png>
 Package pdftex.def Info: ./SaltChapter/fig-5-0-1.png  used on input line 404.
@@ -3286,7 +3301,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 170 undefined on input li
 ne 482.
 
 [170]
-<./SaltChapter/fig-5-0-2.png, id=2563, 428.35031pt x 373.395pt>
+<./SaltChapter/fig-5-0-2.png, id=2419, 428.35031pt x 373.395pt>
 File: ./SaltChapter/fig-5-0-2.png Graphic file (type png)
 <use ./SaltChapter/fig-5-0-2.png>
 Package pdftex.def Info: ./SaltChapter/fig-5-0-2.png  used on input line 519.
@@ -3309,7 +3324,7 @@ ne 665.
 [173])
 
 LaTeX Warning: Hyper reference `toc-contents' on page 174 undefined on input li
-ne 326.
+ne 352.
 
 [174] (./Solution/sol_chapter01.tex
 Appendix A.
@@ -3325,7 +3340,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 176 undefined on input li
 ne 97.
 
 [176]
-<./Solution/figs/fig-5-2.png, id=2634, 630.10406pt x 614.295pt>
+<./Solution/figs/fig-5-2.png, id=2485, 630.10406pt x 614.295pt>
 File: ./Solution/figs/fig-5-2.png Graphic file (type png)
 <use ./Solution/figs/fig-5-2.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-2.png  used on input line 113.
@@ -3344,7 +3359,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 178 undefined on input li
 ne 187.
 
 [178]
-<./Solution/figs/fig-5-3.png, id=2658, 536.0025pt x 524.71031pt>
+<./Solution/figs/fig-5-3.png, id=2509, 536.0025pt x 524.71031pt>
 File: ./Solution/figs/fig-5-3.png Graphic file (type png)
 <use ./Solution/figs/fig-5-3.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-3.png  used on input line 247.
@@ -3360,7 +3375,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 180 undefined on input li
 ne 282.
 
 [180 <./Solution/figs/fig-5-3.PNG>]
-<./Solution/figs/fig-5-4.png, id=2677, 508.14844pt x 269.50688pt>
+<./Solution/figs/fig-5-4.png, id=2528, 508.14844pt x 269.50688pt>
 File: ./Solution/figs/fig-5-4.png Graphic file (type png)
 <use ./Solution/figs/fig-5-4.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-4.png  used on input line 325.
@@ -3374,7 +3389,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 181 undefined on input li
 ne 359.
 
 [181]
-<./Solution/figs/fig-5-5.png, id=2687, 515.67656pt x 544.28343pt>
+<./Solution/figs/fig-5-5.png, id=2536, 515.67656pt x 544.28343pt>
 File: ./Solution/figs/fig-5-5.png Graphic file (type png)
 <use ./Solution/figs/fig-5-5.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-5.png  used on input line 379.
@@ -3393,7 +3408,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 183 undefined on input li
 ne 433.
 
 [183 <./Solution/figs/fig-5-5.PNG>]
-<./Solution/figs/fig-s-0-1.png, id=2705, 282.30469pt x 294.34969pt>
+<./Solution/figs/fig-s-0-1.png, id=2553, 282.30469pt x 294.34969pt>
 File: ./Solution/figs/fig-s-0-1.png Graphic file (type png)
 <use ./Solution/figs/fig-s-0-1.png>
 Package pdftex.def Info: ./Solution/figs/fig-s-0-1.png  used on input line 464.
@@ -3405,7 +3420,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 184 undefined on input li
 ne 483.
 
 [184 <./Solution/figs/fig-s-0-1.PNG>]
-<./Solution/figs/fig-5-6.png, id=2717, 592.46344pt x 326.72063pt>
+<./Solution/figs/fig-5-6.png, id=2564, 592.46344pt x 326.72063pt>
 File: ./Solution/figs/fig-5-6.png Graphic file (type png)
 <use ./Solution/figs/fig-5-6.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-6.png  used on input line 536.
@@ -3424,12 +3439,12 @@ LaTeX Warning: Hyper reference `toc-contents' on page 186 undefined on input li
 ne 626.
 
 [186 <./Solution/figs/fig-5-6.PNG>]
-<./Solution/figs/fig-5-7.png, id=2737, 670.00313pt x 251.43938pt>
+<./Solution/figs/fig-5-7.png, id=2584, 670.00313pt x 251.43938pt>
 File: ./Solution/figs/fig-5-7.png Graphic file (type png)
 <use ./Solution/figs/fig-5-7.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-7.png  used on input line 656.
 (pdftex.def)             Requested size: 307.29092pt x 115.3182pt.
-<./Solution/figs/fig-s-0-2.png, id=2738, 276.28218pt x 189.70876pt>
+<./Solution/figs/fig-s-0-2.png, id=2585, 276.28218pt x 189.70876pt>
 File: ./Solution/figs/fig-s-0-2.png Graphic file (type png)
 <use ./Solution/figs/fig-s-0-2.png>
 Package pdftex.def Info: ./Solution/figs/fig-s-0-2.png  used on input line 666.
@@ -3441,13 +3456,13 @@ LaTeX Warning: Hyper reference `toc-contents' on page 187 undefined on input li
 ne 671.
 
 [187 <./Solution/figs/fig-5-7.PNG>]
-<./Solution/figs/fig-s-0-3.png, id=2749, 286.82156pt x 199.49532pt>
+<./Solution/figs/fig-s-0-3.png, id=2594, 286.82156pt x 199.49532pt>
 File: ./Solution/figs/fig-s-0-3.png Graphic file (type png)
 <use ./Solution/figs/fig-s-0-3.png>
 Package pdftex.def Info: ./Solution/figs/fig-s-0-3.png  used on input line 675.
 
 (pdftex.def)             Requested size: 115.23482pt x 80.14981pt.
-<./Solution/figs/fig-5-8.png, id=2750, 549.55313pt x 283.81032pt>
+<./Solution/figs/fig-5-8.png, id=2595, 549.55313pt x 283.81032pt>
 File: ./Solution/figs/fig-5-8.png Graphic file (type png)
 <use ./Solution/figs/fig-5-8.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-8.png  used on input line 686.
@@ -3459,12 +3474,12 @@ ne 701.
 
 [188 <./Solution/figs/fig-s-0-2.PNG> <./Solution/figs/fig-s-0-3.PNG> <./Solutio
 n/figs/fig-5-8.PNG>]
-<./Solution/figs/fig-5-9.png, id=2762, 664.73344pt x 286.06876pt>
+<./Solution/figs/fig-5-9.png, id=2607, 664.73344pt x 286.06876pt>
 File: ./Solution/figs/fig-5-9.png Graphic file (type png)
 <use ./Solution/figs/fig-5-9.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-9.png  used on input line 705.
 (pdftex.def)             Requested size: 230.46965pt x 99.18271pt.
-<./Solution/figs/fig-5-10.png, id=2763, 673.76718pt x 366.61969pt>
+<./Solution/figs/fig-5-10.png, id=2608, 673.76718pt x 366.61969pt>
 File: ./Solution/figs/fig-5-10.png Graphic file (type png)
 <use ./Solution/figs/fig-5-10.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-10.png  used on input line 716.
@@ -3511,7 +3526,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 191 undefined on input li
 ne 891.
 
 [191]
-<./Solution/figs/fig-5-11.png, id=2795, 670.00313pt x 370.38374pt>
+<./Solution/figs/fig-5-11.png, id=2639, 670.00313pt x 370.38374pt>
 File: ./Solution/figs/fig-5-11.png Graphic file (type png)
 <use ./Solution/figs/fig-5-11.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-11.png  used on input line 928.
@@ -3525,12 +3540,12 @@ LaTeX Warning: Hyper reference `toc-contents' on page 192 undefined on input li
 ne 962.
 
 [192]
-<./Solution/figs/fig-5-12.png, id=2804, 435.87843pt x 301.125pt>
+<./Solution/figs/fig-5-12.png, id=2649, 435.87843pt x 301.125pt>
 File: ./Solution/figs/fig-5-12.png Graphic file (type png)
 <use ./Solution/figs/fig-5-12.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-12.png  used on input line 965.
 (pdftex.def)             Requested size: 192.05609pt x 132.67918pt.
-<./Solution/figs/fig-5-13.png, id=2807, 571.38469pt x 387.69844pt>
+<./Solution/figs/fig-5-13.png, id=2652, 571.38469pt x 387.69844pt>
 File: ./Solution/figs/fig-5-13.png Graphic file (type png)
 <use ./Solution/figs/fig-5-13.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-13.png  used on input line 983.
@@ -3563,7 +3578,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 195 undefined on input li
 ne 1083.
 
 [195]
-<./Solution/figs/fig-5-14.png, id=2838, 417.05812pt x 341.02406pt>
+<./Solution/figs/fig-5-14.png, id=2680, 417.05812pt x 341.02406pt>
 File: ./Solution/figs/fig-5-14.png Graphic file (type png)
 <use ./Solution/figs/fig-5-14.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-14.png  used on input line 1102.
@@ -3578,7 +3593,7 @@ ne 1122.
 
 LaTeX Warning: Reference `ex-1-42' on page 197 undefined on input line 1131.
 
-<./Solution/figs/fig-s-0-5.png, id=2848, 380.17032pt x 240.9pt>
+<./Solution/figs/fig-s-0-5.png, id=2690, 380.17032pt x 240.9pt>
 File: ./Solution/figs/fig-s-0-5.png Graphic file (type png)
 <use ./Solution/figs/fig-s-0-5.png>
 Package pdftex.def Info: ./Solution/figs/fig-s-0-5.png  used on input line 1149
@@ -3636,7 +3651,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 204 undefined on input li
 ne 382.
 
 [204]
-<./Solution/figs/fig-s-0-6.png, id=2929, 644.4075pt x 245.41687pt>
+<./Solution/figs/fig-s-0-6.png, id=2767, 644.4075pt x 245.41687pt>
 File: ./Solution/figs/fig-s-0-6.png Graphic file (type png)
 <use ./Solution/figs/fig-s-0-6.png>
 Package pdftex.def Info: ./Solution/figs/fig-s-0-6.png  used on input line 427.
@@ -3646,7 +3661,7 @@ Package pdftex.def Info: ./Solution/figs/fig-s-0-6.png  used on input line 427.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./Solution/figs/fig-5-15.png, id=2931, 606.01407pt x 236.38312pt>
+<./Solution/figs/fig-5-15.png, id=2769, 606.01407pt x 236.38312pt>
 File: ./Solution/figs/fig-5-15.png Graphic file (type png)
 <use ./Solution/figs/fig-5-15.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-15.png  used on input line 437.
@@ -3675,7 +3690,7 @@ ummj/m/n/10/c7 @ $\OML/cmm/m/it/10 e[]\OT1/cmr/m/n/10 ([] \OML/cmm/m/it/10 y \O
 T1/cmr/m/n/10 +
  []
 
-<./Solution/figs/fig-s-0-7.png, id=2939, 508.14844pt x 204.765pt>
+<./Solution/figs/fig-s-0-7.png, id=2776, 508.14844pt x 204.765pt>
 File: ./Solution/figs/fig-s-0-7.png Graphic file (type png)
 <use ./Solution/figs/fig-s-0-7.png>
 Package pdftex.def Info: ./Solution/figs/fig-s-0-7.png  used on input line 456.
@@ -3691,7 +3706,7 @@ ne 473.
 
 [206 <./Solution/figs/fig-s-0-6.PNG> <./Solution/figs/fig-5-15.PNG> <./Solution
 /figs/fig-s-0-7.PNG>]
-<./Solution/figs/fig-5-16.png, id=2953, 609.02531pt x 304.88907pt>
+<./Solution/figs/fig-5-16.png, id=2790, 609.02531pt x 304.88907pt>
 File: ./Solution/figs/fig-5-16.png Graphic file (type png)
 <use ./Solution/figs/fig-5-16.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-16.png  used on input line 477.
@@ -3720,7 +3735,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 210 undefined on input li
 ne 128.
 
 [210]
-<./Solution/figs/fig-s-0-8.png, id=2987, 250.68657pt x 218.31563pt>
+<./Solution/figs/fig-s-0-8.png, id=2822, 250.68657pt x 218.31563pt>
 File: ./Solution/figs/fig-s-0-8.png Graphic file (type png)
 <use ./Solution/figs/fig-s-0-8.png>
 Package pdftex.def Info: ./Solution/figs/fig-s-0-8.png  used on input line 156.
@@ -3762,7 +3777,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 214 undefined on input li
 ne 358.
 
 [214]
-<./Solution/figs/fig-s-0-9.png, id=3020, 343.2825pt x 327.47343pt>
+<./Solution/figs/fig-s-0-9.png, id=2852, 343.2825pt x 327.47343pt>
 File: ./Solution/figs/fig-s-0-9.png Graphic file (type png)
 <use ./Solution/figs/fig-s-0-9.png>
 Package pdftex.def Info: ./Solution/figs/fig-s-0-9.png  used on input line 372.
@@ -3774,7 +3789,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 215 undefined on input li
 ne 398.
 
 [215 <./Solution/figs/fig-s-0-9.PNG>]
-<./Solution/figs/fig-5-17.png, id=3030, 337.26pt x 286.82156pt>
+<./Solution/figs/fig-5-17.png, id=2862, 337.26pt x 286.82156pt>
 File: ./Solution/figs/fig-5-17.png Graphic file (type png)
 <use ./Solution/figs/fig-5-17.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-17.png  used on input line 429.
@@ -3788,7 +3803,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 216 undefined on input li
 ne 449.
 
 [216]
-<./Solution/figs/fig-5-18.png, id=3038, 345.54094pt x 344.78813pt>
+<./Solution/figs/fig-5-18.png, id=2870, 345.54094pt x 344.78813pt>
 File: ./Solution/figs/fig-5-18.png Graphic file (type png)
 <use ./Solution/figs/fig-5-18.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-18.png  used on input line 453.
@@ -3804,7 +3819,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 218 undefined on input li
 ne 531.
 
 [218]
-<./Solution/figs/fig-5-19.png, id=3056, 296.60812pt x 162.6075pt>
+<./Solution/figs/fig-5-19.png, id=2886, 296.60812pt x 162.6075pt>
 File: ./Solution/figs/fig-5-19.png Graphic file (type png)
 <use ./Solution/figs/fig-5-19.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-19.png  used on input line 566.
@@ -3815,7 +3830,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 219 undefined on input li
 ne 583.
 
 [219 <./Solution/figs/fig-5-19.PNG>]
-<./Solution/figs/fig-s-0-10.png, id=3065, 474.27188pt x 374.90062pt>
+<./Solution/figs/fig-s-0-10.png, id=2894, 474.27188pt x 374.90062pt>
 File: ./Solution/figs/fig-s-0-10.png Graphic file (type png)
 <use ./Solution/figs/fig-s-0-10.png>
 Package pdftex.def Info: ./Solution/figs/fig-s-0-10.png  used on input line 590
@@ -3830,7 +3845,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 220 undefined on input li
 ne 636.
 
 [220 <./Solution/figs/fig-s-0-10.PNG>]
-<./Solution/figs/fig-s-0-11.png, id=3077, 497.60907pt x 374.90062pt>
+<./Solution/figs/fig-s-0-11.png, id=2906, 497.60907pt x 374.90062pt>
 File: ./Solution/figs/fig-s-0-11.png Graphic file (type png)
 <use ./Solution/figs/fig-s-0-11.png>
 Package pdftex.def Info: ./Solution/figs/fig-s-0-11.png  used on input line 653
@@ -3845,7 +3860,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 221 undefined on input li
 ne 686.
 
 [221]
-<./Solution/figs/fig-5-20.png, id=3085, 298.11375pt x 249.93375pt>
+<./Solution/figs/fig-5-20.png, id=2915, 298.11375pt x 249.93375pt>
 File: ./Solution/figs/fig-5-20.png Graphic file (type png)
 <use ./Solution/figs/fig-5-20.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-20.png  used on input line 702.
@@ -3932,7 +3947,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 236 undefined on input li
 ne 532.
 
 [236]
-<./Solution/figs/fig-5-21.png, id=3210, 578.91281pt x 197.98969pt>
+<./Solution/figs/fig-5-21.png, id=3031, 578.91281pt x 197.98969pt>
 File: ./Solution/figs/fig-5-21.png Graphic file (type png)
 <use ./Solution/figs/fig-5-21.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-21.png  used on input line 555.
@@ -3964,7 +3979,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 238 undefined on input li
 ne 637.
 
 [238]
-<./Solution/figs/fig-5-22.png, id=3229, 499.8675pt x 211.54031pt>
+<./Solution/figs/fig-5-22.png, id=3050, 499.8675pt x 211.54031pt>
 File: ./Solution/figs/fig-5-22.png Graphic file (type png)
 <use ./Solution/figs/fig-5-22.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-22.png  used on input line 652.
@@ -3995,7 +4010,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 243 undefined on input li
 ne 896.
 
 [243]
-<./Solution/figs/fig-5-23.png, id=3273, 374.90062pt x 389.20406pt>
+<./Solution/figs/fig-5-23.png, id=3090, 374.90062pt x 389.20406pt>
 File: ./Solution/figs/fig-5-23.png Graphic file (type png)
 <use ./Solution/figs/fig-5-23.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-23.png  used on input line 944.
@@ -4084,7 +4099,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 256 undefined on input li
 ne 327.
 
 [256]
-<./Solution/figs/fig-5-24.png, id=3369, 384.6872pt x 253.69781pt>
+<./Solution/figs/fig-5-24.png, id=3180, 384.6872pt x 253.69781pt>
 File: ./Solution/figs/fig-5-24.png Graphic file (type png)
 <use ./Solution/figs/fig-5-24.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-24.png  used on input line 375.
@@ -4098,7 +4113,7 @@ LaTeX Warning: Hyper reference `toc-contents' on page 257 undefined on input li
 ne 401.
 
 [257]
-<./Solution/figs/fig-5-25.png, id=3377, 371.13657pt x 276.28218pt>
+<./Solution/figs/fig-5-25.png, id=3188, 371.13657pt x 276.28218pt>
 File: ./Solution/figs/fig-5-25.png Graphic file (type png)
 <use ./Solution/figs/fig-5-25.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-25.png  used on input line 409.
@@ -4111,18 +4126,18 @@ ne 434.
 [258 <./Solution/figs/fig-5-24.PNG> <./Solution/figs/fig-5-25.PNG>])
 
 LaTeX Warning: Hyper reference `toc-contents' on page 259 undefined on input li
-ne 347.
+ne 373.
 
 [259]
 
 LaTeX Warning: Hyper reference `toc-contents' on page 260 undefined on input li
-ne 347.
+ne 373.
 
 [260
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 351.
+LaTeX Warning: Empty bibliography on input line 377.
 
 runsystem(makeindex -s index.ist notes_template.idx)...executed safely (allowed
 ).
@@ -4163,15 +4178,15 @@ Package logreq Info: Writing requests to 'notes_template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39392 strings out of 478268
- 707370 string characters out of 5850346
- 1528060 words of memory out of 5000000
- 55439 multiletter control sequences out of 15000+600000
- 604695 words of font info for 425 fonts, out of 8000000 for 9000
+ 39399 strings out of 478268
+ 707451 string characters out of 5850346
+ 1528018 words of memory out of 5000000
+ 55444 multiletter control sequences out of 15000+600000
+ 605188 words of font info for 427 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,19n,117p,1186b,849s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{c:/tex
-live/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_lyu3x3.enc}<c:/texlive/2022
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_lyu3x3.enc}{c:/tex
+live/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}<c:/texlive/2022
 /texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb><c:/texlive/2022/tex
 mf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb><c:/texlive/2022/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/font
@@ -4191,91 +4206,93 @@ e/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2022/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmsy7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/lat
-xfont/line10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbol
-s/msam10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
-bm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.
-pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbac.pfb><c
-:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbad.pfb><c:/texl
-ive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbae.pfb><c:/texlive/20
-22/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb0.pfb><c:/texlive/2022/tex
-mf-dist/fonts/type1/public/nanumtype1/nanummjbb1.pfb><c:/texlive/2022/texmf-dis
-t/fonts/type1/public/nanumtype1/nanummjbb2.pfb><c:/texlive/2022/texmf-dist/font
-s/type1/public/nanumtype1/nanummjbb3.pfb><c:/texlive/2022/texmf-dist/fonts/type
-1/public/nanumtype1/nanummjbb4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publ
-ic/nanumtype1/nanummjbb5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nan
-umtype1/nanummjbb6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype
-1/nanummjbb7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanu
-mmjbb8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb9
-.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbba.pfb><
-c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbbb.pfb><c:/tex
-live/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbbc.pfb><c:/texlive/2
-022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbbd.pfb><c:/texlive/2022/te
-xmf-dist/fonts/type1/public/nanumtype1/nanummjbbe.pfb><c:/texlive/2022/texmf-di
-st/fonts/type1/public/nanumtype1/nanummjbc0.pfb><c:/texlive/2022/texmf-dist/fon
-ts/type1/public/nanumtype1/nanummjbc1.pfb><c:/texlive/2022/texmf-dist/fonts/typ
-e1/public/nanumtype1/nanummjbc2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pub
-lic/nanumtype1/nanummjbc3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/na
-numtype1/nanummjbc5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtyp
-e1/nanummjbc6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nan
-ummjbc7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc
-8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc9.pfb>
-<c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbcc.pfb><c:/te
-xlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbcd.pfb><c:/texlive/
-2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbce.pfb><c:/texlive/2022/t
-exmf-dist/fonts/type1/public/nanumtype1/nanummjbcf.pfb><c:/texlive/2022/texmf-d
-ist/fonts/type1/public/nanumtype1/nanummjbd0.pfb><c:/texlive/2022/texmf-dist/fo
-nts/type1/public/nanumtype1/nanummjbd1.pfb><c:/texlive/2022/texmf-dist/fonts/ty
-pe1/public/nanumtype1/nanummjbd2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pu
-blic/nanumtype1/nanummjbd3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/n
-anumtype1/nanummjbd4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumty
-pe1/nanummjbd5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/na
-nummjbd6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjb
-d7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb
-><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/t
-exlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb><c:/texlive
-/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmaf.pfb><c:/texlive/2022/
-texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb><c:/texlive/2022/texmf-
-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb><c:/texlive/2022/texmf-dist/f
-onts/type1/public/nanumtype1/nanummjmb2.pfb><c:/texlive/2022/texmf-dist/fonts/t
-ype1/public/nanumtype1/nanummjmb3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/p
-ublic/nanumtype1/nanummjmb4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
-nanumtype1/nanummjmb5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumt
-ype1/nanummjmb6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/n
-anummjmb7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummj
-mb8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pf
-b><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb><c:/
-texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb><c:/texliv
-e/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/2022
-/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb><c:/texlive/2022/texmf
--dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb><c:/texlive/2022/texmf-dist/
-fonts/type1/public/nanumtype1/nanummjmbf.pfb><c:/texlive/2022/texmf-dist/fonts/
-type1/public/nanumtype1/nanummjmc0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/
-public/nanumtype1/nanummjmc1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
-/nanumtype1/nanummjmc2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanum
-type1/nanummjmc3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/
-nanummjmc4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumm
-jmc5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.p
-fb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:
-/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb><c:/texli
-ve/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/202
-2/texmf-dist/fonts/type1/public/nanumtype1/nanummjmca.pfb><c:/texlive/2022/texm
-f-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb><c:/texlive/2022/texmf-dist
-/fonts/type1/public/nanumtype1/nanummjmcd.pfb><c:/texlive/2022/texmf-dist/fonts
-/type1/public/nanumtype1/nanummjmce.pfb><c:/texlive/2022/texmf-dist/fonts/type1
-/public/nanumtype1/nanummjmcf.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publi
-c/nanumtype1/nanummjmd0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanu
-mtype1/nanummjmd1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1
-/nanummjmd2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanum
-mjmd3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.
-pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb><c
-:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texl
-ive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/20
-22/texmf-dist/fonts/type1/uhc/umj/umj34.pfb>
-Output written on notes_template.pdf (260 pages, 8783691 bytes).
+sfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmtt8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcir
+cle1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/latxfont/line1
+0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pf
+b><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c
+:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb><c:/tex
+live/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbac.pfb><c:/texlive/2
+022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbad.pfb><c:/texlive/2022/te
+xmf-dist/fonts/type1/public/nanumtype1/nanummjbae.pfb><c:/texlive/2022/texmf-di
+st/fonts/type1/public/nanumtype1/nanummjbb0.pfb><c:/texlive/2022/texmf-dist/fon
+ts/type1/public/nanumtype1/nanummjbb1.pfb><c:/texlive/2022/texmf-dist/fonts/typ
+e1/public/nanumtype1/nanummjbb2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pub
+lic/nanumtype1/nanummjbb3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/na
+numtype1/nanummjbb4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtyp
+e1/nanummjbb5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nan
+ummjbb6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb
+7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb8.pfb>
+<c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb9.pfb><c:/te
+xlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbba.pfb><c:/texlive/
+2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbbb.pfb><c:/texlive/2022/t
+exmf-dist/fonts/type1/public/nanumtype1/nanummjbbc.pfb><c:/texlive/2022/texmf-d
+ist/fonts/type1/public/nanumtype1/nanummjbbd.pfb><c:/texlive/2022/texmf-dist/fo
+nts/type1/public/nanumtype1/nanummjbbe.pfb><c:/texlive/2022/texmf-dist/fonts/ty
+pe1/public/nanumtype1/nanummjbc0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pu
+blic/nanumtype1/nanummjbc1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/n
+anumtype1/nanummjbc2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumty
+pe1/nanummjbc3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/na
+nummjbc5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjb
+c6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc7.pfb
+><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc8.pfb><c:/t
+exlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc9.pfb><c:/texlive
+/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbcc.pfb><c:/texlive/2022/
+texmf-dist/fonts/type1/public/nanumtype1/nanummjbcd.pfb><c:/texlive/2022/texmf-
+dist/fonts/type1/public/nanumtype1/nanummjbce.pfb><c:/texlive/2022/texmf-dist/f
+onts/type1/public/nanumtype1/nanummjbcf.pfb><c:/texlive/2022/texmf-dist/fonts/t
+ype1/public/nanumtype1/nanummjbd0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/p
+ublic/nanumtype1/nanummjbd1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
+nanumtype1/nanummjbd2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumt
+ype1/nanummjbd3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/n
+anummjbd4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummj
+bd5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd6.pf
+b><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd7.pfb><c:/
+texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb><c:/texliv
+e/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/texlive/2022
+/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb><c:/texlive/2022/texmf
+-dist/fonts/type1/public/nanumtype1/nanummjmaf.pfb><c:/texlive/2022/texmf-dist/
+fonts/type1/public/nanumtype1/nanummjmb0.pfb><c:/texlive/2022/texmf-dist/fonts/
+type1/public/nanumtype1/nanummjmb1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/
+public/nanumtype1/nanummjmb2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
+/nanumtype1/nanummjmb3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanum
+type1/nanummjmb4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/
+nanummjmb5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumm
+jmb6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.p
+fb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb><c:
+/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb><c:/texli
+ve/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb><c:/texlive/202
+2/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb><c:/texlive/2022/texm
+f-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/2022/texmf-dist
+/fonts/type1/public/nanumtype1/nanummjmbd.pfb><c:/texlive/2022/texmf-dist/fonts
+/type1/public/nanumtype1/nanummjmbe.pfb><c:/texlive/2022/texmf-dist/fonts/type1
+/public/nanumtype1/nanummjmbf.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publi
+c/nanumtype1/nanummjmc0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanu
+mtype1/nanummjmc1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1
+/nanummjmc2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanum
+mjmc3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc4.
+pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb><c
+:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb><c:/texl
+ive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texlive/20
+22/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/2022/tex
+mf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2022/texmf-dis
+t/fonts/type1/public/nanumtype1/nanummjmca.pfb><c:/texlive/2022/texmf-dist/font
+s/type1/public/nanumtype1/nanummjmcc.pfb><c:/texlive/2022/texmf-dist/fonts/type
+1/public/nanumtype1/nanummjmcd.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publ
+ic/nanumtype1/nanummjmce.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nan
+umtype1/nanummjmcf.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype
+1/nanummjmd0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanu
+mmjmd1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2
+.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb><
+c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb><c:/tex
+live/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb><c:/texlive/2
+022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texlive/2022/te
+xmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/2022/texmf-di
+st/fonts/type1/uhc/umj/umj34.pfb>
+Output written on notes_template.pdf (262 pages, 8787627 bytes).
 PDF statistics:
- 4078 PDF objects out of 4296 (max. 8388607)
- 3291 compressed objects within 33 object streams
+ 3896 PDF objects out of 4296 (max. 8388607)
+ 3104 compressed objects within 32 object streams
  1095 named destinations out of 1200 (max. 500000)
  1118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
