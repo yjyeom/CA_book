@@ -1,0 +1,54 @@
+\begin{itemize}
+\item[(1)] 
+\item[(2)] 
+\end{itemize}
+
+z\in \mathbb C
+
+
+\begin{salt_definition} \label{def-4-3}
+
+\end{salt_definition}
+
+
+
+
+\begin{salt_example} \label{example-4-10}
+
+\end{salt_example}
+
+
+\begin{salt_exercise} \label{ex-}
+
+\end{salt_exercise}
+
+
+\begin{salt_theorem} \label{thm-4-7}
+
+\end{salt_theorem}
+
+
+
+\begin{figure*}[h!]
+\begin{center}
+\includegraphics[width=0.3\textwidth]{./SaltChapter/fig-4-0-7}
+\end{center}
+%\caption{$\mathbb C$에 정의된 제곱급수의 수렴영역}
+%\label{fig-4-0-3}
+\end{figure*}
+
+
+
+\begin{center}
+\begin{tabular}{ |c|c|c| } 
+ \hline
+ cell1 & cell2 & cell3 \\ 
+ cell4 & cell5 & cell6 \\ 
+ cell7 & cell8 & cell9 \\ 
+ \hline
+\end{tabular}
+\end{center}
+
+
+% 수식에서 지우는 표시하기 
+\cancel{  }

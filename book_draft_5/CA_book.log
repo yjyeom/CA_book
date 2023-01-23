@@ -1,0 +1,4775 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  24 JAN 2023 02:31
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**CA_book.tex
+(./CA_book.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(c:/texlive/2022/texmf-dist/tex/latex/kotex-oblivoir/oblivoir.cls
+Document Class: oblivoir 2022/03/05 v3.1.1
+(c:/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(c:/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+
+(c:/texlive/2022/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count185
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(c:/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(c:/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+
+(c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count186
+\l__pdf_internal_box=\box50
+))
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+(c:/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(c:/texlive/2022/texmf-dist/tex/latex/kotex-oblivoir/oblivoir-utf.cls
+Document Class: oblivoir-utf 2020/02/10 v0.8.2 article-like class to typeset UT
+F-8 korean using memoir.
+\fa@setheight=\skip47
+\fa@setwidth=\skip48
+(c:/texlive/2022/texmf-dist/tex/latex/memoir/memoir.cls
+Document Class: memoir 2022/02/20 v3.7q configurable book, report, article docu
+ment class
+(c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count187
+)
+\onelineskip=\skip49
+\lxvchars=\skip50
+\xlvchars=\skip51
+\@memcnta=\count188
+\c@@memmarkcntra=\count189
+\stockheight=\skip52
+\stockwidth=\skip53
+\trimtop=\skip54
+\trimedge=\skip55
+
+(c:/texlive/2022/texmf-dist/tex/latex/memoir/mem10.clo
+File: mem10.clo 2008/01/30 v0.3 memoir class 10pt size option
+)
+\binding=\skip56
+\spinemargin=\skip57
+\foremargin=\skip58
+\uppermargin=\skip59
+\lowermargin=\skip60
+\headdrop=\skip61
+\normalrulethickness=\skip62
+\mem@maxheadheight=\skip63
+\mem@maxfootheight=\skip64
+\headwidth=\skip65
+\c@storedpagenumber=\count190
+\memPD=\dimen138
+\m@mabparskip=\skip66
+\thanksmarkwidth=\skip67
+\thanksmarksep=\skip68
+\droptitle=\skip69
+\c@book=\count191
+\c@part=\count192
+\c@chapter=\count193
+\c@section=\count194
+\c@subsection=\count195
+\c@subsubsection=\count196
+\c@paragraph=\count197
+\c@subparagraph=\count198
+\beforechapskip=\skip70
+\midchapskip=\skip71
+\afterchapskip=\skip72
+\chapindent=\skip73
+\bottomsectionskip=\skip74
+\secindent=\skip75
+\beforesecskip=\skip76
+\aftersecskip=\skip77
+\subsecindent=\skip78
+\beforesubsecskip=\skip79
+\aftersubsecskip=\skip80
+\subsubsecindent=\skip81
+\beforesubsubsecskip=\skip82
+\aftersubsubsecskip=\skip83
+\paraindent=\skip84
+\beforeparaskip=\skip85
+\afterparaskip=\skip86
+\subparaindent=\skip87
+\beforesubparaskip=\skip88
+\aftersubparaskip=\skip89
+\pfbreakskip=\skip90
+\c@@ppsavesec=\count199
+\c@@ppsaveapp=\count266
+\ragrparindent=\dimen139
+\everylistparindent=\dimen140
+\parsepi=\skip91
+\topsepi=\skip92
+\itemsepi=\skip93
+\parsepii=\skip94
+\topsepii=\skip95
+\topsepiii=\skip96
+\itemsepii=\skip97
+\itemsepiii=\skip98
+\partopsepii=\skip99
+\partopsepiii=\skip100
+\m@msavetopsep=\skip101
+\m@msavepartopsep=\skip102
+\@enLab=\toks18
+\abstitleskip=\skip103
+\absleftindent=\skip104
+\abs@leftindent=\dimen141
+\absrightindent=\skip105
+\absparindent=\skip106
+\absparsep=\skip107
+\c@vslineno=\count267
+\c@poemline=\count268
+\c@modulo@vs=\count269
+\c@memfvsline=\count270
+\vleftskip=\skip108
+\vrightskip=\skip109
+\stanzaskip=\skip110
+\versewidth=\skip111
+\vgap=\skip112
+\vindent=\skip113
+\vleftmargin=\dimen142
+\c@verse=\count271
+\c@chrsinstr=\count272
+\beforepoemtitleskip=\skip114
+\afterpoemtitleskip=\skip115
+\c@poem=\count273
+\beforePoemTitleskip=\skip116
+\midPoemTitleskip=\skip117
+\afterPoemTitleskip=\skip118
+
+(c:/texlive/2022/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen143
+\ar@mcellbox=\box51
+\extrarowheight=\dimen144
+\NC@list=\toks19
+\extratabsurround=\skip119
+\backup@length=\skip120
+\ar@cellbox=\box52
+)
+(c:/texlive/2022/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+)
+(c:/texlive/2022/texmf-dist/tex/latex/tools/delarray.sty
+Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
+)
+(c:/texlive/2022/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen145
+\TX@old@table=\dimen146
+\TX@old@col=\dimen147
+\TX@target=\dimen148
+\TX@delta=\dimen149
+\TX@cols=\count274
+\TX@ftn=\toks20
+)
+\heavyrulewidth=\dimen150
+\lightrulewidth=\dimen151
+\cmidrulewidth=\dimen152
+\belowrulesep=\dimen153
+\belowbottomsep=\dimen154
+\aboverulesep=\dimen155
+\abovetopsep=\dimen156
+\cmidrulesep=\dimen157
+\cmidrulekern=\dimen158
+\defaultaddspace=\dimen159
+\@cmidla=\count275
+\@cmidlb=\count276
+\@aboverulesep=\dimen160
+\@belowrulesep=\dimen161
+\@thisruleclass=\count277
+\@lastruleclass=\count278
+\@thisrulewidth=\dimen162
+\ctableftskip=\skip121
+\ctabrightskip=\skip122
+\abovecolumnspenalty=\count279
+\@linestogo=\count280
+\@cellstogo=\count281
+\@cellsincolumn=\count282
+\crtok=\toks21
+\@mincolumnwidth=\dimen163
+\c@newflo@tctr=\count283
+\mem@margin@floatbox=\box53
+\@contcwidth=\skip123
+\@contindw=\skip124
+\abovecaptionskip=\skip125
+\belowcaptionskip=\skip126
+\subfloattopskip=\skip127
+\subfloatcapskip=\skip128
+\subfloatcaptopadj=\skip129
+\subfloatbottomskip=\skip130
+\subfloatlabelskip=\skip131
+\subfloatcapmargin=\dimen164
+\c@@contsubnum=\count284
+\m@mscap@capbox=\box54
+\m@mscap@fbox=\box55
+\sidecapsep=\dimen165
+\sidecapwidth=\dimen166
+\m@m@tempdima=\dimen167
+\m@mscapraise=\dimen168
+\sidecapraise=\dimen169
+\m@mscapmainwidth=\dimen170
+\m@mscaplkern=\dimen171
+\beforeepigraphskip=\skip132
+\afterepigraphskip=\skip133
+\epigraphwidth=\skip134
+\epigraphrule=\skip135
+LaTeX Info: Redefining \em on input line 7655.
+LaTeX Info: Redefining \emph on input line 7663.
+\tocentryskip=\skip136
+\tocbaseline=\skip137
+\cftparskip=\skip138
+\cftbeforebookskip=\skip139
+\cftbookindent=\dimen172
+\cftbooknumwidth=\dimen173
+\cftbeforepartskip=\skip140
+\cftpartindent=\skip141
+\cftpartnumwidth=\skip142
+\cftbeforechapterskip=\skip143
+\cftchapterindent=\skip144
+\cftchapternumwidth=\skip145
+\cftbeforesectionskip=\skip146
+\cftsectionindent=\skip147
+\cftsectionnumwidth=\skip148
+\cftbeforesubsectionskip=\skip149
+\cftsubsectionindent=\skip150
+\cftsubsectionnumwidth=\skip151
+\cftbeforesubsubsectionskip=\skip152
+\cftsubsubsectionindent=\skip153
+\cftsubsubsectionnumwidth=\skip154
+\cftbeforeparagraphskip=\skip155
+\cftparagraphindent=\skip156
+\cftparagraphnumwidth=\skip157
+\cftbeforesubparagraphskip=\skip158
+\cftsubparagraphindent=\skip159
+\cftsubparagraphnumwidth=\skip160
+\prechapterprecisshift=\dimen174
+\c@maxsecnumdepth=\count285
+\bibindent=\dimen175
+\bibitemsep=\skip161
+\indexcolsep=\skip162
+\indexrule=\skip163
+\indexmarkstyle=\toks22
+\@indexbox=\insert252
+\glossarycolsep=\dimen176
+\glossaryrule=\dimen177
+\sideparvshift=\skip164
+\sideins=\insert251
+\sidebartopsep=\skip165
+\sidebarhsep=\skip166
+\sidebarvsep=\skip167
+\sidebarwidth=\skip168
+\footmarkwidth=\skip169
+\footmarksep=\skip170
+\footparindent=\skip171
+\footinsdim=\skip172
+\footinsv@r=\insert250
+\@mpfootinsv@r=\insert249
+\m@m@k=\count286
+\m@m@h=\dimen178
+\m@mipn@skip=\skip173
+\sidefootins=\insert248
+\sidefootadjust=\skip174
+\sidefootheight=\skip175
+\sidefoothsep=\skip176
+\sidefootvsep=\skip177
+\sidefootwidth=\skip178
+\m@mdownsf=\skip179
+\c@sidefootnote=\count287
+\sidefootmarkwidth=\skip180
+\sidefootmarksep=\skip181
+\sidefootparindent=\skip182
+\c@pagenote=\count288
+\c@pagenoteshadow=\count289
+\mem@pn@lastkern=\skip183
+\every@verbatim=\toks23
+\afterevery@verbatim=\toks24
+\verbatim@line=\toks25
+\tab@position=\count290
+\verbatim@in@stream=\read2
+\verbatimindent=\skip184
+\verbatim@out=\write3
+\bvboxsep=\skip185
+\c@memfbvline=\count291
+\c@bvlinectr=\count292
+\bvnumlength=\skip186
+\fb@frw=\dimen179
+\fb@frh=\dimen180
+\FrameRule=\dimen181
+\FrameSep=\dimen182
+\c@cp@cntr=\count293
+\c@ism@mctr=\count294
+\c@xsm@mctr=\count295
+\c@csm@mctr=\count296
+\c@ksm@mctr=\count297
+\c@xksm@mctr=\count298
+\c@cksm@mctr=\count299
+\c@msm@mctr=\count300
+\c@xmsm@mctr=\count301
+\c@cmsm@mctr=\count302
+\c@bsm@mctr=\count303
+\c@workm@mctr=\count304
+\c@sheetsequence=\count305
+\c@lastsheet=\count306
+\c@lastpage=\count307
+
+(c:/texlive/2022/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+\c@figure=\count308
+\c@lofdepth=\count309
+\cftbeforefigureskip=\skip187
+\cftfigureindent=\skip188
+\cftfigurenumwidth=\skip189
+\c@table=\count310
+\c@lotdepth=\count311
+\cftbeforetableskip=\skip190
+\cfttableindent=\skip191
+\cfttablenumwidth=\skip192
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package booktabs [2016/05/16] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package shortvrb [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verbatim [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+)
+(c:/texlive/2022/texmf-dist/tex/latex/kotex-oblivoir/memhangul-ucs/memhangul-uc
+s.sty
+Package: memhangul-ucs 2014/06/12UCS Hangul Package for memoir class
+
+memhangul-ucs v1.7.7 2014/06/12
+(c:/texlive/2022/texmf-dist/tex/latex/kotex-utf/dhucs.sty
+Package: dhucs 2012/11/08 v5.3.2 typesetting UTF-8 Korean documents
+
+(c:/texlive/2022/texmf-dist/tex/latex/kotex-utf/kotexutf.sty
+Package: kotexutf 2015/07/18 v2.1.1 typesetting UTF-8 Korean documents
+
+(c:/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
+)
+(c:/texlive/2022/texmf-dist/tex/plain/kotex-plain/kotexutf-core.tex
+\unih@ngulpoint=\count312
+\dhucs@emph@raise=\dimen183
+)
+Now handling font encoding LUC ...
+... processing UTF-8 mapping file for font encoding LUC
+
+(c:/texlive/2022/texmf-dist/tex/latex/kotex-utf/lucenc.dfu
+File: lucenc.dfu 2007/09/05 UTF-8 support for dhucs
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+3001 (decimal 12289)
+   defining Unicode char U+3002 (decimal 12290)
+   defining Unicode char U+3008 (decimal 12296)
+   defining Unicode char U+3009 (decimal 12297)
+   defining Unicode char U+300A (decimal 12298)
+   defining Unicode char U+300B (decimal 12299)
+   defining Unicode char U+300C (decimal 12300)
+   defining Unicode char U+300D (decimal 12301)
+   defining Unicode char U+300E (decimal 12302)
+   defining Unicode char U+300F (decimal 12303)
+   defining Unicode char U+3010 (decimal 12304)
+   defining Unicode char U+3011 (decimal 12305)
+   defining Unicode char U+3014 (decimal 12308)
+   defining Unicode char U+3015 (decimal 12309)
+   defining Unicode char U+3016 (decimal 12310)
+   defining Unicode char U+3017 (decimal 12311)
+   defining Unicode char U+3018 (decimal 12312)
+   defining Unicode char U+3019 (decimal 12313)
+   defining Unicode char U+301A (decimal 12314)
+   defining Unicode char U+301B (decimal 12315)
+   defining Unicode char U+FF01 (decimal 65281)
+   defining Unicode char U+FF08 (decimal 65288)
+   defining Unicode char U+FF09 (decimal 65289)
+   defining Unicode char U+FF0C (decimal 65292)
+   defining Unicode char U+FF0E (decimal 65294)
+   defining Unicode char U+FF1A (decimal 65306)
+   defining Unicode char U+FF1B (decimal 65307)
+   defining Unicode char U+FF1C (decimal 65308)
+   defining Unicode char U+FF1D (decimal 65309)
+   defining Unicode char U+FF1E (decimal 65310)
+   defining Unicode char U+FF1F (decimal 65311)
+   defining Unicode char U+FF3B (decimal 65339)
+   defining Unicode char U+FF3D (decimal 65341)
+   defining Unicode char U+FF5B (decimal 65371)
+   defining Unicode char U+FF5D (decimal 65373)
+   defining Unicode char U+FF61 (decimal 65377)
+   defining Unicode char U+FF62 (decimal 65378)
+   defining Unicode char U+FF63 (decimal 65379)
+   defining Unicode char U+FF64 (decimal 65380)
+   defining Unicode char U+FF65 (decimal 65381)
+)
+\@josa=\count313
+\josatoks=\toks28
+
+(c:/texlive/2022/texmf-dist/tex/latex/cjk-ko/kolabels-utf.sty
+Package: kolabels-utf 2015/03/20 v1.5 UTF-8 Hangul item labels
+)))
+\memh@hu=\dimen184
+\t@nch@ars=\skip193
+\tmp@XXbox=\box56
+\tmp@XXdim=\dimen185
+
+(c:/texlive/2022/texmf-dist/tex/latex/kotex-oblivoir/memhangul-common/memhangul
+-common.sty
+Package: memhangul-common 2021/03/03
+\togetheightoffont=\box57
+\htoffnt=\skip194
+\divnoteskip=\skip195
+
+(c:/texlive/2022/texmf-dist/tex/latex/kotex-oblivoir/memhangul-common/memhangul
+-patch.sty) (c:/texlive/2022/texmf-dist/tex/generic/hologo/hologo.sty
+Package: hologo 2021-11-16 v1.15 A logo collection with bookmark support (HO)
+
+(c:/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(c:/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(c:/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(c:/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(c:/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(c:/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+Package hologo Info: Using driver `pdftex'.
+)
+\pghgheadwidth=\dimen186
+\c@APPchapter=\count314
+\c@APPsection=\count315
+\c@APPsubsection=\count316
+\memucsadjustwidthtopsep=\dimen187
+)
+(c:/texlive/2022/texmf-dist/tex/latex/kotex-oblivoir/memhangul-ucs/memucs-inter
+word.sty
+Package: memucs-interword 2007/09/22
+\BASE@FONTsize=\dimen188
+\ORIG@spaceskip=\skip196
+)
+(c:/texlive/2022/texmf-dist/tex/latex/kotex-oblivoir/memhangul-common/memucs-se
+tspace.sty
+Package: memucs-setspace 2021/03/03 6.7-mu9 Contributed and Supported LaTeX2e p
+ackage
+
+Package: `memucs-setspace', a modified version of `setspace', 6.7-mu9 <2021/03/
+03>
+)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+02D0 (decimal 720)
+   defining Unicode char U+2025 (decimal 8229)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2312 (decimal 8978)
+\raisedotdim=\dimen189
+\dhucs@emph@width=\dimen190
+\useremphraisedim=\dimen191
+\tmp_user_emph_dim=\dimen192
+)
+(c:/texlive/2022/texmf-dist/tex/latex/kotex-oblivoir/memhangul-ucs/nanumfontsel
+.sty
+Package: nanumfontsel 
+) (c:/texlive/2022/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
+(c:/texlive/2022/texmf-dist/tex/latex/kotex-utf/contrib/dhucs-cmap.sty
+Package: dhucs-cmap 2007/06/16 searchable PDF for dhucs upon pdftex
+
+(c:/texlive/2022/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+))
+\ob@hu=\dimen193
+
+(c:/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+
+(c:/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(c:/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(c:/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(c:/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen194
+\Hy@linkcounter=\count317
+\Hy@pagecounter=\count318
+
+(c:/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(c:/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(c:/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count319
+
+(c:/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4018.
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count320
+
+(c:/texlive/2022/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen195
+
+(c:/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(c:/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count321
+\Field@Width=\dimen196
+\Fld@charsize=\dimen197
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+
+(c:/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count322
+\c@Item=\count323
+\c@Hfootnote=\count324
+)
+(c:/texlive/2022/texmf-dist/tex/latex/memoir/memhfixc.sty
+Package: memhfixc 2021/06/16 v1.19 nameref/hyperref package fixes for memoir cl
+ass
+\c@memhycontfloat=\count325
+\c@Hpagenote=\count326
+)
+Package hyperref Info: Driver: hpdftex.
+
+(c:/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+
+(c:/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count327
+\c@bookmark@seq@number=\count328
+
+(c:/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(c:/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip197
+)
+\@ensp=\skip198
+
+(c:/texlive/2022/texmf-dist/tex/latex/kotex-oblivoir/memhangul-common/10_5.sty
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 32.
+
+) (c:/texlive/2022/texmf-dist/tex/latex/type1cm/type1cm.sty
+Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, p
+atched RF)
+)
+(c:/texlive/2022/texmf-dist/tex/latex/cm-super/type1ec.sty
+Package: type1ec 2002/09/07 v1.1 Type1 EC font definitions (for CM-Super fonts)
+
+
+(c:/texlive/2022/texmf-dist/tex/latex/base/t1cmr.fd
+File: t1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+))
+(c:/texlive/2022/texmf-dist/tex/latex/kotex-oblivoir/memhangul-common/ob-korean
+appendix.sty))
+HANGUL DRIVER: kotex-utf
+)
+(c:/texlive/2022/texmf-dist/tex/latex/kotex-oblivoir/memhangul-common/fapapersi
+ze.sty
+Package: fapapersize 2022/03/01 v0.2
+\fa@stockheight=\skip199
+\fa@stockwidth=\skip256
+\fa@paperheight=\skip257
+\fa@paperwidth=\skip258
+\fa@leftmargin=\skip259
+\fa@rightmargin=\skip260
+\fa@uppermargin=\skip261
+\fa@lowermargin=\skip262
+\fa@tmplenwd=\skip263
+\fa@tmplenht=\skip264
+\tmp@dim=\dimen198
+)
+
+******************************************************
+Stock height and width: 739.77165pt by 540.60236pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 739.77165pt by 540.60236pt
+Text height and width: 569.85687pt by 369pt
+Spine and edge margins: 85.35826pt and 85.35826pt
+Upper and lower margins: 85.35826pt and 84.55652pt
+Headheight and headsep: 12pt and 18.06749pt
+Footskip: 25.29494pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 6pt and 73.35826pt
+Sidecapsep and sidecapwidth: 7pt and 128pt
+Sidebarhsep and sidebarwidth: 7pt and 128pt
+Sidebarvsep and sidebartopsep: 12pt and 0pt
+Sidebarheight: 548.39996pt
+Sidefoothsep and sidefootwidth: 7pt and 128pt
+Sidefootvsep and sidefootheight: 12pt and 548.39996pt
+******************************************************
+
+(c:/texlive/2022/texmf-dist/tex/latex/cjk-ko/kotex.sty
+Package: kotex 2015/04/19 v1.6 Korean TeX (ko.TeX)
+
+(c:/texlive/2022/texmf-dist/tex/latex/kotex-utf/kotex.cfg))
+(c:/texlive/2022/texmf-dist/tex/latex/showlabels/showlabels.sty
+Package: showlabels 2021/10/27 v1.9.1
+
+Package: `showlabels' v1.9.1 <2021/10/27>
+\SL@labelposition=\count329
+) (c:/texlive/2022/texmf-dist/tex/latex/tools/showkeys.sty
+Package: showkeys 2014/10/28 v3.17 Show cite and label keys (DPC, MH)
+)
+(c:/texlive/2022/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2022/01/07 version 5.0.2 text color boxes
+
+(c:/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks29
+\pgfutil@tempdima=\dimen199
+\pgfutil@tempdimb=\dimen256
+
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box58
+)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(c:/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen257
+\Gin@req@width=\dimen258
+)
+(c:/texlive/2022/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
+
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks32
+))
+\pgf@x=\dimen259
+\pgf@y=\dimen260
+\pgf@xa=\dimen261
+\pgf@ya=\dimen262
+\pgf@xb=\dimen263
+\pgf@yb=\dimen264
+\pgf@xc=\dimen265
+\pgf@yc=\dimen266
+\pgf@xd=\dimen267
+\pgf@yd=\dimen268
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count330
+\c@pgf@countb=\count331
+\c@pgf@countc=\count332
+\c@pgf@countd=\count333
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
+\pgf@sys@id@count=\count334
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count335
+\pgfsyssoftpath@bigbuffer@items=\count336
+)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (c:/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen269
+\pgfmath@count=\count337
+\pgfmath@box=\box59
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
+)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)))
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count338
+))
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen270
+\pgf@picmaxx=\dimen271
+\pgf@picminy=\dimen272
+\pgf@picmaxy=\dimen273
+\pgf@pathminx=\dimen274
+\pgf@pathmaxx=\dimen275
+\pgf@pathminy=\dimen276
+\pgf@pathmaxy=\dimen277
+\pgf@xx=\dimen278
+\pgf@xy=\dimen279
+\pgf@yx=\dimen280
+\pgf@yy=\dimen281
+\pgf@zx=\dimen282
+\pgf@zy=\dimen283
+)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen284
+\pgf@path@lasty=\dimen285
+)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen286
+\pgf@shorten@start@additional=\dimen287
+)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box60
+\pgf@hbox=\box61
+\pgf@layerbox@main=\box62
+\pgf@picture@serial@count=\count339
+)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen288
+)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen289
+\pgf@pt@y=\dimen290
+\pgf@pt@temp=\dimen291
+)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen292
+)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen293
+\pgf@sys@shading@range@num=\count340
+\pgf@shadingcount=\count341
+)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box63
+))
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (c:/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
+x
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box64
+)
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen294
+\pgf@nodesepend=\dimen295
+)
+(c:/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (c:/texlive/2022/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(c:/texlive/2022/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks39
+)
+\tcb@titlebox=\box65
+\tcb@upperbox=\box66
+\tcb@lowerbox=\box67
+\tcb@phantombox=\box68
+\c@tcbbreakpart=\count342
+\c@tcblayer=\count343
+\c@tcolorbox@number=\count344
+\tcb@temp=\box69
+\tcb@temp=\box70
+\tcb@temp=\box71
+\tcb@temp=\box72
+
+(c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '5.0.2'
+\c@tcbrastercolumn=\count345
+\c@tcbrasterrow=\count346
+\c@tcbrasternum=\count347
+\c@tcbraster=\count348
+) (c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '5.0.2'
+(c:/texlive/2022/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(c:/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(c:/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(c:/texlive/2022/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen296
+\pgffor@skip=\dimen297
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
+))
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+de.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count349
+\pgfplotmarksize=\dimen298
+)
+\tikz@lastx=\dimen299
+\tikz@lasty=\dimen300
+\tikz@lastxsaved=\dimen301
+\tikz@lastysaved=\dimen302
+\tikz@lastmovetox=\dimen303
+\tikz@lastmovetoy=\dimen304
+\tikzleveldistance=\dimen305
+\tikzsiblingdistance=\dimen306
+\tikz@figbox=\box73
+\tikz@figbox@bg=\box74
+\tikz@tempbox=\box75
+\tikz@tempbox@bg=\box76
+\tikztreelevel=\count350
+\tikznumberofchildren=\count351
+\tikznumberofcurrentchild=\count352
+\tikz@fig@count=\count353
+
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count354
+\pgfmatrixcurrentcolumn=\count355
+\pgf@matrix@numberofcolumns=\count356
+)
+\tikz@expandcount=\count357
+
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+\tcb@waterbox=\box77
+
+(c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '5.0.2'
+)) (c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '5.0.2'
+(c:/texlive/2022/texmf-dist/tex/generic/oberdiek/pdfcol.sty
+Package: pdfcol 2019/12/29 v1.6 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box78
+\tcb@totalupperbox=\box79
+\tcb@totallowerbox=\box80
+)
+(c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '5.0.2'
+) (c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '5.0.2'
+(c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip265
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks42
+\ex@=\dimen307
+))
+(c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen308
+)
+(c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count358
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count359
+\leftroot@=\count360
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count361
+\DOTSCASE@=\count362
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box81
+\strutbox@=\box82
+\big@size=\dimen309
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count363
+\c@MaxMatrixCols=\count364
+\dotsspace@=\muskip17
+\c@parentequation=\count365
+\dspbrk@lvl=\count366
+\tag@help=\toks43
+\row@=\count367
+\column@=\count368
+\maxfields@=\count369
+\andhelp@=\toks44
+\eqnshift@=\dimen310
+\alignsep@=\dimen311
+\tagshift@=\dimen312
+\tagwidth@=\dimen313
+\totwidth@=\dimen314
+\lineht@=\dimen315
+\@envbody=\toks45
+\multlinegap=\skip266
+\multlinetaggap=\skip267
+\mathdisplay@stack=\toks46
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+))
+(c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '5.0.2'
+\tcbfitdim=\dimen316
+\tcb@lowerfitdim=\dimen317
+\tcb@upperfitdim=\dimen318
+\tcb@cur@hbadness=\count370
+) (c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
+Library (tcolorbox): 'tcbxparse.code.tex' version '5.0.2'
+) (c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '5.0.2'
+(c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '5.0.2'
+(c:/texlive/2022/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count371
+\lst@gtempboxa=\box83
+\lst@token=\toks47
+\lst@length=\count372
+\lst@currlwidth=\dimen319
+\lst@column=\count373
+\lst@pos=\count374
+\lst@lostspace=\dimen320
+\lst@width=\dimen321
+\lst@newlines=\count375
+\lst@lineno=\count376
+\lst@maxwidth=\dimen322
+
+(c:/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count377
+\lst@skipnumbers=\count378
+\lst@framebox=\box84
+)
+(c:/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '5.0.2'
+(c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '5.0.2'
+(c:/texlive/2022/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+))
+\c@tcblisting=\count379
+))
+(c:/texlive/2022/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+
+(c:/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)))
+(c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '5.0.2'
+) (c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '5.0.2'
+) (c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '5.0.2'
+
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.te
+x
+File: pgflibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '5.0.2'
+)) (c:/texlive/2022/texmf-dist/tex/latex/libertine/libertine.sty
+Package: libertine 2020/03/26 (Bob Tennent) Supports Libertine and Biolinum fon
+ts for all LaTeX engines.
+
+(c:/texlive/2022/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(c:/texlive/2022/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(c:/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(c:/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(c:/texlive/2022/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)
+LaTeX Info: Redefining \oldstylenums on input line 484.
+
+(c:/texlive/2022/texmf-dist/tex/latex/libertine/LinLibertine_I.tex))
+(c:/texlive/2022/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks48
+\thm@bodyfont=\toks49
+\thm@headfont=\toks50
+\thm@notefont=\toks51
+\thm@headpunct=\toks52
+\thm@preskip=\skip268
+\thm@postskip=\skip269
+\thm@headsep=\skip270
+\dth@everypar=\toks53
+)
+(c:/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/texlive/2022/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
+(c:/texlive/2022/texmf-dist/tex/latex/doublestroke/dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
+(c:/texlive/2022/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+\epsfxsize=\dimen323
+\epsfysize=\dimen324
+)
+(c:/texlive/2022/texmf-dist/tex/latex/blkarray/blkarray.sty
+Package: blkarray 2015/02/27 v0.07 Block array (dpc)
+\c@BAenumi=\count380
+\BA@col=\count381
+\BA@block@cnt=\count382
+\BA@final@box=\box85
+\BA@first@box=\box86
+\BA@colsep=\dimen325
+\BA@ftn=\toks54
+\BAextrarowheight=\dimen326
+\BAextraheightafterhline=\dimen327
+\BAarrayrulewidth=\dimen328
+\BAdoublerulesep=\dimen329
+\BAfootskip=\dimen330
+\BA@dashbox=\box87
+\BA@ddashbox=\box88
+)
+(c:/texlive/2022/texmf-dist/tex/latex/carlisle/slashed.sty
+Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
+)
+(c:/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(c:/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen331
+\captionmargin=\dimen332
+\caption@leftmargin=\dimen333
+\caption@rightmargin=\dimen334
+\caption@width=\dimen335
+\caption@indent=\dimen336
+\caption@parindent=\dimen337
+\caption@hangindent=\dimen338
+Package caption Info: memoir document class detected.
+
+(c:/texlive/2022/texmf-dist/tex/latex/caption/caption-memoir.sto
+File: caption-memoir.sto 2022/03/02 v2.2b Adaption of the caption package to th
+e memoir document class (AR)
+))
+\c@caption@flags=\count383
+\c@continuedfloat=\count384
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen339
+\caption@adjustwidth@linewidth=\dimen340
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+)
+(c:/texlive/2022/texmf-dist/tex/latex/lipsum/lipsum.sty
+(c:/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count385
+\l__lipsum_a_int=\count386
+\l__lipsum_b_int=\count387
+
+(c:/texlive/2022/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
+(c:/texlive/2022/texmf-dist/tex/latex/minitoc/minitoc.sty
+Package: minitoc 2018/07/12 v62 Package minitoc
+
+(c:/texlive/2022/texmf-dist/tex/latex/minitoc/mtcmess.sty
+Package: mtcmess 2006/03/14
+)
+Package minitoc Info: I0001
+(minitoc)             *** minitoc package, version 62 ***.
+\tf@mtc=\write5
+\mtcindent=\skip271
+\mtcskipamount=\skip272
+Package minitoc Info: I0005
+(minitoc)             compatible with hyperref.
+Package minitoc Info: I0030
+(minitoc)             the memoir class is loaded: 
+(minitoc)             compatibility attempted.
+Package minitoc Info: I0027
+(minitoc)             recent version of the memoir class.
+Package minitoc Info: I0032
+(minitoc)             This version of the memoir class uses 
+(minitoc)             a version of \chapter which is 
+(minitoc)             incompatible with the minitoc package. 
+(minitoc)             We try to patch.
+Package minitoc Info: I0023
+(minitoc)             part level macros available.
+Package minitoc Info: I0003
+(minitoc)             chapter level macros available.
+\mtc@toks=\toks55
+\mtc@strutbox=\box89
+\mtc@hstrutbox=\box90
+Package minitoc Info: I0002
+(minitoc)             Autoconfiguration of extensions.
+\openout5 = `CA_book.mtc0'.
+
+\openout5 = `CA_book.mtc'.
+
+ (./CA_book.mtc0)
+Package minitoc Info: I0012
+(minitoc)             Long extensions (Unix-like) will be used.
+Package minitoc Info: I0031
+(minitoc)             ==> this version is configured for UNIX-like 
+(minitoc)                 (long extensions) file names.
+\openout5 = `CA_book.mtc'.
+
+\openout5 = `CA_book.mtc0'.
+
+\c@mtc=\count388
+\c@minitocdepth=\count389
+\c@ptc=\count390
+\c@parttocdepth=\count391
+\ptcindent=\skip273
+Package minitoc Info: I0010
+(minitoc)             The english language is selected.
+(minitoc)              on input line 4910.
+
+(c:/texlive/2022/texmf-dist/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+)
+(c:/texlive/2022/texmf-dist/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+))
+(c:/texlive/2022/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count392
+\mult@box=\box91
+\multicol@leftmargin=\dimen341
+\c@unbalance=\count393
+\c@collectmore=\count394
+\doublecol@number=\count395
+\multicoltolerance=\count396
+\multicolpretolerance=\count397
+\full@width=\dimen342
+\page@free=\dimen343
+\premulticols=\dimen344
+\postmulticols=\dimen345
+\multicolsep=\skip274
+\multicolbaselineskip=\skip275
+\partial@page=\box92
+\last@line=\box93
+\maxbalancingoverflow=\dimen346
+\mult@rightbox=\box94
+\mult@grightbox=\box95
+\mult@firstbox=\box96
+\mult@gfirstbox=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\@tempa=\box125
+\@tempa=\box126
+\@tempa=\box127
+\@tempa=\box128
+\@tempa=\box129
+\@tempa=\box130
+\@tempa=\box131
+\@tempa=\box132
+\@tempa=\box133
+\c@minrows=\count398
+\c@columnbadness=\count399
+\c@finalcolumnbadness=\count400
+\last@try=\dimen347
+\multicolovershoot=\dimen348
+\multicolundershoot=\dimen349
+\mult@nat@firstbox=\box134
+\colbreak@box=\box135
+\mc@col@check@num=\count401
+)
+(c:/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip276
+\multirow@cntb=\count402
+\multirow@dima=\skip277
+\bigstrutjot=\dimen350
+)
+(c:/texlive/2022/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+Package bm Info: No bold for \U/rsfs/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
+(c:/texlive/2022/texmf-dist/tex/latex/imakeidx/imakeidx.sty
+Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
+nous mode
+)
+(c:/texlive/2022/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+LaTeX Info: Redefining \Cref on input line 925.
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: `amsthm' support loaded on input line 3026.
+Package cleveref Info: `listings' support loaded on input line 3131.
+Package cleveref Info: always capitalise cross-reference names on input line 78
+25.
+Package cleveref Info: always capitalise cross-reference names on input line 78
+52.
+)
+(c:/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+\c@subfigure=\count403
+\c@subtable=\count404
+)
+(c:/texlive/2022/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks56
+\labelindent=\skip278
+\enit@outerparindent=\dimen351
+\enit@toks=\toks57
+\enit@inbox=\box136
+\enit@count@id=\count405
+\enitdp@description=\count406
+)
+(c:/texlive/2022/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2022/02/07 v1.28a mathematical typesetting tools
+
+(c:/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count407
+\calc@Bcount=\count408
+\calc@Adimen=\dimen352
+\calc@Bdimen=\dimen353
+\calc@Askip=\skip279
+\calc@Bskip=\skip280
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count409
+\calc@Cskip=\skip281
+)
+(c:/texlive/2022/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count410
+\l_MT_multwidth_dim=\dimen354
+\origjot=\skip282
+\l_MT_shortvdotswithinadjustabove_dim=\dimen355
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen356
+\l_MT_above_intertext_sep=\dimen357
+\l_MT_below_intertext_sep=\dimen358
+\l_MT_above_shortintertext_sep=\dimen359
+\l_MT_below_shortintertext_sep=\dimen360
+\xmathstrut@box=\box137
+\xmathstrut@dim=\dimen361
+)
+(c:/texlive/2022/texmf-dist/tex/latex/physics/physics.sty
+Package: physics 
+)
+(c:/texlive/2022/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count411
+
+(c:/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip283
+
+(c:/texlive/2022/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count412
+LaTeX Info: Redefining \checkoddpage on input line 45.
+)
+(c:/texlive/2022/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(c:/texlive/2022/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip284
+\skiplinenumber=\skip285
+\skiprule=\skip286
+\skiphlne=\skip287
+\skiptext=\skip288
+\skiplength=\skip289
+\algomargin=\skip290
+\skipalgocfslide=\skip291
+\algowidth=\dimen362
+\inoutsize=\dimen363
+\inoutindent=\dimen364
+\interspacetitleruled=\dimen365
+\interspacealgoruled=\dimen366
+\interspacetitleboxruled=\dimen367
+\algocf@ruledwidth=\skip292
+\algocf@inoutbox=\box138
+\algocf@inputbox=\box139
+\AlCapSkip=\skip293
+\AlCapHSkip=\skip294
+\algoskipindent=\skip295
+\algocf@nlbox=\box140
+\algocf@hangingbox=\box141
+\algocf@untilbox=\box142
+\algocf@skipuntil=\skip296
+\algocf@capbox=\box143
+\algocf@lcaptionbox=\skip297
+\algoheightruledefault=\skip298
+\algoheightrule=\skip299
+\algotitleheightruledefault=\skip300
+\algotitleheightrule=\skip301
+\c@algocfline=\count413
+\c@algocfproc=\count414
+\c@algocf=\count415
+\algocf@algoframe=\box144
+\algocf@algobox=\box145
+)
+(c:/texlive/2022/texmf-dist/tex/latex/thmtools/thmtools.sty
+Package: thmtools 2020/08/01 v0.72
+\thmt@toks=\toks58
+\c@thmt@dummyctr=\count416
+
+(c:/texlive/2022/texmf-dist/tex/latex/thmtools/thm-patch.sty
+Package: thm-patch 2020/08/01 v0.72
+
+(c:/texlive/2022/texmf-dist/tex/latex/thmtools/parseargs.sty
+Package: parseargs 2020/08/01 v0.72
+\@parsespec=\toks59
+))
+(c:/texlive/2022/texmf-dist/tex/latex/thmtools/thm-kv.sty
+Package: thm-kv 2020/08/01 v0.72
+Package thm-kv Info: Theorem names will be uppercased on input line 42.
+Package thm-kv Info: kvsetkeys patch (v1.16 or later) on input line 158.
+)
+(c:/texlive/2022/texmf-dist/tex/latex/thmtools/thm-autoref.sty
+Package: thm-autoref 2020/08/01 v0.72
+
+(c:/texlive/2022/texmf-dist/tex/latex/thmtools/aliasctr.sty
+Package: aliasctr 2020/08/01 v0.72
+))
+(c:/texlive/2022/texmf-dist/tex/latex/thmtools/thm-listof.sty
+Package: thm-listof 2020/08/01 v0.72
+)
+(c:/texlive/2022/texmf-dist/tex/latex/thmtools/thm-restate.sty
+Package: thm-restate 2020/08/01 v0.72
+)
+(c:/texlive/2022/texmf-dist/tex/latex/thmtools/thm-amsthm.sty
+Package: thm-amsthm 2020/08/01 v0.72
+\thmt@style@headstyle=\toks60
+))
+(c:/texlive/2022/texmf-dist/tex/latex/tools/layout.sty
+Package: layout 2021-03-10 v1.2e Show layout parameters
+\oneinch=\count417
+\cnt@paperwidth=\count418
+\cnt@paperheight=\count419
+\cnt@hoffset=\count420
+\cnt@voffset=\count421
+\cnt@textheight=\count422
+\cnt@textwidth=\count423
+\cnt@topmargin=\count424
+\cnt@oddsidemargin=\count425
+\cnt@evensidemargin=\count426
+\cnt@headheight=\count427
+\cnt@headsep=\count428
+\cnt@marginparsep=\count429
+\cnt@marginparwidth=\count430
+\cnt@marginparpush=\count431
+\cnt@footskip=\count432
+\fheight=\count433
+\ref@top=\count434
+\ref@hoffset=\count435
+\ref@voffset=\count436
+\ref@head=\count437
+\ref@body=\count438
+\ref@foot=\count439
+\ref@margin=\count440
+\ref@marginwidth=\count441
+\ref@marginpar=\count442
+\Interval=\count443
+\ExtraYPos=\count444
+\PositionX=\count445
+\PositionY=\count446
+\ArrowLength=\count447
+)
+(c:/texlive/2022/texmf-dist/tex/latex/mdframed/mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+(c:/texlive/2022/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
+
+(c:/texlive/2022/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2020-07-03 v2.32 Module base for zref (HO)
+Package zref Info: New property list: main on input line 764.
+Package zref Info: New property: default on input line 765.
+Package zref Info: New property: page on input line 766.
+)
+\c@abspage=\count448
+Package zref Info: New property: abspage on input line 66.
+)
+\mdf@templength=\skip302
+\c@mdf@globalstyle@cnt=\count449
+\mdf@skipabove@length=\skip303
+\mdf@skipbelow@length=\skip304
+\mdf@leftmargin@length=\skip305
+\mdf@rightmargin@length=\skip306
+\mdf@innerleftmargin@length=\skip307
+\mdf@innerrightmargin@length=\skip308
+\mdf@innertopmargin@length=\skip309
+\mdf@innerbottommargin@length=\skip310
+\mdf@splittopskip@length=\skip311
+\mdf@splitbottomskip@length=\skip312
+\mdf@outermargin@length=\skip313
+\mdf@innermargin@length=\skip314
+\mdf@linewidth@length=\skip315
+\mdf@innerlinewidth@length=\skip316
+\mdf@middlelinewidth@length=\skip317
+\mdf@outerlinewidth@length=\skip318
+\mdf@roundcorner@length=\skip319
+\mdf@footenotedistance@length=\skip320
+\mdf@userdefinedwidth@length=\skip321
+\mdf@needspace@length=\skip322
+\mdf@frametitleaboveskip@length=\skip323
+\mdf@frametitlebelowskip@length=\skip324
+\mdf@frametitlerulewidth@length=\skip325
+\mdf@frametitleleftmargin@length=\skip326
+\mdf@frametitlerightmargin@length=\skip327
+\mdf@shadowsize@length=\skip328
+\mdf@extratopheight@length=\skip329
+\mdf@subtitleabovelinewidth@length=\skip330
+\mdf@subtitlebelowlinewidth@length=\skip331
+\mdf@subtitleaboveskip@length=\skip332
+\mdf@subtitlebelowskip@length=\skip333
+\mdf@subtitleinneraboveskip@length=\skip334
+\mdf@subtitleinnerbelowskip@length=\skip335
+\mdf@subsubtitleabovelinewidth@length=\skip336
+\mdf@subsubtitlebelowlinewidth@length=\skip337
+\mdf@subsubtitleaboveskip@length=\skip338
+\mdf@subsubtitlebelowskip@length=\skip339
+\mdf@subsubtitleinneraboveskip@length=\skip340
+\mdf@subsubtitleinnerbelowskip@length=\skip341
+
+(c:/texlive/2022/texmf-dist/tex/latex/mdframed/md-frame-1.mdf
+File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
+)
+\mdf@frametitlebox=\box146
+\mdf@footnotebox=\box147
+\mdf@splitbox@one=\box148
+\mdf@splitbox@two=\box149
+\mdf@splitbox@save=\box150
+\mdfsplitboxwidth=\skip342
+\mdfsplitboxtotalwidth=\skip343
+\mdfsplitboxheight=\skip344
+\mdfsplitboxdepth=\skip345
+\mdfsplitboxtotalheight=\skip346
+\mdfframetitleboxwidth=\skip347
+\mdfframetitleboxtotalwidth=\skip348
+\mdfframetitleboxheight=\skip349
+\mdfframetitleboxdepth=\skip350
+\mdfframetitleboxtotalheight=\skip351
+\mdffootnoteboxwidth=\skip352
+\mdffootnoteboxtotalwidth=\skip353
+\mdffootnoteboxheight=\skip354
+\mdffootnoteboxdepth=\skip355
+\mdffootnoteboxtotalheight=\skip356
+\mdftotallinewidth=\skip357
+\mdfboundingboxwidth=\skip358
+\mdfboundingboxtotalwidth=\skip359
+\mdfboundingboxheight=\skip360
+\mdfboundingboxdepth=\skip361
+\mdfboundingboxtotalheight=\skip362
+\mdf@freevspace@length=\skip363
+\mdf@horizontalwidthofbox@length=\skip364
+\mdf@verticalmarginwhole@length=\skip365
+\mdf@horizontalspaceofbox=\skip366
+\mdfsubtitleheight=\skip367
+\mdfsubsubtitleheight=\skip368
+\c@mdfcountframes=\count450
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count451
+\c@mdf@env@i=\count452
+\c@mdf@env@ii=\count453
+\c@mdf@zref@counter=\count454
+Package zref Info: New property: mdf@pagevalue on input line 895.
+)
+\c@theorem=\count455
+\c@axiom=\count456
+\c@lemma=\count457
+\c@proposition=\count458
+\c@claim=\count459
+\c@conjecture=\count460
+\c@definition=\count461
+\c@problem=\count462
+\c@example=\count463
+\c@exercise=\count464
+\c@observation=\count465
+\c@fact=\count466
+\c@construction=\count467
+\c@remark=\count468
+\c@question=\count469
+\c@salt_theorem=\count470
+\c@saltlemma=\count471
+\c@saltcorollary=\count472
+\c@salt_definition=\count473
+\c@salt_example=\count474
+\c@saltexercise=\count475
+\c@salt_remark=\count476
+\c@salt_conjecture=\count477
+\saltparskip=\skip369
+\c@saltdefinition=\count478
+\c@salttheorem=\count479
+\c@saltprop=\count480
+\c@tcb@cnt@saltexample=\count481
+\c@mytheorem=\count482
+
+(c:/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
+
+(c:/texlive/2022/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count483
+
+(c:/texlive/2022/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count484
+\c@listtotal=\count485
+\c@listcount=\count486
+\c@liststart=\count487
+\c@liststop=\count488
+\c@citecount=\count489
+\c@citetotal=\count490
+\c@multicitecount=\count491
+\c@multicitetotal=\count492
+\c@instcount=\count493
+\c@maxnames=\count494
+\c@minnames=\count495
+\c@maxitems=\count496
+\c@minitems=\count497
+\c@citecounter=\count498
+\c@maxcitecounter=\count499
+\c@savedcitecounter=\count500
+\c@uniquelist=\count501
+\c@uniquename=\count502
+\c@refsection=\count503
+\c@refsegment=\count504
+\c@maxextratitle=\count505
+\c@maxextratitleyear=\count506
+\c@maxextraname=\count507
+\c@maxextradate=\count508
+\c@maxextraalpha=\count509
+\c@abbrvpenalty=\count510
+\c@highnamepenalty=\count511
+\c@lownamepenalty=\count512
+\c@maxparens=\count513
+\c@parenlevel=\count514
+\blx@tempcnta=\count515
+\blx@tempcntb=\count516
+\blx@tempcntc=\count517
+\c@blx@maxsection=\count518
+\c@blx@maxsegment@0=\count519
+\blx@notetype=\count520
+\blx@parenlevel@text=\count521
+\blx@parenlevel@foot=\count522
+\c@blx@sectionciteorder@0=\count523
+\blx@entrysetcounter=\count524
+\blx@biblioinstance=\count525
+\labelnumberwidth=\skip370
+\labelalphawidth=\skip371
+\biblabelsep=\skip372
+\bibnamesep=\skip373
+\bibinitsep=\skip374
+\bibparsep=\skip375
+\bibhang=\skip376
+\blx@bcfin=\read4
+\blx@bcfout=\write6
+\blx@langwohyphens=\language87
+\c@mincomprange=\count526
+\c@maxcomprange=\count527
+\c@mincompwidth=\count528
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(c:/texlive/2022/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'alphabetic.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count529
+\c@savedafterword=\count530
+\c@annotator=\count531
+\c@savedannotator=\count532
+\c@author=\count533
+\c@savedauthor=\count534
+\c@bookauthor=\count535
+\c@savedbookauthor=\count536
+\c@commentator=\count537
+\c@savedcommentator=\count538
+\c@editor=\count539
+\c@savededitor=\count540
+\c@editora=\count541
+\c@savededitora=\count542
+\c@editorb=\count543
+\c@savededitorb=\count544
+\c@editorc=\count545
+\c@savededitorc=\count546
+\c@foreword=\count547
+\c@savedforeword=\count548
+\c@holder=\count549
+\c@savedholder=\count550
+\c@introduction=\count551
+\c@savedintroduction=\count552
+\c@namea=\count553
+\c@savednamea=\count554
+\c@nameb=\count555
+\c@savednameb=\count556
+\c@namec=\count557
+\c@savednamec=\count558
+\c@translator=\count559
+\c@savedtranslator=\count560
+\c@shortauthor=\count561
+\c@savedshortauthor=\count562
+\c@shorteditor=\count563
+\c@savedshorteditor=\count564
+\c@labelname=\count565
+\c@savedlabelname=\count566
+\c@institution=\count567
+\c@savedinstitution=\count568
+\c@lista=\count569
+\c@savedlista=\count570
+\c@listb=\count571
+\c@savedlistb=\count572
+\c@listc=\count573
+\c@savedlistc=\count574
+\c@listd=\count575
+\c@savedlistd=\count576
+\c@liste=\count577
+\c@savedliste=\count578
+\c@listf=\count579
+\c@savedlistf=\count580
+\c@location=\count581
+\c@savedlocation=\count582
+\c@organization=\count583
+\c@savedorganization=\count584
+\c@origlocation=\count585
+\c@savedoriglocation=\count586
+\c@origpublisher=\count587
+\c@savedorigpublisher=\count588
+\c@publisher=\count589
+\c@savedpublisher=\count590
+\c@language=\count591
+\c@savedlanguage=\count592
+\c@origlanguage=\count593
+\c@savedoriglanguage=\count594
+\c@pageref=\count595
+\c@savedpageref=\count596
+\shorthandwidth=\skip377
+\shortjournalwidth=\skip378
+\shortserieswidth=\skip379
+\shorttitlewidth=\skip380
+\shortauthorwidth=\skip381
+\shorteditorwidth=\skip382
+\locallabelnumberwidth=\skip383
+\locallabelalphawidth=\skip384
+\localshorthandwidth=\skip385
+\localshortjournalwidth=\skip386
+\localshortserieswidth=\skip387
+\localshorttitlewidth=\skip388
+\localshortauthorwidth=\skip389
+\localshorteditorwidth=\skip390
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(c:/texlive/2022/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(c:/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+\c@textcitecount=\count597
+\c@textcitetotal=\count598
+\c@textcitemaxnames=\count599
+\c@biburlbigbreakpenalty=\count600
+\c@biburlbreakpenalty=\count601
+\c@biburlnumpenalty=\count602
+\c@biburlucpenalty=\count603
+\c@biburllcpenalty=\count604
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count605
+)
+Package biblatex Info: Trying to load bibliography style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.bbx' found.
+
+(c:/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/alphabetic.bbx
+File: alphabetic.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(c:/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count606
+\c@bbx:relatedtotal=\count607
+))
+Package biblatex Info: Trying to load citation style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.cbx' found.
+
+(c:/texlive/2022/texmf-dist/tex/latex/biblatex/cbx/alphabetic.cbx
+File: alphabetic.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(c:/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2022-02-24 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(c:/texlive/2022/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
+))
+\CA_book@idxfile=\write7
+\openout7 = `CA_book.idx'.
+
+
+Writing index file CA_book.idx
+\@quotelevel=\count608
+\@quotereset=\count609
+LaTeX Font Info:    Trying to load font information for OT1+LinuxLibertineT-TLF
+ on input line 374.
+(c:/texlive/2022/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.fd
+File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/
+LinuxLibertineT-TLF.
+)
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.5pt on input line 374.
+
+
+LaTeX Warning: Unused global option(s):
+    [10.5pt].
+
+(./CA_book.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `example-2-8' multiply defined.
+
+
+LaTeX Warning: Label `example-2-8@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `thm-4-2' multiply defined.
+
+
+LaTeX Warning: Label `thm-4-2@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+)
+\openout1 = `CA_book.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 374.
+LaTeX Font Info:    ... okay on input line 374.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 374.
+LaTeX Font Info:    ... okay on input line 374.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 374.
+LaTeX Font Info:    ... okay on input line 374.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 374.
+LaTeX Font Info:    ... okay on input line 374.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 374.
+LaTeX Font Info:    ... okay on input line 374.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 374.
+LaTeX Font Info:    ... okay on input line 374.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 374.
+LaTeX Font Info:    ... okay on input line 374.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 374.
+LaTeX Font Info:    Trying to load font information for LUC+nanummj on input li
+ne 374.
+ (c:/texlive/2022/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
+File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
+)
+LaTeX Font Info:    ... okay on input line 374.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 374.
+LaTeX Font Info:    ... okay on input line 374.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 374.
+LaTeX Font Info:    ... okay on input line 374.
+   defining Unicode char U+00B7 (decimal 183)
+
+(c:/texlive/2022/texmf-dist/tex/latex/kotex-oblivoir/memhangul-ucs/memucs-gremp
+h.sty
+Package: memucs-gremph 
+LaTeX Info: Redefining \itshape on input line 74.
+LaTeX Info: Redefining \slshape on input line 78.
+)
+Package hyperref Info: Link coloring OFF on input line 374.
+ (c:/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(c:/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(c:/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count610
+)
+Redoing nameref's sectioning
+Redoing nameref's label
+LaTeX Info: Redefining \nameref on input line 374.
+LaTeX Info: Redefining \ref on input line 374.
+LaTeX Info: Redefining \pageref on input line 374.
+LaTeX Info: Redefining \nameref on input line 374.
+(./CA_book.out) (./CA_book.out)
+\@outlinefile=\write8
+\openout8 = `CA_book.out'.
+
+
+(c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count611
+\scratchdimen=\dimen368
+\scratchbox=\box151
+\nofMPsegments=\count612
+\nofMParguments=\count613
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count614
+\MPscratchDim=\dimen369
+\MPnumerator=\count615
+\makeMPintoPDFobject=\count616
+\everyMPtoPDFconversion=\toks62
+) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(c:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count617
+\c@mv@tabular=\count618
+\c@mv@boldtabular=\count619
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+\c@minilofdepth=\count620
+\c@minilotdepth=\count621
+\c@partlofdepth=\count622
+\c@partlotdepth=\count623
+\c@sectlofdepth=\count624
+\c@sectlotdepth=\count625
+Package minitoc(hints) Info: I0049
+(minitoc(hints))             ==> You requested the hints option. 
+(minitoc(hints))             Some hints are eventually given below.
+Package minitoc(hints) Info: I0042
+(minitoc(hints))             --- The appendix package is loaded. 
+(minitoc(hints))             See the minitoc package documentation 
+(minitoc(hints))             for specific precautions.
+Package minitoc(hints) Info: I0046
+(minitoc(hints))             --- The tocbibind package is loaded. 
+(minitoc(hints))             See the minitoc package documentation 
+(minitoc(hints))             for specific precautions.
+Package minitoc(hints) Info: I0047
+(minitoc(hints))             --- The tocloft package is loaded. 
+(minitoc(hints))             See the minitoc package documentation 
+(minitoc(hints))             for specific precautions.
+Package minitoc(hints) Info: I0044
+(minitoc(hints))             --- The memoir class is loaded. 
+(minitoc(hints))             See the minitoc package documentation 
+(minitoc(hints))             for specific precautions.
+
+
+Package minitoc(hints) Warning: W0030
+(minitoc(hints))                --- The \part command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+
+Package minitoc(hints) Warning: W0028
+(minitoc(hints))                --- The \chapter command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(c:/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout6 = `CA_book.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'CA_book.bbl' not found.
+
+No file CA_book.bbl.
+Package biblatex Info: Reference section=0 on input line 374.
+Package biblatex Info: Reference segment=0 on input line 374.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 389.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 14.4pt on input line 389.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 17.28pt on input line 389.
+LaTeX Font Info:    Font shape `LUC/nanummj/b/n' in size <17.28> not available
+(Font)              Font shape `LUC/nanummj/bx/n' tried instead on input line 3
+89.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 11.65pt on input line 389.
+LaTeX Font Info:    Calculating math sizes for size <11.65> on input line 389.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 38
+9.
+(c:/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Trying to load font information for LUC+uhcmj on input line
+ 389.
+
+(c:/texlive/2022/texmf-dist/tex/latex/kotex-utf/lucuhcmj.fd
+File: lucuhcmj.fd 2013/09/26 UHC Myeongjo font definitions
+) [1
+
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./SaltChapter/
+preface.tex
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 20.74pt on input line 2.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 20.74pt on input line 2.
+LaTeX Font Info:    Font shape `LUC/nanummj/b/n' in size <20.74> not available
+(Font)              Font shape `LUC/nanummj/bx/n' tried instead on input line 2
+.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 13.0pt on input line 16.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 13.0pt on input line 16.
+LaTeX Font Info:    Font shape `LUC/nanummj/b/n' in size <13> not available
+(Font)              Font shape `LUC/nanummj/bx/n' tried instead on input line 1
+6.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 10.5pt on input line 29.
+LaTeX Font Info:    Font shape `LUC/nanummj/b/n' in size <10.5> not available
+(Font)              Font shape `LUC/nanummj/bx/n' tried instead on input line 2
+9.
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 33.
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 33.
+
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 7.34996pt on input line 33.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.6pt on input line 36.
+LaTeX Font Info:    Calculating math sizes for size <8.6> on input line 36.
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <4.3> not available
+(Font)              size <5> substituted on input line 36.
+
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.01997pt on input line 36.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 5.25pt on input line 45.
+[2
+
+
+]
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 9.5pt on input line 79.
+LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
+79.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 79.
+
+
+LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 79.
+
+<./SaltChapter/figs/preface-fig-0-1.png, id=392, 909.3975pt x 364.36125pt>
+File: ./SaltChapter/figs/preface-fig-0-1.png Graphic file (type png)
+<use ./SaltChapter/figs/preface-fig-0-1.png>
+Package pdftex.def Info: ./SaltChapter/figs/preface-fig-0-1.png  used on input 
+line 88.
+(pdftex.def)             Requested size: 236.3904pt x 94.70944pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 91.
+See the caption package documentation for explanation.
+
+LaTeX Font Info:    Trying to load font information for OT1+LinuxBiolinumT-TLF 
+on input line 130.
+(c:/texlive/2022/texmf-dist/tex/latex/libertine/OT1LinuxBiolinumT-TLF.fd
+File: OT1LinuxBiolinumT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/L
+inuxBiolinumT-TLF.
+)
+LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 10.5pt on input line 130.
+
+[3]
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/sc' will be
+(Font)              scaled to size 9.5pt on input line 130.
+
+
+LaTeX Font Warning: Font shape `LUC/nanummj/m/sc' undefined
+(Font)              using `LUC/nanummj/m/n' instead on input line 130.
+
+[4 <./SaltChapter/figs/preface-fig-0-1.PNG>]
+Package hyperref Info: bookmark level for unknown saltexercise defaults to 0 on
+ input line 133.
+LaTeX Font Info:    Trying to load font information for LUC+nanumgt on input li
+ne 134.
+
+(c:/texlive/2022/texmf-dist/tex/latex/nanumtype1/lucnanumgt.fd
+File: lucnanumgt.fd 2013/02/12 v0.1 Nanum Gothic font definitions
+)
+LaTeX Font Info:    Calculating math sizes for size <9.5> on input line 134.
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <9.5> not available
+(Font)              size <9> substituted on input line 134.
+
+<./SaltChapter/figs/preface-fig-0-2.png, id=423, 674.52pt x 267.24844pt>
+File: ./SaltChapter/figs/preface-fig-0-2.png Graphic file (type png)
+<use ./SaltChapter/figs/preface-fig-0-2.png>
+Package pdftex.def Info: ./SaltChapter/figs/preface-fig-0-2.png  used on input 
+line 154.
+(pdftex.def)             Requested size: 258.29887pt x 102.33841pt.
+[5 <./SaltChapter/figs/preface-fig-0-2.PNG>]
+<./SaltChapter/figs/preface-fig-0-3.png, id=453, 687.31781pt x 319.94531pt>
+File: ./SaltChapter/figs/preface-fig-0-3.png Graphic file (type png)
+<use ./SaltChapter/figs/preface-fig-0-3.png>
+Package pdftex.def Info: ./SaltChapter/figs/preface-fig-0-3.png  used on input 
+line 222.
+(pdftex.def)             Requested size: 221.40225pt x 103.05829pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6]
+Package mdframed Info: mdframed works in twoside mode on input line 238.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 238.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 242.
+ [7 <./SaltChapter/figs/preface-fig-0-3.PNG>]
+<./SaltChapter/figs/preface-fig-0-4.png, id=471, 741.52031pt x 648.92438pt>
+File: ./SaltChapter/figs/preface-fig-0-4.png Graphic file (type png)
+<use ./SaltChapter/figs/preface-fig-0-4.png>
+Package pdftex.def Info: ./SaltChapter/figs/preface-fig-0-4.png  used on input 
+line 282.
+(pdftex.def)             Requested size: 221.40225pt x 193.74805pt.
+Package mdframed Info: mdframed works in twoside mode on input line 289.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 289.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 7.34996pt on input line 292.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 6.01997pt on input line 293.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 324.
+ [8 <./SaltChapter/figs/preface-fig-0-4.PNG>] [9] [10]
+LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF
+ on input line 379.
+
+(c:/texlive/2022/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
+File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/
+LinuxLibertineT-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.5pt on input line 379.
+)
+[11
+
+
+] (./CA_book.toc
+Overfull \hbox (2.47496pt too wide) detected at line 5
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 1.1  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 6
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 1.2  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 7
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 1.3  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 12
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 1.4  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 16
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 1.5  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 18
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 2.1  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 19
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 2.2  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 20
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 2.3  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 21
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 2.4  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 22
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 2.5  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 24
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 3.1  
+ []
+
+[12
+
+]
+Overfull \hbox (2.47496pt too wide) detected at line 26
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 3.2  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 27
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 3.3  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 28
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 3.4  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 31
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 3.5  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 32
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 3.6  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 33
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 3.7  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 34
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 3.8  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 35
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 3.9  
+ []
+
+
+Overfull \hbox (7.35745pt too wide) detected at line 36
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 3.10  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 38
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 4.1  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 39
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 4.2  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 42
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 4.3  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 43
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 4.4  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 44
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 4.5  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 45
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 4.6  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 46
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 4.7  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 47
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 4.8  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 49
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 4.9  
+ []
+
+
+Overfull \hbox (7.35745pt too wide) detected at line 50
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 4.10  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 52
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 5.1  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 53
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 5.2  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 54
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 5.3  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 58
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 5.4  
+ []
+
+
+Overfull \hbox (2.47496pt too wide) detected at line 59
+ \OT1/LinuxLibertineT-TLF/m/n/10.5 5.5  
+ []
+
+) (./SaltChapter/chapter_one.tex [13]
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 3.
+ [14
+
+]
+Package mdframed Info: mdframed works in twoside mode on input line 69.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 69.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 71.
+ [15] [16]
+<./SaltChapter/figs/fig-1-1.png, id=601, 824.32968pt x 359.09157pt>
+File: ./SaltChapter/figs/fig-1-1.png Graphic file (type png)
+<use ./SaltChapter/figs/fig-1-1.png>
+Package pdftex.def Info: ./SaltChapter/figs/fig-1-1.png  used on input line 150
+.
+(pdftex.def)             Requested size: 258.29887pt x 112.5172pt.
+ [17 <./SaltChapter/figs/fig-1-1.PNG>]
+<./SaltChapter/figs/fig-1-2.png, id=618, 607.51968pt x 575.14874pt>
+File: ./SaltChapter/figs/fig-1-2.png Graphic file (type png)
+<use ./SaltChapter/figs/fig-1-2.png>
+Package pdftex.def Info: ./SaltChapter/figs/fig-1-2.png  used on input line 211
+.
+(pdftex.def)             Requested size: 184.5pt x 174.66975pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[18]
+<./SaltChapter/figs/fig-1-3.png, id=639, 1040.38687pt x 361.35pt>
+File: ./SaltChapter/figs/fig-1-3.png Graphic file (type png)
+<use ./SaltChapter/figs/fig-1-3.png>
+Package pdftex.def Info: ./SaltChapter/figs/fig-1-3.png  used on input line 242
+.
+(pdftex.def)             Requested size: 295.20113pt x 102.52817pt.
+<./SaltChapter/figs/fig-1-4.png, id=640, 564.60938pt x 400.49625pt>
+File: ./SaltChapter/figs/fig-1-4.png Graphic file (type png)
+<use ./SaltChapter/figs/fig-1-4.png>
+Package pdftex.def Info: ./SaltChapter/figs/fig-1-4.png  used on input line 258
+.
+(pdftex.def)             Requested size: 221.40225pt x 157.04845pt.
+ [19 <./SaltChapter/figs/fig-1-2.PNG> <./SaltChapter/figs/fig-1-3.PNG>]
+<./SaltChapter/figs/fig-1-5.png, id=651, 581.92406pt x 332.74312pt>
+File: ./SaltChapter/figs/fig-1-5.png Graphic file (type png)
+<use ./SaltChapter/figs/fig-1-5.png>
+Package pdftex.def Info: ./SaltChapter/figs/fig-1-5.png  used on input line 290
+.
+(pdftex.def)             Requested size: 221.40225pt x 126.59601pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20 <./SaltChapter/figs/fig-1-4.PNG>]
+<./SaltChapter/figs/fig-1-6.png, id=661, 657.95813pt x 301.125pt>
+File: ./SaltChapter/figs/fig-1-6.png Graphic file (type png)
+<use ./SaltChapter/figs/fig-1-6.png>
+Package pdftex.def Info: ./SaltChapter/figs/fig-1-6.png  used on input line 318
+.
+(pdftex.def)             Requested size: 295.20113pt x 135.10524pt.
+ [21 <./SaltChapter/figs/fig-1-5.PNG> <./SaltChapter/figs/fig-1-6.PNG>]
+<./SaltChapter/figs/fig-1-7.png, id=678, 638.385pt x 496.10344pt>
+File: ./SaltChapter/figs/fig-1-7.png Graphic file (type png)
+<use ./SaltChapter/figs/fig-1-7.png>
+Package pdftex.def Info: ./SaltChapter/figs/fig-1-7.png  used on input line 370
+.
+(pdftex.def)             Requested size: 184.5pt x 143.37427pt.
+ [22 <./SaltChapter/figs/fig-1-7.PNG>]
+<./SaltChapter/figs/fig-1-8.png, id=693, 493.845pt x 475.02469pt>
+File: ./SaltChapter/figs/fig-1-8.png Graphic file (type png)
+<use ./SaltChapter/figs/fig-1-8.png>
+Package pdftex.def Info: ./SaltChapter/figs/fig-1-8.png  used on input line 388
+.
+(pdftex.def)             Requested size: 184.5pt x 177.46696pt.
+
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 419.
+
+[23 <./SaltChapter/figs/fig-1-8.PNG>]
+<./SaltChapter/figs/fig-1-9.png, id=710, 758.835pt x 383.18156pt>
+File: ./SaltChapter/figs/fig-1-9.png Graphic file (type png)
+<use ./SaltChapter/figs/fig-1-9.png>
+Package pdftex.def Info: ./SaltChapter/figs/fig-1-9.png  used on input line 455
+.
+(pdftex.def)             Requested size: 258.29887pt x 130.43202pt.
+ [24 <./SaltChapter/figs/fig-1-9.PNG>]
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 527.
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 527.
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 527.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 527.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 527.
+
+[25]
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 11.65pt on input line 541.
+LaTeX Font Info:    Font shape `LUC/nanummj/b/n' in size <11.65> not available
+(Font)              Font shape `LUC/nanummj/bx/n' tried instead on input line 5
+41.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 541.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 541.
+
+<./SaltChapter/figs/fig-1-10.png, id=744, 605.26125pt x 225.84375pt>
+File: ./SaltChapter/figs/fig-1-10.png Graphic file (type png)
+<use ./SaltChapter/figs/fig-1-10.png>
+Package pdftex.def Info: ./SaltChapter/figs/fig-1-10.png  used on input line 55
+5.
+(pdftex.def)             Requested size: 184.5pt x 68.8426pt.
+<./SaltChapter/figs/fig-1-11.png, id=746, 578.16pt x 373.395pt>
+File: ./SaltChapter/figs/fig-1-11.png Graphic file (type png)
+<use ./SaltChapter/figs/fig-1-11.png>
+Package pdftex.def Info: ./SaltChapter/figs/fig-1-11.png  used on input line 57
+7.
+(pdftex.def)             Requested size: 147.59775pt x 95.31987pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[26 <./SaltChapter/figs/fig-1-10.PNG>]
+<./SaltChapter/figs/fig-1-0-1.png, id=757, 259.7203pt x 244.66406pt>
+File: ./SaltChapter/figs/fig-1-0-1.png Graphic file (type png)
+<use ./SaltChapter/figs/fig-1-0-1.png>
+Package pdftex.def Info: ./SaltChapter/figs/fig-1-0-1.png  used on input line 6
+10.
+(pdftex.def)             Requested size: 92.25pt x 86.89928pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[27 <./SaltChapter/figs/fig-1-11.PNG>]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.653 \begin{saltexample}[label=example-1-1]{}{}
+                                                 [28 <./SaltChapter/figs/fig-1-
+0-1.PNG>]
+
+LaTeX Font Warning: Font shape `OT1/cmtt/bx/n' in size <9.5> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 683.
+
+[29]
+Package mdframed Info: mdframed works in twoside mode on input line 727.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 727.
+<./SaltChapter/fig-1-0-2.png, id=795, 475.7775pt x 182.93344pt>
+File: ./SaltChapter/fig-1-0-2.png Graphic file (type png)
+<use ./SaltChapter/fig-1-0-2.png>
+Package pdftex.def Info: ./SaltChapter/fig-1-0-2.png  used on input line 733.
+(pdftex.def)             Requested size: 172.5pt x 66.32492pt.
+<./SaltChapter/fig-1-0-3.png, id=796, 202.50656pt x 142.28156pt>
+File: ./SaltChapter/fig-1-0-3.png Graphic file (type png)
+<use ./SaltChapter/fig-1-0-3.png>
+Package pdftex.def Info: ./SaltChapter/fig-1-0-3.png  used on input line 742.
+(pdftex.def)             Requested size: 103.50105pt x 72.72112pt.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 750.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 750.
+ [30 <./SaltChapter/fig-1-0-2.PNG> <./SaltChapter/fig-1-0-3.PNG>]
+<./SaltChapter/fig-1-12.png, id=805, 528.47438pt x 258.21469pt>
+File: ./SaltChapter/fig-1-12.png Graphic file (type png)
+<use ./SaltChapter/fig-1-12.png>
+Package pdftex.def Info: ./SaltChapter/fig-1-12.png  used on input line 768.
+(pdftex.def)             Requested size: 236.3904pt x 115.50208pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 770.
+See the caption package documentation for explanation.
+
+[31 <./SaltChapter/fig-1-12.PNG>]
+<./SaltChapter/fig-1-13.png, id=819, 663.22781pt x 278.54062pt>
+File: ./SaltChapter/fig-1-13.png Graphic file (type png)
+<use ./SaltChapter/fig-1-13.png>
+Package pdftex.def Info: ./SaltChapter/fig-1-13.png  used on input line 821.
+(pdftex.def)             Requested size: 258.29887pt x 108.47739pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 837.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\exp' on input line 837.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 837.
+
+Package mdframed Info: mdframed works in twoside mode on input line 839.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 839.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 845.
+[32 <./SaltChapter/fig-1-13.PNG>]
+Package mdframed Info: mdframed works in twoside mode on input line 871.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 871.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 879.
+
+Overfull \hbox (5.05049pt too wide) detected at line 893
+[]
+ []
+
+[33]
+<./SaltChapter/fig-1-14.png, id=833, 631.60968pt x 359.84438pt>
+File: ./SaltChapter/fig-1-14.png Graphic file (type png)
+<use ./SaltChapter/fig-1-14.png>
+Package pdftex.def Info: ./SaltChapter/fig-1-14.png  used on input line 914.
+(pdftex.def)             Requested size: 221.40225pt x 126.13959pt.
+
+Overfull \hbox (30.00456pt too wide) in paragraph at lines 920--923
+[]\LUC/nanummj/m/n/10.5/c7 t\LUC/nanummj/m/n/10.5/b7 Ï\LUC/nanummj/m/n/10.5/d5 
+\ \LUC/nanummj/m/n/10.5/d6 ^^D\LUC/nanummj/m/n/10.5/c0 ¡\LUC/nanummj/m/n/10.5/c
+7 @ \LUC/nanummj/m/n/10.5/c2 ‰^^X\LUC/nanummj/m/n/10.5/c7 X \LUC/nanummj/m/n/10
+.5/c1 1\LUC/nanummj/m/n/10.5/c9 » \LUC/nanummj/m/n/10.5/ac ^^V\LUC/nanummj/m/n/
+10.5/b2 î $\OML/cmm/m/it/10.5 x $ \LUC/nanummj/m/n/10.5/cd ï \LUC/nanummj/m/n/1
+0.5/bc )\LUC/nanummj/m/n/10.5/d5 •\LUC/nanummj/m/n/10.5/c7 <\LUC/nanummj/m/n/10
+.5/b8 \\LUC/nanummj/m/n/10.5/b2 î \LUC/nanummj/m/n/10.5/b0 ò\LUC/nanummj/m/n/10
+.5/d0 ¿\LUC/nanummj/m/n/10.5/b0 ò\LUC/nanummj/m/n/10.5/c9 ¿ \LUC/nanummj/m/n/10
+.5/c5 J\LUC/nanummj/m/n/10.5/b2 î‰[] \LUC/nanummj/m/n/10.5/d5 h\LUC/nanummj/m/n
+/10.5/c2 ^^X $\OML/cmm/m/it/10.5 x \OMS/cmsy/m/n/10.5 7! [][][]$
+ []
+
+<./SaltChapter/fig-1-15.png, id=835, 266.49562pt x 232.61906pt>
+File: ./SaltChapter/fig-1-15.png Graphic file (type png)
+<use ./SaltChapter/fig-1-15.png>
+Package pdftex.def Info: ./SaltChapter/fig-1-15.png  used on input line 926.
+(pdftex.def)             Requested size: 110.70113pt x 96.6274pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[34 <./SaltChapter/fig-1-14.PNG>]
+<./SaltChapter/fig-1-16.png, id=847, 615.0478pt x 359.84438pt>
+File: ./SaltChapter/fig-1-16.png Graphic file (type png)
+<use ./SaltChapter/fig-1-16.png>
+Package pdftex.def Info: ./SaltChapter/fig-1-16.png  used on input line 948.
+(pdftex.def)             Requested size: 221.40225pt x 129.53838pt.
+<./SaltChapter/fig-1-17.png, id=848, 615.0478pt x 606.76688pt>
+File: ./SaltChapter/fig-1-17.png Graphic file (type png)
+<use ./SaltChapter/fig-1-17.png>
+Package pdftex.def Info: ./SaltChapter/fig-1-17.png  used on input line 956.
+(pdftex.def)             Requested size: 221.40225pt x 218.42665pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[35 <./SaltChapter/fig-1-15.PNG> <./SaltChapter/fig-1-16.PNG>] [36 <./SaltChapt
+er/fig-1-17.PNG>] [37]
+Overfull \hbox (1.87386pt too wide) in paragraph at lines 1088--1091
+[][]\LUC/nanumgt/m/n/9.5/bc )\LUC/nanumgt/m/n/9.5/c8 ^^U\LUC/nanumgt/m/n/9.5/c2
+ › $[] \OML/cmm/m/it/9.5 x \OT1/cmr/m/n/9.5 = 3$ \LUC/nanumgt/m/n/9.5/c7 @ \LUC
+/nanumgt/m/n/9.5/c2 ‰\LUC/nanumgt/m/n/9.5/ad ¸ $\OML/cmm/m/it/9.5 x$ \LUC/nanum
+gt/m/n/9.5/b9 | \LUC/nanumgt/m/n/9.5/ac ^^V\LUC/nanumgt/m/n/9.5/c9 ¿ \LUC/nanum
+gt/m/n/9.5/c5 J\LUC/nanumgt/m/n/9.5/c7 L@ ò \LUC/nanumgt/m/n/9.5/c5 L\LUC/nanum
+gt/m/n/9.5/b8 $\LUC/nanumgt/m/n/9.5/c8 8 \LUC/nanumgt/m/n/9.5/c7 à\LUC/nanumgt/
+m/n/9.5/b2 ‰[] \LUC/nanumgt/m/n/9.5/d5 X\LUC/nanumgt/m/n/9.5/c9 ¿\LUC/nanumgt/m
+/n/9.5/b9 Ã\OT1/cmtt/m/n/9.5 , $[] \OML/cmm/m/it/9.5 z \OT1/cmr/m/n/9.5 =
+ []
+
+<./SaltChapter/fig-1-18.png, id=882, 534.49687pt x 146.79843pt>
+File: ./SaltChapter/fig-1-18.png Graphic file (type png)
+<use ./SaltChapter/fig-1-18.png>
+Package pdftex.def Info: ./SaltChapter/fig-1-18.png  used on input line 1104.
+(pdftex.def)             Requested size: 295.20113pt x 81.07985pt.
+[38 <./SaltChapter/fig-1-18.PNG>]
+<./SaltChapter/fig-1-19.png, id=894, 572.1375pt x 220.57407pt>
+File: ./SaltChapter/fig-1-19.png Graphic file (type png)
+<use ./SaltChapter/fig-1-19.png>
+Package pdftex.def Info: ./SaltChapter/fig-1-19.png  used on input line 1133.
+(pdftex.def)             Requested size: 295.20113pt x 113.80725pt.
+ [39 <./SaltChapter/fig-1-19.PNG>]
+Package mdframed Info: mdframed works in twoside mode on input line 1169.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1169.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1172.
+ [40]
+<./SaltChapter/fig-1-20.png, id=909, 585.68813pt x 266.49562pt>
+File: ./SaltChapter/fig-1-20.png Graphic file (type png)
+<use ./SaltChapter/fig-1-20.png>
+Package pdftex.def Info: ./SaltChapter/fig-1-20.png  used on input line 1241.
+(pdftex.def)             Requested size: 295.20113pt x 134.32507pt.
+
+[41 <./SaltChapter/fig-1-20.PNG>]
+Overfull \hbox (2.45108pt too wide) in paragraph at lines 1285--1289
+\LUC/nanummj/m/n/10.5/bc ı\LUC/nanummj/m/n/10.5/c1 å\LUC/nanummj/m/n/10.5/c2 ^^
+X\LUC/nanummj/m/n/10.5/c7 X \LUC/nanummj/m/n/10.5/c5 Ì\LUC/nanummj/m/n/10.5/c0 
+¨\LUC/nanummj/m/n/10.5/c5 – \LUC/nanummj/m/n/10.5/b3 ^^@\LUC/nanummj/m/n/10.5/d
+5 \ \LUC/nanummj/m/n/10.5/c1 $\LUC/nanummj/m/n/10.5/ba Ö\LUC/nanummj/m/n/10.5/c
+7 @ \OT1/LinuxLibertineT-TLF/m/n/10.5 [Need-ham (1997)] \LUC/nanummj/m/n/10.5/c
+7 D x\LUC/nanummj/m/n/10.5/c6 ©\LUC/nanummj/m/n/10.5/d5 X\LUC/nanummj/m/n/10.5/
+c6 ^^@\LUC/nanummj/m/n/10.5/b2 ‰[] \LUC/nanummj/m/n/10.5/c5 \LUC/nanummj/m/n/1
+0.5/c2 µ\LUC/nanummj/m/n/10.5/bb 8\LUC/nanummj/m/n/10.5/c8 ^^\ [][][]\OT1/Linux
+LibertineT-TLF/m/n/10.5 1.2[] \LUC/nanummj/m/n/10.5/b2 î \OT1/LinuxLibertineT-T
+LF/m/n/10.5 [Shas-
+ []
+
+) (./SaltChapter/chapter_two.tex [42]
+<./SaltChapter/fig-2-1.png, id=935, 618.05907pt x 248.42813pt>
+File: ./SaltChapter/fig-2-1.png Graphic file (type png)
+<use ./SaltChapter/fig-2-1.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-1.png  used on input line 22.
+(pdftex.def)             Requested size: 221.40225pt x 88.99054pt.
+ [43
+
+ <./SaltChapter/fig-2-1.PNG>]
+Package mdframed Info: mdframed works in twoside mode on input line 43.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 43.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 72.
+
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.76 ...example}[label=example-2-1]{}{example-2-1}
+                                                   [44]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.112 \begin{saltexample}[label=example-2-2]{}{}
+                                                
+<./SaltChapter/fig-2-2.png, id=952, 585.68813pt x 158.09062pt>
+File: ./SaltChapter/fig-2-2.png Graphic file (type png)
+<use ./SaltChapter/fig-2-2.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-2.png  used on input line 137.
+(pdftex.def)             Requested size: 270.16267pt x 72.92519pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 139.
+See the caption package documentation for explanation.
+
+[45]
+Package hyperref Info: bookmark level for unknown saltlemma defaults to 0 on in
+put line 183.
+ [46 <./SaltChapter/fig-2-2.PNG>] [47]
+Package mdframed Info: mdframed works in twoside mode on input line 241.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 241.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 258.
+Package hyperref Info: bookmark level for unknown salt_remark defaults to 0 on 
+input line 260.
+
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.269 \begin{saltexample}[label=example-2-3]{}{}
+                                                 [48]
+Package mdframed Info: mdframed works in twoside mode on input line 314.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 314.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 325.
+ [49]
+<./SaltChapter/fig-2-3.png, id=1005, 551.81157pt x 187.45032pt>
+File: ./SaltChapter/fig-2-3.png Graphic file (type png)
+<use ./SaltChapter/fig-2-3.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-3.png  used on input line 329.
+(pdftex.def)             Requested size: 258.29887pt x 87.74698pt.
+<./SaltChapter/fig-2-4.png, id=1007, 570.63188pt x 213.79875pt>
+File: ./SaltChapter/fig-2-4.png Graphic file (type png)
+<use ./SaltChapter/fig-2-4.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-4.png  used on input line 374.
+(pdftex.def)             Requested size: 236.3904pt x 88.56822pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 376.
+See the caption package documentation for explanation.
+
+[50 <./SaltChapter/fig-2-3.PNG>]
+<./SaltChapter/fig-2-0-1.png, id=1015, 399.74344pt x 284.56313pt>
+File: ./SaltChapter/fig-2-0-1.png Graphic file (type png)
+<use ./SaltChapter/fig-2-0-1.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-0-1.png  used on input line 407.
+(pdftex.def)             Requested size: 147.59775pt x 105.0696pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./SaltChapter/fig-2-5.png, id=1017, 584.93532pt x 301.8778pt>
+File: ./SaltChapter/fig-2-5.png Graphic file (type png)
+<use ./SaltChapter/fig-2-5.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-5.png  used on input line 422.
+(pdftex.def)             Requested size: 221.40225pt x 114.26334pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[51 <./SaltChapter/fig-2-4.PNG>] [52 <./SaltChapter/fig-2-0-1.PNG> <./SaltChapt
+er/fig-2-5.PNG>] [53]
+Package mdframed Info: mdframed works in twoside mode on input line 521.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 521.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 535.
+<./SaltChapter/fig-2-6.png, id=1044, 1137.4997pt x 488.57532pt>
+File: ./SaltChapter/fig-2-6.png Graphic file (type png)
+<use ./SaltChapter/fig-2-6.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-6.png  used on input line 545.
+(pdftex.def)             Requested size: 332.09775pt x 142.64491pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[54]
+Overfull \hbox (17.33308pt too wide) detected at line 571
+[]
+ []
+
+[55 <./SaltChapter/fig-2-6.PNG>]
+Overfull \hbox (16.70038pt too wide) detected at line 588
+[]
+ []
+
+[56] [57]
+Package mdframed Info: mdframed works in twoside mode on input line 689.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 689.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 706.
+ [58]
+<./SaltChapter/fig-2-7.png, id=1083, 550.30594pt x 222.8325pt>
+File: ./SaltChapter/fig-2-7.png Graphic file (type png)
+<use ./SaltChapter/fig-2-7.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-7.png  used on input line 732.
+(pdftex.def)             Requested size: 221.40225pt x 89.65164pt.
+ [59 <./SaltChapter/fig-2-7.PNG>]
+Overfull \hbox (5.05984pt too wide) detected at line 803
+[]
+ []
+
+[60] [61] [62] [63] [64]
+<./SaltChapter/fig-2-0-2.png, id=1122, 413.29407pt x 158.09062pt>
+File: ./SaltChapter/fig-2-0-2.png Graphic file (type png)
+<use ./SaltChapter/fig-2-0-2.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-0-2.png  used on input line 1049.
+(pdftex.def)             Requested size: 202.62329pt x 77.50607pt.
+<./SaltChapter/fig-2-0-3.png, id=1127, 167.12437pt x 166.37157pt>
+File: ./SaltChapter/fig-2-0-3.png Graphic file (type png)
+<use ./SaltChapter/fig-2-0-3.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-0-3.png  used on input line 1087.
+(pdftex.def)             Requested size: 84.4255pt x 84.04616pt.
+ [65 <./SaltChapter/fig-2-0-2.PNG>] [66 <./SaltChapter/fig-2-0-3.PNG>]
+<./SaltChapter/fig-2-8.png, id=1147, 323.70938pt x 209.28188pt>
+File: ./SaltChapter/fig-2-8.png Graphic file (type png)
+<use ./SaltChapter/fig-2-8.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-8.png  used on input line 1140.
+(pdftex.def)             Requested size: 184.5pt x 119.2823pt.
+ [67 <./SaltChapter/fig-2-8.PNG>]
+<./SaltChapter/fig-2-0-4.png, id=1163, 356.0803pt x 162.6075pt>
+File: ./SaltChapter/fig-2-0-4.png Graphic file (type png)
+<use ./SaltChapter/fig-2-0-4.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-0-4.png  used on input line 1176.
+(pdftex.def)             Requested size: 184.5pt x 84.25368pt.
+<./SaltChapter/fig-2-9.png, id=1165, 459.21562pt x 191.9672pt>
+File: ./SaltChapter/fig-2-9.png Graphic file (type png)
+<use ./SaltChapter/fig-2-9.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-9.png  used on input line 1200.
+(pdftex.def)             Requested size: 295.20113pt x 123.40926pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[68 <./SaltChapter/fig-2-0-4.PNG>]
+<./SaltChapter/fig-2-10.png, id=1176, 533.74406pt x 545.78906pt>
+File: ./SaltChapter/fig-2-10.png Graphic file (type png)
+<use ./SaltChapter/fig-2-10.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-10.png  used on input line 1243.
+(pdftex.def)             Requested size: 295.20113pt x 301.8755pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./SaltChapter/fig-2-11.png, id=1180, 613.54219pt x 341.02406pt>
+File: ./SaltChapter/fig-2-11.png Graphic file (type png)
+<use ./SaltChapter/fig-2-11.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-11.png  used on input line 1270.
+(pdftex.def)             Requested size: 236.3904pt x 131.39093pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1272.
+See the caption package documentation for explanation.
+
+<./SaltChapter/fig-2-12.png, id=1182, 603.0028pt x 308.65312pt>
+File: ./SaltChapter/fig-2-12.png Graphic file (type png)
+<use ./SaltChapter/fig-2-12.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-12.png  used on input line 1289.
+(pdftex.def)             Requested size: 236.3904pt x 120.9959pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1291.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 1301--1306
+\LUC/nanummj/m/n/10.5/c7 t\LUC/nanummj/m/n/10.5/ac ‡\OT1/LinuxLibertineT-TLF/m/
+n/10.5 , $\OML/cmm/m/it/10.5 z[]$ \LUC/nanummj/m/n/10.5/ad ¸\LUC/nanummj/m/n/10
+.5/bc )\LUC/nanummj/m/n/10.5/c5 –\LUC/nanummj/m/n/10.5/c1 ^^\ \LUC/nanummj/m/n/
+10.5/c8 ^^\\LUC/nanummj/m/n/10.5/ac Ò\LUC/nanummj/m/n/10.5/d5 h\LUC/nanummj/m/n
+/10.5/c2 ^^X $\OML/cmm/m/it/10.5 f$ \LUC/nanummj/m/n/10.5/c7 X \LUC/nanummj/m/n
+/10.5/ad m\LUC/nanummj/m/n/10.5/c1 å\LUC/nanummj/m/n/10.5/c8 ^^A \LUC/nanummj/m
+/n/10.5/c1 1\LUC/nanummj/m/n/10.5/c9 »\LUC/nanummj/m/n/10.5/c7 D \LUC/nanummj/m
+/n/10.5/c8 p\LUC/nanummj/m/n/10.5/c0 ¨\LUC/nanummj/m/n/10.5/d5 h\LUC/nanummj/m/
+n/10.5/c7 <\LUC/nanummj/m/n/10.5/b8 \\LUC/nanummj/m/n/10.5/c3 h \LUC/nanummj/m/
+n/10.5/bc ı\LUC/nanummj/m/n/10.5/c1 å\LUC/nanummj/m/n/10.5/bb ¯\LUC/nanummj/m/n
+/10.5/bd Ñ
+ []
+
+[69 <./SaltChapter/fig-2-9.PNG>] [70 <./SaltChapter/fig-2-10.PNG>] [71 <./SaltC
+hapter/fig-2-11.PNG> <./SaltChapter/fig-2-12.PNG>]
+<./SaltChapter/fig-2-13.png, id=1207, 603.75563pt x 274.77657pt>
+File: ./SaltChapter/fig-2-13.png Graphic file (type png)
+<use ./SaltChapter/fig-2-13.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-13.png  used on input line 1313.
+(pdftex.def)             Requested size: 270.16267pt x 122.9523pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1315.
+See the caption package documentation for explanation.
+
+[72
+
+ <./SaltChapter/fig-2-13.PNG>]
+<./SaltChapter/fig-2-14.png, id=1225, 473.51906pt x 166.37157pt>
+File: ./SaltChapter/fig-2-14.png Graphic file (type png)
+<use ./SaltChapter/fig-2-14.png>
+Package pdftex.def Info: ./SaltChapter/fig-2-14.png  used on input line 1370.
+(pdftex.def)             Requested size: 295.20113pt x 103.72302pt.
+ [73 <./SaltChapter/fig-2-14.PNG>] [74]
+[75]) (./SaltChapter/chapter_three.tex [76] [77] [78
+
+]
+<./SaltChapter/fig-3-1.png, id=1266, 643.6547pt x 292.09125pt>
+File: ./SaltChapter/fig-3-1.png Graphic file (type png)
+<use ./SaltChapter/fig-3-1.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-1.png  used on input line 58.
+(pdftex.def)             Requested size: 295.20113pt x 133.96692pt.
+ [79 <./SaltChapter/fig-3-1.PNG>]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.94 \begin{saltexample}[label=example-3-1]{}{}
+                                               
+<./SaltChapter/fig-3-2.png, id=1277, 256.70906pt x 204.765pt>
+File: ./SaltChapter/fig-3-2.png Graphic file (type png)
+<use ./SaltChapter/fig-3-2.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-2.png  used on input line 103.
+(pdftex.def)             Requested size: 135.07875pt x 107.74693pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 105.
+See the caption package documentation for explanation.
+
+<./SaltChapter/fig-3-3.png, id=1279, 356.83313pt x 212.29312pt>
+File: ./SaltChapter/fig-3-3.png Graphic file (type png)
+<use ./SaltChapter/fig-3-3.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-3.png  used on input line 120.
+(pdftex.def)             Requested size: 202.62329pt x 120.54834pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 122.
+See the caption package documentation for explanation.
+
+[80 <./SaltChapter/fig-3-2.PNG>]
+Package mdframed Info: mdframed works in twoside mode on input line 153.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 153.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 172.
+ [81 <./SaltChapter/fig-3-3.PNG>]
+<./SaltChapter/fig-3-4.png, id=1297, 631.60968pt x 344.78813pt>
+File: ./SaltChapter/fig-3-4.png Graphic file (type png)
+<use ./SaltChapter/fig-3-4.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-4.png  used on input line 188.
+(pdftex.def)             Requested size: 295.20113pt x 161.14554pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.194 \begin{saltexample}[label=example-3-2]{}{}
+                                                 %\label{example-3-2} [82]
+[83 <./SaltChapter/fig-3-4.PNG>]
+<./SaltChapter/fig-3-5.png, id=1314, 575.90157pt x 274.02374pt>
+File: ./SaltChapter/fig-3-5.png Graphic file (type png)
+<use ./SaltChapter/fig-3-5.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-5.png  used on input line 248.
+(pdftex.def)             Requested size: 258.29887pt x 122.90814pt.
+ [84 <./SaltChapter/fig-3-5.PNG>]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.300 \begin{saltexample}[label=example-3-3]{}{}
+                                                 %\label{example-3-3}
+<./SaltChapter/fig-3-6.png, id=1322, 319.94531pt x 207.77625pt>
+File: ./SaltChapter/fig-3-6.png Graphic file (type png)
+<use ./SaltChapter/fig-3-6.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-6.png  used on input line 311.
+(pdftex.def)             Requested size: 135.07875pt x 87.72195pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 313.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (1.73166pt too wide) detected at line 324
+[]
+ []
+
+[85 <./SaltChapter/fig-3-6.PNG>]
+<./SaltChapter/fig-3-7.png, id=1336, 278.54062pt x 237.88875pt>
+File: ./SaltChapter/fig-3-7.png Graphic file (type png)
+<use ./SaltChapter/fig-3-7.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-7.png  used on input line 333.
+(pdftex.def)             Requested size: 147.59775pt x 126.05864pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.351 \begin{saltexample}[label=example-3-4]{}{}
+                                                 [86 <./SaltChapter/fig-3-7.PNG
+>]
+<./SaltChapter/fig-3-8.png, id=1346, 709.90219pt x 225.09094pt>
+File: ./SaltChapter/fig-3-8.png Graphic file (type png)
+<use ./SaltChapter/fig-3-8.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-8.png  used on input line 397.
+(pdftex.def)             Requested size: 332.09775pt x 105.30159pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package mdframed Info: mdframed works in twoside mode on input line 406.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 406.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 416.
+[87]
+Package mdframed Info: Not enough space on this page on input line 416.
+ [88 <./SaltChapter/fig-3-8.PNG>] [89]
+Package mdframed Info: mdframed works in twoside mode on input line 485.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 485.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 499.
+<./SaltChapter/fig-3-9.png, id=1372, 382.42876pt x 188.20313pt>
+File: ./SaltChapter/fig-3-9.png Graphic file (type png)
+<use ./SaltChapter/fig-3-9.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-9.png  used on input line 527.
+(pdftex.def)             Requested size: 184.5pt x 90.79594pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[90]
+Package mdframed Info: mdframed works in twoside mode on input line 536.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 536.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 542.
+ [91 <./SaltChapter/fig-3-9.PNG>]
+<./SaltChapter/fig-3-10.png, id=1395, 443.40656pt x 126.4725pt>
+File: ./SaltChapter/fig-3-10.png Graphic file (type png)
+<use ./SaltChapter/fig-3-10.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-10.png  used on input line 584.
+(pdftex.def)             Requested size: 221.40225pt x 63.15117pt.
+Package mdframed Info: mdframed works in twoside mode on input line 590.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 590.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 599.
+ [92 <./SaltChapter/fig-3-10.PNG>]
+Package mdframed Info: mdframed works in twoside mode on input line 628.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 628.
+<./SaltChapter/fig-3-11.png, id=1404, 705.38531pt x 226.59656pt>
+File: ./SaltChapter/fig-3-11.png Graphic file (type png)
+<use ./SaltChapter/fig-3-11.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-11.png  used on input line 649.
+(pdftex.def)             Requested size: 310.4979pt x 99.74428pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 652.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 4181) in paragraph at lines 652--652
+[]\LUC/nanummj/m/n/10.5/ad ¯\LUC/nanummj/m/n/10.5/b9 º \OT1/LinuxLibertineT-TLF
+/m/n/10.5 3.11: |[]\LUC/nanummj/m/n/10.5/ac Ω\LUC/nanummj/m/n/10.5/b8 \ $\OML/c
+mm/m/it/10.5 ^^M$ \LUC/nanummj/m/n/10.5/c7 X \LUC/nanummj/m/n/10.5/ae 8\LUC/nan
+ummj/m/n/10.5/c7 t\LUC/nanummj/m/n/10.5/b2 î \LUC/nanummj/m/n/10.5/ad m\LUC/nan
+ummj/m/n/10.5/c1 å\LUC/nanummj/m/n/10.5/c8 ^^A\LUC/nanummj/m/n/10.5/c7 x \LUC/n
+anummj/m/n/10.5/ac ·\LUC/nanummj/m/n/10.5/c1   \LUC/nanummj/m/n/10.5/ae 8\LUC/n
+anummj/m/n/10.5/c7 t $\OML/cmm/m/it/10.5 ds$ \LUC/nanummj/m/n/10.5/c7 X \LUC/na
+nummj/m/n/10.5/d5 i\LUC/nanummj/m/n/10.5/c7 t\LUC/nanummj/m/n/10.5/ac ‡\OT1/Lin
+uxLibertineT-TLF/m/n/10.5 , $\OML/cmm/m/it/10.5 ds \OT1/cmr/m/n/10.95 =
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 655.
+[93] [94 <./SaltChapter/fig-3-11.PNG>]
+Package mdframed Info: mdframed works in twoside mode on input line 721.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 721.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 727.
+ [95]
+Package mdframed Info: mdframed works in twoside mode on input line 744.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 744.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 760.
+
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.767 \begin{saltexample}[label=example-3-5]{}{}
+                                                 [96]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.786 \begin{saltexample}[label=example-3-6]{}{}
+                                                 [97]
+Package mdframed Info: mdframed works in twoside mode on input line 860.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 860.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 863.
+Package mdframed Info: Not enough space on this page on input line 863.
+ [98]
+Package mdframed Info: Not enough space on this page on input line 863.
+<./SaltChapter/fig-3-0-1.png, id=1459, 171.64125pt x 156.585pt>
+File: ./SaltChapter/fig-3-0-1.png Graphic file (type png)
+<use ./SaltChapter/fig-3-0-1.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-0-1.png  used on input line 867.
+(pdftex.def)             Requested size: 92.25pt x 84.15562pt.
+Package hyperref Info: bookmark level for unknown saltcorollary defaults to 0 o
+n input line 871.
+
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.889 \begin{saltexample}[label=example-3-7]{}{}
+                                                 [99 <./SaltChapter/fig-3-0-1.P
+NG>]
+Package mdframed Info: mdframed works in twoside mode on input line 937.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 937.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 948.
+ [100]
+<./SaltChapter/fig-3-12.png, id=1482, 794.97pt x 400.49625pt>
+File: ./SaltChapter/fig-3-12.png Graphic file (type png)
+<use ./SaltChapter/fig-3-12.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-12.png  used on input line 967.
+(pdftex.def)             Requested size: 332.09775pt x 167.30894pt.
+Package mdframed Info: mdframed works in twoside mode on input line 977.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 977.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 987.
+ [101 <./SaltChapter/fig-3-12.PNG>]
+<./SaltChapter/fig-3-0-2.png, id=1490, 358.33875pt x 218.31563pt>
+File: ./SaltChapter/fig-3-0-2.png Graphic file (type png)
+<use ./SaltChapter/fig-3-0-2.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-0-2.png  used on input line 1004.
+(pdftex.def)             Requested size: 129.15225pt x 78.68683pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1010 \begin{saltexample}[label=example-2-8]{}{}
+                                                 
+<./SaltChapter/fig-3-0-3.png, id=1492, 197.98969pt x 174.6525pt>
+File: ./SaltChapter/fig-3-0-3.png Graphic file (type png)
+<use ./SaltChapter/fig-3-0-3.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-0-3.png  used on input line 1019.
+(pdftex.def)             Requested size: 101.31165pt x 89.37007pt.
+ [102 <./SaltChapter/fig-3-0-2.PNG> <./SaltChapter/fig-3-0-3.PNG>] [103] [104] 
+[105] [106]
+<./SaltChapter/fig-3-13.png, id=1525, 837.1275pt x 581.17125pt>
+File: ./SaltChapter/fig-3-13.png Graphic file (type png)
+<use ./SaltChapter/fig-3-13.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-13.png  used on input line 1234.
+(pdftex.def)             Requested size: 332.09775pt x 230.5489pt.
+ [107 <./SaltChapter/fig-3-13.PNG>]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1259 \begin{saltexample} [label=example-3-9]{}{}
+                                                   [108]
+<./SaltChapter/fig-3-0-4.png, id=1540, 293.59688pt x 164.86594pt>
+File: ./SaltChapter/fig-3-0-4.png Graphic file (type png)
+<use ./SaltChapter/fig-3-0-4.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-0-4.png  used on input line 1350.
+(pdftex.def)             Requested size: 92.25pt x 51.80222pt.
+ [109]
+<./SaltChapter/fig-3-14.png, id=1550, 621.82312pt x 637.63219pt>
+File: ./SaltChapter/fig-3-14.png Graphic file (type png)
+<use ./SaltChapter/fig-3-14.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-14.png  used on input line 1366.
+(pdftex.def)             Requested size: 295.20113pt x 302.70331pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (2.04155pt too wide) in paragraph at lines 1381--1387
+\LUC/nanummj/m/n/10.5/c8 Ö\LUC/nanummj/m/n/10.5/d5 iX\LUC/nanummj/m/n/10.5/ba t
+ $[][] [] \OML/cmm/m/it/10.5 dz \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.5 i [][]\
+OT1/cmr/m/n/10.95 ((\OML/cmm/m/it/10.5 x\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.5 
+t\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.5 y[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10
+.5 t\OT1/cmr/m/n/10.95 ) \OMS/cmsy/m/n/10.5 ^^@ \OML/cmm/m/it/10.5 y\OT1/cmr/m/
+n/10.95 (\OML/cmm/m/it/10.5 t\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.5 x[]\OT1/cmr
+/m/n/10.95 (\OML/cmm/m/it/10.5 t\OT1/cmr/m/n/10.95 ))\OML/cmm/m/it/10.5 dt \OT1
+/cmr/m/n/10.95 = 2\OML/cmm/m/it/10.5 i \OMS/cmsy/m/n/10.5 ^^A \OT1/cmr/m/n/10.9
+5 (\OML/cmm/m/it/10.5 ^^M[]\OT1/cmr/m/n/10.95 )$\OT1/LinuxLibertineT-TLF/m/n/10
+.5 .
+ []
+
+<./SaltChapter/fig-3-15.png, id=1553, 465.23813pt x 351.56343pt>
+File: ./SaltChapter/fig-3-15.png Graphic file (type png)
+<use ./SaltChapter/fig-3-15.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-15.png  used on input line 1396.
+(pdftex.def)             Requested size: 147.59775pt x 111.53163pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[110 <./SaltChapter/fig-3-0-4.PNG>] [111 <./SaltChapter/fig-3-14.PNG> <./SaltCh
+apter/fig-3-15.PNG>]
+Package mdframed Info: mdframed works in twoside mode on input line 1429.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1429.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1437.
+ [112]
+<./SaltChapter/fig-3-16.png, id=1576, 458.46281pt x 353.82187pt>
+File: ./SaltChapter/fig-3-16.png Graphic file (type png)
+<use ./SaltChapter/fig-3-16.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-16.png  used on input line 1454.
+(pdftex.def)             Requested size: 147.59775pt x 113.91096pt.
+<./SaltChapter/fig-3-0-5.png, id=1577, 273.27094pt x 254.45062pt>
+File: ./SaltChapter/fig-3-0-5.png Graphic file (type png)
+<use ./SaltChapter/fig-3-0-5.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-0-5.png  used on input line 1491.
+(pdftex.def)             Requested size: 92.25pt x 85.89473pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[113 <./SaltChapter/fig-3-16.PNG>]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1530 \begin{saltexample}[label=example-3-10]{}{}
+                                                  
+Underfull \hbox (badness 1466) in paragraph at lines 1531--1535
+[]$[][][]$ \LUC/nanummj/m/n/10.5/c7 @ \LUC/nanummj/m/n/10.5/c8 ^^D\LUC/nanummj/
+m/n/10.5/d5 t\LUC/nanummj/m/n/10.5/c1 ^^]\LUC/nanummj/m/n/10.5/d5 h\LUC/nanummj
+/m/n/10.5/c2 ^^X\LUC/nanummj/m/n/10.5/c7 t\LUC/nanummj/m/n/10.5/b2 ‰[] \LUC/nan
+ummj/m/n/10.5/b5 0\LUC/nanummj/m/n/10.5/b7 |\LUC/nanummj/m/n/10.5/c1 ^^\ \LUC/n
+anummj/m/n/10.5/ba ®\LUC/nanummj/m/n/10.5/b4 ‡ $\OML/cmm/m/it/10.5 z \OMS/cmsy/
+m/n/10.5 2 \U/msb/m/n/10.5 C$ \LUC/nanummj/m/n/10.5/c5 – \LUC/nanummj/m/n/10.5/
+b3 ^^@\LUC/nanummj/m/n/10.5/d5 X\LUC/nanummj/m/n/10.5/c5 Ï $\OML/cmm/m/it/10.5 
+F[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.5 z\OT1/cmr/m/n/10.95 ) =
+ []
+
+[114 <./SaltChapter/fig-3-0-5.PNG>]
+<./SaltChapter/fig-3-0-6.png, id=1593, 517.935pt x 226.59656pt>
+File: ./SaltChapter/fig-3-0-6.png Graphic file (type png)
+<use ./SaltChapter/fig-3-0-6.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-0-6.png  used on input line 1571.
+(pdftex.def)             Requested size: 147.59775pt x 64.57376pt.
+ [115 <./SaltChapter/fig-3-0-6.PNG>]
+Package mdframed Info: mdframed works in twoside mode on input line 1597.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1597.
+<./SaltChapter/fig-3-0-7.png, id=1606, 488.57532pt x 429.85594pt>
+File: ./SaltChapter/fig-3-0-7.png Graphic file (type png)
+<use ./SaltChapter/fig-3-0-7.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-0-7.png  used on input line 1614.
+(pdftex.def)             Requested size: 137.9979pt x 121.41484pt.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1617.
+
+[116 <./SaltChapter/fig-3-0-7.PNG>] [117]
+Package mdframed Info: mdframed works in twoside mode on input line 1623.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1623.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1637.
+Package mdframed Info: Not enough space on this page on input line 1637.
+<./SaltChapter/fig-3-0-8.png, id=1617, 286.06876pt x 254.45062pt>
+File: ./SaltChapter/fig-3-0-8.png Graphic file (type png)
+<use ./SaltChapter/fig-3-0-8.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-0-8.png  used on input line 1648.
+(pdftex.def)             Requested size: 110.70113pt x 98.46658pt.
+ [118 <./SaltChapter/fig-3-0-8.PNG>]
+
+LaTeX Warning: Reference `example-3-8' on page 119 undefined on input line 1702
+.
+
+<./SaltChapter/fig-3-0-9.png, id=1628, 383.93437pt x 330.48468pt>
+File: ./SaltChapter/fig-3-0-9.png Graphic file (type png)
+<use ./SaltChapter/fig-3-0-9.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-0-9.png  used on input line 1706.
+(pdftex.def)             Requested size: 110.70113pt x 95.28844pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[119] [120 <./SaltChapter/fig-3-0-9.PNG>]
+<./SaltChapter/fig-3-0-10.png, id=1647, 316.18124pt x 229.60782pt>
+File: ./SaltChapter/fig-3-0-10.png Graphic file (type png)
+<use ./SaltChapter/fig-3-0-10.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-0-10.png  used on input line 1786.
+
+(pdftex.def)             Requested size: 110.70113pt x 80.38846pt.
+ [121 <./SaltChapter/fig-3-0-10.PNG>]
+Overfull \hbox (7.72548pt too wide) in paragraph at lines 1801--1803
+[]$\OML/cmm/m/it/9.5 z$ \LUC/nanumgt/m/n/9.5/ac ^^@ \LUC/nanumgt/m/n/9.5/c0 ¡\L
+UC/nanumgt/m/n/9.5/bc ^^X\LUC/nanumgt/m/n/9.5/d3 …\LUC/nanumgt/m/n/9.5/ba t\LUC
+/nanumgt/m/n/9.5/c7 X \LUC/nanumgt/m/n/9.5/c8 ^^P\LUC/nanumgt/m/n/9.5/c7 | \LUC
+/nanumgt/m/n/9.5/b5 L\OT1/cmtt/m/n/9.5 , $\OMS/cmtt/m/n/9.5 j [][][]j ^^T \OT1/
+cmr/m/n/9.5 1$ \LUC/nanumgt/m/n/9.5/c7 ÑD \LUC/nanumgt/m/n/9.5/c9 ù\LUC/nanumgt
+/m/n/9.5/ba Ö\LUC/nanumgt/m/n/9.5/d5 X\LUC/nanumgt/m/n/9.5/c5 Ï\OT1/cmtt/m/n/9.
+5 , \LUC/nanumgt/m/n/9.5/cd ©\LUC/nanumgt/m/n/9.5/bd Ñ\LUC/nanumgt/m/n/9.5/d7 à
+ \LUC/nanumgt/m/n/9.5/d0 p $\OMS/cmtt/m/n/9.5 j\OML/cmm/m/it/9.5 z\OMS/cmtt/m/n
+/9.5 j$ \LUC/nanumgt/m/n/9.5/c5 – \LUC/nanumgt/m/n/9.5/b3 ^^@\LUC/nanumgt/m/n/9
+.5/d5 X\LUC/nanumgt/m/n/9.5/c5 Ï $\OMS/cmtt/m/n/9.5 j\OML/cmm/m/it/9.5 F\OT1/cm
+r/m/n/9.5 (\OML/cmm/m/it/9.5 z\OT1/cmr/m/n/9.5 )\OMS/cmtt/m/n/9.5 j ^^T
+ []
+
+[122] [123]
+<./SaltChapter/fig-3-0-11.png, id=1673, 306.39468pt x 293.59688pt>
+File: ./SaltChapter/fig-3-0-11.png Graphic file (type png)
+<use ./SaltChapter/fig-3-0-11.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-0-11.png  used on input line 1914.
+
+(pdftex.def)             Requested size: 110.70113pt x 106.07558pt.
+ [124 <./SaltChapter/fig-3-0-11.PNG>]
+Overfull \hbox (14.16101pt too wide) detected at line 1941
+[] [] \OMS/cmsy/m/n/10.5 ^^@ [] [][] []\OML/cmm/m/it/10.5 dz \OT1/cmr/m/n/10.95
+ = (\OML/cmm/m/it/10.5 w \OMS/cmsy/m/n/10.5 ^^@ \OML/cmm/m/it/10.5 z[]\OT1/cmr/
+m/n/10.95 )[] [][] []\OML/cmm/m/it/10.5 dz:
+ []
+
+[125]
+Package mdframed Info: mdframed works in twoside mode on input line 1982.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1982.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1984.
+ [126] [127] [128]
+Package mdframed Info: mdframed works in twoside mode on input line 2133.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 2133.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 2145.
+<./SaltChapter/fig-3-0-12.png, id=1722, 289.83281pt x 249.93375pt>
+File: ./SaltChapter/fig-3-0-12.png Graphic file (type png)
+<use ./SaltChapter/fig-3-0-12.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-0-12.png  used on input line 2156.
+
+(pdftex.def)             Requested size: 110.70113pt x 95.46014pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[129]
+<./SaltChapter/fig-3-0-13.png, id=1730, 660.96938pt x 346.29375pt>
+File: ./SaltChapter/fig-3-0-13.png Graphic file (type png)
+<use ./SaltChapter/fig-3-0-13.png>
+Package pdftex.def Info: ./SaltChapter/fig-3-0-13.png  used on input line 2195.
+
+(pdftex.def)             Requested size: 184.5pt x 96.66039pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[130 <./SaltChapter/fig-3-0-12.PNG>]) (./SaltChapter/chapter_four.tex [131 <./S
+altChapter/fig-3-0-13.PNG>]
+<./SaltChapter/fig-4-0-1.png, id=1761, 461.47406pt x 200.24812pt>
+File: ./SaltChapter/fig-4-0-1.png Graphic file (type png)
+<use ./SaltChapter/fig-4-0-1.png>
+Package pdftex.def Info: ./SaltChapter/fig-4-0-1.png  used on input line 10.
+(pdftex.def)             Requested size: 184.5pt x 80.0581pt.
+ [132
+
+ <./SaltChapter/fig-4-0-1.PNG>]
+Package mdframed Info: mdframed works in twoside mode on input line 54.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 54.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 65.
+ [133]
+Package hyperref Info: bookmark level for unknown salt_conjecture defaults to 0
+ on input line 119.
+ [134]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.137 \begin{saltexample}[label=example-4-1]{}{}
+                                                
+Package mdframed Info: mdframed works in twoside mode on input line 157.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 157.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 168.
+ [135] [136]
+<./SaltChapter/fig-4-1.png, id=1801, 476.53032pt x 313.17pt>
+File: ./SaltChapter/fig-4-1.png Graphic file (type png)
+<use ./SaltChapter/fig-4-1.png>
+Package pdftex.def Info: ./SaltChapter/fig-4-1.png  used on input line 176.
+(pdftex.def)             Requested size: 184.5pt x 121.25175pt.
+ [137 <./SaltChapter/fig-4-1.PNG>] [138]
+<./SaltChapter/fig-4-0-2.png, id=1813, 281.55188pt x 262.73157pt>
+File: ./SaltChapter/fig-4-0-2.png Graphic file (type png)
+<use ./SaltChapter/fig-4-0-2.png>
+Package pdftex.def Info: ./SaltChapter/fig-4-0-2.png  used on input line 267.
+(pdftex.def)             Requested size: 110.70113pt x 103.30276pt.
+Package mdframed Info: mdframed works in twoside mode on input line 288.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 288.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 299.
+ [139 <./SaltChapter/fig-4-0-2.PNG>]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.351 \begin{saltexample}[label=example-4-2]{}{}
+                                                 [140] [141]
+Package mdframed Info: mdframed works in twoside mode on input line 423.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 423.
+
+Overfull \hbox (21.93513pt too wide) in paragraph at lines 424--427
+[]$\OML/cmm/m/it/10.5 R > \OT1/cmr/m/n/10.95 0$ \LUC/nanummj/m/n/10.5/c7 t\LUC/
+nanummj/m/n/10.5/ac ‡ $\OML/cmm/m/it/10.5 f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10
+.5 z\OT1/cmr/m/n/10.95 ) := [] \OML/cmm/m/it/10.5 c[]z[]$ \LUC/nanummj/m/n/10.5
+/ac ^^@ $\OMS/cmsy/m/n/10.5 j\OML/cmm/m/it/10.5 z\OMS/cmsy/m/n/10.5 j \OML/cmm/
+m/it/10.5 < R$ \LUC/nanummj/m/n/10.5/c5 –\LUC/nanummj/m/n/10.5/c1 ^^\ \LUC/nanu
+mmj/m/n/10.5/c2 ^^X\LUC/nanummj/m/n/10.5/b8 4\LUC/nanummj/m/n/10.5/d5 \\LUC/nan
+ummj/m/n/10.5/b2 ‰\LUC/nanummj/m/n/10.5/ac ‡ \LUC/nanummj/m/n/10.5/d5 X\LUC/nan
+ummj/m/n/10.5/ba t $\OML/cmm/m/it/10.5 f[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.
+5 z\OT1/cmr/m/n/10.95 ) = [] \OML/cmm/m/it/10.5 c[]nz[]$\OT1/LinuxLibertineT-TL
+F/m/n/10.5 . 
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 427.
+[142]
+<./SaltChapter/fig-4-0-3.png, id=1844, 287.57437pt x 262.73157pt>
+File: ./SaltChapter/fig-4-0-3.png Graphic file (type png)
+<use ./SaltChapter/fig-4-0-3.png>
+Package pdftex.def Info: ./SaltChapter/fig-4-0-3.png  used on input line 466.
+(pdftex.def)             Requested size: 110.70113pt x 101.13792pt.
+
+Overfull \hbox (27.65266pt too wide) detected at line 493
+[] \OMS/cmsy/m/n/10.5 ^^@ \OML/cmm/m/it/10.5 g\OT1/cmr/m/n/10.95 (\OML/cmm/m/it
+/10.5 z[]\OT1/cmr/m/n/10.95 ) = [] \OML/cmm/m/it/10.5 c[][] \OT1/cmr/m/n/10.95 
+= [] \OML/cmm/m/it/10.5 c[] [] :
+ []
+
+[143 <./SaltChapter/fig-4-0-3.PNG>] [144]
+Overfull \hbox (16.81161pt too wide) detected at line 569
+\OML/cmm/m/it/10.5 f[]\OT1/cmr/m/n/10.95 (0) = \OML/cmm/m/it/10.5 k\OT1/cmr/m/n
+/10.95 (\OML/cmm/m/it/10.5 k \OMS/cmsy/m/n/10.5 ^^@ \OT1/cmr/m/n/10.95 1) [] 1\
+OML/cmm/m/it/10.5 c[] \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.5 z [] [][]n\OT1/cm
+r/m/n/10.95 (\OML/cmm/m/it/10.5 n \OMS/cmsy/m/n/10.5 ^^@ \OT1/cmr/m/n/10.95 1) 
+[] (\OML/cmm/m/it/10.5 n \OMS/cmsy/m/n/10.5 ^^@ \OML/cmm/m/it/10.5 k \OT1/cmr/m
+/n/10.95 + 1)\OML/cmm/m/it/10.5 c[]z[][][] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/1
+0.5 k\OT1/cmr/m/n/10.95 !\OML/cmm/m/it/10.5 c[]
+ []
+
+[145] [146]
+Package mdframed Info: mdframed works in twoside mode on input line 658.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 658.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 667.
+<./SaltChapter/fig-4-0-4.png, id=1885, 230.36063pt x 217.5628pt>
+File: ./SaltChapter/fig-4-0-4.png Graphic file (type png)
+<use ./SaltChapter/fig-4-0-4.png>
+Package pdftex.def Info: ./SaltChapter/fig-4-0-4.png  used on input line 671.
+(pdftex.def)             Requested size: 110.70113pt x 104.54846pt.
+ [147 <./SaltChapter/fig-4-0-4.PNG>]
+<./SaltChapter/fig-4-0-5.png, id=1893, 234.8775pt x 226.59656pt>
+File: ./SaltChapter/fig-4-0-5.png Graphic file (type png)
+<use ./SaltChapter/fig-4-0-5.png>
+Package pdftex.def Info: ./SaltChapter/fig-4-0-5.png  used on input line 722.
+(pdftex.def)             Requested size: 110.70113pt x 106.79774pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[148] [149 <./SaltChapter/fig-4-0-5.PNG>] [150]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.827 \begin{saltexample}[label=exxample-4-3]{}{}
+                                                 
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.846 \begin{saltexample}[label=exxample-4-4]{}{}
+                                                  [151] [152]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.930 \begin{saltexample}[label=example-4-5]{}{}
+                                                 [153]
+Package mdframed Info: mdframed works in twoside mode on input line 966.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 966.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 976.
+ [154]
+Package mdframed Info: mdframed works in twoside mode on input line 980.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 980.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 995.
+ [155]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1054 \begin{saltexample}[label=example-4-6]{}{}
+                                                  [156] [157]
+Package mdframed Info: mdframed works in twoside mode on input line 1133.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1133.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1141.
+<./SaltChapter/fig-4-0-6.png, id=1981, 202.50656pt x 127.22531pt>
+File: ./SaltChapter/fig-4-0-6.png Graphic file (type png)
+<use ./SaltChapter/fig-4-0-6.png>
+Package pdftex.def Info: ./SaltChapter/fig-4-0-6.png  used on input line 1176.
+(pdftex.def)             Requested size: 110.70113pt x 69.54898pt.
+ [158]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1190 \begin{saltexample}[label=example-4-7]{}{}
+                                                  [159 <./SaltChapter/fig-4-0-6
+.PNG>]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1220 \begin{saltexample}[label=example-4-8]{}{}
+                                                  [160]
+Package mdframed Info: mdframed works in twoside mode on input line 1304.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1304.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1312.
+
+
+Package mdframed Warning: You got a bad break
+(mdframed)                because the last box will be empty
+(mdframed)                you have to change it manually
+(mdframed)                by changing the text, the space
+(mdframed)                or something else on input line 1312.
+
+[161]
+Overfull \hbox (20.92802pt too wide) in paragraph at lines 1335--1347
+\LUC/nanummj/m/n/10.5/b9 | \LUC/nanummj/m/n/10.5/c5 ª\LUC/nanummj/m/n/10.5/b2 î
+‰[] \LUC/nanummj/m/n/10.5/d5 <\LUC/nanummj/m/n/10.5/c8 ^^A\LUC/nanummj/m/n/10.5
+/bd Ñ\LUC/nanummj/m/n/10.5/d5 h\LUC/nanummj/m/n/10.5/c2 ^^X\LUC/nanummj/m/n/10.
+5/ac ^^@ $\OT1/cmr/m/n/10.95 0$ \LUC/nanummj/m/n/10.5/bc Ù\LUC/nanummj/m/n/10.5
+/b2 ‰ \LUC/nanummj/m/n/10.5/d0 l\LUC/nanummj/m/n/10.5/ac p\LUC/nanummj/m/n/10.5
+/b0 ò \LUC/nanummj/m/n/10.5/ac ^^Y\LUC/nanummj/m/n/10.5/ae 0 \LUC/nanummj/m/n/1
+0.5/b5 L\LUC/nanummj/m/n/10.5/bb 8\LUC/nanummj/m/n/10.5/c5 – \LUC/nanummj/m/n/1
+0.5/ba ®\LUC/nanummj/m/n/10.5/b4 ‡ $\OML/cmm/m/it/10.5 t$ \LUC/nanummj/m/n/10.5
+/c5 – \LUC/nanummj/m/n/10.5/b3 ^^@\LUC/nanummj/m/n/10.5/d5 X\LUC/nanummj/m/n/10
+.5/c5 Ï $\OMS/cmsy/m/n/10.5 j\OML/cmm/m/it/10.5 f\OT1/cmr/m/n/10.95 (\OML/cmm/m
+/it/10.5 z[] \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.5 r [][][]\OT1/cmr/m/n/10.95
+ )\OMS/cmsy/m/n/10.5 j \OT1/cmr/m/n/10.95 =
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1348 \begin{saltexample}[label=example-4-9]{}{}
+                                                  [162]
+<./SaltChapter/fig-4-0-7.png, id=2018, 292.84406pt x 244.66406pt>
+File: ./SaltChapter/fig-4-0-7.png Graphic file (type png)
+<use ./SaltChapter/fig-4-0-7.png>
+Package pdftex.def Info: ./SaltChapter/fig-4-0-7.png  used on input line 1407.
+(pdftex.def)             Requested size: 110.70113pt x 92.48798pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[163]
+Package mdframed Info: mdframed works in twoside mode on input line 1435.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1435.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1449.
+ [164 <./SaltChapter/fig-4-0-7.PNG>]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1451 \begin{saltexample}[label=example-4-10]{}{}
+                                                   [165]
+Package mdframed Info: mdframed works in twoside mode on input line 1528.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1528.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1540.
+ [166]
+Package mdframed Info: Not enough space on this page on input line 1540.
+
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.11}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1542 \begin{saltexample}[label=example-4-11]{}{}
+                                                   [167]
+<./SaltChapter/fig-4-2.png, id=2057, 384.6872pt x 395.22656pt>
+File: ./SaltChapter/fig-4-2.png Graphic file (type png)
+<use ./SaltChapter/fig-4-2.png>
+Package pdftex.def Info: ./SaltChapter/fig-4-2.png  used on input line 1588.
+(pdftex.def)             Requested size: 147.59775pt x 151.64706pt.
+ [168 <./SaltChapter/fig-4-2.PNG>] [169] [170] [171] [172]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.12}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1828 \begin{saltexample}[label=example-4-12]{}{}
+                                                  
+<./SaltChapter/fig-4-3.png, id=2083, 732.48656pt x 241.65282pt>
+File: ./SaltChapter/fig-4-3.png Graphic file (type png)
+<use ./SaltChapter/fig-4-3.png>
+Package pdftex.def Info: ./SaltChapter/fig-4-3.png  used on input line 1835.
+(pdftex.def)             Requested size: 236.3904pt x 77.98682pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1839.
+See the caption package documentation for explanation.
+
+[173] [174 <./SaltChapter/fig-4-3.PNG>]
+Package mdframed Info: mdframed works in twoside mode on input line 1900.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1900.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1906.
+
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1908 \begin{saltexample}[label=example-4-13]{}{}
+                                                  
+Package mdframed Info: mdframed works in twoside mode on input line 1922.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1922.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1934.
+ [175]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.14}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1936 \begin{saltexample}[label=example-4-14]{}{}
+                                                  
+Package mdframed Info: mdframed works in twoside mode on input line 1963.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1963.
+
+Underfull \hbox (badness 2452) in paragraph at lines 1969--1970
+[]|$\OML/cmm/m/it/8.6 z[]$ \LUC/nanummj/m/n/8.6/b2 î \LUC/nanummj/m/n/8.6/c8 ^^
+\\LUC/nanummj/m/n/8.6/ac p^^@\LUC/nanummj/m/n/8.6/b2 •\LUC/nanummj/m/n/8.6/d5 \
+ \LUC/nanummj/m/n/8.6/d2 π\LUC/nanummj/m/n/8.6/c7 t\LUC/nanummj/m/n/8.6/c8 ^^P\
+LUC/nanummj/m/n/8.6/c7 t\LUC/nanummj/m/n/8.6/b2 ‰[]
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 1983.
+[176]
+Package mdframed Info: Not enough space on this page on input line 1983.
+
+Overfull \hbox (0.47507pt too wide) in paragraph at lines 2008--2014
+\LUC/nanummj/m/n/10.5/c7 D \LUC/nanummj/m/n/10.5/c5 ª\LUC/nanummj/m/n/10.5/b2 î
+‰[] \LUC/nanummj/m/n/10.5/c7 t\LUC/nanummj/m/n/10.5/c8 ^^\ []\LUC/nanummj/m/n/1
+0.5/b9 | \LUC/nanummj/m/n/10.5/c9 ù\LUC/nanummj/m/n/10.5/ba Ö\LUC/nanummj/m/n/1
+0.5/d5 X
+ []
+
+[177] [178] [179]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.15}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2162 \begin{saltexample}[label=example-4-15]{}{}
+                                                   [180]
+Package mdframed Info: mdframed works in twoside mode on input line 2191.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 2191.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 2216.
+ [181]
+<./SaltChapter/fig-4-0-8.png, id=2134, 707.64375pt x 240.9pt>
+File: ./SaltChapter/fig-4-0-8.png Graphic file (type png)
+<use ./SaltChapter/fig-4-0-8.png>
+Package pdftex.def Info: ./SaltChapter/fig-4-0-8.png  used on input line 2221.
+(pdftex.def)             Requested size: 295.20113pt x 100.49359pt.
+ [182 <./SaltChapter/fig-4-0-8.PNG>]
+Overfull \hbox (3.46187pt too wide) detected at line 2301
+[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.5 z \OMS/cmsy/m/n/10.5 ^^@ \OML/cmm/m/it
+/10.5 z[]\OT1/cmr/m/n/10.95 )[]\OML/cmm/m/it/10.5 f\OT1/cmr/m/n/10.95 (\OML/cmm
+/m/it/10.5 z\OT1/cmr/m/n/10.95 ) = [] [] = \OML/cmm/m/it/10.5 c[]:
+ []
+
+[183]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.16}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2332 \begin{saltexample}[label=example-4-16]{}{}
+                                                   [184] [185] [186]
+Package mdframed Info: mdframed works in twoside mode on input line 2466.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 2466.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 2485.
+<./SaltChapter/fig-4-0-9.png, id=2181, 511.9125pt x 179.92218pt>
+File: ./SaltChapter/fig-4-0-9.png Graphic file (type png)
+<use ./SaltChapter/fig-4-0-9.png>
+Package pdftex.def Info: ./SaltChapter/fig-4-0-9.png  used on input line 2489.
+(pdftex.def)             Requested size: 221.40225pt x 77.81526pt.
+ [187 <./SaltChapter/fig-4-0-9.PNG>] [188] [189] [190] [191]
+Package mdframed Info: mdframed works in twoside mode on input line 2697.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 2697.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 2710.
+<./SaltChapter/fig-4-0-10.png, id=2214, 353.82187pt x 268.00125pt>
+File: ./SaltChapter/fig-4-0-10.png Graphic file (type png)
+<use ./SaltChapter/fig-4-0-10.png>
+Package pdftex.def Info: ./SaltChapter/fig-4-0-10.png  used on input line 2714.
+
+(pdftex.def)             Requested size: 129.15225pt x 97.82576pt.
+ [192 <./SaltChapter/fig-4-0-10.PNG>]
+<./SaltChapter/fig-4-0-11.png, id=2223, 378.66469pt x 355.3275pt>
+File: ./SaltChapter/fig-4-0-11.png Graphic file (type png)
+<use ./SaltChapter/fig-4-0-11.png>
+Package pdftex.def Info: ./SaltChapter/fig-4-0-11.png  used on input line 2764.
+
+(pdftex.def)             Requested size: 121.77068pt x 114.26556pt.
+ [193 <./SaltChapter/fig-4-0-11.PNG>]
+<./SaltChapter/fig-4-4.png, id=2238, 757.32938pt x 261.22594pt>
+File: ./SaltChapter/fig-4-4.png Graphic file (type png)
+<use ./SaltChapter/fig-4-4.png>
+Package pdftex.def Info: ./SaltChapter/fig-4-4.png  used on input line 2812.
+(pdftex.def)             Requested size: 258.29887pt x 89.09465pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[194]
+Overfull \hbox (16.68025pt too wide) detected at line 2858
+\OML/cmm/m/it/10.5 p[] \OT1/cmr/m/n/10.95 = [] [] \OML/cmm/m/it/10.5 ;  p[] \OT
+1/cmr/m/n/10.95 = [] [] \OML/cmm/m/it/10.5 ;  p[] \OT1/cmr/m/n/10.95 = [] [] \O
+ML/cmm/m/it/10.5 ;  p[] \OT1/cmr/m/n/10.95 = [] [] \OML/cmm/m/it/10.5 :
+ []
+
+<./SaltChapter/fig-4-0-12.png, id=2246, 344.03531pt x 289.83281pt>
+File: ./SaltChapter/fig-4-0-12.png Graphic file (type png)
+<use ./SaltChapter/fig-4-0-12.png>
+Package pdftex.def Info: ./SaltChapter/fig-4-0-12.png  used on input line 2861.
+
+(pdftex.def)             Requested size: 101.31165pt x 85.34956pt.
+[195 <./SaltChapter/fig-4-4.PNG>]
+<./SaltChapter/fig-4-0-13.png, id=2254, 334.24875pt x 209.28188pt>
+File: ./SaltChapter/fig-4-0-13.png Graphic file (type png)
+<use ./SaltChapter/fig-4-0-13.png>
+Package pdftex.def Info: ./SaltChapter/fig-4-0-13.png  used on input line 2909.
+
+(pdftex.def)             Requested size: 101.31165pt x 63.43329pt.
+<./SaltChapter/fig-4-5.png, id=2256, 797.22844pt x 497.60907pt>
+File: ./SaltChapter/fig-4-5.png Graphic file (type png)
+<use ./SaltChapter/fig-4-5.png>
+Package pdftex.def Info: ./SaltChapter/fig-4-5.png  used on input line 2945.
+(pdftex.def)             Requested size: 236.3904pt x 147.54509pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 2950.
+See the caption package documentation for explanation.
+
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 4.3pt on input line 2980.
+
+Overfull \hbox (13.06892pt too wide) detected at line 2980
+[]
+ []
+
+[196 <./SaltChapter/fig-4-0-12.PNG>] [197 <./SaltChapter/fig-4-0-13.PNG>]
+[198 <./SaltChapter/fig-4-5.PNG>] [199]
+Overfull \hbox (0.6382pt too wide) in paragraph at lines 3043--3050
+\OT1/LinuxLibertineT-TLF/m/n/10.5 [Volkovyski[]^^P, Lunts, Ara-manovich (1991)]
+ \LUC/nanummj/m/n/10.5/c7 D x\LUC/nanummj/m/n/10.5/c6 ©\LUC/nanummj/m/n/10.5/d5
+ X\LUC/nanummj/m/n/10.5/c6 ^^@\LUC/nanummj/m/n/10.5/b2 ‰[] \LUC/nanummj/m/n/10.
+5/c5 \LUC/nanummj/m/n/10.5/c2 µ\LUC/nanummj/m/n/10.5/bb 8\LUC/nanummj/m/n/10.5
+/c8 ^^\ [][][]\OT1/LinuxLibertineT-TLF/m/n/10.5 4.15[],[][][]4.25[] \LUC/nanumm
+j/m/n/10.5/b2 î \OT1/LinuxLibertineT-TLF/m/n/10.5 [Rudin
+ []
+
+) (./SaltChapter/chapter_five.tex [200]
+Package mdframed Info: mdframed works in twoside mode on input line 17.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 17.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 29.
+
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.31 \begin{saltexample}[label=example-5-1]{}{}
+                                                [201
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47 \begin{saltexample}[label=example-5-2]{}{}
+                                                [202]
+<./SaltChapter/fig-5-1.png, id=2329, 708.39656pt x 398.99063pt>
+File: ./SaltChapter/fig-5-1.png Graphic file (type png)
+<use ./SaltChapter/fig-5-1.png>
+Package pdftex.def Info: ./SaltChapter/fig-5-1.png  used on input line 114.
+(pdftex.def)             Requested size: 221.40225pt x 124.69644pt.
+ [203 <./SaltChapter/fig-5-1.PNG>]
+Package mdframed Info: mdframed works in twoside mode on input line 143.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 143.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 153.
+Package mdframed Info: mdframed works in twoside mode on input line 157.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 157.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 165.
+ [204]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.178 \begin{saltexample}[label=example-5-3]{}{}
+                                                 [205] [206]
+Package mdframed Info: mdframed works in twoside mode on input line 296.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 296.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 300.
+
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.302 \begin{saltexample}[label=example-5-4]{}{}
+                                                 [207]
+pdfTeX warning (ext4): destination with the same identifier (name{tcb@cnt@salte
+xample.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.319 \begin{saltexample}[label=example-5-5]{}{}
+                                                 [208]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 397.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leftrightarrow' on input line 397.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 397.
+
+<./SaltChapter/fig-5-0-1.png, id=2394, 847.66687pt x 279.29344pt>
+File: ./SaltChapter/fig-5-0-1.png Graphic file (type png)
+<use ./SaltChapter/fig-5-0-1.png>
+Package pdftex.def Info: ./SaltChapter/fig-5-0-1.png  used on input line 404.
+(pdftex.def)             Requested size: 258.29887pt x 85.10553pt.
+[209 <./SaltChapter/fig-5-0-1.PNG>]
+Package mdframed Info: mdframed works in twoside mode on input line 451.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 451.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 461.
+ [210]
+Package mdframed Info: mdframed works in twoside mode on input line 482.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 482.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 490.
+
+Overfull \hbox (18.75749pt too wide) in paragraph at lines 494--497
+[]$\OML/cmm/m/it/10.5 u$ \LUC/nanummj/m/n/10.5/b9 | \LUC/nanummj/m/n/10.5/c2 ‰^
+^X\LUC/nanummj/m/n/10.5/bd Ä\LUC/nanummj/m/n/10.5/b8 \ \LUC/nanummj/m/n/10.5/ac
+ ^^@\LUC/nanummj/m/n/10.5/c9 ¿\LUC/nanummj/m/n/10.5/ba p $\OML/cmm/m/it/10.5 U$
+ \LUC/nanummj/m/n/10.5/c5 – \LUC/nanummj/m/n/10.5/c8 ^^U\LUC/nanummj/m/n/10.5/c
+7 X\LUC/nanummj/m/n/10.5/b4 ^^\ \LUC/nanummj/m/n/10.5/bc ı\LUC/nanummj/m/n/10.5
+/c1 å\LUC/nanummj/m/n/10.5/d5 t\LUC/nanummj/m/n/10.5/c1 ^^]\LUC/nanummj/m/n/10.
+5/d5 h\LUC/nanummj/m/n/10.5/c2 ^^X $\OML/cmm/m/it/10.5 f$ \LUC/nanummj/m/n/10.5
+/ac ^^@ \LUC/nanummj/m/n/10.5/c8 t\LUC/nanummj/m/n/10.5/c7 ¨\LUC/nanummj/m/n/10
+.5/d5 \\LUC/nanummj/m/n/10.5/b2 ‰[] \LUC/nanummj/m/n/10.5/ad ¯\LUC/nanummj/m/n/
+10.5/b7 Ï\LUC/nanummj/m/n/10.5/ba t $\OML/cmm/m/it/10.5 g\OT1/cmr/m/n/10.95 (\O
+ML/cmm/m/it/10.5 z\OT1/cmr/m/n/10.95 ) = [][][]$
+ []
+
+[211]
+<./SaltChapter/fig-5-0-2.png, id=2422, 428.35031pt x 373.395pt>
+File: ./SaltChapter/fig-5-0-2.png Graphic file (type png)
+<use ./SaltChapter/fig-5-0-2.png>
+Package pdftex.def Info: ./SaltChapter/fig-5-0-2.png  used on input line 519.
+(pdftex.def)             Requested size: 147.59775pt x 128.66188pt.
+Package mdframed Info: mdframed works in twoside mode on input line 542.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 542.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 544.
+ [212 <./SaltChapter/fig-5-0-2.PNG>]
+Package mdframed Info: Not enough space on this page on input line 544.
+ [213] [214]
+Package mdframed Info: mdframed works in twoside mode on input line 654.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 654.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 658.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 9.5pt on input line 658.
+LaTeX Font Info:    Font shape `LUC/nanummj/b/n' in size <9.5> not available
+(Font)              Font shape `LUC/nanummj/bx/n' tried instead on input line 6
+58.
+) [215]
+runsystem(makeindex CA_book.idx)...executed safely (allowed).
+
+ (./CA_book.ind)
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the CA_book.maf file.
+\openout5 = `CA_book.maf'.
+
+
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the CA_book.log file.
+
+[216
+
+
+
+]
+\tf@toc=\write9
+\openout9 = `CA_book.toc'.
+
+ (./CA_book.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 2.375pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `CA_book.out' has not changed.
+(rerunfilecheck)             Checksum: ECF454BDC1FD05F8423E6E9A920FFDC8;7448.
+Package logreq Info: Writing requests to 'CA_book.run.xml'.
+\openout1 = `CA_book.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 57592 strings out of 478268
+ 1121816 string characters out of 5850346
+ 1915841 words of memory out of 5000000
+ 71137 multiletter control sequences out of 15000+600000
+ 677771 words of font info for 653 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 105i,19n,117p,1152b,1186s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_n3gv2c.enc}{c:/tex
+live/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{c:/texlive/2022
+/texmf-dist/fonts/enc/dvips/libertine/lbtn_kijugd.enc}{c:/texlive/2022/texmf-di
+st/fonts/enc/dvips/libertine/lbtn_edcawa.enc}{c:/texlive/2022/texmf-dist/fonts/
+enc/dvips/libertine/lbtn_oexx6f.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips
+/libertine/lbtn_lyu3x3.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/liber
+tine/LinBiolinumT.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/libertine/
+LinLibertineT.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/libertine/LinL
+ibertineTB.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/libertine/LinLibe
+rtineTI.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
+fb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c
+:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive
+/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2022/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:
+/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/20
+22/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.p
+fb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2022/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2022/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmtt9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
+amsfonts/latxfont/line10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/ams
+fonts/symbols/msam10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfont
+s/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/sy
+mbols/msbm5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols
+/msbm7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbba
+.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbbc.pfb><
+c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbbe.pfb><c:/tex
+live/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc2.pfb><c:/texlive/2
+022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc3.pfb><c:/texlive/2022/te
+xmf-dist/fonts/type1/public/nanumtype1/nanumgtbc5.pfb><c:/texlive/2022/texmf-di
+st/fonts/type1/public/nanumtype1/nanumgtbc6.pfb><c:/texlive/2022/texmf-dist/fon
+ts/type1/public/nanumtype1/nanumgtbc8.pfb><c:/texlive/2022/texmf-dist/fonts/typ
+e1/public/nanumtype1/nanumgtbce.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pub
+lic/nanumtype1/nanumgtbcf.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/na
+numtype1/nanumgtbd5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtyp
+e1/nanumgtbd6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nan
+umgtmac.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtma
+d.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmae.pfb>
+<c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmaf.pfb><c:/te
+xlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb0.pfb><c:/texlive/
+2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb1.pfb><c:/texlive/2022/t
+exmf-dist/fonts/type1/public/nanumtype1/nanumgtmb2.pfb><c:/texlive/2022/texmf-d
+ist/fonts/type1/public/nanumtype1/nanumgtmb3.pfb><c:/texlive/2022/texmf-dist/fo
+nts/type1/public/nanumtype1/nanumgtmb4.pfb><c:/texlive/2022/texmf-dist/fonts/ty
+pe1/public/nanumtype1/nanumgtmb5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pu
+blic/nanumtype1/nanumgtmb6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/n
+anumtype1/nanumgtmb7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumty
+pe1/nanumgtmb8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/na
+numgtmb9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtm
+ba.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbb.pfb
+><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbc.pfb><c:/t
+exlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbd.pfb><c:/texlive
+/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbe.pfb><c:/texlive/2022/
+texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc0.pfb><c:/texlive/2022/texmf-
+dist/fonts/type1/public/nanumtype1/nanumgtmc1.pfb><c:/texlive/2022/texmf-dist/f
+onts/type1/public/nanumtype1/nanumgtmc2.pfb><c:/texlive/2022/texmf-dist/fonts/t
+ype1/public/nanumtype1/nanumgtmc3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/p
+ublic/nanumtype1/nanumgtmc4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
+nanumtype1/nanumgtmc5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumt
+ype1/nanumgtmc6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/n
+anumgtmc7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgt
+mc8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc9.pf
+b><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmca.pfb><c:/
+texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmcc.pfb><c:/texliv
+e/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmcd.pfb><c:/texlive/2022
+/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmce.pfb><c:/texlive/2022/texmf
+-dist/fonts/type1/public/nanumtype1/nanumgtmcf.pfb><c:/texlive/2022/texmf-dist/
+fonts/type1/public/nanumtype1/nanumgtmd0.pfb><c:/texlive/2022/texmf-dist/fonts/
+type1/public/nanumtype1/nanumgtmd1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/
+public/nanumtype1/nanumgtmd2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
+/nanumtype1/nanumgtmd3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanum
+type1/nanumgtmd4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/
+nanumgtmd5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumg
+tmd6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd7.p
+fb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbac.pfb><c:
+/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbad.pfb><c:/texli
+ve/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbae.pfb><c:/texlive/202
+2/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb0.pfb><c:/texlive/2022/texm
+f-dist/fonts/type1/public/nanumtype1/nanummjbb1.pfb><c:/texlive/2022/texmf-dist
+/fonts/type1/public/nanumtype1/nanummjbb2.pfb><c:/texlive/2022/texmf-dist/fonts
+/type1/public/nanumtype1/nanummjbb3.pfb><c:/texlive/2022/texmf-dist/fonts/type1
+/public/nanumtype1/nanummjbb4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publi
+c/nanumtype1/nanummjbb5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanu
+mtype1/nanummjbb6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1
+/nanummjbb7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanum
+mjbb8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb9.
+pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbba.pfb><c
+:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbbb.pfb><c:/texl
+ive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbbc.pfb><c:/texlive/20
+22/texmf-dist/fonts/type1/public/nanumtype1/nanummjbbd.pfb><c:/texlive/2022/tex
+mf-dist/fonts/type1/public/nanumtype1/nanummjbbe.pfb><c:/texlive/2022/texmf-dis
+t/fonts/type1/public/nanumtype1/nanummjbc0.pfb><c:/texlive/2022/texmf-dist/font
+s/type1/public/nanumtype1/nanummjbc1.pfb><c:/texlive/2022/texmf-dist/fonts/type
+1/public/nanumtype1/nanummjbc2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publ
+ic/nanumtype1/nanummjbc3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nan
+umtype1/nanummjbc5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype
+1/nanummjbc6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanu
+mmjbc7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc8
+.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc9.pfb><
+c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbcc.pfb><c:/tex
+live/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbcd.pfb><c:/texlive/2
+022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbce.pfb><c:/texlive/2022/te
+xmf-dist/fonts/type1/public/nanumtype1/nanummjbcf.pfb><c:/texlive/2022/texmf-di
+st/fonts/type1/public/nanumtype1/nanummjbd0.pfb><c:/texlive/2022/texmf-dist/fon
+ts/type1/public/nanumtype1/nanummjbd1.pfb><c:/texlive/2022/texmf-dist/fonts/typ
+e1/public/nanumtype1/nanummjbd2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pub
+lic/nanumtype1/nanummjbd3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/na
+numtype1/nanummjbd4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtyp
+e1/nanummjbd5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nan
+ummjbd6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd
+7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb>
+<c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/te
+xlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb><c:/texlive/
+2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmaf.pfb><c:/texlive/2022/t
+exmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb><c:/texlive/2022/texmf-d
+ist/fonts/type1/public/nanumtype1/nanummjmb1.pfb><c:/texlive/2022/texmf-dist/fo
+nts/type1/public/nanumtype1/nanummjmb2.pfb><c:/texlive/2022/texmf-dist/fonts/ty
+pe1/public/nanumtype1/nanummjmb3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pu
+blic/nanumtype1/nanummjmb4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/n
+anumtype1/nanummjmb5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumty
+pe1/nanummjmb6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/na
+nummjmb7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjm
+b8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb
+><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb><c:/t
+exlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb><c:/texlive
+/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/2022/
+texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb><c:/texlive/2022/texmf-
+dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb><c:/texlive/2022/texmf-dist/f
+onts/type1/public/nanumtype1/nanummjmbf.pfb><c:/texlive/2022/texmf-dist/fonts/t
+ype1/public/nanumtype1/nanummjmc0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/p
+ublic/nanumtype1/nanummjmc1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
+nanumtype1/nanummjmc2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumt
+ype1/nanummjmc3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/n
+anummjmc4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummj
+mc5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pf
+b><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/
+texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb><c:/texliv
+e/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2022
+/texmf-dist/fonts/type1/public/nanumtype1/nanummjmca.pfb><c:/texlive/2022/texmf
+-dist/fonts/type1/public/nanumtype1/nanummjmcb.pfb><c:/texlive/2022/texmf-dist/
+fonts/type1/public/nanumtype1/nanummjmcc.pfb><c:/texlive/2022/texmf-dist/fonts/
+type1/public/nanumtype1/nanummjmcd.pfb><c:/texlive/2022/texmf-dist/fonts/type1/
+public/nanumtype1/nanummjmce.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
+/nanumtype1/nanummjmcf.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanum
+type1/nanummjmd0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/
+nanummjmd1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumm
+jmd2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.p
+fb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb><c:
+/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb><c:/texli
+ve/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texlive/202
+2/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/2022/texm
+f-dist/fonts/type1/uhc/umj/umj34.pfb>
+Output written on CA_book.pdf (216 pages, 9097435 bytes).
+PDF statistics:
+ 3344 PDF objects out of 3580 (max. 8388607)
+ 2496 compressed objects within 25 object streams
+ 845 named destinations out of 1000 (max. 500000)
+ 1284 words of extra memory for PDF output out of 10000 (max. 10000000)
+
