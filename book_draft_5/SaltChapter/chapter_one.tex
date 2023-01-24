@@ -690,16 +690,17 @@ $f$는 $z_0$에서 {\bf 연속}이라고 한다.
 
 수열의 극한으로도 연속성을 규정할 수 있다.
 $f:S\to\mathbb C$가 $z_0$에서 연속임은
-$z_0$로 수렴하는 $S$의 모든 복수열 $(z_n)_{n\in\mathbb N}$에 대하여
+$z_0$로 수렴하는 $S$의 모든 복소수열 $(z_n)_{n\in\mathbb N}$에 대하여
 $(f(z_n))_{n\in\mathbb N}$이 $f(z_0)$로 수렴함과 동치이다.
 
 \begin{saltexample}[label=example-1-2] {}{}
 켤레복소수를 만드는 것은 연속함수이다.
-즉, $z\to\bar z: \mathbb C \to \mathbb C$는 연속이다.
+즉, $z\mapsto\bar z: \mathbb C \to \mathbb C$는 연속이다.
 모든 $z, z_0 \in \mathbb C$에 대하여
-$|\bar z - \overline{z_0}| = |\overline{z-z_0}| = |z-z_0|$이다.
-이로부터 모든 $z_0\in\mathbb C$에 대하여 켤레복소수를 대응시키는 함수는
-연속이다. 기하학적으로 보면 자명하다. 왜냐 하면, 켤레복소수는 단지 실수축에 대하여 
+$|\bar z - \overline{z_0}| = |\overline{z-z_0}| = |z-z_0|$이므로
+모든 $z_0\in\mathbb C$에 대하여 켤레복소수를 대응시키는 함수는
+연속임을 알 수 있다.
+ 기하학적으로 보면 더욱 자명하다. 왜냐 하면, 켤레복소수는 단지 실수축에 대하여 
 대칭시키는 것이므로 가까운 두 점은 함수값도 가까이 머물기 때문이다!
 \saltvskipex
 모든 $z\in\mathbb C$에 대하여 $\overline{(\bar z)} = z$ 켤레복소수의
@@ -714,58 +715,58 @@ $|\bar z - \overline{z_0}| = |\overline{z-z_0}| = |z-z_0|$이다.
 
 \subsection{영역 \label{sec-1-3-4}}
 
-이후에는  경로연결된 열린 집합의 개념이 중요한 역할을 한다.
-우리 학습의 주요 대상, 즉, 집합 $D(\subset \mathbb C)$의 모든 점에서
-복소미분 가능함수 $f:D\to\mathbb C$에 대한 결과를 증명할 때 사용된다.
+앞으로는  경로연결된 열린 집합의 개념이 중요한 역할을 한다.
+우리의 주요 대상, 즉, 집합 $D(\subset \mathbb C)$의 모든 점에서
+복소미분가능한 함수 $f:D\to\mathbb C$에 대한 다양한 결과들을 증명할 때 사용된다.
 많은 정리들이 유효하게 성립하려면 $D$가 $\mathbb C$의 ``좋은'' 부분집합이 되어야 하며
-단순히 $\mathbb C$의 부분집합이라는 조건만으로는 부족함을 보게 될 것이다.
-``좋음''이라는 가정을 만족하는 집합을 영역이라 부르며 정확히는 다음과 같이 규정된다.
+단순히 $\mathbb C$의 부분집합이라는 조건만으로는 부족함을 느끼게 될 것이다.
+``좋음''이라는 가정을 만족하는 집합을 \textbf{영역}이라 부르며 정확히는 다음과 같이 규정된다.
 
-우리는 $\mathbb C$의 경로연결된 열린 부분집합을 영역(domain)이라 부른다.
+우리는 $\mathbb C$의 경로연결된 열린 부분집합을 \textbf{영역(domain)}이라 부른다.
 ``열린''의 의미는 이미 알고 있으니 ``경로연결된''이 어떤 의미인지 설명해보자.
 
 \begin{saltdefinition}{}{} \label{def-1-1}
-
 \begin{itemize}
-\item[(1)] 연속함수 $\gamma:[a,b] \to \mathbb C$를 $\mathbb C$의 경로(또는 곡선)이라 한다.
+\item[(1)] 연속함수 $\gamma:[a,b] \to \mathbb C$를 $\mathbb C$의 \textbf{경로}(또는 곡선)이라 한다.
 %\begin{figure*}[!h]
 \begin{center}
-\includegraphics[width=0.5\textwidth]{./SaltChapter/fig-1-0-2}
+\includegraphics[width=0.5\textwidth]{./SaltChapter/figs/fig-1-0-2}
 \end{center}
 %\end{figure*}
-\item[(2)] 경로 $\gamma:[a,b] \to \mathbb C$가 다음 조건을 만족하면 계단식 경로(stepwise path)라 한다.
+\item[(2)] 경로 $\gamma:[a,b] \to \mathbb C$가 다음 조건을 만족하면 
+\textbf{계단식 경로}(stepwise path)라 한다.
 점 $t_0 = a < t_1 < \cdots < t_n < t_{n+1} = b$가 존재하여
-부분경로 $\gamma: [t_k, t_{k+1}] \to \mathbb C$ ($k=0,1,\ldots, n$)가
-실수부가 상수 또는 허수부가 상수인 경로가 된다.
+부분경로 $\gamma: [t_k, t_{k+1}] \to \mathbb C$ ($k=0,1,\ldots, n$)의
+실수부 또는 허수부가 상수인 경로가 된다.
 %\begin{figure*}[!h]
 \begin{center}
-\includegraphics[width=0.3\textwidth]{./SaltChapter/fig-1-0-3}
+\includegraphics[width=0.2\textwidth]{./SaltChapter/figs/fig-1-0-3}
 \end{center}
 %\end{figure*}
 \item[(3)] $U$가 열린 집합일 때,  모든 $z_1, z_2\in U$에 대하여
 $\gamma(a)=z_1$, $\gamma(b)=z_2$이고 모든 $t\in[a,b]$에서 $\gamma(t)\in U$인
 계단식 경로 $\gamma: [a,b] \to \mathbb C$가 존재하면
-$U$를 경로연결된 열린 집합이라 한다.
+$U$를 \textbf{경로연결된}(path-connected) 열린 집합이라 한다.
 \end{itemize}
 \end{saltdefinition}
 
-실제로 위에서 경로연결된 열린 집합을 정의할 때 경로를 {\bf 계단식} 경로에 한정한 것을 
-완화할 수 있다. 즉, 열린 집합에 포함된 임의의 두 점이 집합내의 경로로 연결되기만 하면
+실제로 위에서 경로연결된 열린 집합을 정의할 때 경로를 {\bf 계단식} 경로로 한정한 조건을 
+완화할 수 있다. 즉, 열린 집합에 포함된 임의의 두 점이 집합 내의 경로로 연결되기만 하면
 경로연결된 것으로 정의해도
-우리가 정의한 경로연결된 집합과 일치한다.
+우리가 정의한 것과 일치한다.
 하지만 우리에게는 불필요한 일반화이며, 앞에서 정의한 것으로 충분하다.
 
 \begin{saltexample}[label=example-1-3]{}{}
 
 \begin{itemize}
-\item[(1)] 열린 단위원판 $\mathbb D := \{ z\in\mathbb C\,:\, |z|<1 \}$은 영역이다.
+\item[(1)] 열린 단위원판 $\mathbb D := \{ z\in\mathbb C\,:\, |z|<1 \}$는 영역이다.
 \item[(2)] $r\in (0,1)$에 대하여 원환 $\mathbb A_r := \{ z\in\mathbb C\,:\, r<|z|<1\}$은 영역이다.
-\item[(3)] 우측 반평면 $\mathbb H := \{ z\in \mathbb C \,:\, \Re(z)>0\}$은 영역이다.
+\item[(3)] 우측 반평면 $\mathbb H := \{ z\in \mathbb C \,:\, \Re(z)>0\}$는 영역이다.
 \end{itemize}
 
 %\begin{figure}[!h]
 \begin{center}
-\includegraphics[width=0.7\textwidth]{./SaltChapter/fig-1-12}
+\includegraphics[width=0.7\textwidth]{./SaltChapter/figs/fig-1-12}
 \end{center}
 \captionof{figure}{영역 $\mathbb D$, $\mathbb A_r$, $\mathbb H$}
 \label{fig-1-12}
@@ -789,7 +790,7 @@ $\{z\in \mathbb C \,:\, \Re(z) \cdot \Im(z) >1\}$은 열린 집합이지만
 
 \begin{salt_exercise} \label{ex-1-30}
 영역 $D$에 대하여
-$D^*:= \{z\in\mathbb C\,:\, \bar z \in D\}$라 정의하자.
+$D^*:= \{z\in\mathbb C\,:\, \bar z \in D\}$로 정의하자.
 $D^*$도 영역이 됨을 보여라.
 \end{salt_exercise}
 
@@ -813,49 +814,53 @@ $x\mapsto \sin x, \cos x$, \\[1ex]
 $x\mapsto \log x$.
 \end{quote}
 
-따라서 우리의 정의는 실함수에 대응되는 확장이다.
+따라서 우리의 정의는 실함수에 대응되는 확장을 만든 것이다.
 그림 \ref{fig-1-13}\을 참고하라.
 
 \begin{figure}[!h]
 \begin{center}
-\includegraphics[width=0.7\textwidth]{./SaltChapter/fig-1-13}
+\includegraphics[width=0.7\textwidth]{./SaltChapter/figs/fig-1-13}
 \end{center}
-\caption{실함수는 실수축 위의 점을 실수축 위로 대응시키는 반면
+\caption{실함수는 실수축 위의 점을 실수축 위로 대응시키는 반면,
 우리의 정의는 이를 그림자 영역인 복소평면으로 확장한 것이다.}
 \label{fig-1-13}
 \end{figure}
 
-이러한 확장은  
-이는 실수에 한정했을 때 가질 수 없었던 
+이러한 확장을 통하여
+함수들이 실수에 한정했을 때 가질 수 없었던 
 새롭고 흥미로운 특성을 복소평면에서 보여준다는 것을 앞으로 살펴볼 것이다.
-또한 이 함수들은 복소미분 가능함수의 중요한 예로서의 역할도 한다.
+또한 이 함수들은 복소미분가능 함수의 중요한 예제의 역할도 한다.
 지수함수와 삼각함수는 복소평면 위의 모든 점에서 복소미분 가능하며
-로그함수는 연속인 점에서 복소미분 가능하다.
+로그함수는 연속인 점에서 복소미분가능하다.
 
 우선  지수함수부터 살펴보자.
 
+%\newpage %==[salt] 편집상
+
 \subsection{지수함수 $\exp z$} \label{sec-1-4-1}
 
+\
+
 \begin{saltdefinition}[복소 지수함수] {}{} \label{def-1-2}
-$z=x+iy\in \mathbb C$($x,y\in\mathbb R$)에 대하여
+$z=x+iy\in \mathbb C$ ($x,y\in\mathbb R$)에 대하여
 복소 지수함수 $\exp z$를 다음과 같이 정의한다.
 $$
 \exp z = e^x(\cos y +i\sin y).
 $$
 \end{saltdefinition}
 
-우선 $y=0$일 때, 우변은 $e^x$와 같다. 따라서 이 정의는
-일반적인 지수함수 $(\mathbb R \ni) x \mapsto e^x (\in \mathbb R)$의 확장이다.
-하지만, 정의는 자연스럽게 보이지 않는다. 
+우선 $y=0$\,일 때, 우변은 $e^x$와 같다. 따라서 이 정의는
+우리에게 익숙한 실수 지수함수 $(\mathbb R \ni) x \mapsto e^x (\in \mathbb R)$의 확장이다.
+하지만, 정의가 자연스럽게 보이지는 않는다. 
 $z\mapsto e^{\Re(z)}$로 정의해도 실수 지수함수의 확장을 얻을 수 있기 때문이다.
 이렇게 간단히 정의하면 되는 것을 왜 사용하지 않을까?
 우리가 정의한 방식을 쓰는 이유는
-실수 지수함수를 복소평면 전체에서 복소미분 가능한 성질을 가지도록
+실수 지수함수를 복소평면 전체에서 복소미분가능하도록
 확장하는 유일한 방법이기 때문이다. 
 이와 관련하여 
-128페이지 %[salt]===> 페이지 번호
-예제 4.8 %[salt]===> \ref{example-4-8}
-를 참고하라.
+\pageref{ex-page-4-8}페이지 %[salt]===> 페이지 번호
+예제 \ref{example-4-8}\를%4.8 %[salt]===> \ref{example-4-8}
+참고하라.
 실제로 실수 지수함수의 미분공식
 $$
 \dfrac{d}{dx}e^x  = e^x \quad x\in\mathbb R
@@ -864,18 +869,19 @@ $$
 $$
 \dfrac{d}{dz} \exp z  = \exp z \quad z\in\mathbb C.
 $$
-결론적으로 우리는 이상하게 보이는 정의가 실제로 자연스럽다는 것을 공부하게 될 것이다.
-지금은 다음과 같은 기본적인 성질부터 확인해보자.
+궁극적으로 우리는 이상하게 보이는 정의가 실제로 자연스럽다는 것을 공부하게 될 것이다.
+지금은 기본 성질부터 확인해보자.
 
 
 \begin{saltprop} {prop-1-2} {} %\label{prop-1-2}
 \begin{itemize}
 \item[(1)] $\exp 0 = e^0(\cos 0 + i\sin 0) = 1\cdot(1+i0) = 1$.
-\item[(2)] $z_1, z_2\in \mathbb C$에 대하여, $\exp(z_1+z_2) = (\exp z_1)(\exp z_2)$.
-\item[(3)] $z \in \mathbb C$에 대하여, $\exp z \ne 0$ 이고 $(\exp z)^{-1} = \exp (-z)$.
-\item[(4)] $z \in \mathbb C$에 대하여, $\exp(z+2\pi i) = \exp z$.
-\item[(5)] $z \in \mathbb C$에 대하여, $|\exp z| = e^{\Re(z)}$.
+\item[(2)] $z_1, z_2\in \mathbb C\,$에 대하여, $\exp(z_1+z_2) = (\exp z_1)(\exp z_2)$.
+\item[(3)] $z \in \mathbb C\,$에 대하여, $\exp z \ne 0$ 이고 $(\exp z)^{-1} = \exp (-z)$.
+\item[(4)] $z \in \mathbb C\,$에 대하여, $\exp(z+2\pi i) = \exp z$.
+\item[(5)] $z \in \mathbb C\,$에 대하여, $|\exp z| = e^{\Re(z)}$.
 \end{itemize}
+\  %[salt] 간격 조정용
 \end{saltprop}
 
 {\bf 증명}
@@ -911,19 +917,19 @@ $\exp$ 함수는 ``$y\,$축 방향으로 주기성''이 있으며, 주기는 $2\
 
 \begin{figure}[!h]
 \begin{center}
-\includegraphics[width=0.6\textwidth]{./SaltChapter/fig-1-14}
+\includegraphics[width=0.6\textwidth]{./SaltChapter/figs/fig-1-14}
 \end{center}
 \caption{$y\,$축 방향으로 $2\pi$ 주기를 갖는 복소 지수함수 $\exp$}
 \label{fig-1-14}
 \end{figure}
 
-이러한 현상은 실수의 성질 갖는 $x\,$축 방향으로는 나타나지 않는다.
-함수 $x\mapsto \exp(x+iy_0)$ ($y_0\in \mathbb R$은 고정하자)는 일대일 함수이다.
+이러한 현상은 실수의 성질을 갖는 $x\,$축 방향으로는 나타나지 않는다.
+함수 $x\mapsto \exp(x+iy_0)$ ($y_0\in \mathbb R\,$는 고정하자)는 일대일 함수이다.
 그림 \ref{fig-1-15}를 보라.
 
 \begin{figure}[!h]
 \begin{center}
-\includegraphics[width=0.3\textwidth]{./SaltChapter/fig-1-15}
+\includegraphics[width=0.3\textwidth]{./SaltChapter/figs/fig-1-15}
 \end{center}
 \caption{$x\mapsto e^x$는 일대일이다}
 \label{fig-1-15}
@@ -941,11 +947,11 @@ $|e^x \cos y + ie^x\sin y| = \sqrt{e^{2x}((\cos y)^2 + (\sin y)^2)} = e^x$.
 $2\pi i$의 주기를 가짐을 보여준다.
 그림 \ref{fig-1-16}은 함수 $z\mapsto \exp z$가
 수평선(허수부 $y$가 고정된)과 수직선(실수부 $x$가 고정된)에 작용한 결과를 보여준다.
-이는 그림 \ref{fig-1-17}에 표현된 특징을 종합하여 얻을 것이다.
+이는 그림 \ref{fig-1-17}에 표현된 특징들을 종합하여 얻은 것이다.
 
 \begin{figure}[!h]
 \begin{center}
-\includegraphics[width=0.6\textwidth]{./SaltChapter/fig-1-16}
+\includegraphics[width=0.6\textwidth]{./SaltChapter/figs/fig-1-16}
 \end{center}
 \caption{복소 지수함수에 의한 수직선과 수평선의 상(image)}
 \label{fig-1-16}
@@ -953,7 +959,7 @@ $2\pi i$의 주기를 가짐을 보여준다.
 
 \begin{figure}[!h]
 \begin{center}
-\includegraphics[width=0.6\textwidth]{./SaltChapter/fig-1-17}
+\includegraphics[width=0.75\textwidth]{./SaltChapter/figs/fig-1-17}
 \end{center}
 \caption{복소 지수함수에 의한 수직선과 수평선의 상(image)}
 \label{fig-1-17}
@@ -961,10 +967,10 @@ $2\pi i$의 주기를 가짐을 보여준다.
 
 그림 \ref{fig-1-16}을 보면
 $\exp$ 함수는 영역 내 곡선이 이루는 각을 보존함을 알 수 있다.
-다시 말하면, 서로 수직인 수평선과 수직선은 서로 수직인 원과 방사형 반직선으로 매핑된다.
-뒤에서 우리는 이것은 우연한 것이 아니며, ``등각 특성(conformality)'', 즉, 
+다시 말하면, 서로 수직인 수평선과 수직선은 서로 수직인 원과 방사형 반직선으로 보내진다.
+우리는 2장에서 이것이 우연한 결과가 아니며, ``등각 특성(conformality)'', 즉, 
 두 곡선이 이루는 각도와 함께 ``방향(orientation)''까지 보존하는 것은
-영역에 정의된 모든 복소미분 가능함수가 갖는 성질임을 보일 것이다.
+영역에 정의된 모든 복소미분가능 함수가 갖는 성질임을 보일 것이다.
 
 {\bf 오일러 공식: }
 $z=iy$ ($y\in \mathbb R$)에 대하여
@@ -976,8 +982,8 @@ $$
 다시 쓸 수 있다.
 
 \begin{salt_exercise} \label{ex-1-31}
-$z: i\dfrac{9\pi}2, 3+\pi i$에 대하여
-$\exp z$를 계산하라.
+$z$가 $i\dfrac{9\pi}2$, $3+\pi i$일 때,
+$\exp z$를 각각 계산하라.
 \end{salt_exercise}
 
 \begin{salt_exercise} \label{ex-1-32}
@@ -1004,8 +1010,8 @@ $\exp(z^2)$과 $\exp(1/z)$의 절대값, 실수부와 허수부를 구하라.
 
 \subsection{삼각함수}\label{sec-1-4-2}
 
-지수함수를 확장한 것과 같이
-실수에 정의된 삼각함수를 복소수 삼각함수로 확장해보자.
+지수함수를 확장한 것과 같은 방법으로
+실수에 정의된 삼각함수를 복소 삼각함수로 확장해보자.
 앞에서 언급한 오일러 공식으로부터 실수 $x$에 대하여 다음 식을 얻는다.
 $$
 \exp(ix) = \cos x + i \sin x, \quad
@@ -1016,7 +1022,7 @@ $$
 \cos x = \dfrac{\exp(ix) + \exp(-ix)}2, \quad
 \sin x = \dfrac{\exp(ix) - \exp(-ix)}{2i}
 $$
-를 얻어 복소수 $z\in\mathbb C$에 까지 확장한 다음 정의를 만들 수 있다.
+를 얻어 복소수 $z\in\mathbb C$까지 확장한 다음 정의를 만들 수 있다.
 $$
 \cos z = \dfrac{\exp(iz) + \exp(-iz)}2, \quad
 \sin z = \dfrac{\exp(iz) - \exp(-iz)}{2i}.
@@ -1053,7 +1059,7 @@ $(\sin z)^2 + (\cos z)^2 = 1$도 성립한다.
 &=1.
 \end{align*}
 
-하지만, 모든 실수 $x$에 대하여 삼각함수가 
+하지만,  삼각함수가 모든 실수 $x$에 대하여
 $|\sin x| \le 1$와 $|\cos x|\le 1$를 만족하는 것과 달리
 복소수에서 
 $z\mapsto \sin z$와 $z\mapsto \cos z$는 유계가 아니다.
@@ -1085,7 +1091,7 @@ $\sinh y := \dfrac{e^y-e^{-y}}2$이다.
 \end{salt_exercise}
 
 \begin{salt_exercise} \label{ex-1-38}
-방정식 $\cos x = 3$은 실근 $x$를 갖지 않음은 잘 알려져 있다.
+방정식 $\cos x = 3$이 실근을 갖지 않음은 잘 알려져 있다.
 하지만, $\cos z=3$을 만족하는 복소수 $z$는 존재함을 보이고
 해를 모두 찾아라.
 \end{salt_exercise}
@@ -1101,7 +1107,7 @@ $e^{\log y} = y$를 만족하는 유일한 실수이다.
 
 \begin{figure}[!h]
 \begin{center}
-\includegraphics[width=0.8\textwidth]{./SaltChapter/fig-1-18}
+\includegraphics[width=0.8\textwidth]{./SaltChapter/figs/fig-1-18}
 \end{center}
 \caption{함수 $x\mapsto e^x : \mathbb R \to (0,\infty)$와
 $y\mapsto \log y : (0,\infty) \to \mathbb R$}
@@ -1125,12 +1131,12 @@ $w$를 고르는 것으로 비유일성 문제를  해결하고자 한다.
 가능한 수평띠 중 어떤 것을 고르더라도 
 수평띠에 속하는 점을 함수 $\exp$로 보낸 값으로 얻을 수 있다.
 복소 로그함수를 정의하기 위하여
-우리는 (다분히 임의로) 수평띠 $\mathbb S := \{ z\in\mathbb C\,:\, -\pi < Im(z) \le \pi\}$를
+우리는 (다분히 임의로) 수평띠 $\mathbb S := \{ z\in\mathbb C\,:\, -\pi < \Im(z) \le \pi\}$를
 선택한다. 그림  \ref{fig-1-19}를 보라.
 
 \begin{figure}[!h]
 \begin{center}
-\includegraphics[width=0.8\textwidth]{./SaltChapter/fig-1-19}
+\includegraphics[width=0.7\textwidth]{./SaltChapter/figs/fig-1-19}
 \end{center}
 \caption{수평띠 $\mathbb S := \mathbb R \times (-\pi, \pi]$에서
 $\mathbb C\setminus \{0\}$ 위로의 함수 $\exp$}
@@ -1173,12 +1179,13 @@ $\Log z = \log |z| + i\Arg z$로 정의한다.
 
 우선 다음 식을 살펴보자.
 \begin{align*}
-\exp(\Log z) &= e^{\log |z|} \left( \cos(\Arg z) + i \sin(\Arg z) \right) \\
-&= |z| \left( \cos(\Arg z) + i \sin(\Arg z) \right) = z.
+\exp(\Log z) &= e^{\log |z|} \big( \cos(\Arg z) + i \sin(\Arg z) \big) \\
+&= |z| \big( \cos(\Arg z) + i \sin(\Arg z) \big) = z.
 \end{align*}
 이 식은  $\exp: \mathbb S \to \mathbb C \setminus \{0\}$가 전사함수임을 보여준다.
 또한, 일대일 함수도 되는데 왜냐 하면, $z_1, z_2 \in \mathbb S$가 $\exp z_1 = \exp z_2$를 만족한다면,
-$\exp(z_1 - z_2) = 1$이 되므로, $z_1 - z_2 = 2\pi ni$($n\in\mathbb Z$)이고,
+$\exp(z_1 - z_2) = 1$이 되므로, 
+어떤 $n\in\mathbb Z$에 대하여 $z_1 - z_2 = 2\pi n\,i$이고,
 $z_1, z_2 \in \mathbb S$의 허수부 차이는 $2\pi$ 미만이 되어야 하므로, $n=0$ 즉, 
 $z_1 = z_2$이다.
 
@@ -1192,7 +1199,7 @@ $(a, 2\pi +a]$ 또는 $[a, 2\pi+a)$가 되도록 다른 $a$를 선택할 수도 
 $\log |z| = i\Arg z$를 뜻한다.
 예를 들면,
 $$
-\Log (-i) = \log|-i| + i\Arg(-i) = \log 1 - \dfrac\pi2 i = 0 - \dfrac\pi 2 i = -- \dfrac\pi 2 i.
+\Log (-i) = \log|-i| + i\Arg(-i) = \log 1 - \dfrac\pi2 i = 0 - \dfrac\pi 2 i = -\dfrac\pi 2 i.
 $$
 
 {\bf $\mathbb C \setminus (-\infty, 0]$에서 $\Log$의 연속성: }
@@ -1232,13 +1239,13 @@ $(-\infty,0]$에 닿지 않는 $z_0$의 근방을 만들 수 있는 여지가 �
 즉, 충분히 작은 $r$을 잡아 원판 $D(z_0, r)$가 
 $(-\infty,0]$에 닿지 않도록 할 수 있다.
 따라서, 주어진 $\epsilon>0$에 대하여
-필요하다면 $r$을 더 줄여서
+필요한만큼 $r$을 충분히 줄여서
 $D(z_0, r)$에 속하는 모든 $z$가 $|\Arg(z) - \Arg(z_0)|<\epsilon$을 만족하게 할 수 있다.
 그림 \ref{fig-1-20}\을 참고하라.
 
 \begin{figure}[!h]
 \begin{center}
-\includegraphics[width=0.8\textwidth]{./SaltChapter/fig-1-20}
+\includegraphics[width=0.8\textwidth]{./SaltChapter/figs/fig-1-20}
 \end{center}
 \caption{$\mathbb C\setminus (-\infty,0]$에 정의된 주편각 $\Arg$의 연속성}
 \label{fig-1-20}
@@ -1250,7 +1257,7 @@ $\mathbb C \setminus (-\infty,0]$에서 두 함수  $z\mapsto \log |z|$와 $\Arg
 우리는 나중에 $\Log$가 $\mathbb C \setminus (-\infty,0]$에서 연속임을 이용하여
 복소미분도 가능함을 보일 것이다.
 
-{\bf $a\in \mathbb C\setminus \{0\}, b\in\mathbb C$에 대하여 $a^b$: }
+{\bf $a\in \mathbb C\setminus \{0\}, b\in\mathbb C$에 대한 복소지수 $a^b$: }
 $a,b$가 복소수이고 $a\ne0$일 때, $a^b$에 대하여 생각해보자.
 $a^b$의 주치(principal value)를 다음과 같이 정의한다.
 $$
@@ -1259,7 +1266,7 @@ $$
 예를 들면, $i^i$의 주치는
 $$
 \exp\left( i\cdot \Log(i) \right)
-= \exp \left( i(\log|z| + i\Arg i) \right)
+= \exp \left( i(\log|i| + i\Arg i) \right)
 = \exp \left( i \left(0 + i\frac\pi2\right) \right) 
 = e^{-\frac\pi2}.
 $$

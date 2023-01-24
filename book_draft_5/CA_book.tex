@@ -146,6 +146,7 @@
 \renewcommand{\thesaltdefinition}{\arabic{chapter}.\arabic{saltdefinition}}
 \newenvironment{saltdefinition}[2][]{%
 \refstepcounter{saltdefinition}%
+\par\smallskip %정리 앞의 작은 간격
 \ifstrempty{#1}%
 {\mdfsetup{%
 frametitle={%
