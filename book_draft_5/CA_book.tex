@@ -39,14 +39,14 @@
 \usepackage{imakeidx} % before hyperref
 \usepackage{hyperref}
 % link colors settings
-%\hypersetup{
-%    colorlinks=true,
-%    citecolor=magenta,
-%    linkcolor=blue,
-%    filecolor=green,      
-%    urlcolor=cyan,
-%    % hypertexnames=false,
-%}
+\hypersetup{
+    colorlinks=true,
+    citecolor=magenta,
+    linkcolor=blue,
+    filecolor=green,      
+    urlcolor=cyan,
+    % hypertexnames=false,
+}
 \usepackage[capitalise]{cleveref}
 \usepackage{subcaption}
 \usepackage{enumitem}
@@ -100,7 +100,7 @@
 \declaretheorem[numberwithin=chapter, style=definition, title=따름정리]{saltcorollary}
 \declaretheorem[numberwithin=chapter, style=definition, title=정의]{salt_definition}
 \declaretheorem[numberwithin=chapter, style=definition, title=예제]{salt_example}
-\declaretheorem[numberwithin=chapter, style=definition, title=연습문제]{saltexercise}
+\declaretheorem[numberwithin=chapter, style=definition, title=\textbf{\ttfamily 연습문제}]{saltexercise}
 %\declaretheorem[numberwithin=chapter, style=definition, title=명제]{salt_prop}
 \declaretheorem[numberwithin=chapter, style=definition, title=참고]{salt_remark}
 \declaretheorem[numberwithin=chapter, style=definition, title=추측]{salt_conjecture}
