@@ -98,12 +98,14 @@
 \declaretheorem[numberwithin=chapter, style=definition, title=보조정리]{saltlemma}
 %\declaretheorem[numberwithin=chapter, style=definition, title=따름정리]{salt_corollary}
 \declaretheorem[numberwithin=chapter, style=definition, title=따름정리]{saltcorollary}
+%\declaretheorem[numberwithin=chapter, style=definition, title=추측]{salt_conjecture}
+\declaretheorem[numberwithin=chapter, style=definition, title=추측]{saltconjecture}
 \declaretheorem[numberwithin=chapter, style=definition, title=정의]{salt_definition}
 \declaretheorem[numberwithin=chapter, style=definition, title=예제]{salt_example}
 \declaretheorem[numberwithin=chapter, style=definition, title=\textbf{\ttfamily 연습문제}]{saltexercise}
 %\declaretheorem[numberwithin=chapter, style=definition, title=명제]{salt_prop}
 \declaretheorem[numberwithin=chapter, style=definition, title=참고]{salt_remark}
-\declaretheorem[numberwithin=chapter, style=definition, title=추측]{salt_conjecture}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -251,6 +253,11 @@ before=\par\smallskip, after=\par\smallskip
 \begin{tcolorbox}[breakable, colback = white, colframe = myblue, before=\par\smallskip, after=\par\smallskip]
 \begin{saltcorollary}}
 {\end{saltcorollary}  \end{tcolorbox}}
+
+\newenvironment{salt_conjecture}{
+\begin{tcolorbox}[breakable, colback = white, colframe = myblue, before=\par\smallskip, after=\par\smallskip]
+\begin{saltconjecture}}
+{\end{saltconjecture}  \end{tcolorbox}}
 
 %%%%%%%%%%%%%%%% thmtools %%%%%%%%%%%%%%%%%%%%%
 %==============================
