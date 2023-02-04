@@ -876,7 +876,7 @@ $-i$와 $i$를 잇는 임의의 경로 $\gamma$에 대하여
 
 \begin{saltdefinition}{}{} \label{def-3-2}
 경로 $\gamma:[a,b] \to \mathbb C$가
-$\gamma(a)= \gamma(b)$를 만족하면 {\bf 닫힌경로}라고 한다.
+$\gamma(a)= \gamma(b)$를 만족하면 {\bf 닫힌} 경로라고 한다.
 \end{saltdefinition}
 
 \begin{figure*}[!h]
@@ -907,13 +907,13 @@ $\dint_\gamma f(z)dz = F(\gamma(b)) - F(\gamma(a)) = 0$.
 $m\in\mathbb Z\setminus \{0\}$, $z\in D:=\mathbb C \setminus\{0\}$
 에 대하여, 
 $\dfrac d{dz}\left( \dfrac{z^m}m\right) = z^{m-1}$이므로,
-$D$의 임의의 닫힌경로 $\gamma$에 대하여
+$D$의 임의의 닫힌 경로 $\gamma$에 대하여
 \[
 \int_\gamma z^{m-1}dz = 0.
 \]
 $m=0$일 때는 어떻게 될까?
 $z\in\tilde D:= \mathbb C \setminus (-\infty,0)$에서
-$\Log' z = 1/z$이므로 $\tilde D$의 임의의 닫힌경로 $\tilde \gamma$에 대하여
+$\Log' z = 1/z$이므로 $\tilde D$의 임의의 닫힌 경로 $\tilde \gamma$에 대하여
 \[
 \int_{\tilde\gamma} \frac1z dz = 0
 \]
@@ -957,7 +957,7 @@ $0$부터 $a+ib$까지 직선을 따라 매개변수 적분으로 계산한 결�
 \begin{itemize}
 \item[(1)] $D$가 복소평면 $\mathbb C$의 영역이고,
 \item[(2)] $f:D\to\mathbb C$가 $D$에서 복소해석함수이고,
-\item[(3)] 두 경로 $\gamma_0, \gamma_1 :[0,1]\to D$는  조각적으로 매끄러운 닫힌경로로
+\item[(3)] 두 경로 $\gamma_0, \gamma_1 :[0,1]\to D$는  조각적으로 매끄러운 닫힌 경로로
 $D$-호모토픽(homotopic)이면,
 \end{itemize}
 \[
@@ -966,8 +966,8 @@ $D$-호모토픽(homotopic)이면,
 \end{salttheorem}
 
 더 진행하기에 앞서 정리의 의미를 이해해보자.
-우선 $D$의 두 경로는 닫힌경로이다.
-다음으로 두 닫힌경로가 $D$-호모토픽이라는 것은 무엇일까?
+우선 $D$의 두 경로는 닫힌 경로이다.
+다음으로 두 닫힌 경로가 $D$-호모토픽이라는 것은 무엇일까?
 직관적으로 다음과 같은 의미를 가진다.
 한 영역의 내부에 두 경로를 나타낸 그림 \ref{fig-3-12}를 보자.
 $\gamma_0$를 따라 고무밴드를 놓는다고 상상하자.
@@ -994,7 +994,7 @@ $\gamma_0, \gamma_1$은 $\mathbb C\setminus\{0\}$-호모토픽이 아니다.}
 
 \begin{saltdefinition}{}{} \label{def-3-3}
 $D$를 복소평면 $\mathbb C$의 영역,
-$\gamma_0, \gamma_1 : [0,1] \to D$를 닫힌경로라고 하자.
+$\gamma_0, \gamma_1 : [0,1] \to D$를 닫힌 경로라고 하자.
 다음 조건을 만족하는 연속함수 $H:[0,1]\times[0,1]\to D$가 존재하면
 $\gamma_0$는 $\gamma_1$과 {\bf $D$-호모토픽}(homotopic)이라 한다.
 \begin{itemize}
@@ -1005,14 +1005,14 @@ $\gamma_0$는 $\gamma_1$과 {\bf $D$-호모토픽}(homotopic)이라 한다.
 \end{saltdefinition}
 
 $H$를 주어진 시각 $s$에 대하여
-$[0,1]$에서 $D$로의 닫힌경로를 모은 것으로 간주할 수 있다.
-시각 $s$에서의 닫힌경로를 시각 $s$에서 고무밴드의 위치로 생각해도 된다.
+$[0,1]$에서 $D$로의 닫힌 경로를 모은 것으로 간주할 수 있다.
+시각 $s$에서의 닫힌 경로를 시각 $s$에서 고무밴드의 위치로 생각해도 된다.
 초기에는 $s=0$이고, $H(\cdot, 0)$는 경로 $\gamma_0$가 되며,
 마지막으로 $s=1$일 때, 경로 $\gamma_1$을 나타내는
 $H(\cdot, 1)$가 된다.
 여기까지는 조건 (H1)과 (H2)의 의미이다.
 조건 (H3)로부터 주어진 시각 $s$에 대하여 중간 경로 
-$\gamma_s:= H(\cdot, s)$도 닫힌경로임이다.
+$\gamma_s:= H(\cdot, s)$도 닫힌 경로임이다.
 $H$의 연속성은 고무밴드가 끊어지지 않음을 보장하며
 변형이 매끄럽게 이루어진다는 것을 의미한다.
 아래 그림은 이를 표현한 것이다.
@@ -1064,7 +1064,7 @@ $\mathbb C\setminus \{0\}$에서 $1/z$가 부정적분 $\Log z$을 가지므로,
 
 \begin{salt_exercise} \label{ex-3-17}
 $D$가 $\mathbb C$의 영역이라고 하자.
-$D$의 모든 닫힌경로의 집합에서 $D$-호모토피는 동치관계임을 보여라.
+$D$의 모든 닫힌 경로의 집합에서 $D$-호모토피는 동치관계임을 보여라.
 특히, `$\gamma_0$가 $\gamma_1$에 $D$-호모토픽하다'는 대신
 `$\gamma_0$과 $\gamma_1$가 $D$-호모토픽하다'라고 쓸 수 있다.
 \end{salt_exercise}
@@ -1190,7 +1190,7 @@ $\dint_0^{2\pi} \dfrac 1{a^2(\cos \theta)^2 + b^2(\sin \theta)^2}d\theta = \dfra
 ``퇴화된'' 단힌곡선으로 상수 경로를 생각하자.
 즉, $D$가 영역이고 $p\in D$일 때,
 $\gamma_p:[0,1] \to D$가 모든 $t\in[0,1]$에 대하여 $\gamma_p(t)=p$인 경우이다.
-그러면 $\gamma_p$는 $\gamma_p(0)=\gamma_p(1)$을 만족하므로 닫힌경로이다.
+그러면 $\gamma_p$는 $\gamma_p(0)=\gamma_p(1)$을 만족하므로 닫힌 경로이다.
 임의의 연속함수 $f:D\to\mathbb C$에 대하여, 적분
 \[
 \int_{\gamma_p} f(z)dz
@@ -1202,7 +1202,7 @@ $0$이 된다.
 \int_{\gamma_p} f(z)dz = \int_0^1 f(\gamma_p(t))\cdot \gamma_p'(t)dt = 0.
 \]
 이로부터 코시 적분정리의 특별하고 중요한 경우로
-닫힌경로 $\gamma$가 한점(즉, 상수 경로 $\gamma_p(t)=p$, $t\in[0,1]$)과 
+닫힌 경로 $\gamma$가 한점(즉, 상수 경로 $\gamma_p(t)=p$, $t\in[0,1]$)과 
 $D$-호모토픽일 때를 생각할 수 있다.
 이 경우  $\gamma$를  $D$-축약가능하($D$-contractible)다고 한다.
 $\gamma$를 따라 고무밴드를 놓고 
@@ -1214,7 +1214,7 @@ $D$-축약가능한 경로 $\gamma$ (즉, 한점 $p\in D$와 $D$-호모토픽인
 \[
 \int_\gamma f(z) dz = \int_{\gamma_p} f(z) dz = 0.
 \]
-모든 닫힌경로가 $D$-축약가능한 영역을 {\bf 단순연결}(simply connected) 영역이라고 한다.
+모든 닫힌 경로가 $D$-축약가능한 영역을 {\bf 단순연결}(simply connected) 영역이라고 한다.
 
 예를 들어 $\mathbb C$, $\mathbb D:=\{z\in\mathbb C\,:\, |z|<1\}$,
 $\mathbb C\setminus(-\infty,0]$는 모두 단순연결 영역이다.
@@ -1270,7 +1270,7 @@ $\mathbb C\setminus(-\infty,0]$는 모두 단순연결 영역이지만,
 \
 \begin{itemize}
 \item[(1)] $D$가 단순연결 영역이고,
-\item[(2)] $\gamma$는 영역 $D$에서 조각적으로 매끄러운 닫힌경로이고,
+\item[(2)] $\gamma$는 영역 $D$에서 조각적으로 매끄러운 닫힌 경로이고,
 \item[(3)] $f:D\to\mathbb C$는 $D$에서 복소해석함수이면,
 \end{itemize}
 \[
@@ -1282,15 +1282,15 @@ $\mathbb C\setminus(-\infty,0]$는 모두 단순연결 영역이지만,
 
 \begin{saltexample} [label=example-3-9]{}{}
 $\exp$가 전해석 함수이고, $\mathbb C$가 단순연결 영역이므로
-임의의 닫힌경로 $\gamma$에 대하여
+임의의 닫힌 경로 $\gamma$에 대하여
 \[
 \int_\gamma \exp z \, dz = 0.
 \]
-실제로 임의의 전해석 함수 $f$와 임의의 닫힌경로 $\gamma$에 대하여, $\dint_\gamma f(z)dz=0$이다.
+실제로 임의의 전해석 함수 $f$와 임의의 닫힌 경로 $\gamma$에 대하여, $\dint_\gamma f(z)dz=0$이다.
 \end{saltexample}
 
 $D$가 단순연결 영역이 아닌 경우에도 복소미분가능한 함수 $f:D\to \mathbb C$가
-영역 $D$의 임의의 닫힌경로 $\gamma$에 대하여
+영역 $D$의 임의의 닫힌 경로 $\gamma$에 대하여
 \[
 \dint_\gamma f(z)dz=0
 \]
@@ -1300,7 +1300,7 @@ $1/z^2$은 $\mathbb C\setminus \{0\}$에서 부정적분을 가지므로
 \[
 \dfrac d{dz}\left(- \dfrac 1z\right) = \dfrac1{z^2}, \quad z\in \mathbb C\setminus \{0\},
 \]
-뚫린 복소평면의 임의의 닫힌경로 $\gamma$에 대하여
+뚫린 복소평면의 임의의 닫힌 경로 $\gamma$에 대하여
 \[
 \int_\gamma \dfrac 1{z^2}dz=0.
 \]
@@ -1316,7 +1316,7 @@ $|z|=3$을 따라 반시계방향으로 도는 원형 경로를 따라 다음 �
 
 \begin{salt_exercise}[경로의 회전수] \label{ex-3-21}
 $\gamma:[0,1]\to\mathbb C$가 $0$을 지나지 않는
-매끄러운 닫힌경로라고 가정하자. ($0$에 대한) $\gamma$의 {\bf 회전수}(winding number)를 
+매끄러운 닫힌 경로라고 가정하자. ($0$에 대한) $\gamma$의 {\bf 회전수}(winding number)를 
 다음과 같이 정의한다.
 \[
 w(\gamma) := \dfrac1{2\pi i}\int_\gamma \dfrac 1z dz
@@ -1337,7 +1337,7 @@ $\varphi(1)=1$을 보이면 충분하다.
 \item[(2)] $\Gamma_1(t)=\exp(2\pi it)$ ($t\in[0,1]$)로 주어진 경로 $\Gamma_1:[0,1]\to\mathbb C$의
 회전수를 계산하라.
 \item[(3)] $\gamma_1, \gamma_2:[0,1]\to\mathbb C$가 $0$을 지나지 않는
-매끄러운 닫힌경로라 하자. 두 경로의 곱 $\gamma_1\cdot\gamma_2$을
+매끄러운 닫힌 경로라 하자. 두 경로의 곱 $\gamma_1\cdot\gamma_2$을
 점별 곱으로 정의하면, $w(\gamma_1\cdot\gamma_2) = w(\gamma_1)+w(\gamma_2)$임을
 증명하라.
 \item[(4)] $m\in \mathbb N$이라 하자. 
@@ -1345,9 +1345,9 @@ $\Gamma_m(t)=\exp(2\pi imt)$ ($t\in[0,1]$)로 주어진 경로 $\Gamma_m:[0,1]\t
 회전수를 계산하라.
 \item[(5)] 회전수 함수 $\gamma \mapsto w(\gamma)$는
 `국소적으로 상수함수'임을 보여라.
-즉, $\gamma_0:[0,1]\to\mathbb C\setminus\{0\}$가 매끄러운 닫힌경로이면,
+즉, $\gamma_0:[0,1]\to\mathbb C\setminus\{0\}$가 매끄러운 닫힌 경로이면,
 $\|\gamma -\gamma_0\|_\infty := \max\{ |\gamma(t) - \gamma_0(t)| \,:\, t\in[0,1]\}<\delta$를
-만족하는 모든 닫힌경로 $\gamma:[0,1]\to\mathbb C\setminus\{0\}$에 대하여
+만족하는 모든 닫힌 경로 $\gamma:[0,1]\to\mathbb C\setminus\{0\}$에 대하여
 $w(\gamma) = w(\gamma_0)$가 되도록 하는 $\delta>0$가 존재한다.
 다시 말하면, 곡선의 집합에 균등 위상(uniform topology)을 설정하고
 $\mathbb Z$에 이산 위상(discrete topology)을  설정하면,
@@ -1360,7 +1360,7 @@ $\gamma \mapsto w(\gamma)$는 연속함수이다.
 이제 $f$가 복소해석함수라는 가정을 생략하면 코시 적분정리가 만족되지 않을 수 있음을 강조하고자 한다.
 복소해석함수가 아님을 잘 알고있는 켤레복소수 함수 $z\mapsto \bar z$에 정리를 적용하면
 어떻게 되는지 살펴보자.
-$0$을 둘러싸는 닫힌경로 $\gamma$를 따라 적분하는 경우,
+$0$을 둘러싸는 닫힌 경로 $\gamma$를 따라 적분하는 경우,
 $\bar z$를 $\gamma$를 따라 경로적분한 결과는 $\gamma$로 둘러싸인 영역의 넓이와 
 같음을 보일 것이다.
 당연히 넓이는 경로 $\gamma$의 모양에 의존하므로 $\mathbb C$-호모토픽한 두 경로로
@@ -1410,14 +1410,14 @@ $\bar z$를 $\gamma$를 따라 경로적분한 결과는 $\gamma$로 둘러싸�
 종합하면 $\dint_\gamma \bar z\, dz = i\dint_a^b ((x(t)y'(t)-y(t)x'(t))dt
 = 2i\cdot (\gamma\text{로 둘러싸인 영역의 넓이})$.
 따라서 복소해석함수에 대한 코시 적분정리와 달리
-이와 같이 복소해석함수가 아닌 경우는 닫힌경로를 따라 적분한 결과가
+이와 같이 복소해석함수가 아닌 경우는 닫힌 경로를 따라 적분한 결과가
 $0$이 아니며, 
 특별히 $\bar z$의 경우는 영역의 넓이와 관련이 있다!
 
 \begin{salt_exercise} \label{ex-3-22}
 반지름 $r$인 동전이 고정된 반지름 $R$의  더 큰 동전에 외접하며 구른다고 가정하자.
 이 때, 구르는 동전의 둘레에 있는 한점이 그리는 경로를 에피사이클로이드(epicycloid)라 부른다.
-어떤 자연수 $n\in\mathbb N$에 대하여 $R=nr$를 만족하면 닫힌경로가 얻어진다.
+어떤 자연수 $n\in\mathbb N$에 대하여 $R=nr$를 만족하면 닫힌 경로가 얻어진다.
 그림 \ref{fig-3-15}를 보라.
 
 \begin{figure}[!h]
@@ -1476,13 +1476,13 @@ $F$는 잘 정의된 함수인가? 즉, $F(z)$가 $p$에서 $z$까지의 경로�
 의존하지 않고 정의되는가?
 $\tilde \gamma_z$를 $p$와 $z$를 잇는 $D$의 다른 매끄러운 경로라 하면,
 $\gamma_z - \tilde\gamma_z$는 단순연결 영역 $D$의
-조각적으로 매끄러운 닫힌경로이다. 그림 \ref{fig-3-16}을 참고하자.
+조각적으로 매끄러운 닫힌 경로이다. 그림 \ref{fig-3-16}을 참고하자.
 
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=0.25\textwidth]{./SaltChapter/figs/fig-3-16}
 \end{center}
-\caption{$\gamma - \tilde \gamma$가 만드는 닫힌경로}
+\caption{$\gamma - \tilde \gamma$가 만드는 닫힌 경로}
 \label{fig-3-16}
 \end{figure}
 
@@ -1509,7 +1509,7 @@ $|w-z|<\delta$이면 $|f(w)-f(z)|<\epsilon$을 만족한다.
 
 $\gamma_{zw}$를 $z$와 $w$를 잇는 선분이라 하면,
 경로 $\gamma_z$, $\gamma_{zw}$, $-\gamma_w$를 연접하면
-닫힌경로가 되고 코시 적분정리를 적용하면 다음을 얻는다.
+닫힌 경로가 되고 코시 적분정리를 적용하면 다음을 얻는다.
 \[
 0 = \int_{\gamma_z  + \gamma_{zw} - \gamma_w} f(\zeta)d\zeta
 = \int_{\gamma_z} f(\zeta)d\zeta + \int_{\gamma_{zw}} f(\zeta)d\zeta
@@ -1614,7 +1614,7 @@ $f$가 부정적분 $F$를 가지므로
 \section{코시 적분공식}
 
 이제 코시 적분공식이라 불리는 결과를 학습할 예정인데,
-개요를 말하자면, 자신과는 교차하지 않는 닫힌경로 $\gamma$ 위와
+개요를 말하자면, 자신과는 교차하지 않는 닫힌 경로 $\gamma$ 위와
 내부에서 복소해석함수인 $f$에 대하여,
 $\gamma$ 내부의 점에서 $f$의 함수값은
 $\gamma$ 위에서의 함수값만으로 결정된다!
@@ -1796,7 +1796,7 @@ $\dint_0^{2\pi} \dfrac 1{1+a^2-2a\cos t}dt = \dfrac{2\pi}{1-a^2}$을 보여라.
 \item[(2)] $f:D\to\mathbb C$가 복소해석함수이고,
 \item[(3)] $z_0\in D$, 
 \item[(4)] $z_0$를 중심으로 하는 원형 경로 $C$와 그 내부가 영역 $D$에 속하고,
-영역 $D$의 닫힌경로 $\gamma$가 $C$와 $D\setminus \{z_0\}$-호모토픽하면,
+영역 $D$의 닫힌 경로 $\gamma$가 $C$와 $D\setminus \{z_0\}$-호모토픽하면,
 \end{itemize}
 \[
 f(z_0) = \dfrac1{2\pi i}\int_\gamma \dfrac{f(z)}{z-z_0}dz.
@@ -1819,7 +1819,7 @@ f(z_0) = \dfrac1{2\pi i}\int_C \dfrac{f(z)}{z-z_0}dz.
 이 결과는 앞에서 언급했던  복소해석함수와 관련된 ``엄밀성''을 강조한다.
 복소해석함수는 매우 구조적인 성질 (모든 곳에서 국소적으로는 회전변환과 확대로 표현되는)이 있어
 매우 제한적인 정보만으로 함수의 정확한 움직임을 찾아낼 수 있다.
-즉, 평면의 아주 작은 부분(예를 들면 닫힌경로)에서 복소해석함수의 특징을 안다면,
+즉, 평면의 아주 작은 부분(예를 들면 닫힌 경로)에서 복소해석함수의 특징을 안다면,
 멀리 떨어진 다른 점들에서의 값을 유일하게 결정할 수 있다.
 아래 그림은 코시 적분공식의 경우를 예로 보여준다.
 경로 $\gamma$에서 $f$의 값을 안다면 색칠된 부분의 모든 점에서의 함수값을 결정할 수 있다!
@@ -1835,7 +1835,7 @@ f(z_0) = \dfrac1{2\pi i}\int_C \dfrac{f(z)}{z-z_0}dz.
 \item[(1)]
 실수축 위의 점 $-R$부터 $R$까지를 잇는 선분 $S$와
 반지름이 $R$이고 $R$에서 $-R$까지를 연결하는 상반평면의 원호 $T$를 연결한 
-반원형 닫힌경로를 $\sigma$라고 하자.
+반원형 닫힌 경로를 $\sigma$라고 하자.
 다음을 증명하라.
 \[
 \int_\sigma F(z)dz = \dfrac\pi e.
@@ -2150,7 +2150,7 @@ $p\equiv0$임을 보여 이 주장에서 논리적으로 틀린 부분을 찾아
 
 \begin{salt_exercise} \label{ex-3-34}
 $f:\mathbb C \to \mathbb C$가 전해석 함수라고 하자.
-중심이 $0$이고 반지름 $R>0$인 원을 반시계방향으로 한바퀴 도는 원형경로 $C$의
+중심이 $0$이고 반지름 $R>0$인 원을 반시계방향으로 한바퀴 도는 원형 경로 $C$의
 내부에 복소수 $a_1, a_2$가 있으며 $a_1\ne a_2$라 가정하자.
 \begin{itemize}
 \item[(1)] $\left| \dint_C \dfrac{f(z)}{(z-a_1)(z-a_2)}dz \right| \le

@@ -44,9 +44,9 @@
 \contentsline {section}{\numberline {4.5}항등정리}{161}{section.4.5}%
 \contentsline {section}{\numberline {4.6}최대절대값정리}{165}{section.4.6}%
 \contentsline {section}{\numberline {4.7}로랑 급수}{167}{section.4.7}%
-\contentsline {section}{\numberline {4.8}특이점의 분류}{178}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}본질적 특이점 근방에서의 역동적 변화}{192}{subsection.4.8.1}%
-\contentsline {section}{\numberline {4.9}유수 정리}{195}{section.4.9}%
+\contentsline {section}{\numberline {4.8}특이점의 분류}{179}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}본질적 특이점 근방에서의 역동적 변화}{191}{subsection.4.8.1}%
+\contentsline {section}{\numberline {4.9}유수 정리}{194}{section.4.9}%
 \contentsline {section}{\numberline {4.10}참고}{205}{section.4.10}%
 \contentsline {chapter}{\chapternumberline {제\,5\,장}조화함수}{206}{chapter.5}%
 \contentsline {section}{\numberline {5.1}조화함수란?}{206}{section.5.1}%
