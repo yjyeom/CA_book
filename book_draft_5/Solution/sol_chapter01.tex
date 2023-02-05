@@ -1,9 +1,18 @@
 % !TEX root = ../CA_book.tex
 
+
+
 \chapter*[연습문제 풀이]{연습문제 풀이}
 \addcontentsline{toc}{chapter}{연습문제 풀이}
 
 \section*{머리말 - 연습문제 풀이}
+
+%==[salt] 수식번호를 부록에 맞게 재정의함
+\setcounter{equation}{0}
+\renewcommand\theequation{A.\arabic{equation}}
+%==[salt] 그림번호도 부록에 맞게 재정의함
+\setcounter{figure}{0}
+\renewcommand\thefigure{A.\arabic{figure}}
 
 \subsection*{연습문제 \ref{ex-0-1}}
 
@@ -15,7 +24,7 @@ $\epsilon:=1>0$으로 잡으면, $0<|x-0|<\delta$이면
 을 만족하는 $\delta>0$가 존재한다.
 특히 $x:=\delta/2$로 잡으면
 $0<|x-0| = \delta/2 < \delta$이므로
-\begin{equation} \label{eq-5-5}
+\begin{equation} \label{eq-5-5} %== [salt] 완전수동 번호넣기도 가능 \tag{A.1}
 \left| \dfrac{f'(x) - f'(0)}{x-0} - L\right|
 = \left| \dfrac{2(\delta/2) - 0}{(\delta/2)-0} - L\right| 
 = |2-L| < \epsilon.
@@ -27,14 +36,19 @@ $0<|x-0| = \delta/2 < \delta$이므로
 = \left| \dfrac{-2(-\delta/2) - 0}{(-\delta/2)-0} - L\right| 
 = |2+L| < \epsilon.
 \end{equation}
-식 \eqref{eq-5-5}와 \eqref{eq-5-6}으로부터
+식 \eqref{eq-5-5}\와 \eqref{eq-5-6}\로부터
 실수 절대값에 대한 삼각부등식을  이용하면
 \[
 4 = |2+L+2-L| \le |2+L| + |2-L|
 <\epsilon + \epsilon = 2\epsilon = 2
 \]
 가 되어 모순이다.
-따라서 $f'$은 $0$에서 미분이 불가능하다.
+따라서 $f'$은 $0$에서 미분이 불가능하다\footnote{
+역주: $\epsilon$-$\delta$ 방법에 익숙하다면 좋은 연습문제가 되겠지만,
+지나치게 엄밀하다고 느낄 수도 있다.
+결과만 직관적인 의미로 이해하고 넘어가도 복소해석학의 줄거리와 중요한 주제를 학습하는데 큰 어려움이 없으니
+미리 너무 걱정할 필요는 없다.
+}.
 
 \section*{1장 - 연습문제 풀이}
 
@@ -76,10 +90,10 @@ $\tan \theta \in \mathbb R$이고,
 따라서
 \begin{align*}
 \dfrac{1+i\tan\theta}{1-i\tan\theta}
-&= (1+i\tan\theta)( (\cos\theta)^2 + i(\sin\theta)(\cos\theta) ) \\
+&= (1+i\tan\theta) \Big( (\cos\theta)^2 + i(\sin\theta)(\cos\theta) \Big) \\
 &= (\cos\theta)^2 - \dfrac{\sin\theta}{\cos\theta} \cdot
 (\sin\theta)(\cos\theta) \\
-&\quad\quad + \left(
+&\quad\quad + i \left(
 (\sin\theta)(\cos\theta) + \dfrac{\sin\theta}{\cos\theta} \cdot (\cos\theta)^2
 \right) \\
 &= (\cos\theta)^2 - (\sin\theta)^2 + i2(\sin\theta)(\cos\theta)
@@ -90,7 +104,7 @@ $\tan \theta \in \mathbb R$이고,
 
 $P\subset \mathbb C$가 $\mathbb C$의 양의 부분집합이라고 하자.
 그러면, $i\ne0$이므로 조건 (P3)에 의해
-$i\in P$이거나 ($i\ne P$이고 $-i\in P$)이다.
+$i\in P$이거나 ($i\not\in P$이고 $-i\in P$)이다.
 조건 (P2)에서
 \begin{equation}\label{eq-5-7}
 -1 = i\cdot i = (-i)\cdot (-i) \in P
@@ -110,7 +124,7 @@ $x=1$이라고 하면 (P3)에서
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[width=0.7\textwidth]{./Solution/figs/fig-5-2}
+\includegraphics[width=0.65\textwidth]{./Solution/figs/fig-5-2}
 \end{center}
 \caption{복소수 $0$, $1$, $-3/2$, $i$, $-\sqrt{2}i$,
 $\cos\dfrac\pi3 + i\sin\dfrac\pi3$의 위치}
@@ -123,28 +137,28 @@ $\theta\in\mathbb R$에 대하여
 $(\cos\theta + i\sin\theta)^3 = \cos(3\theta) + i\sin(3\theta)$이다.
 \begin{align*}
 (\cos\theta + i\sin\theta)^3 
-&= (\cos\theta + i\sin\theta)\left(
-(\cos\theta)^2 - (\sin\theta)^2 + i2(\cos\theta)(\sin\theta) \right) \\
+&= (\cos\theta + i\sin\theta)\Big(
+(\cos\theta)^2 - (\sin\theta)^2 + i2(\cos\theta)(\sin\theta) \Big) \\
 &= (\cos\theta)\left( (\cos\theta)^2 - (\sin\theta)^2 \right)
 - (\sin\theta)2(\cos\theta)(\sin\theta)  \\
 &\quad\quad + i(\ \cdots\ ).
 \end{align*}
 따라서 양변의 실수부가 같다는 것을 이용하면,
 \begin{align*}
-\cos(3\theta) &= \Re((\cos\theta + i\sin\theta)) \\
+\cos(3\theta) &= \Re((\cos\theta + i\sin\theta)^3) \\
 &=(\cos\theta)\left( (\cos\theta)^2 - (\sin\theta)^2 \right)
 - 2(\cos\theta)(\sin\theta)^2 \\
 &= (\cos\theta)\left( (\cos\theta)^2 - 1 + (\cos\theta)^2 \right)
-- 2(\cos\theta)(1-\cos\theta)^2 \\
+- 2(\cos\theta)(1-(\cos\theta)^2) \\
 &= (\cos\theta)^3 - \cos\theta  + (\cos\theta)^3 - 2\cos\theta + 2(\cos\theta)^3 \\
-&= 4(\cos\theta)^3 - 3\cos\theta
+&= 4(\cos\theta)^3 - 3\cos\theta.
 \end{align*}
 다른 방법으로, 이항정리 공식
 $(a+b)^n = \Sum_{k=0}^n \disp{n \choose k} a^kb^{n-k}$이
 복소수 $a,b \in \mathbb C$와 자연수 $n\in \mathbb N$에 대하여
-성립한다는 것을 이용하면,
+성립한다는 것을 이용하여 보일 수도 있다.
 \begin{align*}
-\cos(3\theta) &= \Re((\cos\theta + i\sin\theta)) \\
+\cos(3\theta) &= \Re((\cos\theta + i\sin\theta)^3) \\
 &= \Re ( (\cos\theta)^3 + 3(\cos\theta)^2(i\sin\theta) 
 + 3(\cos\theta)(i\sin\theta)^2 + (i\sin\theta)^3) \\
 &= (\cos\theta)^3 - 3(\cos\theta)(\sin\theta)^2 \\
@@ -192,7 +206,7 @@ $\ell(AC) = \ell(AB)$이고 $\angle CAB=\pi/3$이므로,
 \begin{equation}\label{eq-5-9}
 z_C - z_A = \left( \cos\dfrac\pi3 + i\sin\dfrac\pi3 \right)(z_B - z_A).
 \end{equation}
-귀류법을 쓰기위해 $p,q,m,n\in\mathbb Z$가 
+귀류법을 쓰기 위해 $p,q,m,n\in\mathbb Z$가 
 \[
 z_C - z_A = p+iq, \quad
 z_B - z_A = m+in
@@ -210,7 +224,7 @@ q &= \dfrac{m\sqrt{3}}2 + \dfrac n2. \label{eq-5-11}
 qm - pn = \dfrac{\sqrt{3}}2 (m^2 + n^2)
 \]
 을 얻는다.
-그런데 $m^2+n^2 \ne0$이므로 ($z_B \ne z_A$이므로),
+그런데 $m^2+n^2 \ne0$이므로 (즉, $z_B \ne z_A$이므로),
 \[
 \sqrt{3} = \dfrac{2(qm-pn)}{m^2+n^2} \in \mathbb Q
 \]
@@ -233,18 +247,18 @@ $\rho^4 = 1$에서 $\rho=1$이다.
 따라서 $ w = \rho(\cos\alpha + i\sin\alpha) = 1\cdot((\cos\alpha + i\sin\alpha) $는
 다음 집합에 속한다.
 \begin{align*}
-&\left\{ \cos\dfrac\pi4+i\sin\dfrac\pi4, \cos\dfrac{3\pi}4+i\sin\dfrac{3\pi}4, 
-\cos\dfrac{5\pi}4+i\sin\dfrac{5\pi}4, \cos\dfrac{7\pi}4+i\sin\dfrac{7\pi}4
+&\left\{ \cos\dfrac\pi4+i\sin\dfrac\pi4,\ \cos\dfrac{3\pi}4+i\sin\dfrac{3\pi}4, \
+\cos\dfrac{5\pi}4+i\sin\dfrac{5\pi}4, \ \cos\dfrac{7\pi}4+i\sin\dfrac{7\pi}4
 \right\} \\
-&\qquad\quad\quad = \left\{ \dfrac{1+i}{\sqrt{2}},  \dfrac{-1+i}{\sqrt{2}},
- \dfrac{-1-i}{\sqrt{2}},  \dfrac{1-i}{\sqrt{2}} \right\}.
+&\qquad\quad\quad = \left\{ \dfrac{1+i}{\sqrt{2}},  \ \dfrac{-1+i}{\sqrt{2}}, \
+ \dfrac{-1-i}{\sqrt{2}}, \ \dfrac{1-i}{\sqrt{2}} \right\}.
 \end{align*}
 
 네 개의 해를 복소평면에 그려보면 그림 \ref{fig-5-3}\과 같다.
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[width=0.6\textwidth]{./Solution/figs/fig-5-3}
+\includegraphics[width=0.65\textwidth]{./Solution/figs/fig-5-3}
 \end{center}
 \caption{$w^4=-1$을 만족하는 복소수 $w$의 위치}
 \label{fig-5-3}
@@ -260,42 +274,42 @@ $\rho^4 = 1$에서 $\rho=1$이다.
 $z^3=2$ 또는 $z^3=-1$이다.
 $z^3=2$를 만족하는 해를 구하면
 \[
-z\in \left\{ \sqrt[3]{2} \left( \cos\dfrac{2\pi}3 + i\sin\dfrac{2\pi}3\right),
-\sqrt[3]{2} \left( \cos\dfrac{4\pi}3 + i\sin\dfrac{4\pi}3\right), 
+z\in \left\{ \sqrt[3]{2} \left( \cos\dfrac{2\pi}3 + i\sin\dfrac{2\pi}3\right), \
+\sqrt[3]{2} \left( \cos\dfrac{4\pi}3 + i\sin\dfrac{4\pi}3\right),  \
 \sqrt[3]{2} \right\}
 \]
 로부터 
 \[
-z\in \left\{ \sqrt[3]{2} \left( - \dfrac12+ i\dfrac{\sqrt{3}}2\right),
-\sqrt[3]{2} \left( -\dfrac12 - i\dfrac{\sqrt{3}}2\right), 
+z\in \left\{ \sqrt[3]{2} \left( - \dfrac12+ i\dfrac{\sqrt{3}}2\right), \
+\sqrt[3]{2} \left( -\dfrac12 - i\dfrac{\sqrt{3}}2\right),  \
 \sqrt[3]{2} \right\}
 \]
 이다. 한편, $z^3=-1$의 해는
 \[
-z\in\left\{ \cos\dfrac\pi3 + i\sin\dfrac\pi3, \cos\pi + i\sin\pi,
+z\in\left\{ \cos\dfrac\pi3 + i\sin\dfrac\pi3,\  \cos\pi + i\sin\pi, \
 \cos\dfrac{5\pi}3 + i\sin\dfrac{5\pi}3 \right\}
 \]
 로부터 
 \[
-z\in \left\{ \dfrac12+ i\dfrac{\sqrt{3}}2, -1,
+z\in \left\{ \dfrac12+ i\dfrac{\sqrt{3}}2, \ -1, \
 \dfrac12 - i\dfrac{\sqrt{3}}2 \right\}
 \]
 이다. 결론적으로
 $z^6 - z^3-2=0$일 필요충분조건은 [$z^3=2$ 또는 $z^3=-1$]이다.
 즉,
 \begin{align*}
-z\in & \left\{ \sqrt[3]{2} \left( - \dfrac12+ i\dfrac{\sqrt{3}}2\right),
-\sqrt[3]{2} \left( -\dfrac12 - i\dfrac{\sqrt{3}}2\right), 
+z\in & \left\{ \sqrt[3]{2} \left( - \dfrac12+ i\dfrac{\sqrt{3}}2\right), \
+\sqrt[3]{2} \left( -\dfrac12 - i\dfrac{\sqrt{3}}2\right), \
 \sqrt[3]{2} \right\}\\
-&\bigcup \left\{ \dfrac12+ i\dfrac{\sqrt{3}}2, -1,
+&\bigcup \left\{ \dfrac12+ i\dfrac{\sqrt{3}}2,\ -1, \
 \dfrac12 - i\dfrac{\sqrt{3}}2 \right\}.
 \end{align*}
 따라서 구하는 해는
 \[
-z\in \left\{ \sqrt[3]{2} \left( - \dfrac12+ i\dfrac{\sqrt{3}}2\right),
-\sqrt[3]{2} \left( -\dfrac12 - i\dfrac{\sqrt{3}}2\right), 
-\sqrt[3]{2},
-\dfrac12+ i\dfrac{\sqrt{3}}2, -1,
+z\in \left\{ \sqrt[3]{2} \left( - \dfrac12+ i\dfrac{\sqrt{3}}2\right), \
+\sqrt[3]{2} \left( -\dfrac12 - i\dfrac{\sqrt{3}}2\right), \
+\sqrt[3]{2}, \
+\dfrac12+ i\dfrac{\sqrt{3}}2, \ -1, \
 \dfrac12 - i\dfrac{\sqrt{3}}2 \right\}.
 \]
 
@@ -306,15 +320,15 @@ $\omega^3=1$을 만족하는 $\omega\in\mathbb C \setminus \mathbb R$을 생각�
 $\omega\ne1$이므로 $\omega^2+\omega+1=0$이다.
 따라서,
 \begin{align*}
-((b-a)\omega &+(b-c))((b-a)\omega^2+b-c) \\
+((b-a)\omega &+(b-c))((b-a)\omega^2+(b-c)) \\
 &= (b-a)^2\omega^3 + (b-a)(b-c)(-1) + (b-c)^2 \\
 &= (b-a)^2\cdot 1 + (b-a)(b-c)(-1)  + (b-c)^2 \\
 &= (b-a)(b-a-b+c) + (b-c)^2 \\
-&=(bc-ca-ab+a^2+b^2-2bc+c^2 \\
+&=bc-ca-ab+a^2+b^2-2bc+c^2 \\
 &= a^2+b^2+c^2 -ab - bc - ca = 0.
 \end{align*}
-따라서 $(b-a)\omega = c-b$이거나 $(b-a)\omega^2 = c-a$이다.
-두번째 식은 $(b-a)\omega^3 = (c-a)\omega$와 동치이므로
+따라서 $(b-a)\omega = c-b$이거나 $(b-a)\omega^2 = c-b$이다.
+두번째 식은 $(b-a)\omega^3 = (c-b)\omega$와 동치이므로
 $(c-b)\omega = b-a$이다.
 이로부터 $|b-a|=|c-b|$를 얻고
 $a$와 $b$, $a$와 $c$를 잇는 두 선분의 사잇각은 $\pi/3$이다.
@@ -330,7 +344,7 @@ $a$와 $b$, $a$와 $c$를 잇는 두 선분의 사잇각은 $\pi/3$이다.
 
 두 가지 그림 모두 세 점 $a$, $b$, $c$는 정삼각형을 이룬다.
  $a$, $b$, $c$가 실수인 경우는 한점 $r\in\mathbb R$로 모이게 되어
- $a=b=c=(=r)$이 되어 실수의 경우도 원하는 결과를 얻는다.
+ $a=b=c(=r)$이 되어 실수의 경우도 원하는 결과를 얻는다.
 
 \subsection*{연습문제 \ref{ex-1-12}}
 
@@ -357,7 +371,7 @@ $\omega\ne1$이므로 $\omega^2+\omega+1=0$이다.
 0, & k\equiv 2 \mod 3.
 \end{cases}
 \end{align*}
-에서
+따라서
 \[
 (1+1)^{3n} + (1+\omega)^{3n} + (1+\omega^2)^{3n}
 = 3\cdot \left(
@@ -374,13 +388,7 @@ $\omega\ne1$이므로 $\omega^2+\omega+1=0$이다.
 
 \subsection*{연습문제 \ref{ex-1-13}}
 
-\begin{figure}[h!]
-\begin{center}
-\includegraphics[width=0.6\textwidth]{./Solution/figs/fig-5-5}
-\end{center}
-\caption{$RP$와 $SQ$는 길이가 같고 수직으로 만난다}
-\label{fig-5-5}
-\end{figure}
+
 
 그림 \ref{fig-5-5}\와 같이
 평면위의 네 점 $A$, $B$, $C$, $D$를 복소수 $a$, $b$, $c$, $d$에 각각 대응시키자.
@@ -408,11 +416,19 @@ i(q-s) &= i \left(
 또한, $i$를 곱하는 것은 원점을 중심으로 $90^\circ$ 회전을 의미하기 때문에
 $PR\perp QS$이다.
 
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{./Solution/figs/fig-5-5}
+\end{center}
+\caption{$RP$와 $SQ$는 길이가 같고 수직으로 만난다}
+\label{fig-5-5}
+\end{figure}
+
 \subsection*{연습문제 \ref{ex-1-14}}
 
 실수 $x_1, x_2, y_1, y_2$에 대하여
 $z_1 = x_1 + iy_1$, $z_2 = x_2 + iy_2$라 하자.
-그러면 $z_1z_2 = x_1x_2 - y_1y_2 = i(x_1y_2+y_1x_2)$이고,
+그러면 $z_1z_2 = x_1x_2 - y_1y_2 + i(x_1y_2+y_1x_2)$이고,
 \begin{align*}
 |z_1z_2|^2 &=  (x_1x_2 - y_1y_2)^2 + (x_1y_2 + y_1x_2)^2 \\
 &= x_1^2x_2^2 - \cancel{2x_1x_2y_1y_2} + y_1^2y_2^2
@@ -421,7 +437,7 @@ $z_1 = x_1 + iy_1$, $z_2 = x_2 + iy_2$라 하자.
 = (x_1^2+y_1^2)(x_2^2+y_2^2) \\
 &= |z_1|^2|z_2|^2.
 \end{align*}
-$|z_1|$, $|z_2|$, $|z_1z_2|$는 모두 음이 아닌 실수 이므로
+$|z_1|$, $|z_2|$, $|z_1z_2|$는 모두 음이 아닌 실수이므로
 $|z_1||z_2| = |z_1||z_2|$가 성립한다.
 
 \subsection*{연습문제 \ref{ex-1-15}}
@@ -431,11 +447,9 @@ $z=x+iy$ ($x,y\in\mathbb R$)이라 하자. 그러면,
 \overline{(\bar z)} = \overline{x-iy}
 = x - i(-y) = x+iy = z.
 \]
-또한, 
-\[
-z\bar z = (x+iy)(x-iy) = x^2+y^2 + i(- xy + xy)
-= x^2+y^2 = |z|^2.
-\]
+또한, $z\bar z = (x+iy)(x-iy) = x^2+y^2 + i(- xy + xy)
+= x^2+y^2 = |z|^2$.
+
 끝으로,
 \begin{align*}
 \dfrac{z + \bar z}2 &= \dfrac{x+\cancel{iy}+ x -\cancel{iy}}2
@@ -461,7 +475,7 @@ $0\in\mathbb R$이므로 원점과 $z$와의 거리는 $\bar z$와의 거리와 
 
 \begin{figure*}[h!]
 \begin{center}
-\includegraphics[width=0.3\textwidth]{./Solution/figs/fig-s-0-1}
+\includegraphics[width=0.4\textwidth]{./Solution/figs/fig-s-0-1}
 \end{center}
 %\caption{$RP$와 $SQ$는 길이가 같고 수직으로 만난다}
 %\label{fig-5-5}
@@ -483,7 +497,7 @@ $0\in\mathbb R$이므로 원점과 $z$와의 거리는 $\bar z$와의 거리와 
 \end{align*}
 따라서
 $\left| \dfrac{z-a}{1-\bar az} \right|^2 = 1 -
-\underbrace{\dfrac{(1-|z|^2)(1-|a|^2)}{|1- \bar a z|^2}}_{\ge0\ (|z|<1, |a|<1\text{ 이므로})}
+\underbrace{\dfrac{(1-|z|^2)(1-|a|^2)}{|1- \bar a z|^2}}_{\ge0\ (|z|\le 1, |a|<1\text{ 이므로})}
 \le 1-0 = 1$.
 
 \subsection*{연습문제 \ref{ex-1-18}}
@@ -523,6 +537,7 @@ a\bar b &= |a|(\cos\alpha + i\sin\alpha)\cdot
 \end{align*}
 이고 $\Im(a\bar b) = |a||b|(-(\cos\alpha)(\sin\beta) + (\sin\alpha)(\cos\beta))
 = |a||b|\sin(\alpha-\beta)$.
+
 $0$, $a$, $b$를 꼭지점으로 하는 $\Delta OAB$의 면적은
 ($O\equiv 0$, $A\equiv a$, $B\equiv b$)
 \[
@@ -533,7 +548,7 @@ $0$, $a$, $b$를 꼭지점으로 하는 $\Delta OAB$의 면적은
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[width=0.7\textwidth]{./Solution/figs/fig-5-6}
+\includegraphics[width=0.5\textwidth]{./Solution/figs/fig-5-6}
 \end{center}
 \caption{$0$, $a$, $b$를 꼭지점으로 하는 $\Delta OAB$의 면적}
 \label{fig-5-6}
@@ -645,7 +660,7 @@ $|z_1| = |z_1 - z_2 + z_2| \le |z_1 - z_2| + |z_2|$이므로
 = |-1| |z_1-z_2| =|z_1-z_2|.
 \end{equation}
 식 \ref{eq-5-12}\와 \ref{eq-5-13}\로부터 
-$\left| |z_1| -|z_2| \right| \le |z_1 - z_2|$이다.
+$\big| |z_1| -|z_2| \big| \le |z_1 - z_2|$이다.
 
 \subsection*{연습문제 \ref{ex-1-23}}
 
@@ -683,7 +698,7 @@ $1-i$와 $1+i$에서 같은 거리에 있는 복소수 $z$의 집합이다.
 즉, 실수축이다.
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[width=0.6\textwidth]{./Solution/figs/fig-5-8}
+\includegraphics[width=0.5\textwidth]{./Solution/figs/fig-5-8}
 \end{center}
 \caption{$|z-(1-i)| = |z-(1+i)|$를 만족하는 집합은 $\mathbb R$}
 \label{fig-5-8}
@@ -693,6 +708,14 @@ $z$에서 $1+i$까지의  거리와  $1-i$까지의 거리의 합이 $2$가 됨�
 그런데 $1-i$와 $1+i$의 거리가 $2$이므로
 $z$는 $1-i$와 $1+i$를 잇는 선분에 있다.
 
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.3\textwidth]{./Solution/figs/fig-5-9}
+\end{center}
+\caption{$|z-(1-i)| + |z-(1+i)|=2$를 만족하는 집합은 $1-i$와 $1+i$를 잇는 선분이다.}
+\label{fig-5-9}
+\end{figure}
+
 직접 계산하는 방식으로도 같은 결과를 얻을 수 있다.
 $z=x+iy$ ($x,y\in\mathbb R$)이면
 \begin{align*}
@@ -700,20 +723,14 @@ $z=x+iy$ ($x,y\in\mathbb R$)이면
 &\ge |y+1| + |y-1| \ge 1 + \cancel{y} + 1 - \cancel{y} =2
 \end{align*}
 이므로 $|y+1| + |y-1|=2$이고, $x=1$이다.
-\begin{figure}[h!]
-\begin{center}
-\includegraphics[width=0.6\textwidth]{./Solution/figs/fig-5-9}
-\end{center}
-\caption{$|z-(1-i)| + |z-(1+i)|=2$를 만족하는 집합은 $1-i$와 $1+i$를 잇는 선분이다.}
-\label{fig-5-9}
-\end{figure}
+
 \item[(8):] 방정식 $|z-(1-i)| + |z-(1+i)| =3$을 만족하는 집합은
 초점이 $1+i$와 $1-i$인 타원 $E$이 된다.
 따라서, $\{z\in\mathbb C\,:\, |z-(1-i)| + |z-(1+i)| < 3\}$은
 타원 $E$의 내부가 된다.
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[width=0.6\textwidth]{./Solution/figs/fig-5-10}
+\includegraphics[width=0.3\textwidth]{./Solution/figs/fig-5-10}
 \end{center}
 \caption{$|z-(1-i)| + |z-(1+i)| < 3$을 만족하는 집합은 타원  $E$의 내부이다.}
 \label{fig-5-10}
@@ -752,10 +769,9 @@ c_d + \dfrac{c_{d-1}}z + \cdots + \dfrac{c_1}{z^{d-1}}
 
 \subsection*{연습문제 \ref{ex-1-25}}
 
-$(\Leftarrow):$ 
-
+$(\Leftarrow):$ \\[1ex]
 실수열 $(\Re(z_n))_{n\in\mathbb N}$과 
-$(\Im(z_n))_{n\in\mathbb N}$가 각각 $\Re(L)$과 $\Im(L)$로 수렴한다고 하자.
+$(\Im(z_n))_{n\in\mathbb N}$이 각각 $\Re(L)$과 $\Im(L)$로 수렴한다고 하자.
 그러면, 주어진 $\epsilon>0$에 대하여,
 충분히 큰 $N$이 존재하여 $n>N$이면
 \[
@@ -770,8 +786,7 @@ $(\Im(z_n))_{n\in\mathbb N}$가 각각 $\Re(L)$과 $\Im(L)$로 수렴한다고 �
 \end{align*}
 따라서 $(z_n)_{n\in\mathbb N}$은 $L$로 수렴한다.
 
-\noindent $(\Rightarrow):$
-
+\noindent $(\Rightarrow):$\\[1ex]
 $(z_n)_{n\in\mathbb N}$이 $L$로 수렴한다고 가정하자.
 $n>N$이면  $|z-L|<\epsilon$이 되도록 하는 $N$을 잡을 수 있다.
 그러면 모든 $n>N$에 대하여,
@@ -786,8 +801,7 @@ $\Re(L)$과 $\Im(L)$로 수렴한다.
 
 \subsection*{연습문제 \ref{ex-1-26}}
 
-$(\Rightarrow):$
-
+$(\Rightarrow):$\\[1ex]
 $(z_n)_{n\in\mathbb N}$이 $L$로 수렴한다고 가정하자.
 그러면 $(\Re(z_n))_{n\in\mathbb N}$과 
 $(\Im(z_n))_{n\in\mathbb N}$이 각각 
@@ -795,13 +809,12 @@ $\Re(L)$과 $\Im(L)$로 수렴한다.
 따라서 $(\Re(z_n))_{n\in\mathbb N}$과 
 $(-\Im(z_n))_{n\in\mathbb N}$은 각각 
 $\Re(L)$과 $-\Im(L)$로 수렴한다.
-즉, $(\Re(\overline{z_n}))_{n\in\mathbb N}$과 
-$(\Im(\overline{z_n}))_{n\in\mathbb N}$이 각각 
-$\Re(\overline{L})$과 $\Im(\overline{L})$로 수렴한다.
-결론적으로 $(\overline{z_n})_{n\in\mathbb N}$이 $\overline{L}$로 수렴한다.
+즉, $(\Re(\overline{z_n}))_{n\in\mathbb N}$와
+$(\Im(\overline{z_n}))_{n\in\mathbb N}$가 각각 
+$\Re(\overline{L})$와 $\Im(\overline{L})$로 수렴한다.
+결론적으로 $(\overline{z_n})_{n\in\mathbb N}$가 $\overline{L}$로 수렴한다.
 
-\noindent $(\Leftarrow):$ 
-
+\noindent $(\Leftarrow):$ \\[1ex]
 $(\overline{z_n})_{n\in\mathbb N}$이 $\overline{L}$로 수렴한다고 하자.
 앞의 증명에서 $(\overline{(\overline{z_n})})_{n\in\mathbb N}$이 
 $\overline{(\overline{L})}$로 수렴한다.
@@ -925,7 +938,7 @@ $\sin y = 1$, $\cos y=0$을 만족한다.
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[width=0.6\textwidth]{./Solution/figs/fig-5-11}
+\includegraphics[width=0.4\textwidth]{./Solution/figs/fig-5-11}
 \end{center}
 \caption{$\cos y + i\sin y = i$를 만족하는 $y$는
 $y = \dfrac\pi2 + 2\pi k$ ($k\in \mathbb Z$)로 주어진다.
@@ -935,7 +948,7 @@ $y = \dfrac\pi2 + 2\pi k$ ($k\in \mathbb Z$)로 주어진다.
 
 $\exp z = \pi i$라면,
 \[
-z\in \left\{ \log \pi + i \left(\dfrac\pi 2 + 2\pi k\right), k\in\mathbb Z\right\}.
+z\in \left\{ \log \pi + i \left(\dfrac\pi 2 + 2\pi k\right) \,:\, k\in\mathbb Z\right\}.
 \]
 역으로 어떤 $k\in\mathbb Z$에 대하여
 $z\in \log \pi + i \left(\dfrac\pi 2 + 2\pi k\right)$라면,
@@ -945,7 +958,7 @@ $z\in \log \pi + i \left(\dfrac\pi 2 + 2\pi k\right)$라면,
 \right) = \pi(0+i\cdot 1) = \pi i.
 \]
 결론적으로 $\exp z = \pi i$일 필요충분조건은
-$z\in \left\{ \log \pi + i \left(\dfrac\pi 2 + 2\pi k\right), k\in\mathbb Z\right\}$이다.
+$z\in \left\{ \log \pi + i \left(\dfrac\pi 2 + 2\pi k\right) \,:\, k\in\mathbb Z\right\}$.
 
 \subsection*{연습문제 \ref{ex-1-33}}
 
@@ -962,7 +975,7 @@ $t$가 증가함에 따라 반시계방향으로 움직인다.
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[width=0.5\textwidth]{./Solution/figs/fig-5-12}
+\includegraphics[width=0.35\textwidth]{./Solution/figs/fig-5-12}
 \end{center}
 \caption{곡선 $t\mapsto \gamma(t):=\exp(it)$, $t\in[0,2\pi]$
 }
@@ -980,7 +993,7 @@ $t\nearrow +\infty$일 때 나선형의 바깥으로 발산한다.
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[width=0.5\textwidth]{./Solution/figs/fig-5-13}
+\includegraphics[width=0.3\textwidth]{./Solution/figs/fig-5-13}
 \end{center}
 \caption{함수 $z=x+iy \mapsto \exp z$에 의한 직선 $y=x$의 상
 }
@@ -1082,14 +1095,14 @@ y=\log(3-2\sqrt{2}) = \log\dfrac{9-8}{3+2\sqrt{2}} = \log \dfrac1{3+2\sqrt{2}}
 = -\log(3+2\sqrt{2})
 \]
 이므로
-$z \in \{ 2\pi n \pm i \log(3+2\sqrt{2}), n\in\mathbb Z\}$.
+$z \in \{ 2\pi n \pm i \log(3+2\sqrt{2}) \,:\, n\in\mathbb Z\}$.
 
 역으로, 어떤 $n\in\mathbb Z$에 대하여 $z=2\pi n \pm i \log(3+2\sqrt{2})$라면,
 \begin{align*}
-\cos z &= \underbrace{(\cos(2\pi n))}_{=1} (\cosh (\pm(3\pm2sqrt{2})))
+\cos z &= \underbrace{(\cos(2\pi n))}_{=1} \Big(\cosh (\pm \log(3+2\sqrt{2}))\Big)
 - i \underbrace{(\sin(2\pi n))}_{=0}(\sinh \cdots)) \\
-&= \cosh(\pm(3\pm 2\sqrt{2})) = \dfrac{e^{\log(3+2\sqrt{2})}+ e^{-\log(3+2\sqrt{2})}}2 \\
-&= \dfrac{3+2\sqrt{2} + (3+2\sqrt{2})^{-1}}2 
+&= \cosh(\pm \log(3+ 2\sqrt{2})) = \dfrac{e^{\log(3+2\sqrt{2})}+ e^{-\log(3+2\sqrt{2})}}2 \\
+&= \dfrac{3+2\sqrt{2} + (3+2\sqrt{2})^{-1}}2 =
 \dfrac{3+2\sqrt{2} + 3-2\sqrt{2}}2 = 3.
 \end{align*}
 종합하면, $\cos z =3$일 필요충분조건은
@@ -1099,7 +1112,7 @@ $z \in \{ 2\pi n \pm i \log(3+2\sqrt{2}), n\in\mathbb Z\}$이다.
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[width=0.5\textwidth]{./Solution/figs/fig-5-14}
+\includegraphics[width=0.25\textwidth]{./Solution/figs/fig-5-14}
 \end{center}
 \caption{$\left\{ z \in\mathbb C \,:\, z\ne0, \dfrac\pi4 < |\Arg(z)| < \dfrac\pi3 \right\}$
 }
@@ -1118,7 +1131,7 @@ $z \in \{ 2\pi n \pm i \log(3+2\sqrt{2}), n\in\mathbb Z\}$이다.
 
 \begin{align*}
 \Log(-1) &= \Log(1\cdot \exp(i\pi)) = \log1 +i\pi = 0 + i\pi = i\pi, \\
-\Log(1) &= \Log(1\cdot \exp(i0) = \log\sqrt{2} + i \dfrac\pi4.
+\Log(1) &= \Log(1\cdot \exp(i0)) = \log 1 + i0 = 0 + i0 = 0.
 \end{align*}
 $z=-1$이면,
 $\Log(z^2) = \Log((-1)^2) = \Log(1) = 0$인 반면,
@@ -1140,13 +1153,13 @@ $1<r<e$, $\Arg(z)\in (-\pi,\pi]$이다.
 이고 $0=\log 1 < \log r < \log e = 1$이다.
 따라서 상은 직사각형
 \[
-\mathbb I := \{ x+iy\,:\, 0<x<1, -\pi <y<\pi \}
+\mathbb I := \{ x+iy\,:\, 0<x<1, -\pi <y\le \pi \}
 \]
 가 된다.
 
 \begin{figure*}[h!]
 \begin{center}
-\includegraphics[width=0.5\textwidth]{./Solution/figs/fig-s-0-5}
+\includegraphics[width=0.45\textwidth]{./Solution/figs/fig-s-0-5}
 \end{center}
 %\caption{$\left\{ z \in\mathbb C \,:\, z\ne0, \dfrac\pi4 < |\Arg(z)| < \dfrac\pi3 \right\}$}
 %\label{fig-5-14}
@@ -1155,7 +1168,8 @@ $1<r<e$, $\Arg(z)\in (-\pi,\pi]$이다.
 역으로, $x+iy\in\mathbb I$이면,
 $z:= \exp(x+iy) = e^x\exp(iy)\in \mathbb A$이다.
 왜냐하면, $|z|=e^x \in (1,e)$이고 
-$\Log(z) = \Log (e^x \exp(iy)) = \log e^x + iy = x+iy$이기 때문이다.
+$\Arg(z) = y$는 $(-\pi,\pi]$ 범위에 있다.
+%$\Log(z) = \Log (e^x \exp(iy)) = \log e^x + iy = x+iy$이기 때문이다.
 따라서 $\mathbb A$의 $\Log$함수에 대한 상은 정확히 $\mathbb I$와 일치한다.
 
 \subsection*{연습문제 \ref{ex-1-43}}
