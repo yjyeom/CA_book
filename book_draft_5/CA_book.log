@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  6 FEB 2023 00:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.25)  6 FEB 2023 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4793,8 +4793,8 @@ Package logreq Info: Writing requests to 'CA_book.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  57849 strings out of 478268
- 1132148 string characters out of 5850346
- 1922836 words of memory out of 5000000
+ 1132148 string characters out of 5850345
+ 1922838 words of memory out of 5000000
  71444 multiletter control sequences out of 15000+600000
  691979 words of font info for 687 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -4968,7 +4968,7 @@ mmjmd4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5
 .pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><
 c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/tex
 live/2022/texmf-dist/fonts/type1/uhc/umj/umj34.pfb>
-Output written on CA_book.pdf (260 pages, 9873149 bytes).
+Output written on CA_book.pdf (260 pages, 9873166 bytes).
 PDF statistics:
  3879 PDF objects out of 4296 (max. 8388607)
  2915 compressed objects within 30 object streams
