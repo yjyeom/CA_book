@@ -103,7 +103,7 @@ u+iv &= e^x\sin y + i(-e^x\cos y) = e^x (\sin y - i\cos y) \\
 $u+iv = -i\exp z$는 실제로 복소해석함수이다.
 따라서 $v:=-e^x\cos y$는 $u:=e^x\sin y$의 조화결레함수이다.
 
-\item[(2)] $u= x^3_2xy^2-2y$라고 하자. $u+iv$가 복소해석함수인 $v$를 찾으면 된다.
+\item[(2)] $u= x^3-3xy^2-2y$라고 하자. $u+iv$가 복소해석함수인 $v$를 찾으면 된다.
 코시-리만 방정식을 만족해야 하므로
 \[
 \dfrac{\partial v}{\partial x} = - \dfrac{\partial u}{\partial y}= 6xy+2.
@@ -129,7 +129,7 @@ u+iv &= x^3-3xy^2 -2y +i(3x^2y + 2x-y^3) \\
 \end{align*}
 여기서 $z=x+iy$이고
 $u+iv =z^3+2iz$는 실제로 복소해석함수이다.
-따라서 $v:=3x^2y+2x-y^3$는 $u:=x^3_2xy^2-2y$의 조화결레함수이다.
+따라서 $v:=3x^2y+2x-y^3$는 $u:=x^3-3xy^2-2y$의 조화결레함수이다.
 
 \item[(3)] $u= x(1+2y)$라고 하자. $u+iv$가 복소해석함수인 $v$를 찾으면 된다.
 코시-리만 방정식을 만족해야 하므로
@@ -138,7 +138,7 @@ $u+iv =z^3+2iz$는 실제로 복소해석함수이다.
 \]
 $y$를 고정하고 $x$로 적분하면 
 \[
-v = 2\dfrac{x^2}{2} + C(y) = -x^2 + C(y).
+v = - 2\dfrac{x^2}{2} + C(y) = -x^2 + C(y).
 \]
 여기서 $C(y)$는 $y$에만 의존하는 적분상수이다.
 \[
@@ -196,11 +196,11 @@ f'(z) = \dfrac2z
 
 $u:=x^3+y^3$이라 하자.
 $f$가 복소해석함수라면, $u$는 조화함수이다.
-그런데, $x\ne y$에 대하여
+그런데, $x\ne -y$에 대하여
 \[
 \dfrac{\partial^2 u}{\partial x^2} + \dfrac{\partial^2 u}{\partial y^2}
 = \dfrac{\partial}{\partial x}(3x^2) + \dfrac{\partial}{\partial y}(3y^2)
-= 6x + y6 = 6(x+y) \ne 0.
+= 6x + 6y = 6(x+y) \ne 0.
 \]
 따라서 $f=u+iv$가 복소해석함수가 되는 $v$를 찾을 수 없다.
 
@@ -241,7 +241,7 @@ $u$가 무한번 미분가능함을 알고 있으므로,
 \[
 p(z) := p(x+iy) = c_0 + c_1 z + \cdots + c_d z^d
 \]
-은 전해석함수이다. 따라서 $h:= \Re(p(x+iy))$는 조화함수이다.
+은 전해석 함수이다. 따라서 $h:= \Re(p(x+iy))$는 조화함수이다.
 또한, 모든 $x\in\mathbb R$에 대하여
 \[
 h(x,0) = \Re(p(x+i0)) =\Re(p(x)) = \Re(b(x)) = b(x)
@@ -263,14 +263,14 @@ h(x,0) = \dfrac{0+1}{x^2+(0+1)^2} = \dfrac1{x^2+1} = b(x)
 
 \subsection*{연습문제 \ref{ex-5-9}}
 
-$f$가 전해석함수이고 실수부가 $u$라고 하자.
-($\mathbb C$는 단순연결영역임을 상기하자.)
-그러면, $\exp(-f)$도 전해석함수이다.
+$f$가 전해석 함수이고 실수부가 $u$라고 하자.
+($\mathbb C$는 단순연결 영역임을 상기하자.)
+그러면, $\exp(-f)$도 전해석 함수이다.
 모든 $x,y \in\mathbb R$에 대하여 $u(x,y) >0$이므로,
 \[
 |\exp(-f)| = e^{-\Re(f)} = e^{-u} \le 1.
 \]
-리우비유 정이에 의해, $\exp(-f)$는 상수함수이다.
+리우비유 정리에 의해, $\exp(-f)$는 상수함수이다.
 따라서 $|\exp(-f)|$도 상수이고, $e^{-u}$도 상수함수이다.
 결론적으로, 실수 로그값 $\log(e^{-u}) = -u$도 상수이므로
 $u$는 상수함수가 된다.
@@ -311,8 +311,7 @@ e^{1/x^4} = 1 + \dfrac1{x^4} + \dfrac1{2!}\left(\dfrac1{x^4}\right)^2
 \]
 이므로 $0\le \left| \dfrac{e^{-1/x^4}}x\right| \le |x|^3$.
 
-유사한 방법으로 $\dfrac{\partial u}{\partial x}(0,0) =0$을 보일 수 있다.
-따라서,
+유사한 방법으로 $\dfrac{\partial u}{\partial y}(0,0) =0$을 보일 수 있다.
 \begin{align*}
 \dfrac{\partial^2 u}{\partial x^2} (0,0)
 &= \lim_{x\to0} \dfrac{ \dfrac{\partial u}{\partial x}(x,0) -\dfrac{\partial u}{\partial x}(0,0)}
@@ -340,7 +339,7 @@ $z_0\in D_1$이라 하자. 그러면, $\varphi(z_0)\in D_2$이다.
 중심을 $\varphi(z_0)$로 하고 충분히 작은 반지름 $\epsilon>0$을 갖는
 원판 $\Delta$가 $\Delta \subset D_2$와 $\varphi^{-1}(\Delta) \subset D_1$를
 만족하도록 잡을 수 있다.
-$\Delta$가 단순연결영역이므로, $\Delta$에서 $g=\Re(G)$를 만족하는
+$\Delta$가 단순연결 영역이므로, $\Delta$에서 $g=\Re(G)$를 만족하는
 복소해석함수 $G$가 존재한다.
 복소해석함수 $\varphi|_{\varphi^{-1}(\Delta)}: \varphi^{-1}(\Delta)\to \Delta$와
 $G: \Delta \to \mathbb C$의 합성함수는 복소해석함수이고,
@@ -352,7 +351,7 @@ $\varphi|_{\varphi^{-1}(\Delta)}(z)  = \varphi(z)\in \Delta$이고
 (G\circ \varphi|_{\varphi^{-1}(\Delta)})(z)
 = G(\varphi(z)) = g(\varphi(z)) = (g\circ \varphi)(z).
 \]
-따라서, $(g\circ \varphi|_{\varphi^{-1}(\Delta)}$은 
+따라서, $g\circ \varphi|_{\varphi^{-1}(\Delta)}$는 
 $\varphi^{-1}(\Delta)$에서 조화함수이다.
 특히, $z_0\in \varphi^{-1}(\Delta)$에서 
 $\Delta(g\circ \varphi)(z_0)=0$이다.
@@ -368,17 +367,7 @@ $(h\circ \varphi)\circ \varphi^{-1} = h\circ(\varphi \circ \varphi^{-1})
 = h\circ ({\text{id}}_{D_2}) =h$이므로,
 $h:D_2\to\mathbb R$도 조화함수이다. 
 
-\item[(3)] \
-
-\begin{figure}[h!]
-\begin{center}
-\includegraphics[width=0.5\textwidth]{./Solution/figs/fig-5-24}
-\end{center}
-\caption{$\Delta PO'B$에 대한 삼각부등식
-}
-\label{fig-5-24}
-\end{figure}
-
+\item[(3)] 
 그림 \ref{fig-5-24}의 $\Delta PO'B$에서 삼각부등식을 쓰면,
 $\mathbb H$의 점 $s(\equiv P)$에 대하여
 \begin{align*}
@@ -395,9 +384,19 @@ $\mathbb H$의 점 $s(\equiv P)$에 대하여
 \left( - \dfrac1{(s+1)^2} \right) = \dfrac{s+1-s+1}{(s+1)^2}
 = \dfrac2{(s+1)^2}.
 \]
+
+\begin{figure}[t!]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{./Solution/figs/fig-5-24}
+\end{center}
+\caption{$\Delta PO'B$에 대한 삼각부등식
+}
+\label{fig-5-24}
+\end{figure}
+
 이제 함수  $\psi: \mathbb D \to \mathbb H$를
 \[
-\psi(s) = \dfrac{1+z}{1-z}, \quad z\in\mathbb D
+\psi(z) = \dfrac{1+z}{1-z}, \quad z\in\mathbb D
 \]
 로 정의하자.
 ($\psi$는

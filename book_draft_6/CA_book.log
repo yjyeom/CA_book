@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  8 FEB 2023 00:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.25)  9 FEB 2023 23:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4834,11 +4834,11 @@ File: ./Solution/figs/fig-5-22.png Graphic file (type png)
 Package pdftex.def Info: ./Solution/figs/fig-5-22.png  used on input line 666.
 (pdftex.def)             Requested size: 147.59775pt x 74.95906pt.
  [296 <./Solution/figs/fig-5-22.PNG>] [297] [298] [299] [300] [301]
-<./Solution/figs/fig-5-23.png, id=3322, 374.90062pt x 389.20406pt>
+<./Solution/figs/fig-5-23.png, id=3322, 443.85825pt x 436.63126pt>
 File: ./Solution/figs/fig-5-23.png Graphic file (type png)
 <use ./Solution/figs/fig-5-23.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-23.png  used on input line 958.
-(pdftex.def)             Requested size: 147.59775pt x 153.23209pt.
+(pdftex.def)             Requested size: 184.5pt x 181.4984pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -4866,23 +4866,18 @@ t\LUC/nanummj/m/n/10.5/b2 ä[] \LUC/nanummj/m/n/10.5/ad ø\LUC/nanummj/m/n/10.5/b
  []
 
 [317]
-<./Solution/figs/fig-5-24.png, id=3435, 384.6872pt x 253.69781pt>
+<./Solution/figs/fig-5-24.png, id=3436, 619.113pt x 361.35pt>
 File: ./Solution/figs/fig-5-24.png Graphic file (type png)
 <use ./Solution/figs/fig-5-24.png>
-Package pdftex.def Info: ./Solution/figs/fig-5-24.png  used on input line 375.
-(pdftex.def)             Requested size: 184.5pt x 121.68065pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[318]
-<./Solution/figs/fig-5-25.png, id=3443, 371.13657pt x 276.28218pt>
+Package pdftex.def Info: ./Solution/figs/fig-5-24.png  used on input line 390.
+(pdftex.def)             Requested size: 184.5pt x 107.68353pt.
+ [318]
+<./Solution/figs/fig-5-25.png, id=3443, 610.07925pt x 420.97275pt>
 File: ./Solution/figs/fig-5-25.png Graphic file (type png)
 <use ./Solution/figs/fig-5-25.png>
-Package pdftex.def Info: ./Solution/figs/fig-5-25.png  used on input line 409.
-(pdftex.def)             Requested size: 184.5pt x 137.34819pt.
- [319 <./Solution/figs/fig-5-24.PNG> <./Solution/figs/fig-5-25.PNG>])
-[320]
+Package pdftex.def Info: ./Solution/figs/fig-5-25.png  used on input line 408.
+(pdftex.def)             Requested size: 184.5pt x 127.30771pt.
+ [319 <./Solution/figs/fig-5-24.PNG> <./Solution/figs/fig-5-25.PNG>]) [320]
 runsystem(makeindex CA_book.idx)...executed safely (allowed).
 
  (./CA_book.ind)
@@ -4924,8 +4919,8 @@ Package logreq Info: Writing requests to 'CA_book.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  58413 strings out of 478268
- 1142594 string characters out of 5850346
- 1918761 words of memory out of 5000000
+ 1142594 string characters out of 5850345
+ 1918762 words of memory out of 5000000
  71437 multiletter control sequences out of 15000+600000
  692869 words of font info for 690 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5100,7 +5095,7 @@ ummjmd4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd
 5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb>
 <c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/te
 xlive/2022/texmf-dist/fonts/type1/uhc/umj/umj34.pfb>
-Output written on CA_book.pdf (321 pages, 10221105 bytes).
+Output written on CA_book.pdf (321 pages, 10238566 bytes).
 PDF statistics:
  4451 PDF objects out of 5155 (max. 8388607)
  3390 compressed objects within 34 object streams
