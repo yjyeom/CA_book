@@ -16,7 +16,7 @@
 
 \section{복소수체}
 
-{\bf 복소수}\index{복소수}는 실수의 순서쌍으로 정의한다. 예를 들면,
+{\bf 복소수}\index{복소수(complex number)}는 실수의 순서쌍으로 정의한다. 예를 들면,
 $$
 (1,0), \ (0,1), \ (0,0), \ \left(-\dfrac34, \sqrt{2} \right)
 $$
@@ -153,7 +153,8 @@ $$
 \label{fig-1-1}
 \end{figure}
 
-카르다노(Cardano, 1501-1576)는 3차방정식 $x^3=3px+2q$의 실근을 구하는 다음 공식을 만들었다.
+카르다노(Cardano, 1501-1576)\index{카르다노(Cardano)}는 
+3차방정식 $x^3=3px+2q$의 실근을 구하는 다음 공식을 만들었다.
 $$
 x = \sqrt[3]{q+ \sqrt{q^2-p^3}} + \sqrt[3]{q- \sqrt{q^2-p^3}}
 $$
@@ -166,7 +167,7 @@ $$
 $$
 4^3 = 64 = 60 + 4 = 15\cdot 4 + 4.
 $$
-카르다노 공식이 나온지 30년 후, 봄벨리(Bombelli)가 복소수 연산을 도입하면
+카르다노 공식이 나온지 30년 후, 봄벨리(Bombelli)\index{봄벨리(Bombelli)}가 복소수 연산을 도입하면
 카르다노 공식으로 원하는 실근을 도출할 수 있음을 제안하였다.
 다음 등식이 성립할 수 있을까?
 $$
@@ -201,9 +202,10 @@ $y>_P x\,$는 $y-x \in P\,$로 정의하여 대소관계를 정할 수 있다.)
 
 $\mathbb C = \mathbb R^2$이므로, 
 그림 \ref{fig-1-2}와 같이 복소수를 평면 위의 점에 대응시킬 수 있다.
+\index{복소평면(complex plane)}
 복소평면은  아르간트(Argrand)\footnote{ 
 실제로 Caspar Wessel (1745-1818)이 더 먼저 사용했지만,
-Jean-Robert Argand (1768-1822)의 이름을 따온 것이다.}
+Jean-Robert Argand (1768-1822)의 이름을 따온 것이다.} \index{아르간트 평면(Argand plane)}
 평면으로도 불린다.
 
 \begin{figure}[!h]
@@ -413,7 +415,7 @@ $((b-a)\omega + (b-c))\cdot((b-a)\omega^2 + (b-c))$를 계산하라.
 \end{salt_exercise}
 
 \begin{salt_exercise} \label{ex-1-12}
-이항정리에서
+이항정리\index{이항정리(binomial theorem)}에서
 $a,b$가 실수이고, $n\in\mathbb N$이면,
 $$
 (a+b)^n = \sum_{k=0}^n {n \choose k}a^kb^{n-k},
@@ -422,7 +424,7 @@ $$
 {n \choose k} := \frac{n!}{k!(n-k)!}, \
 k=0,1,2,\ldots, n,
 $$
-는 이항계수라 한다.
+는 이항계수\index{이항계수(binomial coefficient)}라 한다.
 대수적 연산을 생각하면 이 등식은 $a,b$가 복소수인 경우에도 성립한다.
 $$
 {3n \choose 0} + {3n \choose 3} + {3n \choose 6} + \cdots
@@ -440,7 +442,7 @@ $(1+1)^{3n} + (1+\omega)^{3n} + (1+\omega^2)^{3n}$을 계산하라.
 \end{salt_exercise}
 
 {\bf 절대값과 켤레복소수: }
-복소수 $z=x+iy$ ($x,y\in\mathbb R$)의 절대값 $|z|$는
+복소수 $z=x+iy$ ($x,y\in\mathbb R$)의 절대값\index{절대값(absolute value)} $|z|$는
 $$
 |z| = \sqrt{x^2+y^2}
 $$
@@ -676,11 +678,11 @@ $(\overline{z_n})_{n\in\mathbb N}$이 $\bar L$로 수렴함은 동치임을 보�
 \end{salt_exercise}
 
 \begin{salt_exercise} \label{ex-1-27}
-$\mathbb C$가 완비성(completeness)을 가짐을 증명하라.
+$\mathbb C$가 완비성(completeness)\index{완비성(completeness)}을 가짐을 증명하라.
 즉, $\mathbb C$의 모든 코시 수열이 $\mathbb C$의 원소로 수렴한다.
 (임의의 $\epsilon>0$에 대하여  $N\in\mathbb N$이 존재하여
 $m,n>N$ 이면 $|z_n - z_m| < \epsilon$을 만족할 때
-수열 $(z_n)_{n\in\mathbb N}$을 {\bf 코시 수열}이라 한다.)
+수열 $(z_n)_{n\in\mathbb N}$을 {\bf 코시 수열}\index{코시 수열(Cauchy sequence)}이라 한다.)
 \end{salt_exercise}
 
 $S$가 $\mathbb C$의 부분집합, $z_0\in S$,  $f:S\to \mathbb C$라 하자.
@@ -841,6 +843,7 @@ $x\mapsto \log x$.
 
 \
 
+\index{복소 지수함수(complex exponential function)}
 \begin{saltdefinition}[복소 지수함수] {}{} \label{def-1-2}
 $z=x+iy\in \mathbb C$ ($x,y\in\mathbb R$)에 대하여
 복소 지수함수 $\exp z$를 다음과 같이 정의한다.

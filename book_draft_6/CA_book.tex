@@ -37,15 +37,16 @@
 \usepackage{multirow} % ===[salt]
 \usepackage{bm}
 \usepackage{imakeidx} % before hyperref
-\usepackage{hyperref}
+%\usepackage[colorlinks=false]{hyperref}
+\usepackage{hyperref}  % [colorlinks=false]를 사용하지 않는 경우 설정할 수 있음
 % link colors settings
 \hypersetup{
     colorlinks=true,
     citecolor=magenta,
     linkcolor=black, %==[salt]  
     filecolor=green,      
-    urlcolor=cyan,
-    % hypertexnames=false,
+    urlcolor=black
+   % hypertexnames=false,
 }
 \usepackage[capitalise]{cleveref}
 \usepackage{subcaption}
@@ -419,6 +420,8 @@ before=\par\smallskip, after=\par\smallskip
 
 %=== [salt]  목차를 한글로 쓰기
 \renewcommand{\contentsname}{목 차}
+\renewcommand{\bibname}{참고문헌}
+
 \tableofcontents
     
     
@@ -503,7 +506,53 @@ before=\par\smallskip, after=\par\smallskip
 
 %%%%%%%%%%%%%%% Reference %%%%%%%%%%%%%%%
 
+\begin{thebibliography}{10}
+\bibitem{Beck 2008}
+Beck, M., Marchesi, G., Pixton, D., and Sabalka, L. (2008). 
+\textit{A First Course in Complex Analysis}, 
+\url{http://math.sfsu.edu/beck/papers/complex.pdf}.
+\bibitem{Conway}
+Conway, J. (1978). \textit{Functions of One Complex Variable I}, 2nd Edition. (Springer).
+\bibitem{Fisher}
+Fisher, S. (1999). \textit{Complex Variables}, 2nd Edition. (Dover).
+\bibitem{Flanigan 1972}
+Flanigan, F. (1972) \textit{Complex Variables} (Dover).
+\bibitem{Flanigan 1973}
+Flanigan, F. (1973). Classroom Notes: Some Half-Plane Dirichlet Problems: A
+Bare Hands Approach. \textit{American Mathematical Monthly} \textbf{80}, 1, pp. 59-61.
+\bibitem{Gelbaum}
+Gelbaum, B. and Olmsted, J. (1964). \textit{Counterexamples in Analysis} (Dover).
+\bibitem{Gilman}
+Gilman, J., Kra, I. and Rodriguez, R. (2007). 
+\textit{Complex Analysis}. \textit{In the Spirit of Lipman Bers} (Springer).
+\bibitem{Howie}
+Howie, J. (2003). \textit{Complex Analysis} (Springer).
+\bibitem{Needham}
+Needham, T. (1997). \textit{Visual Complex Analysis} (Oxford University Press).
+\bibitem{Ash}
+Ash, R. and Novinger, W. (2007). \textit{Complex Analysis}, 2nd Edition. (Dover).
+\bibitem{Remmert}
+Remmert, R. (1991) \textit{Theory of Complex Functions} (Springer).
+\bibitem{Rudin}
+Rudin, W. (1987). \textit{Real and Complex Analysis}, 3rd edition. (McGraw-Hill).
+\bibitem{Shastri}
+Shastri, A. (2000). \textit{An Introduction to Complex Analysis} 
+(Macmillan Publishers India).
+\bibitem{Shaw}
+Shaw, W. (2006). \textit{Complex Analysis with} MATHEMATICA 
+(Cambridge University Press).
+\bibitem{Shurman}
+Shurman, J. (2012). \textit{Course Materials for Mathematics 311: Complex Analysis},
+\url{http://people.reed.edu/~jerry/311/mats.html}.
+\bibitem{Tall}
+Tall, D. (1970) \textit{Functions of a Complex Variable} (Dover).
+\bibitem{Volkovyski}
+Volkovyski\u{\i}, L., Lunts, G. and Aramanovich, I. (1991). 
+\textit{A Collection of Problems on Complex Analysis} (Dover).
+\end{thebibliography}
+
 %\printbibliography[heading=bibintoc]
+
 \printindex
 
 \end{document}
