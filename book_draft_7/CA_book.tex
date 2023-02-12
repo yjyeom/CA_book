@@ -1,0 +1,563 @@
+% !TEX root = ./CA_book.tex
+
+\documentclass[chapter,10.5pt]{oblivoir}
+
+%== [salt] 46배판
+\usepackage[dbl4x6]{fapapersize}
+%=== [salt] 한글 tex 을 위한 패키지 추가 ===
+\usepackage{kotex}
+
+%디버깅용
+%\usepackage{showlabels}
+%\usepackage{showkeys}
+
+%==[salt] 수식에서 지워지는 항 표시하기
+\usepackage{cancel}  
+
+%==[salt]
+\usepackage[most]{tcolorbox}
+
+
+\usepackage[mono=false]{libertine} % new linux font, ignore mono
+%\usepackage{luatex85}
+\usepackage{amsmath,amsthm,amssymb,mathrsfs,amsfonts,dsfont}
+\usepackage{epsfig,graphicx}
+\usepackage{tabularx}
+\usepackage{blkarray}
+\usepackage{slashed}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{caption}
+% \usepackage{fullpage}
+\usepackage{lipsum} % provides dummy text for testing
+%=[salt] 충돌되는 패키지: \usepackage[toc,title,titletoc,header]{appendix}
+\usepackage{minitoc}
+\usepackage{color}
+\usepackage{multicol} % two-col ToC
+\usepackage{multirow} % ===[salt]
+\usepackage{bm}
+\usepackage{imakeidx} % before hyperref
+\usepackage{idxlayout} %==[salt]
+%\usepackage[colorlinks=false]{hyperref}
+\usepackage{hyperref}  % [colorlinks=false]를 사용하지 않는 경우 설정할 수 있음
+% link colors settings
+\hypersetup{
+    colorlinks=true,
+    citecolor=magenta,
+    linkcolor=black, %==[salt]  
+    filecolor=green,      
+    urlcolor=black
+   % hypertexnames=false,
+}
+\usepackage[capitalise]{cleveref}
+\usepackage{subcaption}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{physics}
+\usepackage[linesnumbered,ruled,vlined,algosection]{algorithm2e}
+\SetCommentSty{textsf}
+\usepackage{epigraph}
+\epigraphwidth=1.0\linewidth
+\epigraphrule=0pt
+
+% adjust margin
+%\usepackage[margin=2.3cm]{geometry}
+%\headheight13.6pt
+
+%==============================
+%=== [salt] 아래는 thmtools로 ``정리(Theorem)'' 스타일을 마음대로 만들때 사용함
+%=== [salt] 관련 문서: thmtools-manual.pdf
+%%%%%%%%%%%%%%%% thmtools %%%%%%%%%%%%%%%%%%%%%
+\usepackage{thmtools}
+\usepackage{layout}
+
+\usepackage[framemethod=TikZ]{mdframed}
+%=== [salt] 사용할 색상 선택
+\definecolor{myblue}{RGB}{0,163,243}
+\definecolor{mygrey}{RGB}{100,100,100}
+\definecolor{myframe}{RGB}{100,100,100}
+\definecolor{mydarkframe}{RGB}{50,50,50}
+\definecolor{mypaleframe}{RGB}{190,190,190}
+
+
+\declaretheorem[numberwithin=chapter]{theorem}
+\declaretheorem[numberwithin=chapter]{axiom}
+\declaretheorem[numberwithin=chapter]{lemma}
+\declaretheorem[numberwithin=chapter]{proposition}
+\declaretheorem[numberwithin=chapter]{claim}
+\declaretheorem[numberwithin=chapter]{conjecture}
+\declaretheorem[sibling=theorem]{corollary}
+\declaretheorem[numberwithin=chapter, style=definition]{definition}
+\declaretheorem[numberwithin=chapter, style=definition]{problem}
+\declaretheorem[numberwithin=chapter, style=definition]{example}
+\declaretheorem[numberwithin=chapter, style=definition]{exercise}
+\declaretheorem[numberwithin=chapter, style=definition]{observation}
+\declaretheorem[numberwithin=chapter, style=definition]{fact}
+\declaretheorem[numberwithin=chapter, style=definition]{construction}
+\declaretheorem[numberwithin=chapter, style=definition]{remark}
+\declaretheorem[numberwithin=chapter, style=remark]{question}
+%==============================
+\declaretheorem[numberwithin=chapter, style=definition, title=정리]{salt_theorem}
+%\declaretheorem[numberwithin=chapter, style=definition, title=보조정리]{salt_lemma}
+\declaretheorem[numberwithin=chapter, style=definition, title=보조정리]{saltlemma}
+%\declaretheorem[numberwithin=chapter, style=definition, title=따름정리]{salt_corollary}
+\declaretheorem[numberwithin=chapter, style=definition, title=따름정리]{saltcorollary}
+%\declaretheorem[numberwithin=chapter, style=definition, title=추측]{salt_conjecture}
+\declaretheorem[numberwithin=chapter, style=definition, title=추측]{saltconjecture}
+\declaretheorem[numberwithin=chapter, style=definition, title=정의]{salt_definition}
+\declaretheorem[numberwithin=chapter, style=definition, title=예제]{salt_example}
+\declaretheorem[numberwithin=chapter, style=definition, title=\textbf{\ttfamily 연습문제}]{saltexercise}
+%\declaretheorem[numberwithin=chapter, style=definition, title=명제]{salt_prop}
+\declaretheorem[numberwithin=chapter, style=definition, title=참고]{salt_remark}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%=== [salt] 줄 간격을 읽기 좋게 만든다.
+% 계산공식: 줄간격 = \baselinestretch x \baselineskip
+%\renewcommand{\baselinestretch}{1.3}
+\renewcommand{\baselinestretch}{1.4}
+%\setlength{\baselineskip}{30pt}
+%\setlength{\parskip}{5pt}
+\setlength{\parskip}{\baselineskip}
+\setlength{\itemsep}{0pt}
+\setlength{\parindent}{0pt}
+
+
+%== [salt] 그림 줄 간격
+\setlength{\intextsep}{10pt}
+\setlength{\textfloatsep}{10pt}
+%\begin{figure}가 아닌 그림의 경우 간격 조정
+\def\saltfigskip{\par\vskip\intextsep}
+
+%=== [salt] 수식의 줄간격 조절 수식($$ $$)에서 유효함
+\everydisplay\expandafter{\the\everydisplay\def\baselinestretch{1.0}\selectfont}
+\allowdisplaybreaks
+
+%=== [salt] 기호( :) 간격을 줄인다 --> 너무 줄어든다!
+%\DeclareMathSymbol{:}{\mathord}{operators}{"3A}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%== [salt] tcolorbox
+\newlength{\saltparskip}
+\setlength{\saltparskip}{\parskip}
+\def\saltvskipex{\vskip \saltparskip}
+
+%.... 아래는 오류
+%\tcbset{before doc body command={%
+%\setlength{\parskip}{\saltparskip}
+%}}
+
+%==[salt] 정의
+\newcounter{saltdefinition}[chapter]\setcounter{saltdefinition}{0}
+\renewcommand{\thesaltdefinition}{\arabic{chapter}.\arabic{saltdefinition}}
+\newenvironment{saltdefinition}[2][]{%
+\refstepcounter{saltdefinition}%
+\par\smallskip %정리 앞의 작은 간격
+\ifstrempty{#1}%
+{\mdfsetup{%
+frametitle={%
+\tikz[baseline=(current bounding box.east),outer sep=0pt]
+\node[anchor=east,rectangle,fill=mypaleframe]
+{\strut 정의~\thesaltdefinition};}}
+}%
+{\mdfsetup{%
+frametitle={%
+\tikz[baseline=(current bounding box.east),outer sep=0pt]
+\node[anchor=east,rectangle,fill=mypaleframe]
+{\strut 정의~\thesaltdefinition:~{#1}};}}%
+}%
+\mdfsetup{innertopmargin=10pt,linecolor=mydarkframe,%
+linewidth=1pt,topline=true,%
+frametitleaboveskip=\dimexpr-\ht\strutbox\relax
+}
+\begin{mdframed}[]\relax%
+\label{#2}}{\end{mdframed}\vskip 5pt}
+
+%==[salt] 정리
+\newcounter{salttheorem}[chapter]\setcounter{salttheorem}{0}
+\renewcommand{\thesalttheorem}{\arabic{chapter}.\arabic{salttheorem}}
+\newenvironment{salttheorem}[2][]{%
+\par\smallskip %정리 앞의 작은 간격
+\refstepcounter{salttheorem}%
+\ifstrempty{#1}%
+{\mdfsetup{%
+frametitle={%
+\tikz[baseline=(current bounding box.east),outer sep=0pt]
+\node[anchor=east,rectangle,fill=mypaleframe]
+{\strut 정리~\thesalttheorem};}}
+}%
+{\mdfsetup{%
+frametitle={%
+\tikz[baseline=(current bounding box.east),outer sep=0pt]
+\node[anchor=east,rectangle,fill=mypaleframe]
+{\strut 정리~\thesalttheorem:~{#1}};}}%
+}%
+\mdfsetup{innertopmargin=10pt,linecolor=mydarkframe,%
+linewidth=1pt,topline=true,%
+frametitleaboveskip=\dimexpr-\ht\strutbox\relax
+}
+\begin{mdframed}[]\relax%
+\label{#2}}{\end{mdframed}\vskip 5pt}
+
+%==[salt] 명제
+\newcounter{saltprop}[chapter]\setcounter{saltprop}{0}
+\renewcommand{\thesaltprop}{\arabic{chapter}.\arabic{saltprop}}
+\newenvironment{saltprop}[2][]{%
+\refstepcounter{saltprop}%
+\par\smallskip
+\ifstrempty{#1}%
+{\mdfsetup{%
+frametitle={%
+\tikz[baseline=(current bounding box.east),outer sep=0pt]
+\node[anchor=east,rectangle,fill=mypaleframe]
+{\strut 명제~\thesaltprop};}}
+}%
+{\mdfsetup{%
+frametitle={%
+\tikz[baseline=(current bounding box.east),outer sep=0pt]
+\node[anchor=east,rectangle,fill=mypaleframe]
+{\strut 명제~\thesaltprop:~#1};}}%
+}%
+\mdfsetup{innertopmargin=10pt,linecolor=mydarkframe,%
+linewidth=1pt,topline=true,%
+frametitleaboveskip=\dimexpr-\ht\strutbox\relax
+}
+\begin{mdframed}[]\relax%
+\label{#2}}{\end{mdframed}\vskip 5pt}
+
+%\newcounter{saltexamplecnt}[chapter]\setcounter{saltexamplecnt}{0}
+%\renewcommand{\thesaltexamplecnt}{\arabic{chapter}.\arabic{saltexamplecnt}}
+\newtcbtheorem[number within=chapter]{saltexample} 
+{예제}{%
+%parbox = false,
+breakable,
+fonttitle = \bfseries,
+colback = white,
+colframe = myframe,
+boxrule=1pt,
+outer arc=2pt,
+arc=1pt,
+before=\par\smallskip, after=\par\smallskip
+}{exampl}
+
+
+
+\newenvironment{salt_exercise}{
+\par\smallskip
+\begin{saltexercise}\small \ttfamily }{\end{saltexercise}\smallskip\par}
+%\begin{saltexercise}\small \ttfamily \setlength{\parskip}{0.25\parskip}  }
+%{\end{saltexercise}\setlength{\parskip}{4\parskip}  \smallskip\par}
+
+\newenvironment{salt_lemma}{
+\begin{tcolorbox}[breakable, colback = white, colframe = mydarkframe, boxrule=1pt, before=\par\smallskip, after=\par\smallskip]
+\begin{saltlemma}}
+{\end{saltlemma}  \end{tcolorbox}}
+
+\newenvironment{salt_corollary}{
+\begin{tcolorbox}[breakable, colback = white, colframe = mydarkframe, boxrule=1pt, before=\par\smallskip, after=\par\smallskip]
+\begin{saltcorollary}}
+{\end{saltcorollary}  \end{tcolorbox}}
+
+\newenvironment{salt_conjecture}{
+\begin{tcolorbox}[breakable, colback = white, colframe = mydarkframe, boxrule=1pt, before=\par\smallskip, after=\par\smallskip]
+\begin{saltconjecture}}
+{\end{saltconjecture}  \end{tcolorbox}}
+
+\newenvironment{salt_tcb_line}{
+\begin{tcolorbox}[breakable, colback = white, colframe = mydarkframe, boxrule=1pt, before=\par\smallskip, after=\par\smallskip]}
+{\end{tcolorbox}}
+
+
+
+%%%%%%%%%%%%%%%% thmtools %%%%%%%%%%%%%%%%%%%%%
+%==============================
+%=== [salt] 수식번호 넣는 법
+%\numberwithin{equation}{section}
+\numberwithin{equation}{chapter}
+\numberwithin{figure}{chapter}
+
+\usepackage{tcolorbox}
+\newcounter{mytheorem}[chapter]
+\newenvironment{mytheorem}{\smallskip\refstepcounter{mytheorem}
+ \noindent{\bfseries 정리 \thechapter.\arabic{mytheorem}}\enspace}{\smallskip}
+ 
+ 
+
+\usepackage{changepage}
+\newenvironment{solution}
+    {\renewcommand\qedsymbol{$\square$}\color{blue}\begin{adjustwidth}{0em}{2em}\begin{proof}[\textit Solution.~]}
+    {\end{proof}\end{adjustwidth}}
+
+%%%%%%%%%%%%%%%% index %%%%%%%%%%%%%%%%%%%%%
+%\begin{filecontents}{index.ist}
+% https://tex.stackexchange.com/questions/65247/index-with-an-initial-letter-of-the-group
+%headings_flag 1
+%heading_prefix "{\\centering\\large \\textbf{"
+%heading_suffix "}}\\nopagebreak\n"
+%delim_0 "\\nobreak\\dotfill"
+%\end{filecontents}
+%\newcommand{\myindex}[1]{\index{#1} \emph{#1}}
+%\makeindex[columns=3, intoc, title=Alphabetical Index, options= -s index.ist]
+%%%%%%%%%%%%%%%% index %%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%% biblatex %%%%%%%%%%%%%%%%%
+\usepackage[doi=false,url=false,isbn=false,style=alphabetic,backend=biber,backref=true]{biblatex}
+\addbibresource{bib.bib}
+
+\newbibmacro{string+doiurlisbn}[1]{%
+  \iffieldundef{doi}{%
+    \iffieldundef{url}{%
+      \iffieldundef{isbn}{%
+        \iffieldundef{issn}{%
+          #1%
+        }{%
+          \href{http://books.google.com/books?vid=ISSN\thefield{issn}}{#1}%
+        }%
+      }{%
+        \href{http://books.google.com/books?vid=ISBN\thefield{isbn}}{#1}%
+      }%
+    }{%
+      \href{\thefield{url}}{#1}%
+    }%
+  }{%
+    \href{http://dx.doi.org/\thefield{doi}}{#1}%
+  }%
+}
+
+% https://tex.stackexchange.com/questions/94089/remove-quotes-from-inbook-reference-title-with-biblatex
+\DeclareFieldFormat[article,incollection,inproceedings,book,misc]{title}{\usebibmacro{string+doiurlisbn}{\mkbibemph{#1}}}
+% https://tex.stackexchange.com/questions/454672/biblatex-journal-name-non-italic
+\DeclareFieldFormat{journaltitle}{#1\isdot}
+\DeclareFieldFormat{booktitle}{#1\isdot}
+% https://tex.stackexchange.com/questions/10682/suppress-in-biblatex
+\renewbibmacro{in:}{}
+% add video field: https://tex.stackexchange.com/questions/111846/biblatex-2-custom-fields-only-one-is-working
+\DeclareSourcemap{
+    \maps[datatype=bibtex]{
+      \map{
+        \step[fieldsource=video]
+        \step[fieldset=usera,origfieldval]
+    }
+  }
+}
+\DeclareFieldFormat{usera}{\href{#1}{\textsc{Online video}}}
+\AtEveryBibitem{
+    \csappto{blx@bbx@\thefield{entrytype}}{% put at end of entry
+        \iffieldundef{usera}{}{\space \printfield{usera}}
+    }
+}
+
+
+%%%%%%%%%%%%%%%% begin of document %%%%%%%%%%%%%%%
+%\setlength{\paperwidth}{18.8cm}
+%\setlength{\paperheight}{25.4cm}
+%\setlength{\textwidth}{13.5cm}
+%\setlength{\textheight}{21cm}
+%\setlength{\evensidemargin}{20pt}
+
+%=== [salt] 추가 정의들
+\def\disp{\displaystyle}
+\def\dfrac{\disp\frac}
+\def\dint{\disp\int}
+\newcommand{\Log}{\mathop{\mathrm{Log}}}
+\newcommand{\Arg}{\mathop{\mathrm{Arg}}}
+\newcommand{\Hol}{\mathop{\mathrm{Hol}}}
+\newcommand{\Har}{\mathop{\mathrm{Har}}}
+\newcommand{\res}{\mathop{\mathrm{res}}}
+\newcommand{\sgn}{\mathop{\mathrm{sgn}}}
+\def\Sum{\sum\limits}
+\def\Lim{\lim\limits}
+\def\bs{\boldsymbol }
+
+\pagestyle{hangul}
+
+\def\bf{\bfseries}
+\def\rm{\rmfamily}
+
+\def\figurename{그림}
+%\def\chaptername{장}
+%\def\chaptername{}
+%\renewcommand\thechapter{\arabic{chapter} 장 ~}
+%\renewcommand\thesection{\arabic{chapter}.\arabic{section}~}
+%\renewcommand{\chapter}[1]{{#1} ~ \chaptername}
+
+%== 아래는 동작안함
+%\renewcommand{\prechapternum}{\chapternamefont }
+%\renewcommand{\postchapternum}{\chapternamefont 장}
+
+\makeindex
+\begin{document}
+% 레이아웃 페이지를 별도로 출력함
+%\layout 
+
+%==============================
+%=== [salt] 책 표지 만들기 시작
+%\title{\bf {\huge 빠르게 이해하는 복소해석학}\\ A Friendly Approach to Complex Analysis}
+%\title{\bf {\huge 친구처럼 가까운 복소해석학 여행}\\ A Friendly Approach to Complex Analysis}
+%\title{\bf {\huge 빠르게 따라잡는 복소해석학}\\ A Friendly Approach to Complex Analysis}
+%\title{\bf {\huge 친근하고 빠르게 따라잡는 복소해석학}\\ A Friendly Approach to Complex Analysis}
+%\title{\bf {\huge 친근하고 가까운 복소해석학}\\ A Friendly Approach to Complex Analysis}
+\title{\bf {\huge 친근하게 다가가는 복소해석학}\\ A Friendly Approach to Complex Analysis}
+\author{염용진,허재성 譯}
+\date{Update on \today}
+\maketitle
+\thispagestyle{empty}
+
+\clearpage
+
+%===[salt]  머리말
+\input{./SaltChapter/preface.tex}
+
+\clearpage
+%=== [salt] 이 카운트들은 뭘까??? 
+\setcounter{tocdepth}{2}
+%=== [salt]  각 챕터시작할 때 \minitoc 에서 사용하는 것 
+\setcounter{minitocdepth}{1} 
+
+%=== [salt]  목차를 한글로 쓰기
+\renewcommand{\contentsname}{목 차}
+\renewcommand{\bibname}{참고문헌}
+
+\tableofcontents
+    
+    
+%=== [salt] 2 컬럼으로 목차들 만들기 (굳이?)
+%\begin{multicols}{2}
+%    \dominitoc% Initialization
+%    \adjustmtc[2]% chp number shift for mini-toc
+%   \tableofcontents
+%    \label{toc-contents}
+%\end{multicols}
+%
+%	\listoffigures
+%	% \listoftables
+%\begin{multicols}{2}
+%	\listoftheorems[ignoreall,show={theorem}]
+%\end{multicols}
+%
+%	\renewcommand{\listtheoremname}{List of Definitions}
+%\begin{multicols}{2}
+%	\listoftheorems[ignoreall,show={definition}]
+%\end{multicols}
+%=== [salt] 2 컬럼으로 목차들 만들기끝 
+%==============================
+
+	% \printglossaries
+	% \printglossary[type=\acronymtype]
+	%=== [salt]  기본으로 되어 있었으나 비활성화함 \printglossary
+	 %\printglossary[title=List of terms, toctitle=List of terms]
+
+	% bib2gls
+	% \printunsrtglossaries % print all types
+	% \printunsrtglossary[type={abbreviations},title=List of Abbreviations,style=listgroup]
+	% \printunsrtglossary[type={abbreviations},title=List of Abbreviations,style=listhypergroup] % doesn't work
+	% \printunsrtglossary[type={symbols},title=List of Symbols,style=listgroup]
+	% \printunsrtglossary % main entry
+
+%%%%%%%%%%%%%%%Content%%%%%%%%%%%%%%%
+% \mainmatter % separat the number of toc and mainmatter
+
+
+
+%===[salt] 1장
+\input{./SaltChapter/chapter_one.tex}
+
+
+%===[salt] 2장
+\input{./SaltChapter/chapter_two.tex}
+
+%===[salt] 3장
+\input{./SaltChapter/chapter_three.tex}
+
+%===[salt] 4장
+\input{./SaltChapter/chapter_four.tex}
+
+%===[salt] 5장
+\input{./SaltChapter/chapter_five.tex}
+
+
+%====[풀 이]====================
+\begin{appendices}
+%===[salt] 0장, 1장
+\input{./Solution/sol_chapter01.tex}
+
+%===[salt] 2장
+\input{./Solution/sol_chapter2.tex}
+
+%===[salt] 3장
+\input{./Solution/sol_chapter3.tex}
+
+%===[salt] 4장
+\input{./Solution/sol_chapter4.tex}
+
+%===[salt] 5장
+\input{./Solution/sol_chapter5.tex}
+\end{appendices}
+%=== [salt]  부록만들기
+%\begin{appendices}
+%\input{./chapter/appendix_formula.tex}
+%\end{appendices}
+
+\backmatter
+
+%%%%%%%%%%%%%%% Reference %%%%%%%%%%%%%%%
+
+\begin{thebibliography}{10}
+\bibitem{Beck 2008}
+Beck, M., Marchesi, G., Pixton, D., and Sabalka, L. (2008). 
+\textit{A First Course in Complex Analysis}, 
+\url{http://math.sfsu.edu/beck/papers/complex.pdf}.
+\bibitem{Conway}
+Conway, J. (1978). \textit{Functions of One Complex Variable I}, 2nd Edition. (Springer).
+\bibitem{Fisher}
+Fisher, S. (1999). \textit{Complex Variables}, 2nd Edition. (Dover).
+\bibitem{Flanigan 1972}
+Flanigan, F. (1972) \textit{Complex Variables} (Dover).
+\bibitem{Flanigan 1973}
+Flanigan, F. (1973). Classroom Notes: Some Half-Plane Dirichlet Problems: A
+Bare Hands Approach. \textit{American Mathematical Monthly} \textbf{80}, 1, pp. 59-61.
+\bibitem{Gelbaum}
+Gelbaum, B. and Olmsted, J. (1964). \textit{Counterexamples in Analysis} (Dover).
+\bibitem{Gilman}
+Gilman, J., Kra, I. and Rodriguez, R. (2007). 
+\textit{Complex Analysis}. \textit{In the Spirit of Lipman Bers} (Springer).
+\bibitem{Howie}
+Howie, J. (2003). \textit{Complex Analysis} (Springer).
+\bibitem{Needham}
+Needham, T. (1997). \textit{Visual Complex Analysis} (Oxford University Press).
+\bibitem{Ash}
+Ash, R. and Novinger, W. (2007). \textit{Complex Analysis}, 2nd Edition. (Dover).
+\bibitem{Remmert}
+Remmert, R. (1991) \textit{Theory of Complex Functions} (Springer).
+\bibitem{Rudin}
+Rudin, W. (1987). \textit{Real and Complex Analysis}, 3rd edition. (McGraw-Hill).
+\bibitem{Shastri}
+Shastri, A. (2000). \textit{An Introduction to Complex Analysis} 
+(Macmillan Publishers India).
+\bibitem{Shaw}
+Shaw, W. (2006). \textit{Complex Analysis with} MATHEMATICA 
+(Cambridge University Press).
+\bibitem{Shurman}
+Shurman, J. (2012). \textit{Course Materials for Mathematics 311: Complex Analysis},
+\url{http://people.reed.edu/~jerry/311/mats.html}.
+\bibitem{Tall}
+Tall, D. (1970) \textit{Functions of a Complex Variable} (Dover).
+\bibitem{Volkovyski}
+Volkovyski\u{\i}, L., Lunts, G. and Aramanovich, I. (1991). 
+\textit{A Collection of Problems on Complex Analysis} (Dover).
+\end{thebibliography}
+
+%\printbibliography[heading=bibintoc]
+%\indexsetup{othercode=\small}
+% font are current, normalsize, small or footnotesize
+%\idxlayout{columns=1,font=small}
+\idxlayout{columns=2,font=small}
+\printindex
+
+\end{document}
+
