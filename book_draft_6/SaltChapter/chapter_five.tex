@@ -19,14 +19,14 @@
 $U$를 $\mathbb R^2$의 열린 부분집합이라고 하자.
 함수 $u:U \to \mathbb R$가
 $2$차까지의 도함수가 모두 존재하고 연속(줄여서 $u\in C^2$라 한다)이면서
-라플라스 방정식
+라플라스 방정식\index{라플라스 방정식(Laplace equation)}
 \[
 (\Delta u)(x,y) := \dfrac{\partial^2 u}{\partial x^2} (x,y) 
 + \dfrac{\partial^2 u}{\partial y^2} (x,y) = 0,
 \quad
 (x,y) \in U
 \]
-을 만족하면, {\bf 조화함수}(harmonic function)라고 한다.
+을 만족하면, {\bf 조화함수}(harmonic function)\index{조화함수(harmonic function)}라고 한다.
 \end{saltdefinition}
 
 \begin{saltexample}[label=example-5-1]{}{}
@@ -77,7 +77,7 @@ $\tilde u$는 $\mathbb R^2$의 어떤 열린 부분집합에서도 조화함수�
 라플라스 방정식은 여러가지 이유 중 다음 두 가지 때문에 특히 중요하다.
 \begin{itemize}
 \item[(1)] 라플라스 방정식은 편미분방정식(PDE)의 3가지 유형 중에서 
-타원형 방정식이라는 중요한 유형에 속한다.
+타원형 방정식\index{타원형 편미분방정식(elliptic PDE)}이라는 중요한 유형에 속한다.
 \begin{center}
 \renewcommand{\arraystretch}{1.5}  %==[salt] 표의 높이 조절
 \begin{tabular}{ |c|c| } 
@@ -295,7 +295,7 @@ $v:=\tilde v = \Im(G)$는 조화함수인 $f=u+iv$를 얻어 증명이 끝난다
 \begin{saltdefinition} {}{} \label{def-5-2}
 열린집합 $U$에 정의된 조화함수 $u:U \to \mathbb R$에 대하여
 $f:=u+iv$가 복소해석함수가 되는 조화함수 $v:U \to \mathbb R$를
-$u$의 {\bf 조화켤레함수}(harmonic conjugate)라 한다.
+$u$의 {\bf 조화켤레함수}(harmonic conjugate)\index{조화켤레함수(harmonic conjugate)}라 한다.
 \end{saltdefinition}
 
 \begin{saltexample}[label=example-5-4]{}{}
@@ -447,6 +447,7 @@ $z_0\in U$의 선택을 임의로 할 수 있기 때문에 모든 점에서 무�
 어떤 점에서 조화함수의 값은 그 점을 중심으로 하는 원 위에서 함수값의 평균으로 주어진다.
 
 \begin{salttheorem} [조화함수의 평균값 정리] {}{} \label{thm-5-3}
+\index{평균값 정리(mean value property)}
 
 \begin{itemize}
 \item[(1)] $U$가 열린집합이고,
@@ -520,7 +521,7 @@ $g$는 $U$에서 상수함수이다.
 %\label{fig-4-0-3}
 \end{figure*}
 
-디리클레(Dirichlet) 문제는 
+\textbf{디리클레(Dirichlet) 문제}\index{디리클레 문제(Dirichlet problem)}는 
 \begin{quote}
 주어진 연속함수 $\varphi: \mathbb T \to \mathbb R$에 대하여
 \begin{itemize}
@@ -567,7 +568,7 @@ $u_1 = u_2$이고, 이는 가정에 모순되어 증명이 끝난다.
 
 \begin{salt_remark}\label{rem-5-1}
 경계값이 $\varphi$로 주어진 디리클레 문제의 해는 
-다음 포아송 적분공식(Poisson integral formula)으로 나타낼 수 있다.
+다음 포아송 적분공식(Poisson integral formula)\index{포아송 적분공식(Poisson integral formula)}으로 나타낼 수 있다.
 \[
 u(r\exp(it)) = \dfrac1{2\pi} \int_0^{2\pi} 
 \dfrac{1-r^2}{1-2r\cos(\theta -t) + r^2} \varphi(\exp(i\theta))d\theta
@@ -654,12 +655,14 @@ $D_1$에서 해를 찾은 후 다시 $D_2$로 옮기는 것이 가능하다는 �
  그러면 쌍정칙함수 $\varphi: D\to \mathbb D:=\{z\in\mathbb C\,:\, |z|<1\}$가
  존재한다.
 \end{salttheorem}
+\index{리만 사상 정리(Riemann mapping theorem)}
 
 이 결과는 복소평면 전체가 아닌 임의의 두 단순연결 영역 사이에
 쌍정칙함수가 ($\mathbb D$를 통하여) 존재함을 보장한다. 
 하지만, 실제로 쌍정칙함수를 찾는 알고리즘이 증명에 주어지는 것은 아니다.
 $\mathbb H:= \{s\in\mathbb C\,:\, \Re(s) >0 \}$에 대하여
 {\bf 뫼비우스(M\"obius) 변환} $\varphi: \mathbb H \to \mathbb D$
+\index{뫼비우스 변환(M\"obius transformation)}
 \[ 
 \varphi(s) = \dfrac{s-1}{s+1},
 \quad s\in \mathbb H

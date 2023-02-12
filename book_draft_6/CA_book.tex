@@ -37,6 +37,7 @@
 \usepackage{multirow} % ===[salt]
 \usepackage{bm}
 \usepackage{imakeidx} % before hyperref
+\usepackage{idxlayout} %==[salt]
 %\usepackage[colorlinks=false]{hyperref}
 \usepackage{hyperref}  % [colorlinks=false]를 사용하지 않는 경우 설정할 수 있음
 % link colors settings
@@ -552,7 +553,9 @@ Volkovyski\u{\i}, L., Lunts, G. and Aramanovich, I. (1991).
 \end{thebibliography}
 
 %\printbibliography[heading=bibintoc]
-
+%\indexsetup{othercode=\small}
+% font are current, normalsize, small or footnotesize
+\idxlayout{columns=1,font=small}
 \printindex
 
 \end{document}
