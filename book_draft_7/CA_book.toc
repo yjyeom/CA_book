@@ -58,5 +58,5 @@
 \contentsline {section}{\numberline {5.4}디리클레 문제의 해의 유일성}{215}{section.5.4}%
 \contentsline {section}{\numberline {5.5}참고}{219}{section.5.5}%
 \contentsline {chapter}{연습문제 풀이}{220}{chapter*.85}%
-\contentsline {chapter}{참고문헌}{320}{chapter*.280}%
-\contentsline {chapter}{찾아보기}{322}{chapter*.281}%
+\contentsline {chapter}{참고문헌}{299}{chapter*.280}%
+\contentsline {chapter}{찾아보기}{301}{chapter*.281}%
