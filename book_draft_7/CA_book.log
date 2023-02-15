@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.25)  13 FEB 2023 10:01
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  14 FEB 2023 18:17
+>>>>>>> origin/master
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5389,389 +5393,332 @@ mgt/m/n/9.5/c9 ù\LUC/nanumgt/m/n/9.5/ba Ö\LUC/nanumgt/m/n/9.5/c5 – \LUC/nanumgt
 
 [218]) (./Solution/sol_chapter01.tex [219] [220
 
-] [221]
-<./Solution/figs/fig-5-2.png, id=2550, 685.05937pt x 599.23875pt>
+]
+<./Solution/figs/fig-5-2.png, id=2545, 685.05937pt x 599.23875pt>
 File: ./Solution/figs/fig-5-2.png Graphic file (type png)
 <use ./Solution/figs/fig-5-2.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-2.png  used on input line 127.
 (pdftex.def)             Requested size: 239.84775pt x 209.8007pt.
- [222 <./Solution/figs/fig-5-2.PNG>] [223] [224]
-<./Solution/figs/fig-5-3.png, id=2586, 514.17094pt x 515.67656pt>
+ [221] [222 <./Solution/figs/fig-5-2.PNG>] [223]
+<./Solution/figs/fig-5-3.png, id=2583, 514.17094pt x 515.67656pt>
 File: ./Solution/figs/fig-5-3.png Graphic file (type png)
 <use ./Solution/figs/fig-5-3.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-3.png  used on input line 261.
 (pdftex.def)             Requested size: 239.84775pt x 240.55037pt.
- [225 <./Solution/figs/fig-5-3.PNG>] [226]
-<./Solution/figs/fig-5-4.png, id=2602, 554.82281pt x 232.61906pt>
+ [224 <./Solution/figs/fig-5-3.PNG>]
+<./Solution/figs/fig-5-4.png, id=2594, 554.82281pt x 232.61906pt>
 File: ./Solution/figs/fig-5-4.png Graphic file (type png)
 <use ./Solution/figs/fig-5-4.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-4.png  used on input line 339.
 (pdftex.def)             Requested size: 221.40225pt x 92.8259pt.
- [227 <./Solution/figs/fig-5-4.PNG>] [228]
-<./Solution/figs/fig-5-5.png, id=2621, 470.50781pt x 542.025pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[225] [226 <./Solution/figs/fig-5-4.PNG>]
+<./Solution/figs/fig-5-5.png, id=2614, 470.50781pt x 542.025pt>
 File: ./Solution/figs/fig-5-5.png Graphic file (type png)
 <use ./Solution/figs/fig-5-5.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-5.png  used on input line 421.
 (pdftex.def)             Requested size: 184.5pt x 212.54678pt.
- [229 <./Solution/figs/fig-5-5.PNG>]
-<./Solution/figs/fig-s-0-1.png, id=2632, 282.30469pt x 294.34969pt>
+ [227 <./Solution/figs/fig-5-5.PNG>]
+<./Solution/figs/fig-s-0-1.png, id=2624, 282.30469pt x 294.34969pt>
 File: ./Solution/figs/fig-s-0-1.png Graphic file (type png)
 <use ./Solution/figs/fig-s-0-1.png>
 Package pdftex.def Info: ./Solution/figs/fig-s-0-1.png  used on input line 478.
 
 (pdftex.def)             Requested size: 147.59775pt x 153.8981pt.
- [230 <./Solution/figs/fig-s-0-1.PNG>] [231]
-<./Solution/figs/fig-5-6.png, id=2650, 466.74374pt x 316.18124pt>
+
+[228 <./Solution/figs/fig-s-0-1.PNG>] [229]
+<./Solution/figs/fig-5-6.png, id=2644, 466.74374pt x 316.18124pt>
 File: ./Solution/figs/fig-5-6.png Graphic file (type png)
 <use ./Solution/figs/fig-5-6.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-6.png  used on input line 551.
 (pdftex.def)             Requested size: 184.5pt x 124.9843pt.
- [232 <./Solution/figs/fig-5-6.PNG>] [233]
-<./Solution/figs/fig-5-7.png, id=2671, 687.31781pt x 207.02344pt>
+ [230 <./Solution/figs/fig-5-6.PNG>]
+<./Solution/figs/fig-5-7.png, id=2659, 687.31781pt x 207.02344pt>
 File: ./Solution/figs/fig-5-7.png Graphic file (type png)
 <use ./Solution/figs/fig-5-7.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-7.png  used on input line 671.
 (pdftex.def)             Requested size: 295.20113pt x 88.9141pt.
-<./Solution/figs/fig-s-0-2.png, id=2672, 276.28218pt x 189.70876pt>
+<./Solution/figs/fig-s-0-2.png, id=2660, 276.28218pt x 189.70876pt>
 File: ./Solution/figs/fig-s-0-2.png Graphic file (type png)
 <use ./Solution/figs/fig-s-0-2.png>
 Package pdftex.def Info: ./Solution/figs/fig-s-0-2.png  used on input line 681.
 
 (pdftex.def)             Requested size: 110.70113pt x 76.0124pt.
-<./Solution/figs/fig-s-0-3.png, id=2673, 286.82156pt x 199.49532pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./Solution/figs/fig-s-0-3.png, id=2661, 286.82156pt x 199.49532pt>
 File: ./Solution/figs/fig-s-0-3.png Graphic file (type png)
 <use ./Solution/figs/fig-s-0-3.png>
 Package pdftex.def Info: ./Solution/figs/fig-s-0-3.png  used on input line 690.
 
 (pdftex.def)             Requested size: 110.70113pt x 76.99617pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./Solution/figs/fig-5-8.png, id=2674, 479.54156pt x 264.99pt>
+[231 <./Solution/figs/fig-5-7.PNG>]
+<./Solution/figs/fig-5-8.png, id=2673, 479.54156pt x 264.99pt>
 File: ./Solution/figs/fig-5-8.png Graphic file (type png)
 <use ./Solution/figs/fig-5-8.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-8.png  used on input line 701.
 (pdftex.def)             Requested size: 184.5pt x 101.95474pt.
-[234 <./Solution/figs/fig-5-7.PNG> <./Solution/figs/fig-s-0-2.PNG>]
-<./Solution/figs/fig-5-9.png, id=2687, 307.90031pt x 234.1247pt>
+<./Solution/figs/fig-5-9.png, id=2674, 307.90031pt x 234.1247pt>
 File: ./Solution/figs/fig-5-9.png Graphic file (type png)
 <use ./Solution/figs/fig-5-9.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-9.png  used on input line 713.
 (pdftex.def)             Requested size: 110.70113pt x 84.17407pt.
- [235 <./Solution/figs/fig-s-0-3.PNG> <./Solution/figs/fig-5-8.PNG> <./Solution
-/figs/fig-5-9.PNG>]
-<./Solution/figs/fig-5-10.png, id=2699, 311.66437pt x 316.18124pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./Solution/figs/fig-5-10.png, id=2675, 311.66437pt x 316.18124pt>
 File: ./Solution/figs/fig-5-10.png Graphic file (type png)
 <use ./Solution/figs/fig-5-10.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-10.png  used on input line 733.
 (pdftex.def)             Requested size: 110.70113pt x 112.30542pt.
- [236 <./Solution/figs/fig-5-10.PNG>] [237]
-Overfull \hbox (20.12811pt too wide) in paragraph at lines 858--866
-\LUC/nanummj/m/n/10.5/c7 t\LUC/nanummj/m/n/10.5/ac ‡ $\OT1/cmr/m/n/10.95 ([](\O
-ML/cmm/m/it/10.5 z[]\OT1/cmr/m/n/10.95 ))[]$ \LUC/nanummj/m/n/10.5/ac ¸ $\OT1/c
-mr/m/n/10.95 ([](\OML/cmm/m/it/10.5 z[]\OT1/cmr/m/n/10.95 ))[]$ \LUC/nanummj/m/
-n/10.5/c7 t \LUC/nanummj/m/n/10.5/ac ^^A^^A $[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/i
-t/10.5 L\OT1/cmr/m/n/10.95 )$ \LUC/nanummj/m/n/10.5/ac ¸ $[]\OT1/cmr/m/n/10.95 
-(\OML/cmm/m/it/10.5 L\OT1/cmr/m/n/10.95 )$ \LUC/nanummj/m/n/10.5/b8 \ \LUC/nanu
-mmj/m/n/10.5/c2 ^^X\LUC/nanummj/m/n/10.5/b8 4\LUC/nanummj/m/n/10.5/d5 \\LUC/nan
-ummj/m/n/10.5/b2 ‰[] \LUC/nanummj/m/n/10.5/b5 0\LUC/nanummj/m/n/10.5/b7 |\LUC/n
-anummj/m/n/10.5/c1 ^^\\OT1/LinuxLibertineT-TLF/m/n/10.5 , $\OT1/cmr/m/n/10.95 (
-[](\OML/cmm/m/it/10.5 z[]\OT1/cmr/m/n/10.95 ) \OMS/cmsy/m/n/10.5 ^^A
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[232 <./Solution/figs/fig-s-0-2.PNG> <./Solution/figs/fig-s-0-3.PNG> <./Solutio
+n/figs/fig-5-8.PNG>] [233 <./Solution/figs/fig-5-9.PNG> <./Solution/figs/fig-5-
+10.PNG>] [234]
+Overfull \hbox (6.18231pt too wide) in paragraph at lines 858--866
+\LUC/nanummj/m/n/8.6/c7 t\LUC/nanummj/m/n/8.6/ac ‡ $\OT1/cmr/m/n/8.6 ([](\OML/c
+mm/m/it/8.6 z[]\OT1/cmr/m/n/8.6 ))[]$ \LUC/nanummj/m/n/8.6/ac ¸ $\OT1/cmr/m/n/8
+.6 ([](\OML/cmm/m/it/8.6 z[]\OT1/cmr/m/n/8.6 ))[]$ \LUC/nanummj/m/n/8.6/c7 t \L
+UC/nanummj/m/n/8.6/ac ^^A^^A $[]\OT1/cmr/m/n/8.6 (\OML/cmm/m/it/8.6 L\OT1/cmr/m
+/n/8.6 )$ \LUC/nanummj/m/n/8.6/ac ¸ $[]\OT1/cmr/m/n/8.6 (\OML/cmm/m/it/8.6 L\OT
+1/cmr/m/n/8.6 )$ \LUC/nanummj/m/n/8.6/b8 \ \LUC/nanummj/m/n/8.6/c2 ^^X\LUC/nanu
+mmj/m/n/8.6/b8 4\LUC/nanummj/m/n/8.6/d5 \\LUC/nanummj/m/n/8.6/b2 ‰[] \LUC/nanum
+mj/m/n/8.6/b5 0\LUC/nanummj/m/n/8.6/b7 |\LUC/nanummj/m/n/8.6/c1 ^^\\OT1/LinuxLi
+bertineT-TLF/m/n/8.6 , $\OT1/cmr/m/n/8.6 ([](\OML/cmm/m/it/8.6 z[]\OT1/cmr/m/n/
+8.6 ) \OMS/cmsy/m/n/8.6 ^^A []\OT1/cmr/m/n/8.6 (\OML/cmm/m/it/8.6 z[]\OT1/cmr/m
+/n/8.6 ))[]$
  []
 
-[238] [239]
-<./Solution/figs/fig-5-11.png, id=2738, 355.3275pt x 356.0803pt>
+[235]
+<./Solution/figs/fig-5-11.png, id=2722, 355.3275pt x 356.0803pt>
 File: ./Solution/figs/fig-5-11.png Graphic file (type png)
 <use ./Solution/figs/fig-5-11.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-11.png  used on input line 941.
 (pdftex.def)             Requested size: 147.59775pt x 147.91183pt.
-<./Solution/figs/fig-5-12.png, id=2741, 394.47375pt x 271.76532pt>
+ [236 <./Solution/figs/fig-5-11.PNG>]
+<./Solution/figs/fig-5-12.png, id=2733, 394.47375pt x 271.76532pt>
 File: ./Solution/figs/fig-5-12.png Graphic file (type png)
 <use ./Solution/figs/fig-5-12.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-12.png  used on input line 978.
 (pdftex.def)             Requested size: 129.15225pt x 88.97787pt.
- [240 <./Solution/figs/fig-5-11.PNG>]
-Overfull \hbox (15.85495pt too wide) in paragraph at lines 987--993
-\LUC/nanummj/m/n/10.5/ac ^^U\LUC/nanummj/m/n/10.5/c7 X \LUC/nanummj/m/n/10.5/ad
- ¯\LUC/nanummj/m/n/10.5/b9 º\LUC/nanummj/m/n/10.5/c7 D \LUC/nanummj/m/n/10.5/ad
- ¯\LUC/nanummj/m/n/10.5/b8 $\LUC/nanummj/m/n/10.5/bc Ù\LUC/nanummj/m/n/10.5/ba 
-t [][]\OT1/LinuxLibertineT-TLF/m/n/10.5 A.12[][] \LUC/nanummj/m/n/10.5/c6 @ \LU
-C/nanummj/m/n/10.5/ac ^^Y\LUC/nanummj/m/n/10.5/b2 ‰[] \LUC/nanummj/m/n/10.5/b0 
-ò\LUC/nanummj/m/n/10.5/c1  \LUC/nanummj/m/n/10.5/d6 ^^U \LUC/nanummj/m/n/10.5/a
-c ·\LUC/nanummj/m/n/10.5/c1  \LUC/nanummj/m/n/10.5/c7 t \LUC/nanummj/m/n/10.5/b
-4 ^^X\LUC/nanummj/m/n/10.5/ba p\OT1/LinuxLibertineT-TLF/m/n/10.5 , $\OML/cmm/m/
-it/10.5 t \OMS/cmsy/m/n/10.5 & ^^@1$ \LUC/nanummj/m/n/10.5/c7 | \LUC/nanummj/m/
-n/10.5/b5 L $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.5 e[] [] t; e[] [] t\OT1/cmr/
-m/n/10.95 )$
- []
-
-<./Solution/figs/fig-5-13.png, id=2753, 305.64188pt x 371.13657pt>
+<./Solution/figs/fig-5-13.png, id=2736, 305.64188pt x 371.13657pt>
 File: ./Solution/figs/fig-5-13.png Graphic file (type png)
 <use ./Solution/figs/fig-5-13.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-13.png  used on input line 996.
 (pdftex.def)             Requested size: 110.70113pt x 134.41887pt.
-
-Overfull \hbox (4.87419pt too wide) detected at line 1008
-[][][] \OT1/cmr/m/n/10.95 = [] [] = [][][] = \OML/cmm/m/it/10.5 e[]\OT1/cmr/m/n
-/10.95 ([][][] + \OML/cmm/m/it/10.5 i [][][]\OT1/cmr/m/n/10.95 )
- []
-
-
-Overfull \hbox (44.9298pt too wide) in paragraph at lines 1008--1012
-\LUC/nanummj/m/n/10.5/c7 t\LUC/nanummj/m/n/10.5/bb ¿\LUC/nanummj/m/n/10.5/b8 \ 
-$\OMS/cmsy/m/n/10.5 j [][][]j \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.5 e[]$\OT1/
-LinuxLibertineT-TLF/m/n/10.5 , $[]\OT1/cmr/m/n/10.95 ([][][]) = \OML/cmm/m/it/1
-0.5 e[] [][][]$\OT1/LinuxLibertineT-TLF/m/n/10.5 , $[]\OT1/cmr/m/n/10.95 ([][][
-]) = \OML/cmm/m/it/10.5 e[] [][][]$
- []
-
-[241 <./Solution/figs/fig-5-12.PNG> <./Solution/figs/fig-5-13.PNG>] [242]
-[243]
-<./Solution/figs/fig-5-14.png, id=2785, 210.03468pt x 300.3722pt>
+ [237 <./Solution/figs/fig-5-12.PNG> <./Solution/figs/fig-5-13.PNG>] [238]
+<./Solution/figs/fig-5-14.png, id=2762, 210.03468pt x 300.3722pt>
 File: ./Solution/figs/fig-5-14.png Graphic file (type png)
 <use ./Solution/figs/fig-5-14.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-14.png  used on input line 1115.
 
 (pdftex.def)             Requested size: 92.25pt x 131.92583pt.
- [244 <./Solution/figs/fig-5-14.PNG>]
-<./Solution/figs/fig-s-0-5.png, id=2798, 810.02625pt x 507.39563pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[239]
+<./Solution/figs/fig-s-0-5.png, id=2775, 810.02625pt x 507.39563pt>
 File: ./Solution/figs/fig-s-0-5.png Graphic file (type png)
 <use ./Solution/figs/fig-s-0-5.png>
 Package pdftex.def Info: ./Solution/figs/fig-s-0-5.png  used on input line 1162
 .
 (pdftex.def)             Requested size: 166.04887pt x 104.00903pt.
- [245 <./Solution/figs/fig-s-0-5.PNG>]) (./Solution/sol_chapter2.tex
-Overfull \hbox (4.5641pt too wide) detected at line 43
-[]
- []
-
-[246] [247]
-Overfull \hbox (4.99144pt too wide) in paragraph at lines 102--106
-\LUC/nanummj/m/n/10.5/b5 0\LUC/nanummj/m/n/10.5/b7 |\LUC/nanummj/m/n/10.5/c1 ^^
-\ \LUC/nanummj/m/n/10.5/bc Ù\LUC/nanummj/m/n/10.5/c8 p^^U\LUC/nanummj/m/n/10.5/
-b9 ¨ [][]\OT1/LinuxLibertineT-TLF/m/n/10.5 2.1[][] \LUC/nanummj/m/n/10.5/c5 – \
-LUC/nanummj/m/n/10.5/c7 X\LUC/nanummj/m/n/10.5/d5 X\LUC/nanummj/m/n/10.5/c5 Ï $
-\OML/cmm/m/it/10.5 f \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.5 g$ \LUC/nanummj/m/
-n/10.5/b2 î \LUC/nanummj/m/n/10.5/bc ı\LUC/nanummj/m/n/10.5/c1 å\LUC/nanummj/m/
-n/10.5/bb ¯\LUC/nanummj/m/n/10.5/bd Ñ\LUC/nanummj/m/n/10.5/ac ^^@\LUC/nanummj/m
-/n/10.5/b2 •\LUC/nanummj/m/n/10.5/d5 X\LUC/nanummj/m/n/10.5/ba p $\OT1/cmr/m/n/
-10.95 (\OML/cmm/m/it/10.5 f \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.5 g\OT1/cmr/m
-/n/10.95 )[](\OML/cmm/m/it/10.5 z[]\OT1/cmr/m/n/10.95 ) = \OML/cmm/m/it/10.5 f[
-]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.5 z[]\OT1/cmr/m/n/10.95 ) +
- []
-
-[248] [249] [250] [251] [252] [253] [254]
-<./Solution/figs/fig-s-0-6.png, id=2903, 644.4075pt x 245.41687pt>
+ [240 <./Solution/figs/fig-5-14.PNG> <./Solution/figs/fig-s-0-5.PNG>])
+(./Solution/sol_chapter2.tex [241] [242] [243] [244] [245] [246] [247]
+<./Solution/figs/fig-s-0-6.png, id=2876, 644.4075pt x 245.41687pt>
 File: ./Solution/figs/fig-s-0-6.png Graphic file (type png)
 <use ./Solution/figs/fig-s-0-6.png>
 Package pdftex.def Info: ./Solution/figs/fig-s-0-6.png  used on input line 415.
 
 (pdftex.def)             Requested size: 239.84775pt x 91.3458pt.
-<./Solution/figs/fig-5-15.png, id=2905, 885.3075pt x 318.43968pt>
+<./Solution/figs/fig-5-15.png, id=2878, 885.3075pt x 318.43968pt>
 File: ./Solution/figs/fig-5-15.png Graphic file (type png)
 <use ./Solution/figs/fig-5-15.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-15.png  used on input line 441.
 (pdftex.def)             Requested size: 258.29887pt x 92.90878pt.
- [255 <./Solution/figs/fig-s-0-6.PNG>]
-<./Solution/figs/fig-s-0-7.png, id=2915, 508.14844pt x 204.765pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./Solution/figs/fig-s-0-7.png, id=2880, 508.14844pt x 204.765pt>
 File: ./Solution/figs/fig-s-0-7.png Graphic file (type png)
 <use ./Solution/figs/fig-s-0-7.png>
 Package pdftex.def Info: ./Solution/figs/fig-s-0-7.png  used on input line 460.
 
 (pdftex.def)             Requested size: 221.40225pt x 89.21576pt.
-<./Solution/figs/fig-5-16.png, id=2917, 819.8128pt x 307.90031pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./Solution/figs/fig-5-16.png, id=2882, 819.8128pt x 307.90031pt>
 File: ./Solution/figs/fig-5-16.png Graphic file (type png)
 <use ./Solution/figs/fig-5-16.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-16.png  used on input line 469.
 (pdftex.def)             Requested size: 258.29887pt x 97.01259pt.
-[256 <./Solution/figs/fig-5-15.PNG> <./Solution/figs/fig-s-0-7.PNG> <./Solution
-/figs/fig-5-16.PNG>]
-Overfull \hbox (2.53792pt too wide) detected at line 511
-[]
- []
 
-) (./Solution/sol_chapter3.tex [257] [258] [259]
-Overfull \hbox (16.36177pt too wide) in paragraph at lines 105--108
-[]$\OML/cmm/m/it/10.5 U[]; V[]; U[]; V[] \OT1/cmr/m/n/10.95 : [\OML/cmm/m/it/10
-.5 a; b\OT1/cmr/m/n/10.95 ] \OMS/cmsy/m/n/10.5 ! \U/msb/m/n/10.5 R$ \LUC/nanumm
-j/m/n/10.5/c5 – \LUC/nanummj/m/n/10.5/b3 ^^@\LUC/nanummj/m/n/10.5/d5 X\LUC/nanu
-mmj/m/n/10.5/c5 Ï $\OML/cmm/m/it/10.5 f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.5 ^
-^M\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.5 t\OT1/cmr/m/n/10.95 ))\OML/cmm/m/it/10
-.5 ^^M[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.5 t\OT1/cmr/m/n/10.95 ) = \OML/cmm
-/m/it/10.5 U[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.5 t\OT1/cmr/m/n/10.95 ) + \O
-ML/cmm/m/it/10.5 iV[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.5 t\OT1/cmr/m/n/10.95
- )$\OT1/LinuxLibertineT-TLF/m/n/10.5 , $\OML/cmm/m/it/10.5 g\OT1/cmr/m/n/10.95 
-(\OML/cmm/m/it/10.5 ^^M\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.5 t\OT1/cmr/m/n/10.
-95 ))\OML/cmm/m/it/10.5 ^^M[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.5 t\OT1/cmr/m
-/n/10.95 ) =
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Overfull \hbox (21.91812pt too wide) detected at line 130
-[]
- []
-
-[260]
-<./Solution/figs/fig-s-0-8.png, id=2968, 250.68657pt x 218.31563pt>
+[248 <./Solution/figs/fig-s-0-6.PNG>] [249 <./Solution/figs/fig-5-15.PNG> <./So
+lution/figs/fig-s-0-7.PNG> <./Solution/figs/fig-5-16.PNG>])
+(./Solution/sol_chapter3.tex [250] [251] [252]
+<./Solution/figs/fig-s-0-8.png, id=2935, 250.68657pt x 218.31563pt>
 File: ./Solution/figs/fig-s-0-8.png Graphic file (type png)
 <use ./Solution/figs/fig-s-0-8.png>
 Package pdftex.def Info: ./Solution/figs/fig-s-0-8.png  used on input line 158.
 
 (pdftex.def)             Requested size: 110.70113pt x 96.40561pt.
- [261 <./Solution/figs/fig-s-0-8.PNG>] [262]
-Overfull \hbox (2.96014pt too wide) detected at line 251
-[][] [] \OML/cmm/m/it/10.5 z dz \OT1/cmr/m/n/10.95 = [][] [][][] \OMS/cmsy/m/n/
-10.5 ^^A \OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.5 a \OT1/cmr/m/n/10.95 + \OML/cmm
-/m/it/10.5 ib\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.5 dx \OT1/cmr/m/n/10.95 = [][
-] \OML/cmm/m/it/10.5 e[]\OT1/cmr/m/n/10.95 ([][][] + \OML/cmm/m/it/10.5 i [][][
-]\OT1/cmr/m/n/10.95 )(\OML/cmm/m/it/10.5 a \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/1
-0.5 ib\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.5 dx:
- []
-
-[263] [264] [265]
-Overfull \hbox (11.17145pt too wide) in paragraph at lines 367--369
-[]\LUC/nanummj/m/n/10.5/c7 t\LUC/nanummj/m/n/10.5/c0 ¡\LUC/nanummj/m/n/10.5/c5 
-–\LUC/nanummj/m/n/10.5/c1 ^^\ $\OML/cmm/m/it/10.5 D$\OT1/LinuxLibertineT-TLF/m/
-n/10.5 -\LUC/nanummj/m/n/10.5/d6 8\LUC/nanummj/m/n/10.5/ba ®\LUC/nanummj/m/n/10
-.5/d1 †\LUC/nanummj/m/n/10.5/d5 < \LUC/nanummj/m/n/10.5/ad ^^@\LUC/nanummj/m/n/
-10.5/ac ƒ\LUC/nanummj/m/n/10.5/b2 î \LUC/nanummj/m/n/10.5/bc ^^X\LUC/nanummj/m/
-n/10.5/c0 ¨\LUC/nanummj/m/n/10.5/c8 ^^A\OT1/LinuxLibertineT-TLF/m/n/10.5 , \LUC
-/nanummj/m/n/10.5/b3 ^^@\LUC/nanummj/m/n/10.5/ce m\LUC/nanummj/m/n/10.5/c8 ^^A\
-OT1/LinuxLibertineT-TLF/m/n/10.5 , \LUC/nanummj/m/n/10.5/cd î\LUC/nanummj/m/n/1
-0.5/c7 t\LUC/nanummj/m/n/10.5/c8 ^^A\LUC/nanummj/m/n/10.5/c7 x \LUC/nanummj/m/n
-/10.5/c1 1\LUC/nanummj/m/n/10.5/c9 »\LUC/nanummj/m/n/10.5/c7 D \LUC/nanummj/m/n
-/10.5/b9 Ã\LUC/nanummj/m/n/10.5/c8 q\LUC/nanummj/m/n/10.5/d5 X\LUC/nanummj/m/n/
-10.5/bb ¿\LUC/nanummj/m/n/10.5/b8 \ \LUC/nanummj/m/n/10.5/b3 Ÿ\LUC/nanummj/m/n/
-10.5/ce X \OT1/LinuxLibertineT-TLF/m/n/10.5 (equiv-
- []
-
-<./Solution/figs/fig-s-0-9.png, id=3013, 343.2825pt x 327.47343pt>
+ [253 <./Solution/figs/fig-s-0-8.PNG>] [254] [255] [256]
+<./Solution/figs/fig-s-0-9.png, id=2975, 343.2825pt x 327.47343pt>
 File: ./Solution/figs/fig-s-0-9.png Graphic file (type png)
 <use ./Solution/figs/fig-s-0-9.png>
 Package pdftex.def Info: ./Solution/figs/fig-s-0-9.png  used on input line 376.
 
 (pdftex.def)             Requested size: 147.59775pt x 140.79584pt.
-[266 <./Solution/figs/fig-s-0-9.PNG>]
-<./Solution/figs/fig-5-17.png, id=3022, 446.41782pt x 293.59688pt>
+ [257 <./Solution/figs/fig-s-0-9.PNG>]
+<./Solution/figs/fig-5-17.png, id=2984, 446.41782pt x 293.59688pt>
 File: ./Solution/figs/fig-5-17.png Graphic file (type png)
 <use ./Solution/figs/fig-5-17.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-17.png  used on input line 431.
 (pdftex.def)             Requested size: 129.15225pt x 84.9393pt.
- [267 <./Solution/figs/fig-5-17.PNG>]
-<./Solution/figs/fig-5-18.png, id=3032, 440.39531pt x 406.51875pt>
+ [258 <./Solution/figs/fig-5-17.PNG>]
+<./Solution/figs/fig-5-18.png, id=2995, 440.39531pt x 406.51875pt>
 File: ./Solution/figs/fig-5-18.png Graphic file (type png)
 <use ./Solution/figs/fig-5-18.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-18.png  used on input line 459.
 (pdftex.def)             Requested size: 147.59775pt x 136.24199pt.
-
-[268 <./Solution/figs/fig-5-18.PNG>] [269] [270]
-<./Solution/figs/fig-5-19.png, id=3054, 306.39468pt x 143.03438pt>
+ [259 <./Solution/figs/fig-5-18.PNG>] [260]
+<./Solution/figs/fig-5-19.png, id=3014, 306.39468pt x 143.03438pt>
 File: ./Solution/figs/fig-5-19.png Graphic file (type png)
 <use ./Solution/figs/fig-5-19.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-19.png  used on input line 576.
 (pdftex.def)             Requested size: 129.15225pt x 60.29227pt.
-<./Solution/figs/fig-s-0-10.png, id=3056, 474.27188pt x 374.90062pt>
+<./Solution/figs/fig-s-0-10.png, id=3016, 474.27188pt x 374.90062pt>
 File: ./Solution/figs/fig-s-0-10.png Graphic file (type png)
 <use ./Solution/figs/fig-s-0-10.png>
 Package pdftex.def Info: ./Solution/figs/fig-s-0-10.png  used on input line 600
 .
 (pdftex.def)             Requested size: 221.40225pt x 175.01344pt.
- [271 <./Solution/figs/fig-5-19.PNG> <./Solution/figs/fig-s-0-10.PNG>] [272]
-<./Solution/figs/fig-s-0-11.png, id=3078, 497.60907pt x 374.90062pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[261 <./Solution/figs/fig-5-19.PNG>] [262 <./Solution/figs/fig-s-0-10.PNG>]
+<./Solution/figs/fig-s-0-11.png, id=3037, 497.60907pt x 374.90062pt>
 File: ./Solution/figs/fig-s-0-11.png Graphic file (type png)
 <use ./Solution/figs/fig-s-0-11.png>
 Package pdftex.def Info: ./Solution/figs/fig-s-0-11.png  used on input line 663
 .
 (pdftex.def)             Requested size: 258.29887pt x 194.60622pt.
- [273 <./Solution/figs/fig-s-0-11.PNG>]
-<./Solution/figs/fig-5-20.png, id=3088, 459.21562pt x 316.93407pt>
+
+[263 <./Solution/figs/fig-s-0-11.PNG>]
+<./Solution/figs/fig-5-20.png, id=3047, 459.21562pt x 316.93407pt>
 File: ./Solution/figs/fig-5-20.png Graphic file (type png)
 <use ./Solution/figs/fig-5-20.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-20.png  used on input line 712.
 (pdftex.def)             Requested size: 129.15225pt x 89.13748pt.
- [274 <./Solution/figs/fig-5-20.PNG>] [275] [276] [277] [278] [279])
-(./Solution/sol_chapter4.tex
-Overfull \hbox (13.42096pt too wide) in paragraph at lines 7--11
-$[] \OML/cmm/m/it/10.5 a[]$ \LUC/nanummj/m/n/10.5/c7 t \LUC/nanummj/m/n/10.5/c2
- ^^X\LUC/nanummj/m/n/10.5/b8 4\LUC/nanummj/m/n/10.5/d5 X\LUC/nanummj/m/n/10.5/b
-a t\OT1/LinuxLibertineT-TLF/m/n/10.5 , $[] []\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/
-10.5 a[]\OT1/cmr/m/n/10.95 )$ \LUC/nanummj/m/n/10.5/ac ¸ $[] []\OT1/cmr/m/n/10.
-95 (\OML/cmm/m/it/10.5 a[]\OT1/cmr/m/n/10.95 )$ \LUC/nanummj/m/n/10.5/b3 ƒ \LUC
-/nanummj/m/n/10.5/ac ^^A^^A \LUC/nanummj/m/n/10.5/c2 ^^X\LUC/nanummj/m/n/10.5/b
-8 4\LUC/nanummj/m/n/10.5/d5 \\LUC/nanummj/m/n/10.5/b2 ‰[] \LUC/nanummj/m/n/10.5
-/b5 0\LUC/nanummj/m/n/10.5/b7 |\LUC/nanummj/m/n/10.5/c1 ^^\ $[] []\OT1/cmr/m/n/
-10.95 (\OML/cmm/m/it/10.5 a[]\OT1/cmr/m/n/10.95 ) =
+ [264 <./Solution/figs/fig-5-20.PNG>]
+Overfull \hbox (0.11143pt too wide) in paragraph at lines 795--799
+$\OML/cmm/m/it/8.6 f$ \LUC/nanummj/m/n/8.6/ac ^^@ \LUC/nanummj/m/n/8.6/bc ı\LUC
+/nanummj/m/n/8.6/c1 å\LUC/nanummj/m/n/8.6/d5 t\LUC/nanummj/m/n/8.6/c1 ^^]\LUC/n
+anummj/m/n/8.6/d5 h\LUC/nanummj/m/n/8.6/c2 ^^X\LUC/nanummj/m/n/8.6/c7 t\LUC/nan
+ummj/m/n/8.6/ba t\OT1/LinuxLibertineT-TLF/m/n/8.6 , $\OML/cmm/m/it/8.6 f[]$ \LU
+C/nanummj/m/n/8.6/b3 ƒ \LUC/nanummj/m/n/8.6/bc ı\LUC/nanummj/m/n/8.6/c1 å\LUC/n
+anummj/m/n/8.6/d5 t\LUC/nanummj/m/n/8.6/c1 ^^]\LUC/nanummj/m/n/8.6/d5 h\LUC/nan
+ummj/m/n/8.6/c2 ^^X\LUC/nanummj/m/n/8.6/c7 t\LUC/nanummj/m/n/8.6/b2 ‰[] \LUC/na
+nummj/m/n/8.6/b5 0\LUC/nanummj/m/n/8.6/b7 |\LUC/nanummj/m/n/8.6/c1 ^^\ \LUC/nan
+ummj/m/n/8.6/bc ı\LUC/nanummj/m/n/8.6/c1 å\LUC/nanummj/m/n/8.6/bb ¯\LUC/nanummj
+/m/n/8.6/bd Ñ $\OML/cmm/m/it/8.6 f[]$ \LUC/nanummj/m/n/8.6/c7 t \LUC/nanummj/m/
+n/8.6/c8 t\LUC/nanummj/m/n/8.6/c7 ¨\LUC/nanummj/m/n/8.6/d5 \\LUC/nanummj/m/n/8.
+6/b2 ‰[] \LUC/nanummj/m/n/8.6/b6 ^^P\LUC/nanummj/m/n/8.6/d5 \\OT1/LinuxLibertin
+eT-TLF/m/n/8.6 , $\OML/cmm/m/it/8.6 f[]$
  []
 
-[280] [281] [282] [283] [284] [285] [286] [287] [288] [289] [290] [291]
-<./Solution/figs/fig-5-21.png, id=3241, 811.53188pt x 238.64156pt>
+[265] [266] [267]) (./Solution/sol_chapter4.tex [268] [269]
+Overfull \hbox (1.88684pt too wide) in paragraph at lines 129--134
+[]\LUC/nanummj/m/n/8.6/d5 \\LUC/nanummj/m/n/8.6/d3 ∏\OT1/LinuxLibertineT-TLF/m/
+n/8.6 , $\OML/cmm/m/it/8.6 L \OMS/cmsy/m/n/8.6 6\OT1/cmr/m/n/8.6 = 0$ \LUC/nanu
+mmj/m/n/8.6/c7 t\LUC/nanummj/m/n/8.6/ac ‡ $\OMS/cmsy/m/n/8.6 j\OML/cmm/m/it/8.6
+ z\OMS/cmsy/m/n/8.6 j \OML/cmm/m/it/8.6 > \OT1/cmr/m/n/8.6 1\OML/cmm/m/it/8.6 =
+L$ \LUC/nanummj/m/n/8.6/c7 x \LUC/nanummj/m/n/8.6/ac Ω\LUC/nanummj/m/n/8.6/c6 ∞
+\LUC/nanummj/m/n/8.6/b9 | \LUC/nanummj/m/n/8.6/c0 ›\LUC/nanummj/m/n/8.6/ac ^^A\
+LUC/nanummj/m/n/8.6/d5 X\LUC/nanummj/m/n/8.6/ba t $\OML/cmm/m/it/8.6 N$ \LUC/na
+nummj/m/n/8.6/c7 t \LUC/nanummj/m/n/8.6/cd ©\LUC/nanummj/m/n/8.6/bd Ñ\LUC/nanum
+mj/m/n/8.6/d7 à \LUC/nanummj/m/n/8.6/d0 t \LUC/nanummj/m/n/8.6/b5 L \LUC/nanumm
+j/m/n/8.6/ba ®\LUC/nanummj/m/n/8.6/b4 ‡ $\OML/cmm/m/it/8.6 n > N$ \LUC/nanummj/
+m/n/8.6/c5 – \LUC/nanummj/m/n/8.6/b3 ^^@\LUC/nanummj/m/n/8.6/d5 X\LUC/nanummj/m
+/n/8.6/c5 Ï $[] \OT1/cmr/m/n/8.6 =
+ []
+
+[270] [271] [272] [273] [274] [275] [276] [277]
+<./Solution/figs/fig-5-21.png, id=3187, 811.53188pt x 238.64156pt>
 File: ./Solution/figs/fig-5-21.png Graphic file (type png)
 <use ./Solution/figs/fig-5-21.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-21.png  used on input line 562.
 (pdftex.def)             Requested size: 295.20113pt x 86.8103pt.
 
+Overfull \hbox (31.45674pt too wide) in paragraph at lines 599--618
+\LUC/nanummj/m/n/8.6/b8 \ \LUC/nanummj/m/n/8.6/b0 ò\LUC/nanummj/m/n/8.6/d0 ¿\LU
+C/nanummj/m/n/8.6/b0 º \LUC/nanummj/m/n/8.6/b5 L\OT1/LinuxLibertineT-TLF/m/n/8.
+6 , $\OML/cmm/m/it/8.6 c[]\OT1/cmr/m/n/8.6 (\OML/cmm/m/it/8.6 z\OT1/cmr/m/n/8.6
+ ) = 0$ \LUC/nanummj/m/n/8.6/c7 x \LUC/nanummj/m/n/8.6/ac ^^@\LUC/nanummj/m/n/8
+.6/c7 • ë@ $\OML/cmm/m/it/8.6 n\OT1/cmr/m/n/8.6 (\OML/cmm/m/it/8.6 z\OT1/cmr/m/
+n/8.6 ) \OMS/cmsy/m/n/8.6 2 f\OT1/cmr/m/n/8.6 0\OML/cmm/m/it/8.6 ; \OT1/cmr/m/n
+/8.6 1\OML/cmm/m/it/8.6 ; \OT1/cmr/m/n/8.6 2\OML/cmm/m/it/8.6 ; \OT1/cmr/m/n/8.
+6 3\OML/cmm/m/it/8.6 ; []\OMS/cmsy/m/n/8.6 g$ \LUC/nanummj/m/n/8.6/c7 t \LUC/na
+nummj/m/n/8.6/c8 t\LUC/nanummj/m/n/8.6/c7 ¨\LUC/nanummj/m/n/8.6/d5 \\LUC/nanumm
+j/m/n/8.6/b2 ‰[] \LUC/nanummj/m/n/8.6/b5 0\LUC/nanummj/m/n/8.6/b7 |\LUC/nanummj
+/m/n/8.6/c1 ^^\ $\OT1/cmr/m/n/8.6 (\OML/cmm/m/it/8.6 f[]\OT1/cmr/m/n/8.6 (\OML/
+cmm/m/it/8.6 z\OT1/cmr/m/n/8.6 ))\OML/cmm/m/it/8.6 =\OT1/cmr/m/n/8.6 ((\OML/cmm
+/m/it/8.6 n\OT1/cmr/m/n/8.6 (\OML/cmm/m/it/8.6 z\OT1/cmr/m/n/8.6 ))!) =
+ []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[292] [293 <./Solution/figs/fig-5-21.PNG>] [294]
-<./Solution/figs/fig-5-22.png, id=3275, 478.78876pt x 243.15843pt>
+[278 <./Solution/figs/fig-5-21.PNG>]
+<./Solution/figs/fig-5-22.png, id=3204, 478.78876pt x 243.15843pt>
 File: ./Solution/figs/fig-5-22.png Graphic file (type png)
 <use ./Solution/figs/fig-5-22.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-22.png  used on input line 666.
 (pdftex.def)             Requested size: 147.59775pt x 74.95906pt.
- [295 <./Solution/figs/fig-5-22.PNG>] [296] [297] [298] [299] [300]
-<./Solution/figs/fig-5-23.png, id=3327, 443.85825pt x 436.63126pt>
-File: ./Solution/figs/fig-5-23.png Graphic file (type png)
-<use ./Solution/figs/fig-5-23.png>
-Package pdftex.def Info: ./Solution/figs/fig-5-23.png  used on input line 958.
-(pdftex.def)             Requested size: 184.5pt x 181.4984pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[301] [302 <./Solution/figs/fig-5-23.PNG>] [303]
-Overfull \hbox (10.38234pt too wide) detected at line 1080
-\OML/cmm/m/it/10.5 p[] \OT1/cmr/m/n/10.95 = [] [] \OML/cmm/m/it/10.5 ;  p[] \OT
-1/cmr/m/n/10.95 = [] [] \OML/cmm/m/it/10.5 ;  p[] \OT1/cmr/m/n/10.95 = [] [] \O
-ML/cmm/m/it/10.5 ;  p[] \OT1/cmr/m/n/10.95 = [] [] \OML/cmm/m/it/10.5 :
- []
-
-[304]
-Overfull \hbox (20.06972pt too wide) detected at line 1091
-[]
- []
-
-[305] [306] [307] [308]) (./Solution/sol_chapter5.tex [309] [310] [311]
-[312] [313] [314] [315]
-Overfull \hbox (13.40588pt too wide) in paragraph at lines 288--292
-$\OML/cmm/m/it/10.5 u\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.5 x[]; y[]\OT1/cmr/m/
-n/10.95 ) = [][][] = [][][] = \OML/cmm/m/it/10.5 e[]$ \LUC/nanummj/m/n/10.5/c7 
-t\LUC/nanummj/m/n/10.5/b2 ‰[] \LUC/nanummj/m/n/10.5/ad ¯\LUC/nanummj/m/n/10.5/b
-7 Ï\LUC/nanummj/m/n/10.5/ba t\OT1/LinuxLibertineT-TLF/m/n/10.5 , $\OT1/cmr/m/n/
-10.95 (\OML/cmm/m/it/10.5 x[]; y[]\OT1/cmr/m/n/10.95 ) \OMS/cmsy/m/n/10.5 !
- []
-
-[316]
-<./Solution/figs/fig-5-24.png, id=3446, 619.113pt x 361.35pt>
+[279] [280 <./Solution/figs/fig-5-22.PNG>] [281] [282] [283] [284]
+<./Solution/figs/fig-5-23.png, id=3262, 443.85825pt x 436.63126pt>
+File: ./Solution/figs/fig-5-23.png Graphic file (type png)
+<use ./Solution/figs/fig-5-23.png>
+Package pdftex.def Info: ./Solution/figs/fig-5-23.png  used on input line 958.
+(pdftex.def)             Requested size: 184.5pt x 181.4984pt.
+ [285 <./Solution/figs/fig-5-23.PNG>] [286] [287] [288] [289] [290])
+(./Solution/sol_chapter5.tex [291] [292] [293] [294] [295] [296]
+<./Solution/figs/fig-5-24.png, id=3366, 619.113pt x 361.35pt>
 File: ./Solution/figs/fig-5-24.png Graphic file (type png)
 <use ./Solution/figs/fig-5-24.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-24.png  used on input line 390.
 (pdftex.def)             Requested size: 184.5pt x 107.68353pt.
- [317]
-<./Solution/figs/fig-5-25.png, id=3453, 610.07925pt x 420.97275pt>
+<./Solution/figs/fig-5-25.png, id=3367, 610.07925pt x 420.97275pt>
 File: ./Solution/figs/fig-5-25.png Graphic file (type png)
 <use ./Solution/figs/fig-5-25.png>
 Package pdftex.def Info: ./Solution/figs/fig-5-25.png  used on input line 408.
 (pdftex.def)             Requested size: 184.5pt x 127.30771pt.
- [318 <./Solution/figs/fig-5-24.PNG> <./Solution/figs/fig-5-25.PNG>]) [319]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[297 <./Solution/figs/fig-5-24.PNG>]) [298 <./Solution/figs/fig-5-25.PNG>]
 bibitemlist
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 10.5pt on input line 513.
-[320
+[299
 
 
-] [321]
+] [300]
 runsystem(makeindex CA_book.idx)...executed safely (allowed).
 
  (./CA_book.ind
@@ -5791,7 +5738,7 @@ LUC/nanummj/m/n/9.5/c2 § \LUC/nanummj/m/n/9.5/bc ¿\LUC/nanummj/m/n/9.5/d6 X \OT
 1/LinuxLibertineT-TLF/m/n/9.5 (M[]obius trans-for-ma-tion),
  []
 
-[322
+[301
 
 
 ])
@@ -5806,14 +5753,14 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the CA_book.log file.
 
-[323]
+[302]
 \tf@toc=\write9
 \openout9 = `CA_book.toc'.
 
  (./CA_book.aux)
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 2.375pt have occurred.
+(Font)              up to 2.85pt have occurred.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -5828,11 +5775,19 @@ Package logreq Info: Writing requests to 'CA_book.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  58769 strings out of 478268
  1149718 string characters out of 5850345
  1920580 words of memory out of 5000000
  71677 multiletter control sequences out of 15000+600000
  696937 words of font info for 700 fonts, out of 8000000 for 9000
+=======
+ 58855 strings out of 478268
+ 1151670 string characters out of 5850346
+ 1923506 words of memory out of 5000000
+ 71746 multiletter control sequences out of 15000+600000
+ 715373 words of font info for 765 fonts, out of 8000000 for 9000
+>>>>>>> origin/master
  1141 hyphenation exceptions out of 8191
  105i,19n,117p,1152b,1184s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_n3gv2c.enc}{c:/tex
@@ -5846,6 +5801,7 @@ tine/LinLibertineTB.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/libertin
 e/LinLibertineTI.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmbsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.
 pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/te
+<<<<<<< HEAD
 xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/202
 2/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:/texlive/2022/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/f
@@ -6007,9 +5963,174 @@ fb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb><c:
 ve/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/202
 2/texmf-dist/fonts/type1/uhc/umj/umj34.pfb>
 Output written on CA_book.pdf (323 pages, 10543012 bytes).
+=======
+xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2022
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-di
+st/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:/texlive/2022/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
+<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texliv
+e/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2022/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2022/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/
+texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2
+022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2022/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
+10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb><c:
+/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb><c:/te
+xlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texliv
+e/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb><c:/texlive/202
+2/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/te
+xmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb><c:/texlive/2022/texmf-d
+ist/fonts/type1/public/amsfonts/symbols/msbm7.pfb><c:/texlive/2022/texmf-dist/f
+onts/type1/public/nanumtype1/nanumgtbac.pfb><c:/texlive/2022/texmf-dist/fonts/t
+ype1/public/nanumtype1/nanumgtbb3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/p
+ublic/nanumtype1/nanumgtbb7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
+nanumtype1/nanumgtbb9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumt
+ype1/nanumgtbba.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/n
+anumgtbbb.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgt
+bbc.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbbe.pf
+b><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc1.pfb><c:/
+texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc2.pfb><c:/texliv
+e/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc3.pfb><c:/texlive/2022
+/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc5.pfb><c:/texlive/2022/texmf
+-dist/fonts/type1/public/nanumtype1/nanumgtbc6.pfb><c:/texlive/2022/texmf-dist/
+fonts/type1/public/nanumtype1/nanumgtbc7.pfb><c:/texlive/2022/texmf-dist/fonts/
+type1/public/nanumtype1/nanumgtbc8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/
+public/nanumtype1/nanumgtbcd.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
+/nanumtype1/nanumgtbce.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanum
+type1/nanumgtbcf.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/
+nanumgtbd0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumg
+tbd5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbd6.p
+fb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmac.pfb><c:
+/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmad.pfb><c:/texli
+ve/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmae.pfb><c:/texlive/202
+2/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmaf.pfb><c:/texlive/2022/texm
+f-dist/fonts/type1/public/nanumtype1/nanumgtmb0.pfb><c:/texlive/2022/texmf-dist
+/fonts/type1/public/nanumtype1/nanumgtmb1.pfb><c:/texlive/2022/texmf-dist/fonts
+/type1/public/nanumtype1/nanumgtmb2.pfb><c:/texlive/2022/texmf-dist/fonts/type1
+/public/nanumtype1/nanumgtmb3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publi
+c/nanumtype1/nanumgtmb4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanu
+mtype1/nanumgtmb5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1
+/nanumgtmb6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanum
+gtmb7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb8.
+pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb9.pfb><c
+:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmba.pfb><c:/texl
+ive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbb.pfb><c:/texlive/20
+22/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbc.pfb><c:/texlive/2022/tex
+mf-dist/fonts/type1/public/nanumtype1/nanumgtmbd.pfb><c:/texlive/2022/texmf-dis
+t/fonts/type1/public/nanumtype1/nanumgtmbe.pfb><c:/texlive/2022/texmf-dist/font
+s/type1/public/nanumtype1/nanumgtmc0.pfb><c:/texlive/2022/texmf-dist/fonts/type
+1/public/nanumtype1/nanumgtmc1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publ
+ic/nanumtype1/nanumgtmc2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nan
+umtype1/nanumgtmc3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype
+1/nanumgtmc4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanu
+mgtmc5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc6
+.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc7.pfb><
+c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc8.pfb><c:/tex
+live/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc9.pfb><c:/texlive/2
+022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmca.pfb><c:/texlive/2022/te
+xmf-dist/fonts/type1/public/nanumtype1/nanumgtmcc.pfb><c:/texlive/2022/texmf-di
+st/fonts/type1/public/nanumtype1/nanumgtmcd.pfb><c:/texlive/2022/texmf-dist/fon
+ts/type1/public/nanumtype1/nanumgtmce.pfb><c:/texlive/2022/texmf-dist/fonts/typ
+e1/public/nanumtype1/nanumgtmcf.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pub
+lic/nanumtype1/nanumgtmd0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/na
+numtype1/nanumgtmd1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtyp
+e1/nanumgtmd2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nan
+umgtmd3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd
+4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd5.pfb>
+<c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd6.pfb><c:/te
+xlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd7.pfb><c:/texlive/
+2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbac.pfb><c:/texlive/2022/t
+exmf-dist/fonts/type1/public/nanumtype1/nanummjbad.pfb><c:/texlive/2022/texmf-d
+ist/fonts/type1/public/nanumtype1/nanummjbae.pfb><c:/texlive/2022/texmf-dist/fo
+nts/type1/public/nanumtype1/nanummjbb0.pfb><c:/texlive/2022/texmf-dist/fonts/ty
+pe1/public/nanumtype1/nanummjbb1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pu
+blic/nanumtype1/nanummjbb2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/n
+anumtype1/nanummjbb3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumty
+pe1/nanummjbb4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/na
+nummjbb5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjb
+b7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb8.pfb
+><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb9.pfb><c:/t
+exlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbba.pfb><c:/texlive
+/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbbb.pfb><c:/texlive/2022/
+texmf-dist/fonts/type1/public/nanumtype1/nanummjbbc.pfb><c:/texlive/2022/texmf-
+dist/fonts/type1/public/nanumtype1/nanummjbbd.pfb><c:/texlive/2022/texmf-dist/f
+onts/type1/public/nanumtype1/nanummjbbe.pfb><c:/texlive/2022/texmf-dist/fonts/t
+ype1/public/nanumtype1/nanummjbc0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/p
+ublic/nanumtype1/nanummjbc1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
+nanumtype1/nanummjbc2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumt
+ype1/nanummjbc3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/n
+anummjbc5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummj
+bc6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc7.pf
+b><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc8.pfb><c:/
+texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc9.pfb><c:/texliv
+e/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbcc.pfb><c:/texlive/2022
+/texmf-dist/fonts/type1/public/nanumtype1/nanummjbcd.pfb><c:/texlive/2022/texmf
+-dist/fonts/type1/public/nanumtype1/nanummjbce.pfb><c:/texlive/2022/texmf-dist/
+fonts/type1/public/nanumtype1/nanummjbcf.pfb><c:/texlive/2022/texmf-dist/fonts/
+type1/public/nanumtype1/nanummjbd0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/
+public/nanumtype1/nanummjbd1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
+/nanumtype1/nanummjbd2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanum
+type1/nanummjbd3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/
+nanummjbd4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanumm
+jbd5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd6.p
+fb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd7.pfb><c:
+/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb><c:/texli
+ve/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/texlive/202
+2/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb><c:/texlive/2022/texm
+f-dist/fonts/type1/public/nanumtype1/nanummjmaf.pfb><c:/texlive/2022/texmf-dist
+/fonts/type1/public/nanumtype1/nanummjmb0.pfb><c:/texlive/2022/texmf-dist/fonts
+/type1/public/nanumtype1/nanummjmb1.pfb><c:/texlive/2022/texmf-dist/fonts/type1
+/public/nanumtype1/nanummjmb2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publi
+c/nanumtype1/nanummjmb3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanu
+mtype1/nanummjmb4.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1
+/nanummjmb5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanum
+mjmb6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.
+pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb><c
+:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb><c:/texl
+ive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb><c:/texlive/20
+22/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb><c:/texlive/2022/tex
+mf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/2022/texmf-dis
+t/fonts/type1/public/nanumtype1/nanummjmbd.pfb><c:/texlive/2022/texmf-dist/font
+s/type1/public/nanumtype1/nanummjmbe.pfb><c:/texlive/2022/texmf-dist/fonts/type
+1/public/nanumtype1/nanummjmbf.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publ
+ic/nanumtype1/nanummjmc0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nan
+umtype1/nanummjmc1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype
+1/nanummjmc2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanu
+mmjmc3.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc4
+.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb><
+c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb><c:/tex
+live/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texlive/2
+022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/2022/te
+xmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2022/texmf-di
+st/fonts/type1/public/nanumtype1/nanummjmca.pfb><c:/texlive/2022/texmf-dist/fon
+ts/type1/public/nanumtype1/nanummjmcb.pfb><c:/texlive/2022/texmf-dist/fonts/typ
+e1/public/nanumtype1/nanummjmcc.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pub
+lic/nanumtype1/nanummjmcd.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/na
+numtype1/nanummjmce.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtyp
+e1/nanummjmcf.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nan
+ummjmd0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd
+1.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb>
+<c:/texlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb><c:/te
+xlive/2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb><c:/texlive/
+2022/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb><c:/texlive/2022/t
+exmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texlive/2022/texmf-d
+ist/fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/2022/texmf-dist/fo
+nts/type1/uhc/umj/umj34.pfb>
+Output written on CA_book.pdf (302 pages, 10562941 bytes).
+>>>>>>> origin/master
 PDF statistics:
- 4502 PDF objects out of 5155 (max. 8388607)
- 3436 compressed objects within 35 object streams
- 1202 named destinations out of 1440 (max. 500000)
+ 4419 PDF objects out of 5155 (max. 8388607)
+ 3371 compressed objects within 34 object streams
+ 1181 named destinations out of 1200 (max. 500000)
  1478 words of extra memory for PDF output out of 10000 (max. 10000000)
 
