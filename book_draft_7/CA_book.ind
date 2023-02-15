@@ -9,7 +9,7 @@
   \item 경계값(boundary data), 216
   \item 경로(path), 31
   \item 경로연결된(path-connected), 32
-  \item 경로의 결합(concatenation of paths), 94
+  \item 경로의 결합(concatenation of paths), 93
   \item 경로적분(contour integral), 84
   \item 경로적분에 대한 미적분학의 기본정리(fundamental theorem of contour integration), 
 		98
